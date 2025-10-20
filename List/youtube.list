@@ -1,0 +1,29 @@
+#########################################
+# Streaming
+# Last Updated: 2025-10-20T07:28:54.325Z
+# Size: 20
+# Global streaming media platforms
+# Source: https://rule.kelee.one/Loon/YouTube.lsr
+#########################################
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-KEYWORD,youtube
+USER-AGENT,YouTube*
+USER-AGENT,*youtube*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+IP-CIDR,172.110.32.0/21
+IP-CIDR,216.73.80.0/20
+IP-CIDR6,2620:120:e000::/40
+################## EOF ##################
+

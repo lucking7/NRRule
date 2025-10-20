@@ -1,0 +1,48 @@
+#########################################
+# Reject
+# Last Updated: 2025-10-20T07:28:55.522Z
+# Size: 39
+# Ad blocking and privacy protection rules
+# Source: https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf
+#########################################
+host, 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe, REJECT
+host-suffix, ppio.cloud, REJECT
+host-suffix, yfp2p.net, REJECT
+host-suffix, yfcdn.net, REJECT
+host, 7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe, REJECT
+host-suffix, ietheivaicai.com, REJECT
+host-suffix, onethingpcs.com, REJECT
+host-suffix, nexusedgeio.com, REJECT
+host-suffix, tianwenca.com, REJECT
+host-suffix, pkoplink.com, REJECT
+host, qn-cdnfile1pcdn.msstatic.com, REJECT
+host, livewebbs2pcdn.msstatic.com, REJECT
+host-suffix, kuiniuca.com, REJECT
+host-suffix, yfcloud.com, REJECT
+host-suffix, saxysec.com, REJECT
+host-suffix, pcdn.yximgs.com, REJECT
+host-suffix, szbdyd.com, REJECT
+host-suffix, xycdn.com, REJECT
+host-suffix, uhabo.com, REJECT
+host-suffix, p2cdn.com, REJECT
+host-suffix, p2p.huya.com, REJECT
+host-suffix, p2ptun.qq.com, REJECT
+host-suffix, p2pupgrade.gamedl.qq.com, REJECT
+host-suffix, p2pupdate.gamedl.qq.com, REJECT
+host-suffix, p2p.qq.com, REJECT
+host-suffix, cdnnodedns.cn, REJECT
+host-suffix, mcdn.bilivideo.cn, REJECT
+host-suffix, p2perrorlog.douyucdn.cn, REJECT
+host-suffix, p2plog.douyucdn.cn, REJECT
+host, stun1.douyucdn.cn, REJECT
+host, stun.douyucdn.cn, REJECT
+host-keyword, -p2p.pull.yximgs.com, REJECT
+host-keyword, -p2p-v2.pull.yximgs.com, REJECT
+host-wildcard, stun*, REJECT
+host-wildcard, p2p*.qq.com, REJECT
+host-wildcard, p2pchunk-*.douyucdn.cn, REJECT
+host-wildcard, p2plive-*.douyucdn.cn, REJECT
+host-wildcard, dyp2p-*.douyucdn.cn, REJECT
+host-wildcard, p2p-*.douyucdn.cn, REJECT
+################## EOF ##################
+
