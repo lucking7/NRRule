@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2025-10-21T02:29:24.559Z
-# Size: 2105
+# Last Updated: 2025-10-21T04:01:53.860Z
+# Size: 2106
 # Ad blocking and privacy protection rules
 # Source: https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/rejectAd.list
 #########################################
@@ -2081,6 +2081,7 @@ DOMAIN-KEYWORD,adform
 DOMAIN-KEYWORD,dtscout
 DOMAIN-KEYWORD,mathtag
 USER-AGENT,AVOS*
+AND,((NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn),(NOT,((DOMAIN,vod-settings.volcvod.com),(NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn),(OR,((DOMAIN-KEYWORD,volc))
 IP-CIDR,47.56.131.76/32
 IP-CIDR,47.97.215.55/32
 IP-CIDR,47.99.42.29/32

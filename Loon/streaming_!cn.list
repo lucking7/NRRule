@@ -1,7 +1,7 @@
 #########################################
 # Streaming
-# Last Updated: 2025-10-21T02:29:24.023Z
-# Size: 237
+# Last Updated: 2025-10-21T04:01:53.317Z
+# Size: 238
 # Global streaming media platforms
 # Source: https://github.com/ConnersHua/RuleGo/raw/master/Surge/Ruleset/Extra/Streaming/!CN.list
 #########################################
@@ -226,6 +226,7 @@ DOMAIN-KEYWORD,netflixdnstest
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,tiktokcdn-
+GEOIP,NETFLIX,REJECT
 IP-CIDR,23.53.32.88/32
 IP-CIDR,23.211.15.99/32
 IP-CIDR,103.5.34.153/32

@@ -1,6 +1,6 @@
 #########################################
 # CDN
-# Last Updated: 2025-10-21T02:29:24.964Z
+# Last Updated: 2025-10-21T04:01:54.316Z
 # Size: 177
 # Rules for CDN
 # Source: https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr
@@ -180,7 +180,7 @@ DOMAIN,download.hikarifield.co.jp
 DOMAIN-SUFFIX,hf.co
 DOMAIN,file.chobit.cc
 DOMAIN-KEYWORD,epicgames-download
-AND,((DOMAIN-KEYWORD,cdn),(DOMAIN-KEYWORD,-epicgames-))
-AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
+AND,((DOMAIN-KEYWORD,cdn,REJECT),(DOMAIN-KEYWORD,-epicgames-,REJECT))
+AND,((DOMAIN-KEYWORD,cache,REJECT),(DOMAIN-SUFFIX,steamcontent.com,REJECT))
 ################## EOF ##################
 

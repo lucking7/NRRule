@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2025-10-21T02:29:27.222Z
-# Size: 92
+# Last Updated: 2025-10-21T04:01:56.355Z
+# Size: 94
 # Rules for AI
 # Merged from 4 sources
 #########################################
@@ -95,6 +95,8 @@ DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-,REJECT),(DOMAIN-SUFFIX,webpubsub.azure.com,REJECT))
+AND,((DOMAIN-KEYWORD,openaicom-api-,REJECT),(DOMAIN-SUFFIX,azurefd.net,REJECT))
 IP-CIDR,160.79.104.0/23
 IP-CIDR6,2607:6bc0::/48
 ################## EOF ##################
