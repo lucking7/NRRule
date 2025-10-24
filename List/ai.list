@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2025-10-24T17:04:43.069Z
-# Size: 94
+# Last Updated: 2025-10-24T20:08:49.406Z
+# Size: 99
 # Rules for AI
 # Merged from 4 sources
 #########################################
@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,zed.dev
@@ -19,7 +20,7 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,abtest-sg.byteoversea.com
 DOMAIN-SUFFIX,augmentcode.com
@@ -32,19 +33,22 @@ DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN,aida.googleapis.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN,pplx-res.cloudinary.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,updates.cdn-apple.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN,api.statsig.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,augment.com
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,waa-pa.clients6.google.com
@@ -56,10 +60,11 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN,api.github.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,ciciai.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,groq.com
