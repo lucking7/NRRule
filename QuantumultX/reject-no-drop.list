@@ -1,6 +1,6 @@
 #########################################
 # Reject
-# Last Updated: 2025-11-04T08:10:29.246Z
+# Last Updated: 2025-11-04T12:13:38.994Z
 # Size: 37
 # Ad blocking and privacy protection rules
 # Source: https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf
@@ -36,11 +36,11 @@ host, stun1.douyucdn.cn, REJECT
 host, stun.douyucdn.cn, REJECT
 host-keyword, -p2p.pull.yximgs.com, REJECT
 host-keyword, -p2p-v2.pull.yximgs.com, REJECT
-host-wildcard, stun*, REJECT
 host-wildcard, p2p*.qq.com, REJECT
 host-wildcard, p2pchunk-*.douyucdn.cn, REJECT
 host-wildcard, p2plive-*.douyucdn.cn, REJECT
 host-wildcard, dyp2p-*.douyucdn.cn, REJECT
+host-wildcard, stun*.douyucdn.cn, REJECT
 host-wildcard, p2p-*.douyucdn.cn, REJECT
 ################## EOF ##################
 
