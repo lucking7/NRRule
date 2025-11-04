@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2025-11-04T16:09:35.694Z
-# Size: 87
+# Last Updated: 2025-11-04T17:09:53.057Z
+# Size: 97
 # Rules for AI
 # Merged from 4 sources
 #########################################
@@ -10,8 +10,11 @@ DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,livekit.cloud
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,zed.dev
+DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -20,6 +23,7 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,perplexity.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
@@ -79,9 +83,11 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,dify.ai
@@ -92,5 +98,9 @@ DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-,REJECT),(DOMAIN-SUFFIX,webpubsub.azure.com,REJECT))
+AND,((DOMAIN-KEYWORD,openaicom-api-,REJECT),(DOMAIN-SUFFIX,azurefd.net,REJECT))
+IP-CIDR,160.79.104.0/23
+IP-CIDR6,2607:6bc0::/48
 ################## EOF ##################
 

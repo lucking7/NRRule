@@ -3,7 +3,9 @@
   "rules": [
     {
       "domain": [
+        "trae-api-sg.mchost.guru",
         "ai.google.dev",
+        "copilot-proxy.githubusercontent.com",
         "aida.googleapis.com",
         "pplx-res.cloudinary.com",
         "cp2.cloudflare.com",
@@ -26,6 +28,7 @@
         "deepmind.google",
         "gemini.google",
         "livekit.cloud",
+        "grazie.aws.intellij.net",
         "zed.dev",
         "claudeusercontent.com",
         "microsoftonline.com",
@@ -35,6 +38,7 @@
         "codeiumdata.com",
         "byteoversea.com",
         "augmentcode.com",
+        "perplexity.com",
         "proactivebackend-pa.googleapis.com",
         "generativelanguage.googleapis.com",
         "robinfrontend-pa.googleapis.com",
@@ -79,9 +83,11 @@
         "openrouter.ai",
         "jetbrains.ai",
         "openart.ai",
+        "mistral.ai",
         "jasper.ai",
         "grazie.ai",
         "claude.ai",
+        "trae.ai",
         "pplx.ai",
         "meta.ai",
         "dify.ai",
@@ -94,7 +100,8 @@
         "openaicom",
         "notebooklm.google",
         "labs.google"
-      ]
+      ],
+      "ip_cidr": ["160.79.104.0/23", "2607:6bc0::/48"]
     }
   ]
 }
