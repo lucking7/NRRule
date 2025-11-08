@@ -1,7 +1,7 @@
 #########################################
 # CDN
-# Last Updated: 2025-11-07T17:09:34.110Z
-# Size: 4060
+# Last Updated: 2025-11-08T17:15:37.478Z
+# Size: 4080
 # Rules for CDN
 # Merged from 3 sources
 #########################################
@@ -34,6 +34,7 @@ DOMAIN,assets.chaos.social
 DOMAIN,medias.meow.social
 DOMAIN,cdn.bsky.social
 DOMAIN,objects.g0v.social
+DOMAIN,static.generated.photos
 DOMAIN-SUFFIX,picsum.photos
 DOMAIN,files.mastodon.online
 DOMAIN-SUFFIX,am-cdn.online
@@ -104,6 +105,7 @@ DOMAIN-SUFFIX,am-cdn.pics
 DOMAIN-SUFFIX,codeberg.page
 DOMAIN-SUFFIX,instant.page
 DOMAIN-SUFFIX,kinsta.page
+DOMAIN,statics-prod.mirrordaily.news
 DOMAIN,assets-next.matters.news
 DOMAIN,assets.matters.news
 DOMAIN,web-api-cdn.ground.news
@@ -780,6 +782,7 @@ DOMAIN,static.bangumi.moe
 DOMAIN,static.chaika.moe
 DOMAIN,pic.cangku.moe
 DOMAIN,touchgal-image.moyu.moe
+DOMAIN,zzz.wxw.moe
 DOMAIN,ovo.wxw.moe
 DOMAIN,hv-monsterdb-data.skk.moe
 DOMAIN,latency-test.skk.moe
@@ -881,6 +884,7 @@ DOMAIN,assets.positional-bucket.com
 DOMAIN-SUFFIX,parsecusercontent.com
 DOMAIN-SUFFIX,notionusercontent.com
 DOMAIN,navismithapis-cdn.com
+DOMAIN,tour-content-cdn.kellymadisonmedia.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,framerusercontent.com
@@ -907,6 +911,7 @@ DOMAIN,js.braintreegateway.com
 DOMAIN,jslibs.blackmagicdesign.com
 DOMAIN,images.blackmagicdesign.com
 DOMAIN,css.blackmagicdesign.com
+DOMAIN,imgs02.aventertainments.com
 DOMAIN,js.assemblyexchange.com
 DOMAIN,cdn.worldvectorlogo.com
 DOMAIN,cms.worldpokerdeals.com
@@ -1001,6 +1006,7 @@ DOMAIN,isitmaintained.com
 DOMAIN,code.ionicframework.com
 DOMAIN,icons.internetbrands.com
 DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,images-dnxlive.com
 DOMAIN,img.huffingtonpost.com
 DOMAIN,images2.giant-bicycles.com
 DOMAIN,static.giant-bicycles.com
@@ -1439,6 +1445,11 @@ DOMAIN-SUFFIX,vanillicon.com
 DOMAIN,cdn.userreport.com
 DOMAIN-SUFFIX,typography.com
 DOMAIN,static.typingclub.com
+DOMAIN,cdn5.tubeteen18.com
+DOMAIN,cdn4.tubeteen18.com
+DOMAIN,cdn3.tubeteen18.com
+DOMAIN,cdn2.tubeteen18.com
+DOMAIN,cdn1.tubeteen18.com
 DOMAIN,ecommplugins-trustboxsettings.trustpilot.com
 DOMAIN,simplicity.trustpilot.com
 DOMAIN,widget.trustpilot.com
@@ -1575,6 +1586,8 @@ DOMAIN,chart.googleapis.com
 DOMAIN,ajax.googleapis.com
 DOMAIN,sync.getpublica.com
 DOMAIN,connect.getflowbox.com
+DOMAIN,static-r2.gear4music.com
+DOMAIN,r2.gear4music.com
 DOMAIN-SUFFIX,gayzyimage.com
 DOMAIN,assets.fxnetworks.com
 DOMAIN,euc-widget.freshworks.com
@@ -1863,6 +1876,7 @@ DOMAIN,marber-cdn.economist.com
 DOMAIN,cmp-cdn.p.aws.economist.com
 DOMAIN-SUFFIX,dummyjson.com
 DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN,cdn.doofinder.com
 DOMAIN,assets.dnsfilter.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,data.debugbear.com
@@ -2083,6 +2097,7 @@ DOMAIN,img.kbhgames.com
 DOMAIN,cdn.jwplayer.com
 DOMAIN,data.jsdelivr.com
 DOMAIN,img.jsdelivr.com
+DOMAIN-SUFFIX,javhucdn.com
 DOMAIN-SUFFIX,api.instabug.com
 DOMAIN,img.informer.com
 DOMAIN-SUFFIX,cdn.imghaste.com
@@ -2645,6 +2660,7 @@ DOMAIN,img.supjav.com
 DOMAIN-SUFFIX,strpst.com
 DOMAIN,connect-js.stripe.com
 DOMAIN,checkout.stripe.com
+DOMAIN,files.stripe.com
 DOMAIN,js.stripe.com
 DOMAIN,heatmap-external-a.strava.com
 DOMAIN,web-assets.strava.com
@@ -3114,6 +3130,7 @@ DOMAIN,media.user.com
 DOMAIN,assets.time.com
 DOMAIN-SUFFIX,sirv.com
 DOMAIN,cdn.sift.com
+DOMAIN,attach.setn.com
 DOMAIN,static.seel.com
 DOMAIN,cdn.sedo.com
 DOMAIN-SUFFIX,www.s81c.com
@@ -3253,6 +3270,7 @@ DOMAIN,consent.dw.com
 DOMAIN,static.dw.com
 DOMAIN,evt.24.com
 DOMAIN-SUFFIX,pixiv.cat
+DOMAIN,a.pomf.cat
 DOMAIN,oss.moe.cat
 DOMAIN,ns-cdn.neustar.biz
 DOMAIN,pics.mf8.biz
@@ -3327,12 +3345,14 @@ DOMAIN,storage.moegirl.tw
 DOMAIN,img.moegirl.tw
 DOMAIN,app.moegirl.tw
 DOMAIN,cf.shopee.tw
+DOMAIN,statics.mnnews.tw
 DOMAIN,socialpic.video.friday.tw
 DOMAIN,vbmspic.video.friday.tw
 DOMAIN,megapx-assets.dcard.tw
 DOMAIN-SUFFIX,pimg.tw
 DOMAIN,news-data.pts.org.tw
 DOMAIN,img-fnc.ebc.net.tw
+DOMAIN,img.news.ebc.net.tw
 DOMAIN,cw-image-resizer.cwg.tw
 DOMAIN,cdn.ready-market.com.tw
 DOMAIN,avatar2.bahamut.com.tw
