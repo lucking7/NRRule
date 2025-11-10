@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2025-11-07T17:09:32.308Z
-# Size: 2104
+# Last Updated: 2025-11-10T00:19:05.887Z
+# Size: 2109
 # Ad blocking and privacy protection rules
 # Source: https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/rejectAd.list
 #########################################
@@ -350,6 +350,7 @@ host-suffix, adstream.123.sogoucdn.com, REJECT
 host-suffix, lu.sogoucdn.com, REJECT
 host, adsapi.snapchat.com, REJECT
 host, ads.snapchat.com, REJECT
+host-suffix, qttunion.com, REJECT
 host-suffix, res.qhupdate.com, REJECT
 host-suffix, hs.qhupdate.com, REJECT
 host-suffix, s.qhupdate.com, REJECT
@@ -449,6 +450,7 @@ host-suffix, cctv.adsunion.com, REJECT
 host-suffix, admarvel.com, REJECT
 host-suffix, adcolony.com, REJECT
 host-suffix, adcanvas.com, REJECT
+host-suffix, adbiding.com, REJECT
 host-suffix, adextra.51wnl-cq.com, REJECT
 host-suffix, ad.51wnl-cq.com, REJECT
 host-suffix, ad.360yield.com, REJECT
@@ -706,6 +708,7 @@ host-suffix, revjet.com, REJECT
 host-suffix, jebe.renren.com, REJECT
 host-suffix, ebp.renren.com, REJECT
 host-suffix, qtmojo.com, REJECT
+host-suffix, qiyukf.com, REJECT
 host-suffix, s3a.pstatp.com, REJECT
 host-suffix, pb3.pstatp.com, REJECT
 host-suffix, web.data.pplive.com, REJECT
@@ -852,6 +855,7 @@ host, ads.yahoo.com, REJECT
 host-suffix, aliunion.cn.yahoo.com, REJECT
 host-suffix, cm.p4p.cn.yahoo.com, REJECT
 host-suffix, clicks.beap.bc.yahoo.com, REJECT
+host-suffix, xwpbj.com, REJECT
 host-suffix, wumii.com, REJECT
 host, adfile.wifi8.com, REJECT
 host, adnew.wifi8.com, REJECT
@@ -1226,6 +1230,7 @@ host, iad.apple.com, REJECT
 host-suffix, atiws.aipai.com, REJECT
 host-suffix, mlog.aipai.com, REJECT
 host-suffix, apas.aipai.com, REJECT
+host-suffix, aiclk.com, REJECT
 host-suffix, adups.com, REJECT
 host-suffix, adrta.com, REJECT
 host-suffix, wwis-dubc1-vip60.adobe.com, REJECT
@@ -1261,6 +1266,7 @@ host-suffix, 3lift.com, REJECT
 host, dispatcher.360in.com, REJECT
 host, exp.360in.com, REJECT
 host-suffix, ad.360in.com, REJECT
+host-suffix, 1sapp.com, REJECT
 host-suffix, zpe.klre.18183.com, REJECT
 host-suffix, img1.18183.com, REJECT
 host-suffix, eezdx.erc.18183.com, REJECT
@@ -1705,7 +1711,6 @@ host-suffix, vungle.cn, REJECT
 host-suffix, tapjoy.cn, REJECT
 host-suffix, apm.suning.cn, REJECT
 host-suffix, newspush.sinajs.cn, REJECT
-host-suffix, tjs.sjs.sinajs.cn, REJECT
 host-suffix, rs.sinajs.cn, REJECT
 host-suffix, adservice.sigmob.cn, REJECT
 host-suffix, qtmojo.cn, REJECT
