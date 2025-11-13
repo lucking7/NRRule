@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2025-11-13T04:08:47.916Z
-# Size: 1740
+# Last Updated: 2025-11-13T07:43:20.968Z
+# Size: 1750
 # Rules for Reject
 # Merged from 4 sources
 #########################################
@@ -173,6 +173,7 @@ host-suffix, googletagservices.com, REJECT
 host-suffix, googlesyndication.com, REJECT
 host-suffix, easyrecoverychina.com, REJECT
 host-suffix, adexchangemachine.com, REJECT
+host-suffix, ad.shunchangzhixing.com, REJECT
 host-suffix, pglstatp-toutiao.com, REJECT
 host-suffix, googletagmanager.com, REJECT
 host-suffix, google-analytics.com, REJECT
@@ -490,6 +491,7 @@ host-suffix, ads3-normal-lf.zijieapi.com, REJECT
 host-suffix, ads3-normal-hl.zijieapi.com, REJECT
 host-suffix, tnc3-alisc2.zijieapi.com, REJECT
 host-suffix, tnc3-alisc1.zijieapi.com, REJECT
+host-suffix, tnc3-aliec2.zijieapi.com, REJECT
 host-suffix, tnc0-alisc1.zijieapi.com, REJECT
 host-suffix, tnc0-aliec2.zijieapi.com, REJECT
 host-suffix, ads5-normal.zijieapi.com, REJECT
@@ -589,6 +591,8 @@ host, cdn.adapi.fotoable.com, REJECT
 host-suffix, formysql.com, REJECT
 host-suffix, fnvip001.com, REJECT
 host-suffix, catalog.fjwhcbsh.com, REJECT
+host-suffix, openadapi.fancydsp.com, REJECT
+host-suffix, fancyapi.com, REJECT
 host-suffix, fan-yong.com, REJECT
 host-suffix, an.facebook.com, REJECT
 host-suffix, exoclick.com, REJECT
@@ -761,6 +765,7 @@ host-suffix, dtscout.com, REJECT
 host-suffix, dsaeerf.com, REJECT
 host-suffix, daitdai.com, REJECT
 host-suffix, cpmstar.com, REJECT
+host-suffix, cloooud.com, REJECT
 host-suffix, syh-imp.cdnjtzy.com, REJECT
 host-suffix, p3-tt.byteimg.com, REJECT
 host-suffix, bxsnews.com, REJECT
@@ -1058,6 +1063,7 @@ host-suffix, aspect-upush.umeng.com, REJECT
 host-suffix, errnewlog.umeng.com, REJECT
 host-suffix, resolve.umeng.com, REJECT
 host-suffix, plbslog.umeng.com, REJECT
+host-suffix, utoken.umeng.com, REJECT
 host-suffix, errlog.umeng.com, REJECT
 host-suffix, cnlogs.umeng.com, REJECT
 host-suffix, alogus.umeng.com, REJECT
@@ -1153,6 +1159,7 @@ host-suffix, union-mlog.bigda.com, REJECT
 host-suffix, mlog.bigda.com, REJECT
 host-suffix, hlog.bigda.com, REJECT
 host-suffix, mobads-logs.baidu.com, REJECT
+host-suffix, feed-image.baidu.com, REJECT
 host-suffix, nadvideo2.baidu.com, REJECT
 host-suffix, nsclick.baidu.com, REJECT
 host, duclick.baidu.com, REJECT
@@ -1174,6 +1181,7 @@ host-suffix, bgg.baidu.com, REJECT
 host-suffix, als.baidu.com, REJECT
 host, afd.baidu.com, REJECT
 host-suffix, hm.baidu.com, REJECT
+host-suffix, aqyad.com, REJECT
 host-suffix, weather-analytics-events.apple.com, REJECT
 host-suffix, notes-analytics-events.apple.com, REJECT
 host-suffix, books-analytics-events.apple.com, REJECT
@@ -1482,6 +1490,7 @@ host-suffix, googleadsserving.cn, REJECT
 host-suffix, bingdianhuanyuan.cn, REJECT
 host-suffix, ads.zhinengxiyifang.cn, REJECT
 host-suffix, kualianyingxiao.cn, REJECT
+host-suffix, api.shanghailingye.cn, REJECT
 host-suffix, earmasterchina.cn, REJECT
 host-suffix, zhangyuyidong.cn, REJECT
 host-suffix, zxid-m.mobileservice.cn, REJECT
@@ -1510,6 +1519,7 @@ host-suffix, alienskins.cn, REJECT
 host-suffix, 58mingtian.cn, REJECT
 host-suffix, analysis.yozocloud.cn, REJECT
 host-suffix, tjqonline.cn, REJECT
+host-suffix, statichf.shihuocdn.cn, REJECT
 host-suffix, minisplat.cn, REJECT
 host-suffix, ltheanine.cn, REJECT
 host-suffix, kingdeecn.cn, REJECT
