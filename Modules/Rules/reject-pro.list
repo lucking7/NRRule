@@ -1,12 +1,12 @@
-# ----------- 阿里云盘去广告 ------------
-
-IP-CIDR,203.107.1.1/24,no-resolve
-
 # ----------- 高德地图去广告 ------------
 
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
 DOMAIN-SUFFIX,v.smtcdns.com
+
+# ----------- 阿里云盘去广告 ------------
+
+IP-CIDR,203.107.1.1/24,no-resolve
 
 # ----------- 酷我音乐去广告 ------------
 
@@ -304,9 +304,15 @@ DOMAIN,sdk.ad.sfys365.com
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
 AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
 
-# ------------ 小红书去广告 ------------
+# ----------- 微信公众号去广告 -----------
 
-AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
+DOMAIN-SUFFIX,wxs.qq.com
+
+# ----------- 彩云天气去广告 ------------
+
+DOMAIN,abyss.cyapi.cn
+DOMAIN,ad.cyapi.cn
+DOMAIN,gather.colorfulclouds.net
 
 # ----------- QQ音乐去广告 ------------
 
@@ -322,21 +328,9 @@ DOMAIN,tmead.y.qq.com
 DOMAIN,tmeadbak.y.qq.com
 DOMAIN,tmeadquic.y.qq.com
 
-# ----------- 芒果TV去广告 ------------
+# ------------ 小红书去广告 ------------
 
-DOMAIN,credits.bz.mgtv.com
-DOMAIN,credits2.bz.mgtv.com
-DOMAIN,credits3.bz.mgtv.com
-DOMAIN,dflow.bz.mgtv.com
-DOMAIN,encounter.bz.mgtv.com
-DOMAIN,floor.bz.mgtv.com
-DOMAIN,layer.bz.mgtv.com
-DOMAIN,mob.bz.mgtv.com
-DOMAIN,rc-topic-api.bz.mgtv.com
-DOMAIN,rprain.bz.mgtv.com
-DOMAIN,rprain.log.mgtv.com
-DOMAIN,vip.bz.mgtv.com
-DOMAIN-SUFFIX,da.mgtv.com
+AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
 
 # ------------ 菜鸟去广告 -------------
 
@@ -359,6 +353,22 @@ DOMAIN,vali-ugc.cp31.ott.cibntv.net
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
 DOMAIN,youku-acs.m.taobao.com
+
+# ----------- 芒果TV去广告 ------------
+
+DOMAIN,credits.bz.mgtv.com
+DOMAIN,credits2.bz.mgtv.com
+DOMAIN,credits3.bz.mgtv.com
+DOMAIN,dflow.bz.mgtv.com
+DOMAIN,encounter.bz.mgtv.com
+DOMAIN,floor.bz.mgtv.com
+DOMAIN,layer.bz.mgtv.com
+DOMAIN,mob.bz.mgtv.com
+DOMAIN,rc-topic-api.bz.mgtv.com
+DOMAIN,rprain.bz.mgtv.com
+DOMAIN,rprain.log.mgtv.com
+DOMAIN,vip.bz.mgtv.com
+DOMAIN-SUFFIX,da.mgtv.com
 
 # ------------ 斗鱼去广告 -------------
 
@@ -393,6 +403,21 @@ IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
+# ----------- 喜马拉雅去广告 ------------
+
+DOMAIN,adse.ximalaya.com
+DOMAIN,adsehera.ximalaya.com
+DOMAIN,adse.wsa.ximalaya.com
+DOMAIN,adbehavior.ximalaya.com
+DOMAIN,adbehavior.wsa.ximalaya.com
+
+# ----------- 滴滴出行去广告 ------------
+
+DOMAIN,gwp.xiaojukeji.com
+AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+
 # ------------ 淘宝去广告 -------------
 
 DOMAIN,adashx.m.taobao.com
@@ -401,10 +426,3 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
-
-# ----------- 滴滴出行去广告 ------------
-
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
