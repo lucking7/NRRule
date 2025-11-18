@@ -1,12 +1,12 @@
+# ----------- 阿里云盘去广告 ------------
+
+IP-CIDR,203.107.1.1/24,no-resolve
+
 # ----------- 高德地图去广告 ------------
 
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
 DOMAIN-SUFFIX,v.smtcdns.com
-
-# ----------- 阿里云盘去广告 ------------
-
-IP-CIDR,203.107.1.1/24,no-resolve
 
 # ----------- 酷我音乐去广告 ------------
 
@@ -397,13 +397,13 @@ AND,((DEST-PORT,18000),(PROTOCOL,STUN))
 DOMAIN,stun1.douyucdn.cn
 DOMAIN,stun1.qvb.qcloud.com
 
-# ----------- 美颜相机去广告 ------------
-
-DOMAIN,adui.tg.meitu.com
-
 # ----------- 航旅纵横去广告 ------------
 
 URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native"
+
+# ----------- 美颜相机去广告 ------------
+
+DOMAIN,adui.tg.meitu.com
 
 # ----------- 网易新闻去广告 ------------
 
@@ -423,6 +423,13 @@ IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
+# ----------- 滴滴出行去广告 ------------
+
+DOMAIN,gwp.xiaojukeji.com
+AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+
 # ------------ 淘宝去广告 -------------
 
 DOMAIN,adashx.m.taobao.com
@@ -431,10 +438,3 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
-
-# ----------- 滴滴出行去广告 ------------
-
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
