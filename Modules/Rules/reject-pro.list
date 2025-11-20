@@ -85,10 +85,6 @@ DOMAIN,ads-shopping.shouqianba.com
 DOMAIN,ad.maoyan.com
 DOMAIN,e.jparking.cn
 
-# ----------- 12306去广告 -----------
-
-DOMAIN,ad.12306.cn
-
 # ---------- HTTPDNS拦截器 ----------
 
 DOMAIN,yyapp-httpdns.gslb.yy.com
@@ -257,6 +253,10 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
+# ----------- 12306去广告 -----------
+
+DOMAIN,ad.12306.cn
+
 # ----------- 彩云天气去广告 ------------
 
 DOMAIN,abyss.cyapi.cn
@@ -290,6 +290,11 @@ DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
 
+# ---------- YouTube去广告 ----------
+
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
+
 # ----------- 优酷视频去广告 ------------
 
 DOMAIN,push.m.youku.com
@@ -320,11 +325,6 @@ DOMAIN,youku-acs.m.taobao.com
 # ----------- 中华万年历去广告 -----------
 
 DOMAIN,sdk.ad.sfys365.com
-
-# ---------- YouTube去广告 ----------
-
-AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
-AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
 
 # ----------- QQ音乐去广告 ------------
 
