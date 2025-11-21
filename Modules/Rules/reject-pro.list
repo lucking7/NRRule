@@ -1,12 +1,12 @@
-# ----------- 阿里云盘去广告 ------------
-
-IP-CIDR,203.107.1.1/24,no-resolve
-
 # ----------- 高德地图去广告 ------------
 
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
 DOMAIN-SUFFIX,v.smtcdns.com
+
+# ----------- 阿里云盘去广告 ------------
+
+IP-CIDR,203.107.1.1/24,no-resolve
 
 # ----------- 酷我音乐去广告 ------------
 
@@ -397,13 +397,18 @@ AND,((DEST-PORT,18000),(PROTOCOL,STUN))
 DOMAIN,stun1.douyucdn.cn
 DOMAIN,stun1.qvb.qcloud.com
 
+# ----------- 美颜相机去广告 ------------
+
+DOMAIN,adui.tg.meitu.com
+
 # ----------- 航旅纵横去广告 ------------
 
 URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native"
 
-# ----------- 美颜相机去广告 ------------
+# ----------- 网易新闻去广告 ------------
 
-DOMAIN,adui.tg.meitu.com
+DOMAIN,nex.163.com
+DOMAIN,gw.m.163.com
 
 # ------------ 知乎去广告 -------------
 
@@ -417,11 +422,6 @@ IP-CIDR,103.41.167.237/32,no-resolve
 IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
-
-# ----------- 网易新闻去广告 ------------
-
-DOMAIN,nex.163.com
-DOMAIN,gw.m.163.com
 
 # ------------ 淘宝去广告 -------------
 
