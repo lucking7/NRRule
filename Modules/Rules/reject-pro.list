@@ -89,6 +89,7 @@ DOMAIN,e.jparking.cn
 
 DOMAIN,yyapp-httpdns.gslb.yy.com
 DOMAIN,union-httpdns.gslb.yy.com
+DOMAIN,yuyin-httpdns.gslb.yy.com
 DOMAIN,httpdns-v6.gslb.yy.com
 URL-REGEX,"^http:\/\/103\.44\.58\.64\/md\?"
 URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns"
@@ -290,15 +291,6 @@ DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
 
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
-
-# ---------- YouTube去广告 ----------
-
-AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
-AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
-
 # ----------- 优酷视频去广告 ------------
 
 DOMAIN,push.m.youku.com
@@ -325,6 +317,15 @@ DOMAIN-SUFFIX,iyes.youku.com
 DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
+
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
+# ---------- YouTube去广告 ----------
+
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
 
 # ----------- QQ音乐去广告 ------------
 
