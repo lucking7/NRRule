@@ -253,15 +253,15 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
+# ----------- 12306去广告 -----------
+
+DOMAIN,ad.12306.cn
+
 # ----------- 彩云天气去广告 ------------
 
 DOMAIN,abyss.cyapi.cn
 DOMAIN,ad.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
-
-# ----------- 12306去广告 -----------
-
-DOMAIN,ad.12306.cn
 
 # ----------- 可莉广告过滤器 ------------
 
@@ -368,13 +368,6 @@ DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
 
-# ------------ 斗鱼去广告 -------------
-
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
-AND,((DEST-PORT,18000),(PROTOCOL,STUN))
-DOMAIN,stun1.douyucdn.cn
-DOMAIN,stun1.qvb.qcloud.com
-
 # ------------ 菜鸟去广告 -------------
 
 DOMAIN,acs4baichuan.m.taobao.com
@@ -396,6 +389,13 @@ DOMAIN,vali-ugc.cp31.ott.cibntv.net
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
 DOMAIN,youku-acs.m.taobao.com
+
+# ------------ 斗鱼去广告 -------------
+
+URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
+AND,((DEST-PORT,18000),(PROTOCOL,STUN))
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,stun1.qvb.qcloud.com
 
 # ----------- 航旅纵横去广告 ------------
 
