@@ -1,90 +1,3 @@
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
-
-# ----------- 阿里云盘去广告 ------------
-
-IP-CIDR,203.107.1.1/24,no-resolve
-
-# ----------- 酷我音乐去广告 ------------
-
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config"
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/"
-IP-CIDR,111.206.98.63/32,no-resolve
-URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo"
-URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/"
-
-# ----------- 酷狗音乐去广告 ------------
-
-DOMAIN,ads.service.kugou.com
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,adserviceretry.kugou.com
-DOMAIN,adserviceretry.kglink.cn
-DOMAIN,ad.tencentmusic.com
-DOMAIN,adservice.kugou.com
-DOMAIN,splashimgretrybssdl.cloud.kugou.com
-URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html"
-
-# ----------- 腾讯视频去广告 ------------
-
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,info4.video.qq.com
-DOMAIN,info6.video.qq.com
-DOMAIN,ios.video.mpush.qq.com
-DOMAIN,otheve.beacon.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,tpns.qq.com
-DOMAIN,vv6.video.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-KEYWORD,trace.qq.com
-DOMAIN-KEYWORD,trace.video.qq.com
-IP-CIDR,47.110.187.87/32,no-resolve
-URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
-
-# ------------ 拼多多去广告 ------------
-
-AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
-AND,((URL-REGEX,"^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
-AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC))
-DOMAIN,titan.pinduoduo.com
-DOMAIN,xg.pinduoduo.com
-DOMAIN,cdl-1.pddpic.com
-DOMAIN,titan.pinduoduo.com
-DOMAIN,cdl-p2.pddpic.com
-DOMAIN,cd-1.pddpic.com
-DOMAIN,apm.pinduoduo.com
-DOMAIN,th-b.pinduoduo.com
-DOMAIN,ta.pinduoduo.com
-DOMAIN,th.pinduoduo.com
-DOMAIN,th-a.pinduoduo.com
-DOMAIN,ta-a.pinduoduo.com
-DOMAIN,meta.pinduoduo.com
-DOMAIN,apm-a.pinduoduo.com
-
-# ----------- 微信公众号去广告 -----------
-
-DOMAIN-SUFFIX,wxs.qq.com
-
-# ----------- 微信小程序去广告 -----------
-
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsmsdy.video.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
-DOMAIN,ads-shopping.shouqianba.com
-DOMAIN,ad.maoyan.com
-DOMAIN,e.jparking.cn
-
 # ---------- HTTPDNS拦截器 ----------
 
 DOMAIN,yyapp-httpdns.gslb.yy.com
@@ -254,15 +167,11 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
-# ----------- 12306去广告 -----------
+# ----------- 高德地图去广告 ------------
 
-DOMAIN,ad.12306.cn
-
-# ----------- 彩云天气去广告 ------------
-
-DOMAIN,abyss.cyapi.cn
-DOMAIN,ad.cyapi.cn
-DOMAIN,gather.colorfulclouds.net
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
 
 # ----------- 可莉广告过滤器 ------------
 
@@ -290,6 +199,97 @@ URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
 DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
+
+# ----------- 阿里云盘去广告 ------------
+
+IP-CIDR,203.107.1.1/24,no-resolve
+
+# ----------- 酷我音乐去广告 ------------
+
+URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/"
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/"
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/"
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config"
+URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/"
+IP-CIDR,111.206.98.63/32,no-resolve
+URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s"
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo"
+URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox"
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/"
+
+# ----------- 酷狗音乐去广告 ------------
+
+DOMAIN,ads.service.kugou.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adserviceretry.kugou.com
+DOMAIN,adserviceretry.kglink.cn
+DOMAIN,ad.tencentmusic.com
+DOMAIN,adservice.kugou.com
+DOMAIN,splashimgretrybssdl.cloud.kugou.com
+URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html"
+
+# ----------- 腾讯视频去广告 ------------
+
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,info4.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,ios.video.mpush.qq.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,tpns.qq.com
+DOMAIN,vv6.video.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-KEYWORD,trace.qq.com
+DOMAIN-KEYWORD,trace.video.qq.com
+IP-CIDR,47.110.187.87/32,no-resolve
+URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+"
+URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
+URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
+
+# ----------- 微信公众号去广告 -----------
+
+DOMAIN-SUFFIX,wxs.qq.com
+
+# ------------ 拼多多去广告 ------------
+
+AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
+AND,((URL-REGEX,"^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
+AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC))
+DOMAIN,titan.pinduoduo.com
+DOMAIN,xg.pinduoduo.com
+DOMAIN,cdl-1.pddpic.com
+DOMAIN,titan.pinduoduo.com
+DOMAIN,cdl-p2.pddpic.com
+DOMAIN,cd-1.pddpic.com
+DOMAIN,apm.pinduoduo.com
+DOMAIN,th-b.pinduoduo.com
+DOMAIN,ta.pinduoduo.com
+DOMAIN,th.pinduoduo.com
+DOMAIN,th-a.pinduoduo.com
+DOMAIN,ta-a.pinduoduo.com
+DOMAIN,meta.pinduoduo.com
+DOMAIN,apm-a.pinduoduo.com
+
+# ----------- 微信小程序去广告 -----------
+
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsmsdy.video.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,ads-shopping.shouqianba.com
+DOMAIN,ad.maoyan.com
+DOMAIN,e.jparking.cn
+
+# ----------- 12306去广告 -----------
+
+DOMAIN,ad.12306.cn
+
+# ----------- 彩云天气去广告 ------------
+
+DOMAIN,abyss.cyapi.cn
+DOMAIN,ad.cyapi.cn
+DOMAIN,gather.colorfulclouds.net
 
 # ----------- 优酷视频去广告 ------------
 
@@ -369,6 +369,13 @@ DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
 
+# ------------ 斗鱼去广告 -------------
+
+URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
+AND,((DEST-PORT,18000),(PROTOCOL,STUN))
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,stun1.qvb.qcloud.com
+
 # ------------ 菜鸟去广告 -------------
 
 DOMAIN,acs4baichuan.m.taobao.com
@@ -391,20 +398,13 @@ DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
 DOMAIN,youku-acs.m.taobao.com
 
-# ------------ 斗鱼去广告 -------------
+# ----------- 美颜相机去广告 ------------
 
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
-AND,((DEST-PORT,18000),(PROTOCOL,STUN))
-DOMAIN,stun1.douyucdn.cn
-DOMAIN,stun1.qvb.qcloud.com
+DOMAIN,adui.tg.meitu.com
 
 # ----------- 航旅纵横去广告 ------------
 
 URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native"
-
-# ----------- 美颜相机去广告 ------------
-
-DOMAIN,adui.tg.meitu.com
 
 # ----------- 网易新闻去广告 ------------
 
