@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2025-11-19T18:01:55.857Z
-# Size: 1759
+# Last Updated: 2025-11-30T07:36:07.624Z
+# Size: 1777
 # Rules for Reject
 # Merged from 4 sources
 #########################################
@@ -147,7 +147,7 @@ DOMAIN,yt-adp.nosdn.127.net
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN-SUFFIX,h5.analytics.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
-DOMAIN,iadmusicmat.music.126.net
+DOMAIN-SUFFIX,iadmusicmat.music.126.net
 DOMAIN,admusicpic.music.126.net
 DOMAIN,yt-adp.ws.126.net
 DOMAIN-SUFFIX,a8.net
@@ -293,6 +293,7 @@ DOMAIN-SUFFIX,polarmobile.com
 DOMAIN-SUFFIX,pinzhitmall.com
 DOMAIN-SUFFIX,petametrics.com
 DOMAIN-SUFFIX,outbrainimg.com
+DOMAIN-SUFFIX,analytics.oceanengine.com
 DOMAIN-SUFFIX,medialytics.com
 DOMAIN-SUFFIX,mairuanwang.com
 DOMAIN-SUFFIX,kissmetrics.com
@@ -342,6 +343,10 @@ DOMAIN-SUFFIX,streamrail.com
 DOMAIN-SUFFIX,steelhouse.com
 DOMAIN-SUFFIX,stackadapt.com
 DOMAIN-SUFFIX,sponsorpay.com
+DOMAIN-SUFFIX,open-set-api.shenshiads.com
+DOMAIN-SUFFIX,adv-api.shenshiads.com
+DOMAIN-SUFFIX,ad.shenshiads.com
+DOMAIN-SUFFIX,m.shenshiads.com
 DOMAIN-SUFFIX,segmentify.com
 DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,revcontent.com
@@ -371,7 +376,7 @@ DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
-DOMAIN,safebrowsing.googleapis.com
+DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,eyeviewads.com
 DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,grs.dbankcloud.com
@@ -639,12 +644,15 @@ DOMAIN,zgsdk.zhugeio.com
 DOMAIN-SUFFIX,zestads.com
 DOMAIN-SUFFIX,zemanta.com
 DOMAIN-SUFFIX,adapi.yynetwk.com
+DOMAIN-SUFFIX,tracelog-debug.yunxish.com
+DOMAIN-SUFFIX,logrcv.yunxish.com
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,youappi.com
 DOMAIN-SUFFIX,yitaopt.com
 DOMAIN-SUFFIX,yinmong.com
 DOMAIN-SUFFIX,yieldmo.com
 DOMAIN-SUFFIX,yfanads.com
+DOMAIN-SUFFIX,ad.xunkids.com
 DOMAIN-SUFFIX,xhsbpza.com
 DOMAIN-SUFFIX,api.ssp.xcultur.com
 DOMAIN-SUFFIX,api.fu.xcultur.com
@@ -731,7 +739,9 @@ DOMAIN,counter.ksosoft.com
 DOMAIN,ad-stat.ksosoft.com
 DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
 DOMAIN-SUFFIX,kochava.com
-DOMAIN,api-ad.kajicam.com
+DOMAIN-SUFFIX,api-ad-data.kajicam.com
+DOMAIN-SUFFIX,zjres-ad.kajicam.com
+DOMAIN-SUFFIX,api-ad.kajicam.com
 DOMAIN-SUFFIX,junkucm.com
 DOMAIN-SUFFIX,api.jietuhb.com
 DOMAIN,ad.jiemian.com
@@ -739,6 +749,7 @@ DOMAIN-SUFFIX,adstat.izuiyou.com
 DOMAIN-SUFFIX,adapi.izuiyou.com
 DOMAIN-SUFFIX,iyfbodn.com
 DOMAIN-SUFFIX,ironsrc.com
+DOMAIN-SUFFIX,log.ireader.com
 DOMAIN-SUFFIX,innovid.com
 DOMAIN-SUFFIX,log.iflytek.com
 DOMAIN-SUFFIX,log.hunantv.com
@@ -885,6 +896,7 @@ DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,hybrid.miniapp.taobao.com
 DOMAIN-SUFFIX,wcp.taobao.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,umengjmacs.m.taobao.com
 DOMAIN,tunion-api.m.taobao.com
@@ -968,6 +980,8 @@ DOMAIN-SUFFIX,echatu.com
 DOMAIN-SUFFIX,log-verify.dutils.com
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,dotomi.com
+DOMAIN-SUFFIX,engine.dcad01.com
+DOMAIN-SUFFIX,xcx.dcad01.com
 DOMAIN-SUFFIX,cszlks.com
 DOMAIN-SUFFIX,criteo.com
 DOMAIN-SUFFIX,cmgadx.com
@@ -1107,10 +1121,11 @@ DOMAIN-SUFFIX,mnqlog.ldmnq.com
 DOMAIN,kgmobilestatbak.kugou.com
 DOMAIN-SUFFIX,jswebcollects.kugou.com
 DOMAIN,kgmobilestat.kugou.com
-DOMAIN,mobilelog.kugou.com
+DOMAIN-SUFFIX,mobilelog.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,adsfileretry.service.kugou.com
 DOMAIN-SUFFIX,ads.service.kugou.com
+DOMAIN-SUFFIX,logwebs.kugou.com
 DOMAIN-SUFFIX,collect.kugou.com
 DOMAIN-SUFFIX,logtj.kugou.com
 DOMAIN-SUFFIX,log.stat.kugou.com
@@ -1370,6 +1385,7 @@ DOMAIN-SUFFIX,ccc-x.jd.com
 DOMAIN-SUFFIX,xlog.jd.com
 DOMAIN-SUFFIX,wn.x.jd.com
 DOMAIN-SUFFIX,mapi.m.jd.com
+DOMAIN-SUFFIX,safebrowsing.urlsec.gg.com
 DOMAIN-SUFFIX,a9.com
 DOMAIN,tracklog.58.com
 DOMAIN,adshow.58.com
@@ -1720,13 +1736,15 @@ DOMAIN,sax.sina.com.cn
 DOMAIN-SUFFIX,feih.com.cn
 DOMAIN,pvnapp.zol.com.cn
 DOMAIN,apppv.zol.com.cn
+DOMAIN-SUFFIX,ads.cup.com.cn
 DOMAIN-SUFFIX,ad4.com.cn
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,c.sayhi.360.cn
-DOMAIN,ad.life.360.cn
-DOMAIN,ad.jia.360.cn
-DOMAIN,ad.iot.360.cn
+DOMAIN-SUFFIX,ad.life.360.cn
+DOMAIN-SUFFIX,ad.jia.360.cn
+DOMAIN-SUFFIX,ad.iot.360.cn
 DOMAIN-SUFFIX,p.s.360.cn
+DOMAIN-SUFFIX,applog-perf.uc.cn
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,track.uc.cn
 DOMAIN-SUFFIX,huichuan-mc.sm.cn
