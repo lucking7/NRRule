@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2025-12-01T08:40:23.102Z
-# Size: 90
+# Last Updated: 2025-12-01T09:43:58.264Z
+# Size: 109
 # Rules for AI
 # Merged from 4 sources
 #########################################
@@ -10,9 +10,14 @@ DOMAIN-SUFFIX,generativeai.google
 DOMAIN,antigravity.google
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google
+DOMAIN,jules.google
 DOMAIN-SUFFIX,livekit.cloud
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN,api.hyperbolic.xyz
+DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,zed.dev
+DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -21,11 +26,13 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,perplexity.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN,aiplatform.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN,aida.googleapis.com
 DOMAIN-SUFFIX,cursor-cdn.com
@@ -38,6 +45,7 @@ DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,voyageai.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN,api.statsig.com
@@ -79,14 +87,21 @@ DOMAIN,o33249.ingest.sentry.io
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,hyperbolic.ai
+DOMAIN-SUFFIX,tokenflux.ai
 DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,jina.ai
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,openai
@@ -95,5 +110,9 @@ DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-,REJECT),(DOMAIN-SUFFIX,webpubsub.azure.com,REJECT))
+AND,((DOMAIN-KEYWORD,openaicom-api-,REJECT),(DOMAIN-SUFFIX,azurefd.net,REJECT))
+IP-CIDR,160.79.104.0/23
+IP-CIDR6,2607:6bc0::/48
 ################## EOF ##################
 
