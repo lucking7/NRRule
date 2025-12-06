@@ -248,10 +248,6 @@ URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.vid
 URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
 URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
 
-# ----------- 微信公众号去广告 -----------
-
-DOMAIN-SUFFIX,wxs.qq.com
-
 # ------------ 拼多多去广告 ------------
 
 AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
@@ -271,6 +267,10 @@ DOMAIN,th-a.pinduoduo.com
 DOMAIN,ta-a.pinduoduo.com
 DOMAIN,meta.pinduoduo.com
 DOMAIN,apm-a.pinduoduo.com
+
+# ----------- 微信公众号去广告 -----------
+
+DOMAIN-SUFFIX,wxs.qq.com
 
 # ----------- 微信小程序去广告 -----------
 
@@ -369,6 +369,13 @@ DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
 
+# ------------ 斗鱼去广告 -------------
+
+URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
+AND,((DEST-PORT,18000),(PROTOCOL,STUN))
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,stun1.qvb.qcloud.com
+
 # ------------ 菜鸟去广告 -------------
 
 DOMAIN,acs4baichuan.m.taobao.com
@@ -390,13 +397,6 @@ DOMAIN,vali-ugc.cp31.ott.cibntv.net
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
 DOMAIN,youku-acs.m.taobao.com
-
-# ------------ 斗鱼去广告 -------------
-
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
-AND,((DEST-PORT,18000),(PROTOCOL,STUN))
-DOMAIN,stun1.douyucdn.cn
-DOMAIN,stun1.qvb.qcloud.com
 
 # ----------- 航旅纵横去广告 ------------
 
@@ -424,13 +424,6 @@ IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
-# ----------- 滴滴出行去广告 ------------
-
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-
 # ------------ 淘宝去广告 -------------
 
 DOMAIN,adashx.m.taobao.com
@@ -439,3 +432,10 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
+
+# ----------- 滴滴出行去广告 ------------
+
+DOMAIN,gwp.xiaojukeji.com
+AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
