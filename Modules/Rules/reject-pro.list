@@ -345,14 +345,6 @@ DOMAIN,tmeadquic.y.qq.com
 
 AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
 
-# ----------- 喜马拉雅去广告 ------------
-
-DOMAIN,adse.ximalaya.com
-DOMAIN,adsehera.ximalaya.com
-DOMAIN,adse.wsa.ximalaya.com
-DOMAIN,adbehavior.ximalaya.com
-DOMAIN,adbehavior.wsa.ximalaya.com
-
 # ----------- 芒果TV去广告 ------------
 
 DOMAIN,credits.bz.mgtv.com
@@ -368,6 +360,21 @@ DOMAIN,rprain.bz.mgtv.com
 DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
+
+# ----------- 喜马拉雅去广告 ------------
+
+DOMAIN,adse.ximalaya.com
+DOMAIN,adsehera.ximalaya.com
+DOMAIN,adse.wsa.ximalaya.com
+DOMAIN,adbehavior.ximalaya.com
+DOMAIN,adbehavior.wsa.ximalaya.com
+
+# ------------ 斗鱼去广告 -------------
+
+URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
+AND,((DEST-PORT,18000),(PROTOCOL,STUN))
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,stun1.qvb.qcloud.com
 
 # ------------ 菜鸟去广告 -------------
 
@@ -390,13 +397,6 @@ DOMAIN,vali-ugc.cp31.ott.cibntv.net
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.youku.com
 DOMAIN,youku-acs.m.taobao.com
-
-# ------------ 斗鱼去广告 -------------
-
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
-AND,((DEST-PORT,18000),(PROTOCOL,STUN))
-DOMAIN,stun1.douyucdn.cn
-DOMAIN,stun1.qvb.qcloud.com
 
 # ----------- 航旅纵横去广告 ------------
 
