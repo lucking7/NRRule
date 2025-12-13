@@ -167,6 +167,12 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
+# ----------- 高德地图去广告 ------------
+
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
+
 # ----------- 可莉广告过滤器 ------------
 
 DOMAIN,acdn.adnxs.com
@@ -193,12 +199,6 @@ URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
 DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
-
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
 
 # ----------- 阿里云盘去广告 ------------
 
@@ -291,6 +291,10 @@ DOMAIN,abyss.cyapi.cn
 DOMAIN,ad.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
 
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
 # ----------- 优酷视频去广告 ------------
 
 DOMAIN,push.m.youku.com
@@ -317,10 +321,6 @@ DOMAIN-SUFFIX,iyes.youku.com
 DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
-
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
 
 # ---------- YouTube去广告 ----------
 
