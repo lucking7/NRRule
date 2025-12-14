@@ -248,6 +248,10 @@ URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.vid
 URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
 URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
 
+# ----------- 微信公众号去广告 -----------
+
+DOMAIN-SUFFIX,wxs.qq.com
+
 # ------------ 拼多多去广告 ------------
 
 AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
@@ -267,10 +271,6 @@ DOMAIN,th-a.pinduoduo.com
 DOMAIN,ta-a.pinduoduo.com
 DOMAIN,meta.pinduoduo.com
 DOMAIN,apm-a.pinduoduo.com
-
-# ----------- 微信公众号去广告 -----------
-
-DOMAIN-SUFFIX,wxs.qq.com
 
 # ----------- 微信小程序去广告 -----------
 
