@@ -167,6 +167,12 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
+# ----------- 高德地图去广告 ------------
+
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
+
 # ----------- 可莉广告过滤器 ------------
 
 DOMAIN,acdn.adnxs.com
@@ -193,12 +199,6 @@ URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
 DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
-
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
 
 # ----------- 阿里云盘去广告 ------------
 
@@ -248,6 +248,10 @@ URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.vid
 URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
 URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
 
+# ----------- 微信公众号去广告 -----------
+
+DOMAIN-SUFFIX,wxs.qq.com
+
 # ------------ 拼多多去广告 ------------
 
 AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
@@ -267,10 +271,6 @@ DOMAIN,th-a.pinduoduo.com
 DOMAIN,ta-a.pinduoduo.com
 DOMAIN,meta.pinduoduo.com
 DOMAIN,apm-a.pinduoduo.com
-
-# ----------- 微信公众号去广告 -----------
-
-DOMAIN-SUFFIX,wxs.qq.com
 
 # ----------- 微信小程序去广告 -----------
 
@@ -318,14 +318,14 @@ DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
 
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
 # ---------- YouTube去广告 ----------
 
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
 AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
-
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
 
 # ----------- QQ音乐去广告 ------------
 
