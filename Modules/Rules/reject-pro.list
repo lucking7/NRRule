@@ -1,9 +1,3 @@
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
-
 # ---------- HTTPDNS拦截器 ----------
 
 DOMAIN,yyapp-httpdns.gslb.yy.com
@@ -173,6 +167,12 @@ URL-REGEX,"^http:\/\/54\.222\.159\.138:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
+
+# ----------- 高德地图去广告 ------------
+
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
 
 # ----------- 可莉广告过滤器 ------------
 
