@@ -249,10 +249,6 @@ URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.vid
 URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
 URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
 
-# ----------- 微信公众号去广告 -----------
-
-DOMAIN-SUFFIX,wxs.qq.com
-
 # ------------ 拼多多去广告 ------------
 
 AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
@@ -273,6 +269,10 @@ DOMAIN,ta-a.pinduoduo.com
 DOMAIN,meta.pinduoduo.com
 DOMAIN,apm-a.pinduoduo.com
 
+# ----------- 微信公众号去广告 -----------
+
+DOMAIN-SUFFIX,wxs.qq.com
+
 # ----------- 微信小程序去广告 -----------
 
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -285,12 +285,6 @@ DOMAIN,e.jparking.cn
 # ----------- 12306去广告 -----------
 
 DOMAIN,ad.12306.cn
-
-# ----------- 彩云天气去广告 ------------
-
-DOMAIN,abyss.cyapi.cn
-DOMAIN,ad.cyapi.cn
-DOMAIN,gather.colorfulclouds.net
 
 # ----------- 优酷视频去广告 ------------
 
@@ -318,6 +312,12 @@ DOMAIN-SUFFIX,iyes.youku.com
 DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
+
+# ----------- 彩云天气去广告 ------------
+
+DOMAIN,abyss.cyapi.cn
+DOMAIN,ad.cyapi.cn
+DOMAIN,gather.colorfulclouds.net
 
 # ----------- 中华万年历去广告 -----------
 
@@ -377,13 +377,13 @@ AND,((DEST-PORT,18000),(PROTOCOL,STUN))
 DOMAIN,stun1.douyucdn.cn
 DOMAIN,stun1.qvb.qcloud.com
 
-# ----------- 美颜相机去广告 ------------
-
-DOMAIN,adui.tg.meitu.com
-
 # ----------- 航旅纵横去广告 ------------
 
 URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native"
+
+# ----------- 美颜相机去广告 ------------
+
+DOMAIN,adui.tg.meitu.com
 
 # ----------- 网易新闻去广告 ------------
 
