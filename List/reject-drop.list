@@ -1,12 +1,13 @@
 #########################################
 # Reject
-# Last Updated: 2026-01-03T14:10:17.832Z
-# Size: 19
+# Last Updated: 2026-01-20T12:09:11.583Z
+# Size: 20
 # Ad blocking and privacy protection rules
 # Source: https://ruleset.skk.moe/List/non_ip/reject-drop.conf
 #########################################
 DOMAIN-SUFFIX,undefined
 DOMAIN-SUFFIX,null
+DOMAIN-SUFFIX,telemetry.mozilla.org
 DOMAIN,stats.grafana.org
 DOMAIN-SUFFIX,getui.net
 DOMAIN,nom.telemetrydeck.com
