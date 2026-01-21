@@ -1,3 +1,36 @@
+# ----------- 可莉广告过滤器 ------------
+
+DOMAIN,acdn.adnxs.com
+DOMAIN,mediation.adnxs.com
+DOMAIN,sin3-ib.adnxs.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,tracking.intl.miui.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN,business.msstatic.com
+DOMAIN-SUFFIX,v1d.szbdyd.com
+URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$"
+DOMAIN-SUFFIX,m1.ad.10010.com
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+IP-CIDR,122.229.8.47/32,no-resolve
+IP-CIDR,122.229.29.89/32,no-resolve
+URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do"
+URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
+DOMAIN,mall-dsp2.qinlinkeji.com
+DOMAIN,mallapi2.qinlinkeji.com
+DOMAIN,open-pixon.ads-pixiv.net
+
+# ----------- 高德地图去广告 ------------
+
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
+
 # ---------- HTTPDNS拦截器 ----------
 
 DOMAIN,yyapp-httpdns.gslb.yy.com
@@ -168,39 +201,6 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
-
-# ----------- 可莉广告过滤器 ------------
-
-DOMAIN,acdn.adnxs.com
-DOMAIN,mediation.adnxs.com
-DOMAIN,sin3-ib.adnxs.com
-DOMAIN,sdkconfig.ad.xiaomi.com
-DOMAIN,data.mistat.xiaomi.com
-DOMAIN,tracking.intl.miui.com
-DOMAIN,sdkconfig.ad.xiaomi.com
-DOMAIN-SUFFIX,doubleclick-cn.net
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN,business.msstatic.com
-DOMAIN-SUFFIX,v1d.szbdyd.com
-URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$"
-DOMAIN-SUFFIX,m1.ad.10010.com
-DOMAIN,ad.21cn.com
-DOMAIN,ad.k.21cn.com
-DOMAIN,admarket.21cn.com
-DOMAIN,adshows.21cn.com
-IP-CIDR,122.229.8.47/32,no-resolve
-IP-CIDR,122.229.29.89/32,no-resolve
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do"
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
-DOMAIN,mall-dsp2.qinlinkeji.com
-DOMAIN,mallapi2.qinlinkeji.com
-DOMAIN,open-pixon.ads-pixiv.net
-
 # ----------- 阿里云盘去广告 ------------
 
 IP-CIDR,203.107.1.1/24,no-resolve
@@ -319,14 +319,14 @@ DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
 
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
 # ---------- YouTube去广告 ----------
 
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
 AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
-
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
 
 # ----------- QQ音乐去广告 ------------
 
@@ -385,6 +385,11 @@ URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/
 
 DOMAIN,adui.tg.meitu.com
 
+# ----------- 网易新闻去广告 ------------
+
+DOMAIN,nex.163.com
+DOMAIN,gw.m.163.com
+
 # ------------ 知乎去广告 -------------
 
 DOMAIN,appcloud.zhihu.com
@@ -397,11 +402,6 @@ IP-CIDR,103.41.167.237/32,no-resolve
 IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
-
-# ----------- 网易新闻去广告 ------------
-
-DOMAIN,nex.163.com
-DOMAIN,gw.m.163.com
 
 # ------------ 淘宝去广告 -------------
 
