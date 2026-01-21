@@ -319,14 +319,14 @@ DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
 
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
 # ---------- YouTube去广告 ----------
 
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
 AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
-
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
 
 # ----------- QQ音乐去广告 ------------
 
