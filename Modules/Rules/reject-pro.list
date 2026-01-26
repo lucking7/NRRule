@@ -292,6 +292,10 @@ DOMAIN,abyss.cyapi.cn
 DOMAIN,ad.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
 
+# ----------- 中华万年历去广告 -----------
+
+DOMAIN,sdk.ad.sfys365.com
+
 # ----------- 优酷视频去广告 ------------
 
 DOMAIN,push.m.youku.com
@@ -319,10 +323,6 @@ DOMAIN,adsmind.ugdtimg.com
 DOMAIN,pre-acs.youku.com
 DOMAIN,youku-acs.m.taobao.com
 
-# ----------- 中华万年历去广告 -----------
-
-DOMAIN,sdk.ad.sfys365.com
-
 # ---------- YouTube去广告 ----------
 
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
@@ -346,6 +346,14 @@ DOMAIN,tmeadquic.y.qq.com
 
 AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
 
+# ----------- 喜马拉雅去广告 ------------
+
+DOMAIN,adse.ximalaya.com
+DOMAIN,adsehera.ximalaya.com
+DOMAIN,adse.wsa.ximalaya.com
+DOMAIN,adbehavior.ximalaya.com
+DOMAIN,adbehavior.wsa.ximalaya.com
+
 # ----------- 芒果TV去广告 ------------
 
 DOMAIN,credits.bz.mgtv.com
@@ -361,14 +369,6 @@ DOMAIN,rprain.bz.mgtv.com
 DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
-
-# ----------- 喜马拉雅去广告 ------------
-
-DOMAIN,adse.ximalaya.com
-DOMAIN,adsehera.ximalaya.com
-DOMAIN,adse.wsa.ximalaya.com
-DOMAIN,adbehavior.ximalaya.com
-DOMAIN,adbehavior.wsa.ximalaya.com
 
 # ------------ 斗鱼去广告 -------------
 
@@ -403,6 +403,13 @@ IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
+# ----------- 滴滴出行去广告 ------------
+
+DOMAIN,gwp.xiaojukeji.com
+AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+
 # ------------ 淘宝去广告 -------------
 
 DOMAIN,adashx.m.taobao.com
@@ -411,10 +418,3 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
-
-# ----------- 滴滴出行去广告 ------------
-
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
