@@ -178,6 +178,12 @@ URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
 URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
 
+# ----------- 高德地图去广告 ------------
+
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+DOMAIN-SUFFIX,v.smtcdns.com
+
 # ----------- 可莉广告过滤器 ------------
 
 DOMAIN,acdn.adnxs.com
@@ -204,12 +210,6 @@ URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
 DOMAIN,mall-dsp2.qinlinkeji.com
 DOMAIN,mallapi2.qinlinkeji.com
 DOMAIN,open-pixon.ads-pixiv.net
-
-# ----------- 高德地图去广告 ------------
-
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
 
 # ----------- 阿里云盘去广告 ------------
 
@@ -356,14 +356,6 @@ DOMAIN,tmeadquic.y.qq.com
 
 AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
 
-# ----------- 喜马拉雅去广告 ------------
-
-DOMAIN,adse.ximalaya.com
-DOMAIN,adsehera.ximalaya.com
-DOMAIN,adse.wsa.ximalaya.com
-DOMAIN,adbehavior.ximalaya.com
-DOMAIN,adbehavior.wsa.ximalaya.com
-
 # ----------- 芒果TV去广告 ------------
 
 DOMAIN,credits.bz.mgtv.com
@@ -379,6 +371,14 @@ DOMAIN,rprain.bz.mgtv.com
 DOMAIN,rprain.log.mgtv.com
 DOMAIN,vip.bz.mgtv.com
 DOMAIN-SUFFIX,da.mgtv.com
+
+# ----------- 喜马拉雅去广告 ------------
+
+DOMAIN,adse.ximalaya.com
+DOMAIN,adsehera.ximalaya.com
+DOMAIN,adse.wsa.ximalaya.com
+DOMAIN,adbehavior.ximalaya.com
+DOMAIN,adbehavior.wsa.ximalaya.com
 
 # ------------ 斗鱼去广告 -------------
 
@@ -500,16 +500,16 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
 ^https:\/\/api\.szbgcx\.cn\/account\/adv\/ - reject
 
+# ------------ 斗鱼去广告 -------------
+
+^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) $1$5$6 307
+
 # ------------ 菜鸟去广告 -------------
 
 ^https:\/\/nbcps-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn - reject
 ^https:\/\/netflow-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index - reject
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn - reject
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show - reject
-
-# ------------ 斗鱼去广告 -------------
-
-^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) $1$5$6 307
 
 # ----------- 萤石云视频去广告 -----------
 
@@ -537,6 +537,22 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https?:\/\/amdc\.alipay\.com\/query data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+# ----------- 高德地图去广告 ------------
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(?:car-end|route-plan) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/aos\/main\/page\/product\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:main-page-assets|main-page-location|ridewalk-end-fc|usr-profile-fc\/homeV2) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/(?:mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:order\/car\/(?:feedback\/get_card_questions|feedback\/viptips|king_toolbox_car_bubble|remark\/satisfactionConf|rights_information)|tips\/onscene_visual_optimization) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:pay\/web\/paySuccess\/info\/request|transportation\/diversion\/resource\/driving) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/ai\.amap\.com\/v1\/ai_rec\/home_qs\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # ----------- 可莉广告过滤器 ------------
 
@@ -592,22 +608,6 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/d\.socdm\.com\/adsv\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm data-type=text data="{"imgIndex":"0","adv":{"startup_adv":{"advCntList":[],"buttonList":[]}},"respCode":"0000"}" header="Content-Type:application/json"
 
-# ----------- 高德地图去广告 ------------
-
-^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(?:car-end|route-plan) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/aos\/main\/page\/product\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:main-page-assets|main-page-location|ridewalk-end-fc|usr-profile-fc\/homeV2) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/(?:mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:order\/car\/(?:feedback\/get_card_questions|feedback\/viptips|king_toolbox_car_bubble|remark\/satisfactionConf|rights_information)|tips\/onscene_visual_optimization) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:pay\/web\/paySuccess\/info\/request|transportation\/diversion\/resource\/driving) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/ai\.amap\.com\/v1\/ai_rec\/home_qs\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 # ----------- 顺丰速运去广告 ------------
 
 ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -619,12 +619,6 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-# ----------- 酷我音乐去广告 ------------
-
-^https:\/\/vip\d\.kuwo\.cn\/commercia\/vipconf\/projectPage\/getPageContent data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/user\/info data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/appi\.kuwo\.cn\/kuwopay\/personal\/cells data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 # ------------ 闲鱼去广告 -------------
 
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -634,6 +628,12 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.buy\.feeds\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.shade\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.playboy\.recommend\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+# ----------- 酷我音乐去广告 ------------
+
+^https:\/\/vip\d\.kuwo\.cn\/commercia\/vipconf\/projectPage\/getPageContent data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/user\/info data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/appi\.kuwo\.cn\/kuwopay\/personal\/cells data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # ----------- 酷狗铃声去广告 ------------
 
@@ -862,6 +862,16 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/AppInit data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
+# ----------- 芒果TV去广告 ------------
+
+^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/skin\/config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/ads\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
 # ----------- 喜马拉雅去广告 ------------
 
 ^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -879,16 +889,6 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/subscribe\/v\d\/subscribe\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/purchased\/recommend\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/(m|mwsa)\.ximalaya\.com\/community\/square\/v\d\/stream\? data-type=text data="{"data":{"cards":[{"content":{},"type":"RECOMMENDS"}]},"ret":0}" status-code=200 header="Content-Type:application/json"
-
-# ----------- 芒果TV去广告 ------------
-
-^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/skin\/config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/ads\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # ------------ 斗鱼去广告 -------------
 
@@ -994,10 +994,6 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/poi\.map\.xiaojukeji\.com\/mapapi\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-# ----------- 可莉广告过滤器 ------------
-
-body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/HypnotistWS\.asmx, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22replace-regex%22%2C%5B%5B%22%3CGetADResult%3E%5C%5C.%5C%5C*%5C%5C%3F%3C%5C%5C%2FGetADResult%3E%22%2C%22%3CGetADResult%3E%7B%5C%22ret%5C%22%3A0%2C%5C%22msg%5C%22%3A%5C%22%E6%AD%A3%E5%B8%B8%5C%22%2C%5C%22err_code%5C%22%3A0%2C%5C%22data%5C%22%3A%7B%5C%22ad%5C%22%3A%5B%5D%7D%7D%3C%2FGetADResult%3E%22%5D%5D%5D%5D
-
 # ----------- 高德地图去广告 ------------
 
 {{{高德地图去广告}}}body_rewrite_18 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.commonMaterial%22%2C%22data.tipsOperationLocation%22%2C%22data.resourcePlacement%22%5D%5D%5D
@@ -1017,6 +1013,10 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 {{{高德地图去广告}}}移除打车页推广卡片、弹窗 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information), script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/Amap_remove_ads.js, requires-body=true
 {{{高德地图去广告}}}移除打车页红点角标、天气图标 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/Amap_remove_ads.js, requires-body=true
 {{{高德地图去广告}}}移除导航详情页推广 = type=http-response, pattern=^https:\/\/(?:info|m5)\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail), script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/Amap_remove_ads.js, requires-body=true
+
+# ----------- 可莉广告过滤器 ------------
+
+body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/HypnotistWS\.asmx, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22replace-regex%22%2C%5B%5B%22%3CGetADResult%3E%5C%5C.%5C%5C*%5C%5C%3F%3C%5C%5C%2FGetADResult%3E%22%2C%22%3CGetADResult%3E%7B%5C%22ret%5C%22%3A0%2C%5C%22msg%5C%22%3A%5C%22%E6%AD%A3%E5%B8%B8%5C%22%2C%5C%22err_code%5C%22%3A0%2C%5C%22data%5C%22%3A%7B%5C%22ad%5C%22%3A%5B%5D%7D%7D%3C%2FGetADResult%3E%22%5D%5D%5D%5D
 
 # ----------- 阿里云盘去广告 ------------
 
@@ -1134,17 +1134,17 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 {{{哔哩哔哩漫画去广告}}}移除顶部标签 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/BiliComic_remove_ads.js, requires-body=true
 {{{哔哩哔哩漫画去广告}}}精简我的页面 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/BiliComic_remove_ads.js, requires-body=true
 
-# ----------- 喜马拉雅去广告 ------------
-
-{{{喜马拉雅去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/football-portal\/diff2\/batch\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22json.ad%22%2C%22json.toc%22%5D%5D%5D
-{{{喜马拉雅去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/mobwsa\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/v2\/, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.playpage.resourceMap.defaultResource%22%2C%22data.playpage.resourceMap.playPageTip%22%5D%5D%5D
-{{{喜马拉雅去广告}}}body_rewrite_35 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/homePage\/, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.freeListenV2%22%5D%5D%5D
-
 # ----------- 芒果TV去广告 ------------
 
 {{{芒果TV去广告}}}body_rewrite_32 = type=http-response, pattern=^https?:\/\/mobile\.api\.(mgtv|hunantv)\.com\/mobile\/config\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.dc_adConfig%22%2C0%5D%2C%5B%22data.XmsellSwitch%22%2C0%5D%2C%5B%22data.screenshot_share_switch%22%2C0%5D%2C%5B%22data.playerUseHttpDNS%22%2C0%5D%2C%5B%22data.damang_tab%22%2C0%5D%2C%5B%22data.relative_ads%22%2C0%5D%2C%5B%22data.second_floor_guide_switch%22%2C0%5D%2C%5B%22data.progress_bar_ad_switch%22%2C0%5D%2C%5B%22data.XmVideoB%22%2C0%5D%2C%5B%22data.damang_duanju_tab%22%2C0%5D%2C%5B%22data.playview_box_ad_switch%22%2C0%5D%2C%5B%22data.topBarSwitch%22%2C0%5D%2C%5B%22data.VIPSDKB2%22%2C0%5D%5D%5D%5D
 {{{芒果TV去广告}}}body_rewrite_35 = type=http-response, pattern=^https?:\/\/dc\d?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/index\/\w, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22adInfo%22%5D%5D%5D
 {{{芒果TV去广告}}}body_rewrite_37 = type=http-response, pattern=^https:\/\/mobile-thor\.api\.mgtv\.com\/v\d+\/vod\/info\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.config.ad%22%2C%22data.config.vipNav%22%2C%22data.template.skinList%22%2C%22data.template.theme%22%5D%5D%5D
+
+# ----------- 喜马拉雅去广告 ------------
+
+{{{喜马拉雅去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/football-portal\/diff2\/batch\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22json.ad%22%2C%22json.toc%22%5D%5D%5D
+{{{喜马拉雅去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/mobwsa\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/v2\/, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.playpage.resourceMap.defaultResource%22%2C%22data.playpage.resourceMap.playPageTip%22%5D%5D%5D
+{{{喜马拉雅去广告}}}body_rewrite_35 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/homePage\/, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.freeListenV2%22%5D%5D%5D
 
 # ------------ 斗鱼去广告 -------------
 
@@ -1223,5 +1223,5 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 {{{滴滴出行去广告}}}body_rewrite_32 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com:443\/gateway\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.didi-bike-homepage-popup%22%2C%22data.variantInfo%22%5D%5D%5D
 
 [MITM]
-hostname = %APPEND% 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10, amdc.alipay.com, appconf.mail.163.com, msglb.91160.com, api.zcool.com.cn, acs.m.goofish.com, acs.m.taobao.com, api-access.pangolin-sdk-toutiao*.com, api-access.pangolin-sdk-toutiao.com, api-mifit*.huami.com, api-mifit-cn2.huami.com, api-mifit.huami.com, api-overmind.youdao.com, api.ahmobile.cn, api.angkeduo.com, api.jr.mi.com, api.m.mi.com, api.pinduoduo.com, api.wfdata.club, apiwz.midukanshu.com, app.zhoudamozi.com, cdke.youdao.com, conf-darwin.xycdn.com, dict.youdao.com, ecard.shenzhentong.com, ether-pack.pangolin-sdk-toutiao.com, gromore.pangolin-sdk-toutiao.com, gw.alicdn.com, gw.chuangkit.com, hfapp-service.qweather.net, home.mi.com, home.umetrip.com, img.allahall.com, img.dailmo.com, iyes.youku.com, lfd?-analytics.bytescm.com, lfd?-cdn-tos.bytescm.com, m.qianbao.qq.com, mercury-gateway.ixiaochuan.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com, p0.pipi.cn, qiye.gaoding.com, sdk1xyajs.data.kuiniuca.com, sfd?-fe-tos.pglstatp-toutiao.com, sfo.mddcloud.com.cn, shopapi.io.mi.com, shealthyapi.senssun.com, t-dsp.pinduoduo.com, toblog.ctobsnssdk.com, tower.ubixioe.com, umerp.umetrip.com, us.l.qq.com, lanfanapp.com, api.xiachufang.com, api.xiangji.qq.com, video-dsp.pddpic.com, images.pinduoduo.com, client.app.coc.10086.cn, cdn.cmgadx.com, qadx.qinlinad.com, watch.iot.mi.com, cdn.web.chelaile.net.cn, d.socdm.com, m.client.10010.com, cmds.omesoft.com, api.fenxianglife.com, *.amap.com, ccsp-egmas.sf-express.com, ucmp.sf-express.com, api.alipan.com, member.alipan.com, bizapi.alipan.com, appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn, g-acs.m.goofish.com, api.ring.kugou.com, gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, www.kdocs.cn, f-api.kdocs.cn, tianshu.qq.com, h5.qzone.qq.com, vv.video.qq.com, e*.caixin.com, g*.caixin.com, m*.caixin.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, 3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com, mobile.12306.cn, bootpreload.uve.weibo.com, weibointl.api.weibo.cn, api.weibo.cn, api.xiaoheihe.cn, ad.12306.cn, biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com, push.m.youku.com, un-acs.youku.com, v0-client-lz.rili.cn, client-lz.rili.cn, *.googlevideo.com, youtubei.googleapis.com, m.kookapp.cn, www.kookapp.cn, ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com, open-cms-api.quark.cn, stars.shuqireader.com, manga.bilibili.com, gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com, dc?.bz.mgtv.com, mobileso.bz.mgtv.com, damang.api.mgtv.com, hb-boom.api.mgtv.com, mobile.api.mgtv.com, mobile.api.hunantv.com, me.bz.mgtv.com, mobile-thor.api.mgtv.com, netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com, rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn, silk.lx.netease.com, api-release.wuta-cam.com, api.ys7.com, i.ys7.com, api.boohee.com, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn, lego.boohee.com, status.boohee.com, 114.115.217.129, api.meiyan.com, nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com, api.zhihu.com, appcloud2.zhihu.com, link.zhihu.com, m-cloud.zhihu.com, page-info.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, api.zsxq.com, afd.baidu.com, newclient.map.baidu.com, yongche.baidu.com, ecom.map.baidu.com, pan.baidu.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, common.diditaxi.com.cn, conf.diditaxi.com.cn, lion.didialift.com, api.udache.com, ct.xiaojukeji.com, res.xiaojukeji.com, 112.53.55.225, 139.199.240.84, 113.46.225.*, 162.14.157.*, 123.207.209.*, 120.241.142.*, 120.241.143.*, 116.85.*
+hostname = %APPEND% 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10, amdc.alipay.com, appconf.mail.163.com, msglb.91160.com, *.amap.com, api.zcool.com.cn, acs.m.goofish.com, acs.m.taobao.com, api-access.pangolin-sdk-toutiao*.com, api-access.pangolin-sdk-toutiao.com, api-mifit*.huami.com, api-mifit-cn2.huami.com, api-mifit.huami.com, api-overmind.youdao.com, api.ahmobile.cn, api.angkeduo.com, api.jr.mi.com, api.m.mi.com, api.pinduoduo.com, api.wfdata.club, apiwz.midukanshu.com, app.zhoudamozi.com, cdke.youdao.com, conf-darwin.xycdn.com, dict.youdao.com, ecard.shenzhentong.com, ether-pack.pangolin-sdk-toutiao.com, gromore.pangolin-sdk-toutiao.com, gw.alicdn.com, gw.chuangkit.com, hfapp-service.qweather.net, home.mi.com, home.umetrip.com, img.allahall.com, img.dailmo.com, iyes.youku.com, lfd?-analytics.bytescm.com, lfd?-cdn-tos.bytescm.com, m.qianbao.qq.com, mercury-gateway.ixiaochuan.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com, p0.pipi.cn, qiye.gaoding.com, sdk1xyajs.data.kuiniuca.com, sfd?-fe-tos.pglstatp-toutiao.com, sfo.mddcloud.com.cn, shopapi.io.mi.com, shealthyapi.senssun.com, t-dsp.pinduoduo.com, toblog.ctobsnssdk.com, tower.ubixioe.com, umerp.umetrip.com, us.l.qq.com, lanfanapp.com, api.xiachufang.com, api.xiangji.qq.com, video-dsp.pddpic.com, images.pinduoduo.com, client.app.coc.10086.cn, cdn.cmgadx.com, qadx.qinlinad.com, watch.iot.mi.com, cdn.web.chelaile.net.cn, d.socdm.com, m.client.10010.com, cmds.omesoft.com, api.fenxianglife.com, ccsp-egmas.sf-express.com, ucmp.sf-express.com, api.alipan.com, member.alipan.com, bizapi.alipan.com, g-acs.m.goofish.com, appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn, api.ring.kugou.com, gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, www.kdocs.cn, f-api.kdocs.cn, tianshu.qq.com, h5.qzone.qq.com, vv.video.qq.com, e*.caixin.com, g*.caixin.com, m*.caixin.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, 3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com, mobile.12306.cn, bootpreload.uve.weibo.com, weibointl.api.weibo.cn, api.weibo.cn, api.xiaoheihe.cn, ad.12306.cn, biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com, push.m.youku.com, un-acs.youku.com, v0-client-lz.rili.cn, client-lz.rili.cn, *.googlevideo.com, youtubei.googleapis.com, m.kookapp.cn, www.kookapp.cn, ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com, open-cms-api.quark.cn, stars.shuqireader.com, manga.bilibili.com, dc?.bz.mgtv.com, mobileso.bz.mgtv.com, damang.api.mgtv.com, hb-boom.api.mgtv.com, mobile.api.mgtv.com, mobile.api.hunantv.com, me.bz.mgtv.com, mobile-thor.api.mgtv.com, gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com, rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn, api-release.wuta-cam.com, silk.lx.netease.com, netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com, api.ys7.com, i.ys7.com, api.boohee.com, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn, lego.boohee.com, status.boohee.com, 114.115.217.129, api.meiyan.com, nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com, api.zhihu.com, appcloud2.zhihu.com, link.zhihu.com, m-cloud.zhihu.com, page-info.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, api.zsxq.com, afd.baidu.com, newclient.map.baidu.com, yongche.baidu.com, ecom.map.baidu.com, pan.baidu.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, common.diditaxi.com.cn, conf.diditaxi.com.cn, lion.didialift.com, api.udache.com, ct.xiaojukeji.com, res.xiaojukeji.com, 112.53.55.225, 139.199.240.84, 113.46.225.*, 162.14.157.*, 123.207.209.*, 120.241.142.*, 120.241.143.*, 116.85.*
 
