@@ -1,6 +1,6 @@
 #########################################
 # AI
-# Last Updated: 2026-01-29T04:34:01.943Z
+# Last Updated: 2026-02-03T19:48:30.934Z
 # Size: 153
 # Rules for AI
 # Merged from 6 sources
@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,comfyregistry.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,poecdn.net
@@ -50,7 +51,7 @@ DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,antigravity-pa.googleapis.com
 DOMAIN,notebooklm-pa.googleapis.com
-DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
 DOMAIN,aiplatform.googleapis.com
@@ -79,6 +80,7 @@ DOMAIN,api.statsig.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,augment.com
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -146,13 +148,11 @@ DOMAIN-SUFFIX,jina.ai
 DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,g.ai
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-,REJECT),(DOMAIN-SUFFIX,webpubsub.azure.com,REJECT))
 AND,((DOMAIN-KEYWORD,openaicom-api-,REJECT),(DOMAIN-SUFFIX,azurefd.net,REJECT))
 AND,((DOMAIN-KEYWORD,antigravity-auto-updater-,REJECT),(DOMAIN-SUFFIX,run.app,REJECT))
