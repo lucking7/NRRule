@@ -10,424 +10,424 @@
 [Rule]
 # ---------- HTTPDNS拦截器 ----------
 
-DOMAIN,yyapp-httpdns.gslb.yy.com
-DOMAIN,union-httpdns.gslb.yy.com
-DOMAIN,yuyin-httpdns.gslb.yy.com
-DOMAIN,httpdns-v6.gslb.yy.com
-URL-REGEX,"^http:\/\/103\.44\.58\.64\/md\?"
-URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns"
-DOMAIN,dns2.q2cdn.com
-URL-REGEX,"^http:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/"
-DOMAIN,dns.weixin.qq.com
-DOMAIN,dns.weixin.qq.com.cn
-DOMAIN,aedns.weixin.qq.com
-IP-CIDR,39.156.140.30/32,no-resolve
-IP-CIDR,39.156.140.47/32,no-resolve
-IP-CIDR,39.156.140.245/32,no-resolve
-IP-CIDR,42.81.232.18/32,no-resolve
-IP-CIDR,42.187.182.106/32,no-resolve
-IP-CIDR,42.187.182.123/32,no-resolve
-IP-CIDR,42.187.184.154/32,no-resolve
-IP-CIDR,43.130.30.237/32,no-resolve
-IP-CIDR,43.130.30.240/32,no-resolve
-IP-CIDR,43.137.153.151/32,no-resolve
-IP-CIDR,43.137.159.31/32,no-resolve
-IP-CIDR,43.152.112.101/32,no-resolve
-IP-CIDR,43.153.248.120/32,no-resolve
-IP-CIDR,60.28.172.100/32,no-resolve
-IP-CIDR,61.151.231.157/32,no-resolve
-IP-CIDR,101.32.104.104/32,no-resolve
-IP-CIDR,106.39.206.21/32,no-resolve
-IP-CIDR,106.39.206.25/32,no-resolve
-IP-CIDR,106.39.206.70/32,no-resolve
-IP-CIDR,111.31.201.194/32,no-resolve
-IP-CIDR,111.31.241.76/32,no-resolve
-IP-CIDR,111.31.241.140/32,no-resolve
-IP-CIDR,111.206.147.156/32,no-resolve
-IP-CIDR,111.206.147.210/32,no-resolve
-IP-CIDR,111.206.148.27/32,no-resolve
-IP-CIDR,116.128.177.249/32,no-resolve
-IP-CIDR,116.130.224.150/32,no-resolve
-IP-CIDR,116.130.224.205/32,no-resolve
-IP-CIDR,117.185.247.73/32,no-resolve
-IP-CIDR,123.151.48.171/32,no-resolve
-IP-CIDR,123.151.48.193/32,no-resolve
-IP-CIDR,123.151.48.208/32,no-resolve
-IP-CIDR,123.151.54.50/32,no-resolve
-IP-CIDR,180.153.202.85/32,no-resolve
-IP-CIDR,183.192.196.31/32,no-resolve
-IP-CIDR,203.205.129.102/32,no-resolve
-IP-CIDR,203.205.234.132/32,no-resolve
-IP-CIDR,220.196.159.73/32,no-resolve
-IP-CIDR6,240e:928:1400:10::25/128,no-resolve
-IP-CIDR6,2402:4e00:8030:1::17/128,no-resolve
-IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,no-resolve
-IP-CIDR6,2408:8711:10:10::20/128,no-resolve
-IP-CIDR6,2409:8702:4860:10::4d/128,no-resolve
-DOMAIN,httpdns.kg.qq.com
-URL-REGEX,"^http:\/\/182\.256\.116\.116\/d"
-DOMAIN,httpdns.bilivideo.com
-URL-REGEX,"^http:\/\/47\.101\.175\.206\/resolve"
-URL-REGEX,"^http:\/\/47\.100\.123\.169\/resolve"
-URL-REGEX,"^http:\/\/120\.46\.169\.234\/resolve"
-URL-REGEX,"^http:\/\/121\.36\.72\.124\/resolve"
-URL-REGEX,"^http:\/\/116\.63\.10\.135\/resolve"
-URL-REGEX,"^http:\/\/117\.185\.228\.108\/resolve"
-URL-REGEX,"^http:\/\/117\.144\.238\.29\/resolve"
-URL-REGEX,"^http:\/\/122\.9\.7\.134\/resolve"
-URL-REGEX,"^http:\/\/101\.91\.140\.124\/resolve"
-URL-REGEX,"^http:\/\/101\.91\.140\.224\/resolve"
-URL-REGEX,"^http:\/\/122\.9\.13\.79\/resolve"
-URL-REGEX,"^http:\/\/122\.9\.15\.129\/resolve"
-URL-REGEX,"^http:\/\/112\.65\.200\.117\/resolve"
-URL-REGEX,"^http:\/\/112\.64\.218\.119\/resolve"
-URL-REGEX,"^http:\/\/114\.116\.215\.110\/resolve"
-URL-REGEX,"^http:\/\/116\.63\.10\.31\/resolve"
-URL-REGEX,"^http:\/\/203\.119\.206\.8\/\d+\/resolve\?"
-DOMAIN,httpdns.browser.miui.com
-DOMAIN,resolver.msg.xiaomi.net
-DOMAIN,httpdns.alicdn.com
-DOMAIN,httpdns-api.aliyuncs.com
-DOMAIN,httpdns-sc.aliyuncs.com
-IP-CIDR,203.107.1.0/24,no-resolve
-DOMAIN,ucdc.upaas.quark.cn
-DOMAIN,httpdns.danuoyi.tbcache.com
-DOMAIN,httpdns.cctv.com
-DOMAIN,httpdns-browser.platform.dbankcloud.cn
-DOMAIN,httpdns.huaweicloud.com
-DOMAIN,httpdns.c.cdnhwc2.com
-DOMAIN,httpdns.platform.dbankcloud.cn
-DOMAIN,httpdns.platform.dbankcloud.com
-DOMAIN,httpdns1.cc.cdnhwc5.com
-DOMAIN,doh.ptqy.gitv.tv
-DOMAIN,httpdns.baidu.com
-DOMAIN,httpsdns.baidu.com
-DOMAIN,httpdns.bcelive.com
-DOMAIN,httpdns.baidubce.com
-DOMAIN,dns.iqiyi.com
-DOMAIN,doh.iqiyi.com
-DOMAIN,dns.qiyipic.iqiyi.com
-DOMAIN,httpdns.n.shifen.com
-URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/"
-URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/resolve"
-URL-REGEX,"^http:\/\/180\.76\.76\.220\/v\d\/resolve"
-IP-CIDR,186.76.76.200/32,no-resolve
-DOMAIN,httpdns.ocloud.heytapmobi.com
-DOMAIN,httpdns.push.heytapmobi.com
-DOMAIN,dns.jd.com
-IP-CIDR,101.124.19.122/32,no-resolve
-IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
-IP-CIDR,103.224.222.208/32,no-resolve
-IP-CIDR,119.29.29.98/32,no-resolve
-IP-CIDR,119.29.29.99/32,no-resolve
-URL-REGEX,"^http:\/\/182\.254\.116\.116\/d"
-URL-REGEX,"^http:\/\/119\.29\.29\.98\/d\?"
-DOMAIN,dotserver.douyucdn.cn
-DOMAIN,hdns.ksyun.com
-URL-REGEX,"^http:\/\/162\.14\.3\.250\/v4"
-DOMAIN,httpdns.push.oppomobile.com
-DOMAIN,httpdns.ocloud.oppomobile.com
-DOMAIN,kuaishou.httpdns.pro
-DOMAIN,httpdns.kwd.inkuai.com
-DOMAIN,apidns.kwd.inkuai.com
-DOMAIN,apidns-js.kwd.inkuai.com
-DOMAIN,httpdns.meituan.com
-DOMAIN,httpdnsmultiapi.meituan.com
-DOMAIN,httpdnsmultiapivip.meituan.com
-URL-REGEX,"^http:\/\/103\.37\.155\.60\/fetch"
-URL-REGEX,"^http:\/\/81\.69\.130\.131\/d"
-URL-REGEX,"^http:\/\/101\.35\.204\.35\/d"
-URL-REGEX,"^http:\/\/101\.35\.212\.35\/d"
-URL-REGEX,"^http:\/\/114\.110\.96\.6\/d"
-URL-REGEX,"^http:\/\/114\.110\.96\.26\/d"
-URL-REGEX,"^http:\/\/114\.110\.97\.30\/d"
-URL-REGEX,"^http:\/\/114\.110\.97\.97\/d"
-URL-REGEX,"^http:\/\/121\.5\.84\.85\/d"
-URL-REGEX,"^http:\/\/\[2402:4e00:1411:201:0:9964:ba21:5a41\]\/d"
-DOMAIN,httpdns.music.163.com
-DOMAIN,httpdns.n.netease.com
-DOMAIN,httpdns-sdk.n.netease.com
-DOMAIN,httpdns.yunxindns.com
-DOMAIN,lofter.httpdns.c.163.com
-DOMAIN,music.httpdns.c.163.com
-DOMAIN,httpdns.yunxindns.com
-IP-CIDR,59.111.239.61/32,no-resolve
-IP-CIDR,59.111.239.62/32,no-resolve
-IP-CIDR,115.236.121.51/32,no-resolve
-IP-CIDR,115.236.121.195/32,no-resolve
-DOMAIN,httpdns.zybang.com
-DOMAIN,httpdns.calorietech.com
-DOMAIN,dns.weibo.cn
-IP-CIDR,39.97.130.51/32,no-resolve
-IP-CIDR,39.97.128.148/32,no-resolve
-URL-REGEX,"^http:\/\/api\.weibo\.cn\/2\/httpdns\/config"
-URL-REGEX,"^http:\/\/api\.weibo\.cn\/httpdns\/config"
-URL-REGEX,"^http:\/\/103\.41\.167\.237\/v2\/resolv"
-IP-CIDR,118.89.204.198/23,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
-DOMAIN,hd.xiaojukeji.com
-DOMAIN,httpdns.zybang.com
-URL-REGEX,"^http:\/\/203\.107\.1\.33\/191607\/resolve\?"
-URL-REGEX,"^http:\/\/119\.29\.29\.29\/d"
-DOMAIN,serveraddr.service.kugou.com
-DOMAIN,twns.p2ptun.qq.com
-DOMAIN,tp2p.kg.qq.com
-IP-CIDR,81.71.61.216/32,no-resolve
-URL-REGEX,"^http:\/\/54\.222\.159\.138:8053\/httpdns\/"
-URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/"
-URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/"
-URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/"
+DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT
+DOMAIN,union-httpdns.gslb.yy.com,REJECT
+DOMAIN,yuyin-httpdns.gslb.yy.com,REJECT
+DOMAIN,httpdns-v6.gslb.yy.com,REJECT
+URL-REGEX,"^http:\/\/103\.44\.58\.64\/md\?",REJECT
+URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns",REJECT
+DOMAIN,dns2.q2cdn.com,REJECT
+URL-REGEX,"^http:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/",REJECT
+DOMAIN,dns.weixin.qq.com,REJECT
+DOMAIN,dns.weixin.qq.com.cn,REJECT
+DOMAIN,aedns.weixin.qq.com,REJECT
+IP-CIDR,39.156.140.30/32,REJECT,no-resolve
+IP-CIDR,39.156.140.47/32,REJECT,no-resolve
+IP-CIDR,39.156.140.245/32,REJECT,no-resolve
+IP-CIDR,42.81.232.18/32,REJECT,no-resolve
+IP-CIDR,42.187.182.106/32,REJECT,no-resolve
+IP-CIDR,42.187.182.123/32,REJECT,no-resolve
+IP-CIDR,42.187.184.154/32,REJECT,no-resolve
+IP-CIDR,43.130.30.237/32,REJECT,no-resolve
+IP-CIDR,43.130.30.240/32,REJECT,no-resolve
+IP-CIDR,43.137.153.151/32,REJECT,no-resolve
+IP-CIDR,43.137.159.31/32,REJECT,no-resolve
+IP-CIDR,43.152.112.101/32,REJECT,no-resolve
+IP-CIDR,43.153.248.120/32,REJECT,no-resolve
+IP-CIDR,60.28.172.100/32,REJECT,no-resolve
+IP-CIDR,61.151.231.157/32,REJECT,no-resolve
+IP-CIDR,101.32.104.104/32,REJECT,no-resolve
+IP-CIDR,106.39.206.21/32,REJECT,no-resolve
+IP-CIDR,106.39.206.25/32,REJECT,no-resolve
+IP-CIDR,106.39.206.70/32,REJECT,no-resolve
+IP-CIDR,111.31.201.194/32,REJECT,no-resolve
+IP-CIDR,111.31.241.76/32,REJECT,no-resolve
+IP-CIDR,111.31.241.140/32,REJECT,no-resolve
+IP-CIDR,111.206.147.156/32,REJECT,no-resolve
+IP-CIDR,111.206.147.210/32,REJECT,no-resolve
+IP-CIDR,111.206.148.27/32,REJECT,no-resolve
+IP-CIDR,116.128.177.249/32,REJECT,no-resolve
+IP-CIDR,116.130.224.150/32,REJECT,no-resolve
+IP-CIDR,116.130.224.205/32,REJECT,no-resolve
+IP-CIDR,117.185.247.73/32,REJECT,no-resolve
+IP-CIDR,123.151.48.171/32,REJECT,no-resolve
+IP-CIDR,123.151.48.193/32,REJECT,no-resolve
+IP-CIDR,123.151.48.208/32,REJECT,no-resolve
+IP-CIDR,123.151.54.50/32,REJECT,no-resolve
+IP-CIDR,180.153.202.85/32,REJECT,no-resolve
+IP-CIDR,183.192.196.31/32,REJECT,no-resolve
+IP-CIDR,203.205.129.102/32,REJECT,no-resolve
+IP-CIDR,203.205.234.132/32,REJECT,no-resolve
+IP-CIDR,220.196.159.73/32,REJECT,no-resolve
+IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
+IP-CIDR6,2402:4e00:8030:1::17/128,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT,no-resolve
+IP-CIDR6,2408:8711:10:10::20/128,REJECT,no-resolve
+IP-CIDR6,2409:8702:4860:10::4d/128,REJECT,no-resolve
+DOMAIN,httpdns.kg.qq.com,REJECT
+URL-REGEX,"^http:\/\/182\.256\.116\.116\/d",REJECT
+DOMAIN,httpdns.bilivideo.com,REJECT
+URL-REGEX,"^http:\/\/47\.101\.175\.206\/resolve",REJECT
+URL-REGEX,"^http:\/\/47\.100\.123\.169\/resolve",REJECT
+URL-REGEX,"^http:\/\/120\.46\.169\.234\/resolve",REJECT
+URL-REGEX,"^http:\/\/121\.36\.72\.124\/resolve",REJECT
+URL-REGEX,"^http:\/\/116\.63\.10\.135\/resolve",REJECT
+URL-REGEX,"^http:\/\/117\.185\.228\.108\/resolve",REJECT
+URL-REGEX,"^http:\/\/117\.144\.238\.29\/resolve",REJECT
+URL-REGEX,"^http:\/\/122\.9\.7\.134\/resolve",REJECT
+URL-REGEX,"^http:\/\/101\.91\.140\.124\/resolve",REJECT
+URL-REGEX,"^http:\/\/101\.91\.140\.224\/resolve",REJECT
+URL-REGEX,"^http:\/\/122\.9\.13\.79\/resolve",REJECT
+URL-REGEX,"^http:\/\/122\.9\.15\.129\/resolve",REJECT
+URL-REGEX,"^http:\/\/112\.65\.200\.117\/resolve",REJECT
+URL-REGEX,"^http:\/\/112\.64\.218\.119\/resolve",REJECT
+URL-REGEX,"^http:\/\/114\.116\.215\.110\/resolve",REJECT
+URL-REGEX,"^http:\/\/116\.63\.10\.31\/resolve",REJECT
+URL-REGEX,"^http:\/\/203\.119\.206\.8\/\d+\/resolve\?",REJECT
+DOMAIN,httpdns.browser.miui.com,REJECT
+DOMAIN,resolver.msg.xiaomi.net,REJECT
+DOMAIN,httpdns.alicdn.com,REJECT
+DOMAIN,httpdns-api.aliyuncs.com,REJECT
+DOMAIN,httpdns-sc.aliyuncs.com,REJECT
+IP-CIDR,203.107.1.0/24,REJECT,no-resolve
+DOMAIN,ucdc.upaas.quark.cn,REJECT
+DOMAIN,httpdns.danuoyi.tbcache.com,REJECT
+DOMAIN,httpdns.cctv.com,REJECT
+DOMAIN,httpdns-browser.platform.dbankcloud.cn,REJECT
+DOMAIN,httpdns.huaweicloud.com,REJECT
+DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+DOMAIN,httpdns.platform.dbankcloud.cn,REJECT
+DOMAIN,httpdns.platform.dbankcloud.com,REJECT
+DOMAIN,httpdns1.cc.cdnhwc5.com,REJECT
+DOMAIN,doh.ptqy.gitv.tv,REJECT
+DOMAIN,httpdns.baidu.com,REJECT
+DOMAIN,httpsdns.baidu.com,REJECT
+DOMAIN,httpdns.bcelive.com,REJECT
+DOMAIN,httpdns.baidubce.com,REJECT
+DOMAIN,dns.iqiyi.com,REJECT
+DOMAIN,doh.iqiyi.com,REJECT
+DOMAIN,dns.qiyipic.iqiyi.com,REJECT
+DOMAIN,httpdns.n.shifen.com,REJECT
+URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/",REJECT
+URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/resolve",REJECT
+URL-REGEX,"^http:\/\/180\.76\.76\.220\/v\d\/resolve",REJECT
+IP-CIDR,186.76.76.200/32,REJECT,no-resolve
+DOMAIN,httpdns.ocloud.heytapmobi.com,REJECT
+DOMAIN,httpdns.push.heytapmobi.com,REJECT
+DOMAIN,dns.jd.com,REJECT
+IP-CIDR,101.124.19.122/32,REJECT,no-resolve
+IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
+IP-CIDR,103.224.222.208/32,REJECT,no-resolve
+IP-CIDR,119.29.29.98/32,REJECT,no-resolve
+IP-CIDR,119.29.29.99/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/182\.254\.116\.116\/d",REJECT
+URL-REGEX,"^http:\/\/119\.29\.29\.98\/d\?",REJECT
+DOMAIN,dotserver.douyucdn.cn,REJECT
+DOMAIN,hdns.ksyun.com,REJECT
+URL-REGEX,"^http:\/\/162\.14\.3\.250\/v4",REJECT
+DOMAIN,httpdns.push.oppomobile.com,REJECT
+DOMAIN,httpdns.ocloud.oppomobile.com,REJECT
+DOMAIN,kuaishou.httpdns.pro,REJECT
+DOMAIN,httpdns.kwd.inkuai.com,REJECT
+DOMAIN,apidns.kwd.inkuai.com,REJECT
+DOMAIN,apidns-js.kwd.inkuai.com,REJECT
+DOMAIN,httpdns.meituan.com,REJECT
+DOMAIN,httpdnsmultiapi.meituan.com,REJECT
+DOMAIN,httpdnsmultiapivip.meituan.com,REJECT
+URL-REGEX,"^http:\/\/103\.37\.155\.60\/fetch",REJECT
+URL-REGEX,"^http:\/\/81\.69\.130\.131\/d",REJECT
+URL-REGEX,"^http:\/\/101\.35\.204\.35\/d",REJECT
+URL-REGEX,"^http:\/\/101\.35\.212\.35\/d",REJECT
+URL-REGEX,"^http:\/\/114\.110\.96\.6\/d",REJECT
+URL-REGEX,"^http:\/\/114\.110\.96\.26\/d",REJECT
+URL-REGEX,"^http:\/\/114\.110\.97\.30\/d",REJECT
+URL-REGEX,"^http:\/\/114\.110\.97\.97\/d",REJECT
+URL-REGEX,"^http:\/\/121\.5\.84\.85\/d",REJECT
+URL-REGEX,"^http:\/\/\[2402:4e00:1411:201:0:9964:ba21:5a41\]\/d",REJECT
+DOMAIN,httpdns.music.163.com,REJECT
+DOMAIN,httpdns.n.netease.com,REJECT
+DOMAIN,httpdns-sdk.n.netease.com,REJECT
+DOMAIN,httpdns.yunxindns.com,REJECT
+DOMAIN,lofter.httpdns.c.163.com,REJECT
+DOMAIN,music.httpdns.c.163.com,REJECT
+DOMAIN,httpdns.yunxindns.com,REJECT
+IP-CIDR,59.111.239.61/32,REJECT,no-resolve
+IP-CIDR,59.111.239.62/32,REJECT,no-resolve
+IP-CIDR,115.236.121.51/32,REJECT,no-resolve
+IP-CIDR,115.236.121.195/32,REJECT,no-resolve
+DOMAIN,httpdns.zybang.com,REJECT
+DOMAIN,httpdns.calorietech.com,REJECT
+DOMAIN,dns.weibo.cn,REJECT
+IP-CIDR,39.97.130.51/32,REJECT,no-resolve
+IP-CIDR,39.97.128.148/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/api\.weibo\.cn\/2\/httpdns\/config",REJECT
+URL-REGEX,"^http:\/\/api\.weibo\.cn\/httpdns\/config",REJECT
+URL-REGEX,"^http:\/\/103\.41\.167\.237\/v2\/resolv",REJECT
+IP-CIDR,118.89.204.198/23,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+DOMAIN,hd.xiaojukeji.com,REJECT
+DOMAIN,httpdns.zybang.com,REJECT
+URL-REGEX,"^http:\/\/203\.107\.1\.33\/191607\/resolve\?",REJECT
+URL-REGEX,"^http:\/\/119\.29\.29\.29\/d",REJECT
+DOMAIN,serveraddr.service.kugou.com,REJECT
+DOMAIN,twns.p2ptun.qq.com,REJECT
+DOMAIN,tp2p.kg.qq.com,REJECT
+IP-CIDR,81.71.61.216/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/54\.222\.159\.138:8053\/httpdns\/",REJECT
+URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/",REJECT
+URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/",REJECT
+URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/",REJECT
 
 # ----------- 可莉广告过滤器 ------------
 
-DOMAIN,acdn.adnxs.com
-DOMAIN,mediation.adnxs.com
-DOMAIN,sin3-ib.adnxs.com
-DOMAIN,sdkconfig.ad.xiaomi.com
-DOMAIN,data.mistat.xiaomi.com
-DOMAIN,tracking.intl.miui.com
-DOMAIN,sdkconfig.ad.xiaomi.com
-DOMAIN-SUFFIX,doubleclick-cn.net
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN,business.msstatic.com
-DOMAIN-SUFFIX,v1d.szbdyd.com
-URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$"
-DOMAIN-SUFFIX,m1.ad.10010.com
-DOMAIN,ad.21cn.com
-DOMAIN,ad.k.21cn.com
-DOMAIN,admarket.21cn.com
-DOMAIN,adshows.21cn.com
-IP-CIDR,122.229.8.47/32,no-resolve
-IP-CIDR,122.229.29.89/32,no-resolve
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do"
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/"
-DOMAIN,mall-dsp2.qinlinkeji.com
-DOMAIN,mallapi2.qinlinkeji.com
-DOMAIN,open-pixon.ads-pixiv.net
+DOMAIN,acdn.adnxs.com,REJECT
+DOMAIN,mediation.adnxs.com,REJECT
+DOMAIN,sin3-ib.adnxs.com,REJECT
+DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
+DOMAIN,data.mistat.xiaomi.com,REJECT
+DOMAIN,tracking.intl.miui.com,REJECT
+DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN,business.msstatic.com,REJECT
+DOMAIN-SUFFIX,v1d.szbdyd.com,REJECT
+URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$",REJECT
+DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
+DOMAIN,ad.21cn.com,REJECT
+DOMAIN,ad.k.21cn.com,REJECT
+DOMAIN,admarket.21cn.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
+IP-CIDR,122.229.8.47/32,REJECT,no-resolve
+IP-CIDR,122.229.29.89/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/",REJECT-TINYGIF
+DOMAIN,mall-dsp2.qinlinkeji.com,REJECT
+DOMAIN,mallapi2.qinlinkeji.com,REJECT
+DOMAIN,open-pixon.ads-pixiv.net,REJECT
 
 # ----------- 高德地图去广告 ------------
 
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
-DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+DOMAIN,free-aos-cdn-image.amap.com,REJECT
+DOMAIN-SUFFIX,v.smtcdns.com,REJECT
 
 # ----------- 阿里云盘去广告 ------------
 
-IP-CIDR,203.107.1.1/24,no-resolve
+IP-CIDR,203.107.1.1/24,REJECT,no-resolve
 
 # ----------- 酷我音乐去广告 ------------
 
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config"
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/"
-IP-CIDR,111.206.98.63/32,no-resolve
-URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo"
-URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox"
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/"
+URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/",REJECT-TINYGIF
+IP-CIDR,111.206.98.63/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/",REJECT-TINYGIF
 
 # ----------- 酷狗音乐去广告 ------------
 
-DOMAIN,ads.service.kugou.com
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,adserviceretry.kugou.com
-DOMAIN,adserviceretry.kglink.cn
-DOMAIN,ad.tencentmusic.com
-DOMAIN,adservice.kugou.com
-DOMAIN,splashimgretrybssdl.cloud.kugou.com
-URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html"
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,adserviceretry.kglink.cn,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adservice.kugou.com,REJECT
+DOMAIN,splashimgretrybssdl.cloud.kugou.com,REJECT
+URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html",REJECT
 
 # ----------- 腾讯视频去广告 ------------
 
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,info4.video.qq.com
-DOMAIN,info6.video.qq.com
-DOMAIN,ios.video.mpush.qq.com
-DOMAIN,otheve.beacon.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,tpns.qq.com
-DOMAIN,vv6.video.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-KEYWORD,trace.qq.com
-DOMAIN-KEYWORD,trace.video.qq.com
-IP-CIDR,47.110.187.87/32,no-resolve
-URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,info4.video.qq.com,REJECT
+DOMAIN,info6.video.qq.com,REJECT
+DOMAIN,ios.video.mpush.qq.com,REJECT
+DOMAIN,otheve.beacon.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,tpns.qq.com,REJECT
+DOMAIN,vv6.video.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-KEYWORD,trace.qq.com,REJECT
+DOMAIN-KEYWORD,trace.video.qq.com,REJECT
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+",REJECT
+URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+",REJECT
+URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+",REJECT
 
 # ------------ 拼多多去广告 ------------
 
-AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
-AND,((URL-REGEX,"^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*"))
-AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC))
-DOMAIN,titan.pinduoduo.com
-DOMAIN,xg.pinduoduo.com
-DOMAIN,cdl-1.pddpic.com
-DOMAIN,titan.pinduoduo.com
-DOMAIN,cdl-p2.pddpic.com
-DOMAIN,cd-1.pddpic.com
-DOMAIN,apm.pinduoduo.com
-DOMAIN,th-b.pinduoduo.com
-DOMAIN,ta.pinduoduo.com
-DOMAIN,th.pinduoduo.com
-DOMAIN,th-a.pinduoduo.com
-DOMAIN,ta-a.pinduoduo.com
-DOMAIN,meta.pinduoduo.com
-DOMAIN,apm-a.pinduoduo.com
+AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+AND,((URL-REGEX,"^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC)),REJECT
+DOMAIN,titan.pinduoduo.com,REJECT
+DOMAIN,xg.pinduoduo.com,REJECT
+DOMAIN,cdl-1.pddpic.com,REJECT
+DOMAIN,titan.pinduoduo.com,REJECT
+DOMAIN,cdl-p2.pddpic.com,REJECT
+DOMAIN,cd-1.pddpic.com,REJECT
+DOMAIN,apm.pinduoduo.com,REJECT
+DOMAIN,th-b.pinduoduo.com,REJECT
+DOMAIN,ta.pinduoduo.com,REJECT
+DOMAIN,th.pinduoduo.com,REJECT
+DOMAIN,th-a.pinduoduo.com,REJECT
+DOMAIN,ta-a.pinduoduo.com,REJECT
+DOMAIN,meta.pinduoduo.com,REJECT
+DOMAIN,apm-a.pinduoduo.com,REJECT
 
 # ----------- 微信公众号去广告 -----------
 
-DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,wxs.qq.com,REJECT
 
 # ----------- 微信小程序去广告 -----------
 
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsmsdy.video.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
-DOMAIN,ads-shopping.shouqianba.com
-DOMAIN,ad.maoyan.com
-DOMAIN,e.jparking.cn
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsmsdy.video.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,ads-shopping.shouqianba.com,REJECT
+DOMAIN,ad.maoyan.com,REJECT
+DOMAIN,e.jparking.cn,REJECT
 
 # ----------- 12306去广告 -----------
 
-DOMAIN,ad.12306.cn
+DOMAIN,ad.12306.cn,DIRECT
 
 # ----------- 彩云天气去广告 ------------
 
-DOMAIN,abyss.cyapi.cn
-DOMAIN,ad.cyapi.cn
-DOMAIN,gather.colorfulclouds.net
+DOMAIN,abyss.cyapi.cn,REJECT
+DOMAIN,ad.cyapi.cn,REJECT
+DOMAIN,gather.colorfulclouds.net,REJECT
 
 # ----------- 优酷视频去广告 ------------
 
-DOMAIN,push.m.youku.com
-DOMAIN,un-acs.youku.com
-DOMAIN,dorangesource.alicdn.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,adx-core.youku.com
-DOMAIN,adx-open-service.youku.com
-DOMAIN,yk-ssp.ad.youku.com
-DOMAIN,cad.youku.com
-DOMAIN,ykad-data.youku.com
-DOMAIN,yk-ssp.ad.youku.com
-DOMAIN,amdc.m.youku.com
-DOMAIN,cad.youku.com
-DOMAIN,nbsdk-baichuan.alicdn.com
-DOMAIN,youku-crm-product.youku.com
-DOMAIN,dr-danmu.youku.com
-DOMAIN,group-ssl-danmu-ori.youku.com
-DOMAIN,m.atm.youku.com
-DOMAIN,mc.atm.youku.com
-DOMAIN,vali-g1.cp31.ott.cibntv.net
-DOMAIN,vali-ugc.cp31.ott.cibntv.net
-DOMAIN-SUFFIX,iyes.youku.com
-DOMAIN,adsmind.ugdtimg.com
-DOMAIN,pre-acs.youku.com
-DOMAIN,youku-acs.m.taobao.com
+DOMAIN,push.m.youku.com,DIRECT
+DOMAIN,un-acs.youku.com,DIRECT
+DOMAIN,dorangesource.alicdn.com,DIRECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,adx-core.youku.com,REJECT
+DOMAIN,adx-open-service.youku.com,REJECT
+DOMAIN,yk-ssp.ad.youku.com,REJECT
+DOMAIN,cad.youku.com,REJECT
+DOMAIN,ykad-data.youku.com,REJECT
+DOMAIN,yk-ssp.ad.youku.com,REJECT
+DOMAIN,amdc.m.youku.com,REJECT
+DOMAIN,cad.youku.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+DOMAIN,youku-crm-product.youku.com,REJECT
+DOMAIN,dr-danmu.youku.com,REJECT
+DOMAIN,group-ssl-danmu-ori.youku.com,REJECT
+DOMAIN,m.atm.youku.com,REJECT
+DOMAIN,mc.atm.youku.com,REJECT
+DOMAIN,vali-g1.cp31.ott.cibntv.net,REJECT
+DOMAIN,vali-ugc.cp31.ott.cibntv.net,REJECT
+DOMAIN-SUFFIX,iyes.youku.com,REJECT
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,pre-acs.youku.com,REJECT
+DOMAIN,youku-acs.m.taobao.com,REJECT
 
 # ----------- 中华万年历去广告 -----------
 
-DOMAIN,sdk.ad.sfys365.com
+DOMAIN,sdk.ad.sfys365.com,REJECT
 
 # ---------- YouTube去广告 ----------
 
-AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC))
-AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC)),REJECT
+AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC)),REJECT
 
 # ----------- QQ音乐去广告 ------------
 
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,ad.tencentmusic.com
-DOMAIN,adcdn.tencentmusic.com
-DOMAIN,adcdn6.tencentmusic.com
-DOMAIN,adexpo.tencentmusic.com
-DOMAIN,adclick.tencentmusic.com
-DOMAIN,mc.tencentmusic.com
-DOMAIN,monitor.music.qq.com
-DOMAIN,tmead.y.qq.com
-DOMAIN,tmeadbak.y.qq.com
-DOMAIN,tmeadquic.y.qq.com
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,adcdn6.tencentmusic.com,REJECT
+DOMAIN,adexpo.tencentmusic.com,REJECT
+DOMAIN,adclick.tencentmusic.com,REJECT
+DOMAIN,mc.tencentmusic.com,REJECT
+DOMAIN,monitor.music.qq.com,REJECT
+DOMAIN,tmead.y.qq.com,REJECT
+DOMAIN,tmeadbak.y.qq.com,REJECT
+DOMAIN,tmeadquic.y.qq.com,REJECT
 
 # ------------ 小红书去广告 ------------
 
-AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com))
+AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com)),REJECT
 
 # ----------- 喜马拉雅去广告 ------------
 
-DOMAIN,adse.ximalaya.com
-DOMAIN,adsehera.ximalaya.com
-DOMAIN,adse.wsa.ximalaya.com
-DOMAIN,adbehavior.ximalaya.com
-DOMAIN,adbehavior.wsa.ximalaya.com
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,adsehera.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
 
 # ----------- 芒果TV去广告 ------------
 
-DOMAIN,credits.bz.mgtv.com
-DOMAIN,credits2.bz.mgtv.com
-DOMAIN,credits3.bz.mgtv.com
-DOMAIN,dflow.bz.mgtv.com
-DOMAIN,encounter.bz.mgtv.com
-DOMAIN,floor.bz.mgtv.com
-DOMAIN,layer.bz.mgtv.com
-DOMAIN,mob.bz.mgtv.com
-DOMAIN,rc-topic-api.bz.mgtv.com
-DOMAIN,rprain.bz.mgtv.com
-DOMAIN,rprain.log.mgtv.com
-DOMAIN,vip.bz.mgtv.com
-DOMAIN-SUFFIX,da.mgtv.com
+DOMAIN,credits.bz.mgtv.com,REJECT
+DOMAIN,credits2.bz.mgtv.com,REJECT
+DOMAIN,credits3.bz.mgtv.com,REJECT
+DOMAIN,dflow.bz.mgtv.com,REJECT
+DOMAIN,encounter.bz.mgtv.com,REJECT
+DOMAIN,floor.bz.mgtv.com,REJECT
+DOMAIN,layer.bz.mgtv.com,REJECT
+DOMAIN,mob.bz.mgtv.com,REJECT
+DOMAIN,rc-topic-api.bz.mgtv.com,REJECT
+DOMAIN,rprain.bz.mgtv.com,REJECT
+DOMAIN,rprain.log.mgtv.com,REJECT
+DOMAIN,vip.bz.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
 
 # ------------ 斗鱼去广告 -------------
 
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list"
-AND,((DEST-PORT,18000),(PROTOCOL,STUN))
-DOMAIN,stun1.douyucdn.cn
-DOMAIN,stun1.qvb.qcloud.com
+URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list",REJECT
+AND,((DEST-PORT,18000),(PROTOCOL,STUN)),REJECT
+DOMAIN,stun1.douyucdn.cn,REJECT
+DOMAIN,stun1.qvb.qcloud.com,REJECT
 
 # ----------- 航旅纵横去广告 ------------
 
-URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native"
+URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native",REJECT
 
 # ----------- 美颜相机去广告 ------------
 
-DOMAIN,adui.tg.meitu.com
+DOMAIN,adui.tg.meitu.com,REJECT
 
 # ----------- 网易新闻去广告 ------------
 
-DOMAIN,nex.163.com
-DOMAIN,gw.m.163.com
+DOMAIN,nex.163.com,DIRECT
+DOMAIN,gw.m.163.com,DIRECT
 
 # ------------ 知乎去广告 -------------
 
-DOMAIN,appcloud.zhihu.com
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,crash2.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-DOMAIN,zxid-m.mobileservice.cn
-IP-CIDR,103.41.167.237/32,no-resolve
-IP-CIDR,118.89.204.198/32,no-resolve
-IP-CIDR,182.61.194.7/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+DOMAIN,appcloud.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,crash2.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,zxid-m.mobileservice.cn,REJECT
+IP-CIDR,103.41.167.237/32,REJECT,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR,182.61.194.7/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 
 # ------------ 淘宝去广告 -------------
 
-DOMAIN,adashx.m.taobao.com
-DOMAIN,ossgw.alicdn.com
-DOMAIN,ems.youku.com
-DOMAIN,hudong.alicdn.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,ut.taobao.com
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,ossgw.alicdn.com,REJECT
+DOMAIN,ems.youku.com,REJECT
+DOMAIN,hudong.alicdn.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,ut.taobao.com,REJECT
 
 # ----------- 滴滴出行去广告 ------------
 
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
+DOMAIN,gwp.xiaojukeji.com,REJECT
+AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
+AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
+AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
 
 [URL Rewrite]
 # ---------- HTTPDNS拦截器 ----------
@@ -891,13 +891,13 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
 ^https:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-# ----------- 有道云笔记去广告 -----------
-
-^https:\/\/silk\.lx\.netease\.com\/api\/open\/advertOpen\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 # ------------ 斗鱼去广告 -------------
 
 ^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+# ----------- 有道云笔记去广告 -----------
+
+^https:\/\/silk\.lx\.netease\.com\/api\/open\/advertOpen\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # ----------- 萤石云视频去广告 -----------
 
@@ -1147,15 +1147,15 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 {{{芒果TV去广告}}}body_rewrite_35 = type=http-response, pattern=^https?:\/\/dc\d?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/index\/\w, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22adInfo%22%5D%5D%5D
 {{{芒果TV去广告}}}body_rewrite_37 = type=http-response, pattern=^https:\/\/mobile-thor\.api\.mgtv\.com\/v\d+\/vod\/info\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.config.ad%22%2C%22data.config.vipNav%22%2C%22data.template.skinList%22%2C%22data.template.theme%22%5D%5D%5D
 
-# ----------- 无他相机去广告 ------------
-
-{{{无他相机去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/api-release\.wuta-cam\.com\/ad_tree$, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22regular.splash%22%2C%22big_day%22%2C%22big_day_overrides%22%2C%22regular.home_bottom_right_entry_v2%22%2C%22regular.pic_upload_alert%22%2C%22regular.retouching_before_icon%22%5D%5D%5D
-
 # ------------ 斗鱼去广告 -------------
 
 {{{斗鱼去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.pendant_a%22%2C%22data.entrance_d%22%5D%5D%5D
 {{{斗鱼去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/update.+keyCodeSet=flow_config, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22greatGodGameSitterSwitch%22%2C0%5D%2C%5B%22followMoreAnchorEntrance%22%2C0%5D%2C%5B%22sdklivebanner%22%2C0%5D%2C%5B%22homeActFloatSwitch%22%2C0%5D%2C%5B%22bringGoodsSwitch%22%2C0%5D%2C%5B%22qqGameSwitch%22%2C0%5D%5D%5D%5D
 {{{斗鱼去广告}}}移除首页轮播图和视频流广告 = type=http-response, pattern=^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/Douyu_remove_ads.js, requires-body=true
+
+# ----------- 无他相机去广告 ------------
+
+{{{无他相机去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/api-release\.wuta-cam\.com\/ad_tree$, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22regular.splash%22%2C%22big_day%22%2C%22big_day_overrides%22%2C%22regular.home_bottom_right_entry_v2%22%2C%22regular.pic_upload_alert%22%2C%22regular.retouching_before_icon%22%5D%5D%5D
 
 # ----------- 薄荷健康去广告 ------------
 
@@ -1224,5 +1224,4 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 {{{滴滴出行去广告}}}body_rewrite_32 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com:443\/gateway\?, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.didi-bike-homepage-popup%22%2C%22data.variantInfo%22%5D%5D%5D
 
 [MITM]
-hostname = %APPEND% 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10, amdc.alipay.com, appconf.mail.163.com, msglb.91160.com, ucdc2-upaas.uc.cn, api.zcool.com.cn, acs.m.goofish.com, acs.m.taobao.com, api-access.pangolin-sdk-toutiao*.com, api-access.pangolin-sdk-toutiao.com, api-mifit*.huami.com, api-mifit-cn2.huami.com, api-mifit.huami.com, api-overmind.youdao.com, api.ahmobile.cn, api.angkeduo.com, api.jr.mi.com, api.m.mi.com, api.pinduoduo.com, api.wfdata.club, apiwz.midukanshu.com, app.zhoudamozi.com, cdke.youdao.com, conf-darwin.xycdn.com, dict.youdao.com, ecard.shenzhentong.com, ether-pack.pangolin-sdk-toutiao.com, gromore.pangolin-sdk-toutiao.com, gw.alicdn.com, gw.chuangkit.com, hfapp-service.qweather.net, home.mi.com, home.umetrip.com, img.allahall.com, img.dailmo.com, iyes.youku.com, lfd?-analytics.bytescm.com, lfd?-cdn-tos.bytescm.com, m.qianbao.qq.com, mercury-gateway.ixiaochuan.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com, p0.pipi.cn, qiye.gaoding.com, sdk1xyajs.data.kuiniuca.com, sfd?-fe-tos.pglstatp-toutiao.com, sfo.mddcloud.com.cn, shopapi.io.mi.com, shealthyapi.senssun.com, t-dsp.pinduoduo.com, toblog.ctobsnssdk.com, tower.ubixioe.com, umerp.umetrip.com, us.l.qq.com, lanfanapp.com, api.xiachufang.com, api.xiangji.qq.com, video-dsp.pddpic.com, images.pinduoduo.com, client.app.coc.10086.cn, cdn.cmgadx.com, qadx.qinlinad.com, watch.iot.mi.com, cdn.web.chelaile.net.cn, d.socdm.com, m.client.10010.com, cmds.omesoft.com, api.fenxianglife.com, *.amap.com, ccsp-egmas.sf-express.com, ucmp.sf-express.com, api.alipan.com, member.alipan.com, bizapi.alipan.com, g-acs.m.goofish.com, appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn, api.ring.kugou.com, gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, www.kdocs.cn, f-api.kdocs.cn, tianshu.qq.com, h5.qzone.qq.com, vv.video.qq.com, e*.caixin.com, g*.caixin.com, m*.caixin.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, 3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com, mobile.12306.cn, bootpreload.uve.weibo.com, weibointl.api.weibo.cn, api.weibo.cn, api.xiaoheihe.cn, ad.12306.cn, biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com, push.m.youku.com, un-acs.youku.com, v0-client-lz.rili.cn, client-lz.rili.cn, *.googlevideo.com, youtubei.googleapis.com, m.kookapp.cn, www.kookapp.cn, ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com, open-cms-api.quark.cn, stars.shuqireader.com, manga.bilibili.com, gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com, dc?.bz.mgtv.com, mobileso.bz.mgtv.com, damang.api.mgtv.com, hb-boom.api.mgtv.com, mobile.api.mgtv.com, mobile.api.hunantv.com, me.bz.mgtv.com, mobile-thor.api.mgtv.com, netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com, api-release.wuta-cam.com, silk.lx.netease.com, rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn, api.ys7.com, i.ys7.com, api.boohee.com, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn, lego.boohee.com, status.boohee.com, 114.115.217.129, api.meiyan.com, nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com, api.zhihu.com, appcloud2.zhihu.com, link.zhihu.com, m-cloud.zhihu.com, page-info.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, api.zsxq.com, afd.baidu.com, newclient.map.baidu.com, yongche.baidu.com, ecom.map.baidu.com, pan.baidu.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, common.diditaxi.com.cn, conf.diditaxi.com.cn, lion.didialift.com, api.udache.com, ct.xiaojukeji.com, res.xiaojukeji.com, 112.53.55.225, 139.199.240.84, 113.46.225.*, 162.14.157.*, 123.207.209.*, 120.241.142.*, 120.241.143.*, 116.85.*
-
+hostname = %APPEND% 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10, amdc.alipay.com, appconf.mail.163.com, msglb.91160.com, ucdc2-upaas.uc.cn, api.zcool.com.cn, acs.m.goofish.com, acs.m.taobao.com, api-access.pangolin-sdk-toutiao*.com, api-access.pangolin-sdk-toutiao.com, api-mifit*.huami.com, api-mifit-cn2.huami.com, api-mifit.huami.com, api-overmind.youdao.com, api.ahmobile.cn, api.angkeduo.com, api.jr.mi.com, api.m.mi.com, api.pinduoduo.com, api.wfdata.club, apiwz.midukanshu.com, app.zhoudamozi.com, cdke.youdao.com, conf-darwin.xycdn.com, dict.youdao.com, ecard.shenzhentong.com, ether-pack.pangolin-sdk-toutiao.com, gromore.pangolin-sdk-toutiao.com, gw.alicdn.com, gw.chuangkit.com, hfapp-service.qweather.net, home.mi.com, home.umetrip.com, img.allahall.com, img.dailmo.com, iyes.youku.com, lfd?-analytics.bytescm.com, lfd?-cdn-tos.bytescm.com, m.qianbao.qq.com, mercury-gateway.ixiaochuan.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com, p0.pipi.cn, qiye.gaoding.com, sdk1xyajs.data.kuiniuca.com, sfd?-fe-tos.pglstatp-toutiao.com, sfo.mddcloud.com.cn, shopapi.io.mi.com, shealthyapi.senssun.com, t-dsp.pinduoduo.com, toblog.ctobsnssdk.com, tower.ubixioe.com, umerp.umetrip.com, us.l.qq.com, lanfanapp.com, api.xiachufang.com, api.xiangji.qq.com, video-dsp.pddpic.com, images.pinduoduo.com, client.app.coc.10086.cn, cdn.cmgadx.com, qadx.qinlinad.com, watch.iot.mi.com, cdn.web.chelaile.net.cn, d.socdm.com, m.client.10010.com, cmds.omesoft.com, api.fenxianglife.com, *.amap.com, ccsp-egmas.sf-express.com, ucmp.sf-express.com, api.alipan.com, member.alipan.com, bizapi.alipan.com, g-acs.m.goofish.com, appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn, api.ring.kugou.com, gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, www.kdocs.cn, f-api.kdocs.cn, tianshu.qq.com, h5.qzone.qq.com, vv.video.qq.com, e*.caixin.com, g*.caixin.com, m*.caixin.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, 3pp.starbucks.com.cn, aag.enmonster.com, activity.yonghuivip.com, ad.maoyan.com, ad.xiaotucc.com, ads.ishansong.com, alittle-tea.oss-cn-shanghai.aliyuncs.com, api-fouth-mem.huazhu.com, api-marketing.zhinengxiyifang.cn, api.hellobike.com, api.hengdianfilm.com, api.hongyibo.com.cn, api.kuaidihelp.com, api.maoyan.com, api.mcd.cn, api.prod.dj.mstand.cn, api.songguo7.com, api.yonghuivip.com, apiproxy.zuche.com, apis.alenable.com, app.95504.net, app.homeinns.com, applets.jtexpress.com.cn, appuser-static.huolala.cn, as.xiaojukeji.com, capis*.didapinche.com, cappapi.alittle-tea.com, cbd-gateway-service-applets.hualala.com, ccmsupport-sz.tenpay.com, coco-com.e.verystar.net, creditcardapp.bankcomm.com, customer-app.sto.cn, daijia.kuaidadi.com, dock.tenchii.com, dsp.fcbox.com, file.dian.so, flow.dmall.com, fscdn.zto.com, gw-passenger-wap.01zhuanche.com, hdgateway.zto.com, htwkop.xiaojukeji.com, images.qmai.cn, lawsonapi.yorentown.com, m.ctrip.com, mapi.xiaotucc.com, mbmodule-openapi.paas.cmbchina.com, member.lxjchina.com.cn, miniapp.sexytea2013.com, minicap.caocaokeji.cn, minifm.maxxipoint.com, minipro.95504.net, miniprogram.ishansong.com, mkt-gateway.tuhu.cn, mobile-api.imlaidian.com, mxsa.mxbc.net, newton.gumingnc.com, passenger.t3go.cn, passengerapi.saicmobility.com, plt.yorentown.com, qapi.huolala.cn, r2.gzyct.com, res.hongyibo.com.cn, res.pizzahut.com.cn, s.jiediankeji.com, saas-ad.cloudpnr.com, sauron-report.yonghuivip.com, smarket.dian.so, sto-customer-app.oss-cn-shanghai.aliyuncs.com, supplier-api.imdada.cn, suyun-guest.daojia.com, tbgapplet.carlsberg.asia, tm-api.pin-dao.cn, ump.ems.com.cn, vod-movie.maoyan.com, webapi.qmai.cn, webchatapp.fcbox.com, wechat-api.i-xiaoma.com.cn, www.deppon.com, wx.bthhotels.com, wx.maoyan.com, wxapp.bestwehotel.com, wxproj.seeyouyima.com, wxs-weixin.sd.zhumanggroup.com, mcsp.cloudpnr.com, api.szbgcx.cn, rms.meituan.com, chong.qq.com, wx.online-cmcc.cn, wx.10086.cn, ne.gdsz.sinopec.com, mobile.12306.cn, bootpreload.uve.weibo.com, weibointl.api.weibo.cn, api.weibo.cn, api.xiaoheihe.cn, ad.12306.cn, biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com, push.m.youku.com, un-acs.youku.com, v0-client-lz.rili.cn, client-lz.rili.cn, *.googlevideo.com, youtubei.googleapis.com, m.kookapp.cn, www.kookapp.cn, ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com, open-cms-api.quark.cn, stars.shuqireader.com, manga.bilibili.com, gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com, dc?.bz.mgtv.com, mobileso.bz.mgtv.com, damang.api.mgtv.com, hb-boom.api.mgtv.com, mobile.api.mgtv.com, mobile.api.hunantv.com, me.bz.mgtv.com, mobile-thor.api.mgtv.com, netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com, rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn, api-release.wuta-cam.com, silk.lx.netease.com, api.ys7.com, i.ys7.com, api.boohee.com, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn, lego.boohee.com, status.boohee.com, 114.115.217.129, api.meiyan.com, nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com, api.zhihu.com, appcloud2.zhihu.com, link.zhihu.com, m-cloud.zhihu.com, page-info.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, api.zsxq.com, afd.baidu.com, newclient.map.baidu.com, yongche.baidu.com, ecom.map.baidu.com, pan.baidu.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, common.diditaxi.com.cn, conf.diditaxi.com.cn, lion.didialift.com, api.udache.com, ct.xiaojukeji.com, res.xiaojukeji.com, 112.53.55.225, 139.199.240.84, 113.46.225.*, 162.14.157.*, 123.207.209.*, 120.241.142.*, 120.241.143.*, 116.85.*
