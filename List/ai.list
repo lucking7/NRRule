@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-03-16T00:28:13.494Z
-# Size: 166
+# Last Updated: 2026-03-21T16:07:01.051Z
+# Size: 167
 # Rules for AI
 # Merged from 6 sources
 #########################################
@@ -169,6 +169,7 @@ DOMAIN-KEYWORD,labs.google
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-,REJECT),(DOMAIN-SUFFIX,webpubsub.azure.com,REJECT))
 AND,((DOMAIN-KEYWORD,openaicom-api-,REJECT),(DOMAIN-SUFFIX,azurefd.net,REJECT))
 AND,((DOMAIN-KEYWORD,antigravity-auto-updater-,REJECT),(DOMAIN-SUFFIX,run.app,REJECT))
+URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
 IP-CIDR,160.79.104.0/23
 IP-CIDR6,2607:6bc0::/48
 ################## EOF ##################
