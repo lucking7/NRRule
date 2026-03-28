@@ -21,7 +21,7 @@
 ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app-user-banner data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除底栏视频标签 = type=http-response, pattern=^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/TV_Assistant_remove_ads.js, requires-body=true
+移除底栏视频标签 = type=http-response, pattern=^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$, script-path=https://nrrule.pages.dev/Scripts/TV_Assistant_remove_ads.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% saas.hpplay.cn

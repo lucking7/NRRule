@@ -11,11 +11,11 @@
 #!arguments=cron:"55 23 * * *"
 
 [Script]
-Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/sub-store-1.min.js, requires-body=true, timeout=120
+Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://nrrule.pages.dev/Scripts/sub-store-1.min.js, requires-body=true, timeout=120
 
-Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/sub-store-0.min.js, requires-body=true, timeout=120
+Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://nrrule.pages.dev/Scripts/sub-store-0.min.js, requires-body=true, timeout=120
 
-Sub-Store Sync = type=cron, cronexp={{{cron}}}, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/cron-sync-artifacts.min.js, timeout=120
+Sub-Store Sync = type=cron, cronexp={{{cron}}}, script-path=https://nrrule.pages.dev/Scripts/cron-sync-artifacts.min.js, timeout=120
 
 [MITM]
 hostname = %APPEND% sub.store

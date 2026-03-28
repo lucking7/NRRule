@@ -15,7 +15,7 @@
 ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/searchHotEnt data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除推荐老板 = type=http-response, pattern=^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend, script-path=https://github.com/bunizao/Surge-master-3/raw/main/public/Scripts/RiskBird_remove_ads.js, requires-body=true
+移除推荐老板 = type=http-response, pattern=^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend, script-path=https://nrrule.pages.dev/Scripts/RiskBird_remove_ads.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% m.riskbird.com
