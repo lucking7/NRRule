@@ -1,7 +1,7 @@
 #########################################
 # CDN
-# Last Updated: 2026-03-29T19:44:38.863Z
-# Size: 4430
+# Last Updated: 2026-04-06T15:00:56.826Z
+# Size: 4443
 # Rules for CDN
 # Merged from 3 sources
 #########################################
@@ -15,6 +15,7 @@ DOMAIN,images.web3.storage
 DOMAIN,api.web3.storage
 DOMAIN-SUFFIX,cdn.neustar
 DOMAIN-SUFFIX,mangadex.network
+DOMAIN,assets.tangled.network
 DOMAIN-SUFFIX,ipfs.eth.aragon.network
 DOMAIN-SUFFIX,gateway.serph.network
 DOMAIN-SUFFIX,cdnjs.network
@@ -773,6 +774,7 @@ DOMAIN,img.reimu.net
 DOMAIN,cdn.reimu.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,pixfs.net
+DOMAIN,origin.picgo.net
 DOMAIN,img.pawoo.net
 DOMAIN-SUFFIX,nsimg.net
 DOMAIN,static.monei.net
@@ -1257,6 +1259,7 @@ DOMAIN-SUFFIX,redditstatic.com
 DOMAIN,cdn.privacy-mgmt.com
 DOMAIN-SUFFIX,pressablecdn.com
 DOMAIN,ui.powerreviews.com
+DOMAIN,cdna.pcpartpicker.com
 DOMAIN,js.partnerstack.com
 DOMAIN,sbl.onfastspring.com
 DOMAIN,cdn.onfastspring.com
@@ -1884,6 +1887,7 @@ DOMAIN-SUFFIX,tokyvideo.com
 DOMAIN-SUFFIX,tnastatic.com
 DOMAIN-SUFFIX,tinifycdn.com
 DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN,assets.tigerdata.com
 DOMAIN,thumbsnap.com
 DOMAIN-SUFFIX,thisiscdn.com
 DOMAIN,static.test-beta.com
@@ -2036,6 +2040,7 @@ DOMAIN,media.glassdoor.com
 DOMAIN-SUFFIX,gitmirror.com
 DOMAIN-SUFFIX,assets.getpocket.com
 DOMAIN,i.geekflare.com
+DOMAIN-SUFFIX,garmincdn.com
 DOMAIN,mosaic-blender.fxtwitter.com
 DOMAIN,mosaic.fxtwitter.com
 DOMAIN,webp.frostming.com
@@ -2392,6 +2397,7 @@ DOMAIN-SUFFIX,dditsadn.com
 DOMAIN,cdn.datacamp.com
 DOMAIN,script.custobar.com
 DOMAIN,cdn.credible.com
+DOMAIN,cdn.cr-proxy.com
 DOMAIN,assets.controld.com
 DOMAIN,img.connatix.com
 DOMAIN,cds.connatix.com
@@ -2935,6 +2941,7 @@ DOMAIN,js.stripe.com
 DOMAIN,heatmap-external-a.strava.com
 DOMAIN,web-assets.strava.com
 DOMAIN,content-a.strava.com
+DOMAIN,wre-assets.prod.mapping.strava.com
 DOMAIN,cdn-1.strava.com
 DOMAIN,cdn.stonly.com
 DOMAIN-SUFFIX,tile.stamen.com
@@ -2992,6 +2999,7 @@ DOMAIN,tiles0.planet.com
 DOMAIN,tiles.planet.com
 DOMAIN,assets.pixlee.com
 DOMAIN-SUFFIX,pinimg.com
+DOMAIN,assets.pingie.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN,images.pexels.com
 DOMAIN,static.peatio.com
@@ -3120,6 +3128,10 @@ DOMAIN,tuf-repo.github.com
 DOMAIN,raw.github.com
 DOMAIN-SUFFIX,pkg.github.com
 DOMAIN,assets.genius.com
+DOMAIN,static.garmin.com
+DOMAIN,fonts.garmin.com
+DOMAIN,res.garmin.com
+DOMAIN,share-assets.fe.garmin.com
 DOMAIN-SUFFIX,fw-cdn.com
 DOMAIN-SUFFIX,fsvod1.com
 DOMAIN,assets.foxdcg.com
@@ -3256,9 +3268,7 @@ DOMAIN,cdn.plaid.com
 DOMAIN,i.pcmag.com
 DOMAIN,apps.paidy.com
 DOMAIN,cdn.paidy.com
-DOMAIN,package-assets.oomol.com
 DOMAIN,registry.oomol.com
-DOMAIN,static.oomol.com
 DOMAIN,static-production.npmjs.com
 DOMAIN,static.npmjs.com
 DOMAIN-SUFFIX,npmfs.com
@@ -3342,6 +3352,7 @@ DOMAIN,s3-alpha-sig.figma.com
 DOMAIN,marketing.figma.com
 DOMAIN,s3-alpha.figma.com
 DOMAIN,static.figma.com
+DOMAIN,errors.figma.com
 DOMAIN,sprig.figma.com
 DOMAIN,static.fc2id.com
 DOMAIN,static.fc2cn.com
@@ -3780,12 +3791,14 @@ DOMAIN-SUFFIX,gitpage.si
 DOMAIN-SUFFIX,gitapp.si
 DOMAIN-SUFFIX,gcr.si
 DOMAIN,assets.vantage.sh
+DOMAIN,avatar.tangled.sh
 DOMAIN,cdn.cracked.sh
 DOMAIN,api-frameworks.vercel.sh
 DOMAIN,gitpkg-fork.vercel.sh
 DOMAIN,openapi.vercel.sh
 DOMAIN,s3.doujin.sh
 DOMAIN-SUFFIX,surge.sh
+DOMAIN-SUFFIX,gateway.scarf.sh
 DOMAIN,static.scarf.sh
 DOMAIN,proxy.cors.sh
 DOMAIN,brew.sh
