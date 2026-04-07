@@ -1,6 +1,6 @@
 #########################################
 # Reject
-# Last Updated: 2026-02-09T17:21:49.372Z
+# Last Updated: 2026-04-07T17:51:35.674Z
 # Size: 36
 # Ad blocking and privacy protection rules
 # Source: https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf
@@ -40,6 +40,6 @@ DOMAIN,stun.douyucdn.cn
 DOMAIN-SUFFIX,gjfzpt.cn
 DOMAIN-KEYWORD,-p2p.pull.yximgs.com
 DOMAIN-KEYWORD,-p2p-v2.pull.yximgs.com
-AND,((DOMAIN-SUFFIX,googlevideo.com,REJECT))
+AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))
 ################## EOF ##################
 

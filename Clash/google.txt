@@ -1,6 +1,6 @@
 #########################################
 # Google
-# Last Updated: 2026-02-09T17:21:52.638Z
+# Last Updated: 2026-04-07T17:51:37.363Z
 # Size: 364
 # Rules for Google
 # Source: https://rule.kelee.one/Loon/Google.lsr
@@ -364,10 +364,10 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,recaptcha
-IP-CIDR,74.125.0.0/16
-IP-CIDR,172.110.32.0/21
-IP-CIDR,173.194.0.0/16
-IP-CIDR,216.73.80.0/20
-IP-CIDR6,2620:120:e000::/40
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
 ################## EOF ##################
 

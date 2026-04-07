@@ -1,6 +1,6 @@
 #########################################
 # Streaming
-# Last Updated: 2026-02-09T17:21:49.032Z
+# Last Updated: 2026-04-07T17:51:34.992Z
 # Size: 16
 # Global streaming media platforms
 # Source: https://github.com/ConnersHua/RuleGo/raw/master/Surge/Ruleset/Extra/Streaming/CN.list
@@ -19,7 +19,7 @@ DOMAIN,cache.video.iqiyi.com
 DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN,mobileso.bz.mgtv.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
-IP-CIDR,116.211.202.206/32
-IP-CIDR,116.211.202.216/32
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
 ################## EOF ##################
 
