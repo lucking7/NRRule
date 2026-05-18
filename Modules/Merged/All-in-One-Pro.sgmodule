@@ -875,7 +875,7 @@ AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
 # ------------ 知乎去广告 -------------
 
 ^https:\/\/api\.zhihu\.com\/commercial_api\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/api\.zhihu\.com\/next-render\?id=\d+&type=answer&scenes=recommend&context_expand=1&is_native=1 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api\.zhihu\.com\/next-render\?id=\d+&type=answer data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/api\.zhihu\.com\/search\/preset_words\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/zhida\.zhihu\.com\/ai_ingress\/knowledge\/square\/categories\/feeds\?categoryId=1%7D$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/zhida\.zhihu\.com\/ai_ingress\/ai_chat\/guidance$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -965,7 +965,8 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 
 # ------------ 闲鱼去广告 -------------
 
-{{{闲鱼去广告}}}body_rewrite_30 = type=http-response, pattern=^https:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.resultPrefixBar%22%5D%5D%5D
+{{{闲鱼去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.magic\.home\.page\.list\/, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.topList%22%5D%5D%5D
+{{{闲鱼去广告}}}body_rewrite_31 = type=http-response, pattern=^https:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.resultPrefixBar%22%5D%5D%5D
 
 # ----------- 腾讯视频去广告 ------------
 
@@ -1121,15 +1122,12 @@ body_rewrite_117 = type=http-response, pattern=^https?:\/\/cmds\.omesoft\.com\/H
 # ------------ 知乎去广告 -------------
 
 {{{知乎去广告}}}body_rewrite_16 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22ad_info%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_17 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/answers\/v\d\/, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_18 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/articles\/v\d\/\d+$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/root_comment\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22atmosphere_voting_config%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\\/pins\/\d+\/root_comment\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22atmosphere_voting_config%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_25 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22continuous_consumption_module%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_26 = type=http-response, pattern=^https:\/\/page-info\.zhihu\.com\/answers\/v\d\/\d+$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_27 = type=http-response, pattern=^https:\/\/page-info\.zhihu\.com\/\/v\d\/\d$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_28 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/podcasts\/hub\/v\d$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22banners%22%5D%5D%5D
-{{{知乎去广告}}}body_rewrite_36 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/people\/self$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22vip_info.entrance_new.right_button%22%2C%22vip_info.entrance_v2%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_18 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/(answers|pins)\/\d+\/root_comment\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22atmosphere_voting_config%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/(api|page-info)\.zhihu\.com\/(articles|answers)\/v\d\/\d+$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(articles|answers|pins)\/v\d\/\d+\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%2C%22ring_info%22%2C%22interaction_bar_plugins%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22continuous_consumption_module%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/podcasts\/hub\/v\d$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22banners%22%5D%5D%5D
+{{{知乎去广告}}}body_rewrite_32 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/people\/self$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22vip_info.entrance_new.right_button%22%2C%22vip_info.entrance_v2%22%5D%5D%5D
 
 # ----------- 知识星球去水印 ------------
 
