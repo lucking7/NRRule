@@ -1,76 +1,10 @@
-/*
-脚本引用 https://raw.githubusercontent.com/RuCu6/Loon/refs/heads/main/Scripts/cainiao.js
-*/
-// 2025-05-06 20:50
+// 2024-09-27 11:50
 
 const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-if (url.includes("/mtop.cainiao.app.e2e.engine.page.fetch")) {
-  // 新版我的页面
-  if (obj?.data?.data) {
-    const items = [
-      "activity", // 热门活动
-      "asset", // 我的权益
-      "banner", // 底部滚动横图
-      "content",
-      // "header", // 头部信息
-      // "order" // 我的订单
-      // "packageArea", // 包裹导入
-      "vip", // 会员头部
-      "wallet" // 我的钱包
-    ];
-    for (let i of items) {
-      if (obj.data?.data?.[i]) {
-        delete obj.data.data[i];
-      }
-    }
-  }
-} else if (url.includes("/mtop.cainiao.app.mine.main")) {
-  // 我的页面
-  if (obj?.data) {
-    const items = [
-      "activity", // 热门活动
-      "asset", // 我的权益
-      "banner", // 底部滚动横图
-      "content"
-      // "header", // 头部信息
-      // "order" // 我的订单
-      // "packageArea", // 包裹导入
-    ];
-    for (let i of items) {
-      if (obj.data?.[i]) {
-        delete obj.data[i];
-      }
-    }
-  }
-} else if (url.includes("/mtop.cainiao.guoguo.nbnetflow.ads.show")) {
-  // 我的页面
-  if (obj?.data?.result?.length > 0) {
-    // 29338 寄件会员
-    // 29339 裹酱积分
-    // 33927 绿色能量
-    // 36649 回收旧物
-    obj.data.result = obj.data.result.filter(
-      (i) =>
-        !(
-          i?.materialContentMapper?.adItemDetail ||
-          (i?.materialContentMapper?.bgImg && i?.materialContentMapper?.advRecGmtModifiedTime) ||
-          ["common_header_banner", "entertainment", "interests", "kuaishou_banner"]?.includes(
-            i?.materialContentMapper?.group_id
-          ) ||
-          ["29338", "29339", "32103", "33927", "36649"]?.includes(i?.id)
-        )
-    );
-    for (let i of obj.data.result) {
-      if (i?.materialContentMapper?.show_tips_content) {
-        // 清空红点标记
-        i.materialContentMapper.show_tips_content = "";
-      }
-    }
-  }
-} else if (url.includes("/mtop.cainiao.guoguo.nbnetflow.ads.mshow")) {
+if (url.includes("/mtop.cainiao.guoguo.nbnetflow.ads.mshow")) {
   // 首页
   if (obj?.data) {
     const items = [
@@ -100,6 +34,31 @@ if (url.includes("/mtop.cainiao.app.e2e.engine.page.fetch")) {
     for (let i of items) {
       if (obj.data?.[i]) {
         delete obj.data[i];
+      }
+    }
+  }
+} else if (url.includes("/mtop.cainiao.guoguo.nbnetflow.ads.show")) {
+  // 我的页面
+  if (obj?.data?.result?.length > 0) {
+    // 29338 寄件会员
+    // 29339 裹酱积分
+    // 33927 绿色能量
+    // 36649 回收旧物
+    obj.data.result = obj.data.result.filter(
+      (i) =>
+        !(
+          i?.materialContentMapper?.adItemDetail ||
+          (i?.materialContentMapper?.bgImg && i?.materialContentMapper?.advRecGmtModifiedTime) ||
+          ["common_header_banner", "entertainment", "interests", "kuaishou_banner"]?.includes(
+            i?.materialContentMapper?.group_id
+          ) ||
+          ["29338", "29339", "32103", "33927", "36649"]?.includes(i?.id)
+        )
+    );
+    for (let i of obj.data.result) {
+      if (i?.materialContentMapper?.show_tips_content) {
+        // 清空红点标记
+        i.materialContentMapper.show_tips_content = "";
       }
     }
   }
@@ -136,18 +95,23 @@ if (url.includes("/mtop.cainiao.app.e2e.engine.page.fetch")) {
           let newBizs = [];
           for (let i of item.bizData.items) {
             const lists = [
-              "appCentreMore", // 更多
-              "dzb", // 地址簿
-              "jdj", // 特惠大件
-              "kddh", // 快递电话
-              "yfjsq" // 运费计算器
+              "618cjhb", // 超级红包
+              "bgxq", // 包裹星球
+              "cncy", // 填字赚现金
+              "cngy", // 免费领水果
+              "cngreen", // 绿色家园
+              "cnhs", // 菜鸟回收
+              "dtxb", // 地图寻宝
+              "gjjf", // 裹酱积分
+              "jkymd", // 集卡赢免单
+              "ljjq", // 领寄件券
+              "ttlhb", // 天天领红包
+              "xybg" // 幸运包裹
             ];
             if (lists?.includes(i?.key)) {
-              // 白名单
-              newBizs.push(i);
-            } else {
               continue;
             }
+            newBizs.push(i);
           }
           item.bizData.items = newBizs;
           for (let i of item.bizData.items) {
@@ -170,6 +134,24 @@ if (url.includes("/mtop.cainiao.app.e2e.engine.page.fetch")) {
   // 消息中心
   if (obj?.data?.data?.length > 0) {
     obj.data.data = obj.data.data.filter((i) => i?.conversationId?.includes("logistic_message"));
+  }
+} else if (url.includes("/mtop.cainiao.app.mine.main")) {
+  // 我的页面
+  if (obj?.data) {
+    const items = [
+      "activity", // 热门活动
+      "asset", // 我的权益
+      "banner", // 底部滚动横图
+      "content"
+      // "header", // 头部信息
+      // "order" // 我的订单
+      // "packageArea", // 包裹导入
+    ];
+    for (let i of items) {
+      if (obj.data?.[i]) {
+        delete obj.data[i];
+      }
+    }
   }
 }
 

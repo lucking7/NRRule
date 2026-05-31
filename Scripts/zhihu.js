@@ -1,7 +1,4 @@
-/*
-引用地址https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
-*/
-// 2024-10-28 01:35
+// 2026-01-19 20:50:00
 
 if (!$response.body) $done({});
 const url = $request.url;
@@ -32,21 +29,15 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
     }
   }
 } else if (url.includes("/api/v4/answers")) {
-  if (obj?.data) {
-    delete obj.data;
-  }
-  if (obj?.paging) {
-    delete obj.paging;
-  }
+  delete obj.data;
+  delete obj.paging;
 } else if (url.includes("/api/v4/articles")) {
   const item = ["ad_info", "paging", "recommend_info"];
   item.forEach((i) => {
     delete obj[i];
   });
 } else if (url.includes("/appcloud2.zhihu.com/v3/config")) {
-  if (obj?.config?.hp_channel_tab) {
-    delete obj.config.hp_channel_tab;
-  }
+  delete obj.config.hp_channel_tab;
   if (obj?.config) {
     if (obj.config?.homepage_feed_tab) {
       obj.config.homepage_feed_tab.tab_infos = obj.config.homepage_feed_tab.tab_infos.filter((i) => {
@@ -79,8 +70,8 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
   }
 } else if (url.includes("/commercial_api/app_float_layer")) {
   // 悬浮图标
-  if ("feed_egg" in obj) {
-    delete obj;
+  if (obj?.feed_egg) {
+    delete obj.feed_egg;
   }
 } else if (url.includes("/feed/render/tab/config")) {
   // 首页二级标签 白名单 live直播 edu人工智能AI
@@ -123,15 +114,9 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
   }
 } else if (url.includes("/questions/")) {
   // 问题回答列表
-  if (obj?.ad_info) {
-    delete obj.ad_info;
-  }
-  if (obj?.data?.ad_info) {
-    delete obj.data.ad_info;
-  }
-  if (obj?.query_info) {
-    delete obj.query_info;
-  }
+  delete obj.ad_info;
+  delete obj.data.ad_info;
+  delete obj.query_info;
   if (obj?.data?.length > 0) {
     obj.data = obj.data.filter((i) => !i?.target?.answer_type?.includes("paid"));
   }

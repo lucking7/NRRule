@@ -1,7 +1,7 @@
 /*
 引用地址 https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
 */
-// 2025-07-31 19:10
+// 2026-02-14 15:00
 
 const url = $request.url;
 if (!$response.body) $done({});
@@ -26,6 +26,15 @@ if (url.includes("/v1/interaction/comment/video/download")) {
   let newDatas = [];
   if (obj?.data?.[0]?.note_list?.length > 0) {
     for (let item of obj.data[0].note_list) {
+      if (item?.function_switch?.length > 0) {
+        // 新的保存按钮配置
+        for (let i of item.function_switch) {
+          if (i?.enable === false) {
+            i.enable = true;
+            i.reason = "";
+          }
+        }
+      }
       if (item?.media_save_config) {
         // 水印开关
         item.media_save_config.disable_save = false;
@@ -104,8 +113,8 @@ if (url.includes("/v1/interaction/comment/video/download")) {
   }
 } else if (url.includes("/v2/note/widgets")) {
   // 详情页小部件
-  const item = ["cooperate_binds", "generic", "note_next_step", "widgets_nbb", "widgets_ncb", "widgets_ndb"];
-  // cooperate_binds合作品牌 note_next_step活动 widgets_nbb相关搜索
+  const item = ["cooperate_binds", "generic", "note_next_step", "widget_list", "widgets_nbb", "widgets_ncb", "widgets_ndb"];
+  // cooperate_binds合作品牌 note_next_step活动 widget_list猜你想搜 widgets_nbb相关搜索
   if (obj?.data) {
     for (let i of item) {
       delete obj.data[i];
@@ -161,7 +170,7 @@ if (url.includes("/v1/interaction/comment/video/download")) {
   // 关注列表
   if (obj?.data?.items?.length > 0) {
     // recommend_user可能感兴趣的人
-    obj.data.items = obj.data.items.filter((i) => !["recommend_user"]?.includes(i?.recommend_reason));
+    obj.data.items = obj.data.items.filter((i) => !["recommend_user"].includes(i?.recommend_reason));
   }
 } else if (url.includes("/v4/note/videofeed")) {
   // 信息流 视频
@@ -170,6 +179,15 @@ if (url.includes("/v1/interaction/comment/video/download")) {
   let unlockDatas = [];
   if (obj?.data?.length > 0) {
     for (let item of obj.data) {
+      if (item?.function_switch?.length > 0) {
+        // 新的保存按钮配置
+        for (let i of item.function_switch) {
+          if (i?.enable === false) {
+            i.enable = true;
+            i.reason = "";
+          }
+        }
+      }
       if (item?.model_type === "note") {
         if (item?.id && item?.video_info_v2?.media?.stream?.h265?.[0]?.master_url) {
           let myData = {
@@ -312,6 +330,9 @@ if (url.includes("/v1/interaction/comment/video/download")) {
         // 信息流-带货
         continue;
       } else if (item?.note_attributes?.includes("goods")) {
+        // 信息流-商品
+        continue;
+      } else if (item?.has_related_goods === true) {
         // 信息流-商品
         continue;
       } else {
