@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-05-31T13:15:07.199Z
-# Size: 209
+# Last Updated: 2026-06-02T17:39:27.010Z
+# Size: 189
 # Rules for AI
 # Merged from 6 sources
 #########################################
@@ -17,9 +17,7 @@ DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,youmind.site
-DOMAIN,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,antigravity-unleash.goog
-DOMAIN,api.hyperbolic.xyz
 DOMAIN-SUFFIX,oystermercury.top
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,featureassets.org
@@ -32,7 +30,6 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN-SUFFIX,ct.sendgrid.net
-DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN,workos.imgix.net
@@ -74,9 +71,7 @@ DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
-DOMAIN,aiplatform.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN-SUFFIX,aicode.googleapis.com
 DOMAIN-SUFFIX,aida.googleapis.com
 DOMAIN,copilot-workspace.githubnext.com
@@ -97,7 +92,6 @@ DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,voyageai.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,manuscdn.com
@@ -113,7 +107,6 @@ DOMAIN,setup.workos.com
 DOMAIN,cdn.workos.com
 DOMAIN,js.stripe.com
 DOMAIN-SUFFIX,ollama.com
-DOMAIN,integrate.api.nvidia.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -132,7 +125,6 @@ DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,ciciai.com
-DOMAIN,models.inference.ai.azure.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
@@ -152,7 +144,6 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,traeapi.us
-DOMAIN,ai-gateway.vercel.sh
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,chorus.sh
 DOMAIN-SUFFIX,elevenlabs.io
@@ -169,12 +160,8 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,plannotator.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openrouter.ai
-DOMAIN-SUFFIX,hyperbolic.ai
 DOMAIN-SUFFIX,coderabbit.ai
-DOMAIN-SUFFIX,tokenflux.ai
 DOMAIN-SUFFIX,jetbrains.ai
-DOMAIN-SUFFIX,fireworks.ai
-DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,openclaw.ai
 DOMAIN-SUFFIX,lmstudio.ai
 DOMAIN-SUFFIX,cerebras.ai
@@ -195,11 +182,9 @@ DOMAIN-SUFFIX,arena.ai
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,jina.ai
 DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,h2o.ai
-DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,g.ai
 DOMAIN-KEYWORD,openai
@@ -208,11 +193,6 @@ DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
-AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
-AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
-AND,((DOMAIN-KEYWORD,antigravity-auto-updater-),(DOMAIN-SUFFIX,run.app))
 URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
-IP-CIDR,160.79.104.0/23,no-resolve
-IP-CIDR6,2607:6bc0::/48,no-resolve
 ################## EOF ##################
 
