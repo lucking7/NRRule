@@ -1,51 +1,22 @@
 #########################################
 # Streaming
-# Last Updated: 2026-06-14T06:33:56.828Z
-# Size: 42
+# Last Updated: 2026-06-14T18:10:50.548Z
+# Size: 13
 # Global streaming media platforms
-# Source: https://rule.kelee.one/Loon/YouTube.lsr
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
 #########################################
-DOMAIN,<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-DOMAIN,<button type="submit" class="btn btn-porkbun">Submit</button>
-DOMAIN,<div class="row" style="margin-left:0px; margin-right:0px;">
-DOMAIN,<meta http-equiv="X-UA-Compatible" content="IE=edge">
-DOMAIN,<label for="q">Find your own great domain:</label>
-DOMAIN,<div class="col-md-4 col-md-offset-4 text-center">
-DOMAIN,<div class="well" style="margin-top:30px;">
-DOMAIN,<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59154711-35"></script>
-DOMAIN,<meta name="description" content="">
-DOMAIN,<title>porkbun.com | domain for sale</title>
-DOMAIN,<center><a class="btn btn-lg btn-porkbun" target="_NEW" href="https://porkbun.com/tools/auctionRedirect/rere.ws">Make Offer</a></center>
-DOMAIN,<!-- Global site tag (gtag.js) - Google Analytics -->
-DOMAIN,<div class="form-group">
-DOMAIN,<link href="/css/all.css" rel="stylesheet">
-DOMAIN,<meta charset="utf-8">
-DOMAIN,<form method="GET" action="https://porkbun.com/checkout/search">
-DOMAIN,function gtag(){dataLayer.push(arguments);}
-DOMAIN,window.dataLayer = window.dataLayer || [];
-DOMAIN,<html lang="en">
-DOMAIN,<!DOCTYPE html>
-DOMAIN,</script>
-DOMAIN,</object>
-DOMAIN,</center>
-DOMAIN,<script>
-DOMAIN,<center>
-DOMAIN,</html>
-DOMAIN,</head>
-DOMAIN,</form>
-DOMAIN,</body>
-DOMAIN,<head>
-DOMAIN,<body>
-DOMAIN,</div>
-DOMAIN,<img class="img-responsive" src="/images/_money.svg">
-DOMAIN,<object class="img-responsive" data="https://porkbun-media.s3-us-west-2.amazonaws.com/tld-buns/_ws.svg">
-DOMAIN,<h1>This domain is for sale.</h1>
-DOMAIN,<br>
-DOMAIN,<p style="text-align:center;"><strong>rere.ws</strong> is registered at <a href="https://porkbun.com">Porkbun</a>. It has expired and is currently for sale at auction.</p>
-DOMAIN,<input class="form-control" type="text" id="q" name="q" placeholder="find your domain.">
-gtag('js', new Date());
-gtag('config','UA-59154711-35'
-gtag('event','visit'
-<meta name="viewport" content="width=device-width, initial-scale=1">
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-KEYWORD,youtube
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
 ################## EOF ##################
 
