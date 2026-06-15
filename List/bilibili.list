@@ -1,9 +1,9 @@
 #########################################
 # Streaming
-# Last Updated: 2026-06-14T18:10:50.998Z
-# Size: 133
+# Last Updated: 2026-06-15T01:05:46.477Z
+# Size: 127
 # Global streaming media platforms
-# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
+# Source: https://rule.kelee.one/Loon/BiliBili.lsr
 #########################################
 DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,bilibiligame.net
@@ -120,16 +120,10 @@ DOMAIN-SUFFIX,bili23.cn
 DOMAIN-SUFFIX,bili22.cn
 DOMAIN-SUFFIX,bigfun.cn
 DOMAIN-SUFFIX,bilibili.cc
+USER-AGENT,bili*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
-USER-AGENT,bili*
 USER-AGENT,bili-inter*
-PROCESS-NAME,com.bilibili.app.blue
-PROCESS-NAME,com.bilibili.app.in
-PROCESS-NAME,com.bilibili.comic
-PROCESS-NAME,com.bilibili.comic.intl
-PROCESS-NAME,tv.danmaku.bili
-PROCESS-NAME,tv.danmaku.bilibilihd
 IP-CIDR,106.75.74.76/32,no-resolve
 IP-CIDR,111.206.25.147/32,no-resolve
 IP-CIDR,119.3.238.64/32,no-resolve

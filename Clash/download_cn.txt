@@ -1,24 +1,26 @@
 #########################################
 # CDN
-# Last Updated: 2026-06-14T18:10:51.754Z
-# Size: 15
+# Last Updated: 2026-06-15T01:05:49.559Z
+# Size: 17
 # Rules for CDN
-# Source: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list
+# Source: https://kelee.one/Tool/Loon/Lsr/ChinaDownloadCDN.lsr
 #########################################
-DOMAIN-SUFFIX,smtp
-DOMAIN-KEYWORD,aria2
-PROCESS-NAME,DownloadService.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,Transmission.exe
-PROCESS-NAME,WebTorrent Helper.exe
-PROCESS-NAME,WebTorrent.exe
-PROCESS-NAME,Weiyun.exe
-PROCESS-NAME,aria2c.exe
-PROCESS-NAME,baidunetdisk.exe
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,qbittorrent.exe
-PROCESS-NAME,uTorrent.exe
+DOMAIN,st.dl.bscstorage.net
+DOMAIN,xz.pphimalayanrt.com
+DOMAIN,alibaba.cdn.steampipe.steamcontent.com
+DOMAIN,cdn-ali.content.steamchina.com
+DOMAIN,cdn-ws.content.steamchina.com
+DOMAIN,cdn-qc.content.steamchina.com
+DOMAIN,dl.delivery.mp.microsoft.com
+DOMAIN,tlu.dl.delivery.mp.microsoft.com
+DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
+DOMAIN,steampipe.steamcontent.tnkjmec.com
+DOMAIN,st.dl.eccdnx.com
+DOMAIN,dl.steam.clngaa.com
+DOMAIN,trts.baishancdnx.cn
+DOMAIN,assets2.xboxlive.cn
+DOMAIN,assets1.xboxlive.cn
+DOMAIN,lv.queniujq.cn
+DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 ################## EOF ##################
 

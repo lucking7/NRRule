@@ -1,9 +1,9 @@
 #########################################
 # Streaming
-# Last Updated: 2026-06-14T18:10:50.548Z
+# Last Updated: 2026-06-15T01:05:45.712Z
 # Size: 20
 # Global streaming media platforms
-# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
+# Source: https://rule.kelee.one/Loon/YouTube.lsr
 #########################################
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,video.google.com
@@ -15,13 +15,13 @@ DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-KEYWORD,youtube
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
-USER-AGENT,*youtube*
 USER-AGENT,YouTube*
+USER-AGENT,*youtube*
 USER-AGENT,YouTubeMusic*
+USER-AGENT,*YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,*com.google.ios.youtubemusic*
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
