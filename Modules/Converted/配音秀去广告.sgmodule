@@ -10,15 +10,15 @@
 #!date=2026-06-01 17:11:35
 
 [Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banners%22%5D%5D%5D
+body_rewrite_12 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banners%22%5D%5D%5D
 
-body_rewrite_13 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
+body_rewrite_13 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
 
-body_rewrite_14 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
+body_rewrite_14 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
 
-body_rewrite_15 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
+body_rewrite_15 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
 
-移除首页底部弹窗 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://nrrule.pages.dev/Scripts/DubbingShow_remove_ads.js, requires-body=true
+移除首页底部弹窗 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://nrrule.pages.dev/Scripts/694792f21aae-DubbingShow_remove_ads.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% iosapi.peiyinxiu.com

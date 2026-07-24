@@ -12,11 +12,11 @@
 #!arguments-desc=cron: 定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://nrrule.pages.dev/Scripts/sub-store-1.min.js, requires-body=true, timeout=120
+Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://nrrule.pages.dev/Scripts/966e5950297f-sub-store-1.min.js, requires-body=true, timeout=120
 
-Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://nrrule.pages.dev/Scripts/sub-store-0.min.js, requires-body=true, timeout=120
+Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://nrrule.pages.dev/Scripts/7ded59db32c0-sub-store-0.min.js, requires-body=true, timeout=120
 
-Sub-Store Sync = type=cron, cronexp="{{{cron}}}", script-path=https://nrrule.pages.dev/Scripts/cron-sync-artifacts.min.js, timeout=120
+Sub-Store Sync = type=cron, cronexp="{{{cron}}}", script-path=https://nrrule.pages.dev/Scripts/504806e4bf45-cron-sync-artifacts.min.js, timeout=120
 
 [MITM]
 hostname = %APPEND% sub.store

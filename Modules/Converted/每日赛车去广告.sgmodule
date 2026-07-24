@@ -10,7 +10,7 @@
 #!date=2026-07-02 20:41:31
 
 [Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/api\.romielf\.com\/index\/indexv\d\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.advertisement%22%2C%5B%5D%5D%2C%5B%22data.listadvertising%22%2C%5B%5D%5D%5D%5D%5D
+body_rewrite_12 = type=http-response, pattern=^https:\/\/api\.romielf\.com\/index\/indexv\d\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.advertisement%22%2C%5B%5D%5D%2C%5B%22data.listadvertising%22%2C%5B%5D%5D%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% api.romielf.com

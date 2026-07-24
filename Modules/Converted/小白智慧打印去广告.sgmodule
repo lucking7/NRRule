@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,adwanji.com,REJECT
 ^https:\/\/epbox\.gongfudou\.com\/big_data\/v\d\/canvas\/query_actions\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-body_rewrite_15 = type=http-response, pattern=^https:\/\/epbox\.gongfudou\.com\/graphql$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.mallConsumables%22%2C%22data.currentUser.goodsCoupons%22%5D%5D%5D
+body_rewrite_15 = type=http-response, pattern=^https:\/\/epbox\.gongfudou\.com\/graphql$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.mallConsumables%22%2C%22data.currentUser.goodsCoupons%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% epbox.gongfudou.com

@@ -11,9 +11,9 @@
 #!date=2026-06-14 20:11:24
 
 [Script]
-App Store API = type=http-request, pattern=^https:\/\/apple-api\.com, script-path=https://nrrule.pages.dev/Scripts/AppStoreAPI.js, requires-body=true
+App Store API = type=http-request, pattern=^https:\/\/apple-api\.com, script-path=https://nrrule.pages.dev/Scripts/691372cf8af5-AppStoreAPI.js, requires-body=true
 
-安装器 = type=http-request, pattern=^https:\/\/xiaobai\.app, script-path=https://nrrule.pages.dev/Scripts/Installer.js
+安装器 = type=http-request, pattern=^https:\/\/xiaobai\.app, script-path=https://nrrule.pages.dev/Scripts/9f16fcadb82d-Installer.js
 
 [MITM]
 hostname = %APPEND% apple-api.com, xiaobai.app

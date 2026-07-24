@@ -24,7 +24,7 @@ DOMAIN,api-ad-product.huxiu.com,REJECT
 ^https:\/\/api-web-moment\.huxiu\.com\/v3\/moment\/getDetailRecdArticle$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-body_rewrite_16 = type=http-response, pattern=^https:\/\/api-ms-feed\.huxiu\.com\/v1\/media\/recommend$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.live%22%5D%5D%5D
+body_rewrite_16 = type=http-response, pattern=^https:\/\/api-ms-feed\.huxiu\.com\/v1\/media\/recommend$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.live%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% api-ms-config.huxiu.com, api-web-feed.huxiu.com, api-search.huxiu.com, api-article.huxiu.com, api-web-moment.huxiu.com, api-ms-feed.huxiu.com

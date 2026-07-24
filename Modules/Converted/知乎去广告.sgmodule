@@ -33,21 +33,21 @@
 ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-body_rewrite_16 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22ad_info%22%5D%5D%5D
+body_rewrite_16 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22ad_info%22%5D%5D%5D
 
-body_rewrite_18 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/(answers|pins)\/\d+\/root_comment\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22atmosphere_voting_config%22%5D%5D%5D
+body_rewrite_18 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/(answers|pins)\/\d+\/root_comment\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22atmosphere_voting_config%22%5D%5D%5D
 
-body_rewrite_19 = type=http-response, pattern=^https:\/\/(api|page-info)(?:\.zhihu)?\.com\/answers\/v\d\/\d+(?:\?.*)?$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%2C%22float_search_word%22%5D%5D%5D
+body_rewrite_19 = type=http-response, pattern=^https:\/\/(api|page-info)(?:\.zhihu)?\.com\/answers\/v\d\/\d+(?:\?.*)?$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%2C%22float_search_word%22%5D%5D%5D
 
-body_rewrite_22 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(articles|answers|pins)\/v\d\/\d+\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%2C%22ring_info%22%2C%22interaction_bar_plugins%22%5D%5D%5D
+body_rewrite_22 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/(articles|answers|pins)\/v\d\/\d+\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22third_business%22%2C%22ring_info%22%2C%22interaction_bar_plugins%22%5D%5D%5D
 
-body_rewrite_23 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22continuous_consumption_module%22%5D%5D%5D
+body_rewrite_23 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22continuous_consumption_module%22%5D%5D%5D
 
-body_rewrite_24 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/podcasts\/hub\/v\d$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22banners%22%5D%5D%5D
+body_rewrite_24 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/podcasts\/hub\/v\d$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22banners%22%5D%5D%5D
 
-body_rewrite_28 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/search_v\d\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22pendant%22%5D%5D%5D
+body_rewrite_28 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/search_v\d\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22pendant%22%5D%5D%5D
 
-body_rewrite_36 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/people\/self$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22vip_info.entrance_new.right_button%22%2C%22vip_info.entrance_v2%22%5D%5D%5D
+body_rewrite_36 = type=http-response, pattern=^https:\/\/api\.zhihu\.com\/people\/self$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22vip_info.entrance_new.right_button%22%2C%22vip_info.entrance_v2%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% m-cloud.zhihu.com, api.zhihu.com, www.zhihu.com, page-info.zhihu.com, zhida.zhihu.com

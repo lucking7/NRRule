@@ -10,13 +10,13 @@
 #!date=2026-06-01 17:11:35
 
 [Script]
-前端界面 = type=http-request, pattern=^https?:\/\/script\.hub\/($|edit\/|reload), script-path=https://nrrule.pages.dev/Scripts/script-hub.js, timeout=300, 
+前端界面 = type=http-request, pattern=^https?:\/\/script\.hub\/($|edit\/|reload), script-path=https://nrrule.pages.dev/Scripts/71d45f38fd72-script-hub.js, timeout=300, 
 
-Rewrite转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://nrrule.pages.dev/Scripts/Rewrite-Parser.js, timeout=300
+Rewrite转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://nrrule.pages.dev/Scripts/d1171e6520de-Rewrite-Parser.js, timeout=300
 
-Rule转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, script-path=https://nrrule.pages.dev/Scripts/rule-parser.js, timeout=300
+Rule转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, script-path=https://nrrule.pages.dev/Scripts/5f575b117bdf-rule-parser.js, timeout=300
 
-JavaScript转换 = type=http-request, pattern=^https?:\/\/script\.hub\/convert\/, script-path=https://nrrule.pages.dev/Scripts/script-converter.js, timeout=300
+JavaScript转换 = type=http-request, pattern=^https?:\/\/script\.hub\/convert\/, script-path=https://nrrule.pages.dev/Scripts/884e36ed7bfe-script-converter.js, timeout=300
 
 [MITM]
 hostname = %APPEND% script.hub, *.script.hub

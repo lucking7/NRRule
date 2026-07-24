@@ -19,9 +19,9 @@
 ^https:\/\/appswh\.chaoxing\.com\/apis\/activity\/getNoteTopicList\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.ad%22%5D%5D%5D
+body_rewrite_12 = type=http-response, pattern=^https:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.ad%22%5D%5D%5D
 
-body_rewrite_16 = type=http-response, pattern=^https:\/\/apps\.chaoxing\.com\/apis\/home\/getHpXsqy\.jspx\?, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.list_timeapp%22%5D%5D%5D
+body_rewrite_16 = type=http-response, pattern=^https:\/\/apps\.chaoxing\.com\/apis\/home\/getHpXsqy\.jspx\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.list_timeapp%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% learn.chaoxing.com, home-yd.chaoxing.com, apps.chaoxing.com, groupyd2.chaoxing.com, appswh.chaoxing.com

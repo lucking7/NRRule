@@ -1,7 +1,7 @@
 #########################################
 # lucking - Reject
-# Last Updated: 2026-07-24T08:21:37.643Z
-# Size: 116995
+# Last Updated: 2026-07-24T15:42:11.386Z
+# Size: 116990
 # Rules for lucking - Reject
 # Merged from 4 sources
 #########################################
@@ -116167,11 +116167,6 @@ PROCESS-NAME,LemonMonitor
 PROCESS-NAME,LemonDaemon
 PROCESS-NAME,LemonAgent
 PROCESS-NAME,LemonService
-DOMAIN,80vn.cn
-DOMAIN,2016.sina.cn
-DOMAIN,9ibbcq2d.sina.cn
-DOMAIN,1oavsblobprodcus350.blob.core.windows.net
-DOMAIN,37bvsblobprodcus311.blob.core.windows.net
 DEST-PORT,7680
 AND,((DOMAIN-KEYWORD,genuine),(DOMAIN-KEYWORD,autodesk))
 URL-REGEX,/igd\.xml

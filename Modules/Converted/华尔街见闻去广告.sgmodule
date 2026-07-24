@@ -27,9 +27,9 @@
 ^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/carousel\/information-flow\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-body_rewrite_21 = type=http-response, pattern=^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.recommend_vip_img_uri%22%5D%5D%5D
+body_rewrite_21 = type=http-response, pattern=^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.recommend_vip_img_uri%22%5D%5D%5D
 
-body_rewrite_22 = type=http-response, pattern=^https:\/\/api-one-wscn\.awtmt\.com\/\/apiv1\/kvconfig\/items\/membersrights$, script-path=https://nrrule.pages.dev/Scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.vip_article%22%5D%5D%5D
+body_rewrite_22 = type=http-response, pattern=^https:\/\/api-one-wscn\.awtmt\.com\/\/apiv1\/kvconfig\/items\/membersrights$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.vip_article%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% api-one-wscn.awtmt.com

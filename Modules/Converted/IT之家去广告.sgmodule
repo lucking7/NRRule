@@ -15,7 +15,7 @@
 ^https?:\/\/dat\.ruanmei\.com\/ithome\/money\/acd\.json$ - reject
 
 [Script]
-IT之家去广告 = type=http-response, pattern=^https:\/\/napi\.ithome\.com\/api\/(news\/indexv2\/iphone\/\d+|topmenu\/getfeeds\?), script-path=https://nrrule.pages.dev/Scripts/IThome_remove_ads.js, requires-body=true, argument=removeAllBanners="{{{removeAllBanners}}}"&removePinnedArticles="{{{removePinnedArticles}}}"
+IT之家去广告 = type=http-response, pattern=^https:\/\/napi\.ithome\.com\/api\/(news\/indexv2\/iphone\/\d+|topmenu\/getfeeds\?), script-path=https://nrrule.pages.dev/Scripts/a31b4fde903a-IThome_remove_ads.js, requires-body=true, argument=removeAllBanners="{{{removeAllBanners}}}"&removePinnedArticles="{{{removePinnedArticles}}}"
 
 [MITM]
 hostname = %APPEND% napi.ithome.com, api.zuihuimai.com, dat.ruanmei.com
