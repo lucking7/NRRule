@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2026-08-05T18:19:00.140Z
-# Size: 45
+# Last Updated: 2026-09-03T19:23:03.085Z
+# Size: 46
 # Ad blocking and privacy protection rules
 # Source: https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf
 #########################################
@@ -43,6 +43,7 @@ DOMAIN,stun.douyucdn.cn
 DOMAIN-SUFFIX,gjfzpt.cn
 DOMAIN-KEYWORD,-p2p.pull.yximgs.com
 DOMAIN-KEYWORD,-p2p-v2.pull.yximgs.com
+DOMAIN-WILDCARD,upos-sz-302*.bilivideo.com
 DOMAIN-WILDCARD,p2p*.qq.com
 DOMAIN-WILDCARD,p2pchunk-*.douyucdn.cn
 DOMAIN-WILDCARD,p2plive-*.douyucdn.cn

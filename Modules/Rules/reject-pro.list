@@ -140,6 +140,10 @@ IP-CIDR,182.61.194.7/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 IP-CIDR6,240c:409f:1000::/128,no-resolve
 DOMAIN,hd.xiaojukeji.com
+IP-CIDR,116.85.2.41/32,no-resolve
+IP-CIDR,116.85.3.39/32,no-resolve
+IP-CIDR,123.207.209.142/32,no-resolve
+IP-CIDR,139.199.240.84/32,no-resolve
 DOMAIN,httpdns.zybang.com
 DOMAIN,serveraddr.service.kugou.com
 DOMAIN,twns.p2ptun.qq.com
@@ -211,25 +215,6 @@ DOMAIN,ad.tencentmusic.com
 DOMAIN,adservice.kugou.com
 DOMAIN,splashimgretrybssdl.cloud.kugou.com
 URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html"
-
-# ----------- 腾讯视频去广告 ------------
-
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,info4.video.qq.com
-DOMAIN,info6.video.qq.com
-DOMAIN,ios.video.mpush.qq.com
-DOMAIN,otheve.beacon.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,tpns.qq.com
-DOMAIN,vv6.video.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-KEYWORD,trace.qq.com
-DOMAIN-KEYWORD,trace.video.qq.com
-IP-CIDR,47.110.187.87/32,no-resolve
-URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+"
-URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+"
 
 # ------------ 拼多多去广告 ------------
 
@@ -375,10 +360,3 @@ DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
-
-# ----------- 滴滴出行去广告 ------------
-
-DOMAIN,gwp.xiaojukeji.com
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP))
