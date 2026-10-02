@@ -1,9 +1,9 @@
 #########################################
 # CDN
-# Last Updated: 2026-06-15T01:05:48.837Z
+# Last Updated: 2026-10-02T21:36:41.192Z
 # Size: 177
 # Rules for CDN
-# Source: https://kelee.one/Tool/Loon/Lsr/InternationalDownloadCDN.lsr
+# Source: https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/DownloadCDN_Global.list
 #########################################
 DOMAIN,ak.tiles.virtualearth.net
 DOMAIN,steampipe-partner.secure2.footprint.net
@@ -180,7 +180,7 @@ DOMAIN,download.hikarifield.co.jp
 DOMAIN-SUFFIX,hf.co
 DOMAIN,file.chobit.cc
 DOMAIN-KEYWORD,epicgames-download
-AND,((DOMAIN-KEYWORD,cdn),(DOMAIN-KEYWORD,-epicgames-))
 AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
+AND,((DOMAIN-KEYWORD,cdn),(DOMAIN-KEYWORD,-epicgames-))
 ################## EOF ##################
 

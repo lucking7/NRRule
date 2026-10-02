@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["time.xtracloud.net", "registry.npmmirror.com"],
+      "domain_suffix": [
+        "music.126.net",
+        "alipayobjects.com",
+        "360buyimg.com",
+        "sinaimg.com",
+        "biliimg.com",
+        "qhres2.com",
+        "qhimgs.com",
+        "alicdn.com",
+        "zhimg.com",
+        "qhres.com",
+        "qhimg.com",
+        "hdslb.com",
+        "sinaimg.cn",
+        "tbcdn.cn",
+        "ali-safety-video.acfun.cn",
+        "tx-safety-video.acfun.cn"
+      ],
+      "domain_regex": ["^qhimgs[\\w.-]\\.com$"]
+    }
+  ]
+}

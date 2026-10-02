@@ -1,9 +1,9 @@
 #########################################
 # Download
-# Last Updated: 2026-09-12T21:37:15.147Z
-# Size: 1969
+# Last Updated: 2026-10-02T21:36:46.872Z
+# Size: 1982
 # Rules for Download
-# Merged from 2 sources
+# Merged from 3 sources
 #########################################
 DOMAIN-SUFFIX,fnbuilds.services
 DOMAIN,ossmirror.mycloud.services
@@ -476,7 +476,6 @@ DOMAIN,releases.arc.net
 DOMAIN,mirror.internode.on.net
 DOMAIN-SUFFIX,catbox.moe
 DOMAIN,ruleset.skk.moe
-DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,speedtest-net-servers.cdn.skk.moe
 DOMAIN,chnroutes2.cdn.skk.moe
 DOMAIN,filters.cdn.skk.moe
@@ -1222,6 +1221,7 @@ DOMAIN-SUFFIX,s3.brave.com
 DOMAIN,mirror-cdn.xtom.com
 DOMAIN,mirrors.xtom.com
 DOMAIN,mirror.xtom.com
+DOMAIN,repo.xtom.com
 DOMAIN,download.xbox.com
 DOMAIN-SUFFIX,swupdate.vray.com
 DOMAIN-SUFFIX,mirrors.pair.com
@@ -1603,6 +1603,7 @@ DOMAIN,rep-ubuntu-il.upress.io
 DOMAIN,download.typora.io
 DOMAIN,dl.pikpak.io
 DOMAIN,packages.httpie.io
+DOMAIN,dl.heycue.io
 DOMAIN,store1.gofile.io
 DOMAIN,download.fydeos.io
 DOMAIN,registry-1.docker.io
@@ -1639,6 +1640,7 @@ DOMAIN,mirror.nitc.ac.in
 DOMAIN,ftp.iitm.ac.in
 DOMAIN,mirror.cse.iitk.ac.in
 DOMAIN,mirrors.iitd.ac.in
+DOMAIN,download.manus.im
 DOMAIN,npm.im
 DOMAIN,mirror.isoc.org.il
 DOMAIN,ubuntu-archive.interhost.co.il
@@ -1974,5 +1976,16 @@ DOMAIN,downloads.claude.ai
 DOMAIN,mirror.host.ag
 DOMAIN,mirror.bg.host.ag
 URL-REGEX,^http://(.+)\.gvt\d\.com/edgedl
+IP-CIDR,66.203.126.0/23,no-resolve
+IP-CIDR,94.24.36.0/23,no-resolve
+IP-CIDR,162.208.16.0/24,no-resolve
+IP-CIDR,185.206.24.0/22,no-resolve
+IP-CIDR6,2a0b:e40:1::/48,no-resolve
+IP-CIDR6,2a0b:e40:2::/47,no-resolve
+IP-CIDR6,2a0b:e41:1::/48,no-resolve
+IP-CIDR6,2a0b:e42:1::/48,no-resolve
+IP-CIDR6,2a0b:e43:1::/48,no-resolve
+IP-CIDR6,2a0b:e44:1::/48,no-resolve
+IP-CIDR6,2a0b:e45:1::/48,no-resolve
 ################## EOF ##################
 

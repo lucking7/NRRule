@@ -1,9 +1,9 @@
 #########################################
-# Streaming
-# Last Updated: 2026-06-15T01:05:46.477Z
-# Size: 127
-# Global streaming media platforms
-# Source: https://rule.kelee.one/Loon/BiliBili.lsr
+# BiliBili
+# Last Updated: 2026-10-02T21:36:45.971Z
+# Size: 132
+# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
+# Merged from 2 sources
 #########################################
 DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,bilibiligame.net
@@ -35,6 +35,7 @@ DOMAIN,180-101-74-1.ksyungslb.com
 DOMAIN,36-25-252-1.ksyungslb.com
 DOMAIN,222-188-6-1.ksyungslb.com
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilicomic.com
 DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com
@@ -75,6 +76,7 @@ DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com
 DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com
 DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com
 DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
+DOMAIN-SUFFIX,missevan.com
 DOMAIN-SUFFIX,maoercdn.com
 DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com
 DOMAIN-SUFFIX,dyhgames.com
@@ -93,6 +95,7 @@ DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,mincdn.com
 DOMAIN-SUFFIX,corari.com
 DOMAIN-SUFFIX,biligo.com
+DOMAIN-SUFFIX,maoer.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN,112-81-125-43.dhost.00cdn.com
 DOMAIN-SUFFIX,yo9.com
@@ -111,18 +114,20 @@ DOMAIN-SUFFIX,animetamashi.cn
 DOMAIN-SUFFIX,bilibilipay.cn
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bigfunapp.cn
+DOMAIN-SUFFIX,huasheng.cn
 DOMAIN-SUFFIX,biligame.cn
 DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bili2233.cn
+DOMAIN-SUFFIX,updream.cn
 DOMAIN-SUFFIX,anitama.cn
 DOMAIN-SUFFIX,bili33.cn
 DOMAIN-SUFFIX,bili23.cn
 DOMAIN-SUFFIX,bili22.cn
 DOMAIN-SUFFIX,bigfun.cn
 DOMAIN-SUFFIX,bilibili.cc
-USER-AGENT,bili*
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
+USER-AGENT,bili*
 USER-AGENT,bili-inter*
 IP-CIDR,106.75.74.76/32,no-resolve
 IP-CIDR,111.206.25.147/32,no-resolve

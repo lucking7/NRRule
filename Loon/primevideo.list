@@ -1,27 +1,42 @@
 #########################################
-# Streaming
-# Last Updated: 2026-06-15T01:05:45.069Z
-# Size: 18
-# Global streaming media platforms
-# Source: https://rule.kelee.one/Loon/PrimeVideo.lsr
+# Prime Video
+# Last Updated: 2026-10-02T21:36:45.475Z
+# Size: 33
+# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
+# Merged from 2 sources
 #########################################
+DOMAIN-SUFFIX,primevideo.info
+DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,llnwd.net
+DOMAIN,images-na.ssl-images-amazon.com
+DOMAIN,images-fe.ssl-images-amazon.com
+DOMAIN,images-eu.ssl-images-amazon.com
+DOMAIN-SUFFIX,amazonprimevideos.com
+DOMAIN,static.siege-amazon.com
 DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,primevideo.com
-DOMAIN,fls-na.amazon.com
-DOMAIN,atv-ps.amazon.com
-DOMAIN,www.amazon.com
+DOMAIN-SUFFIX,fls-na.amazon.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
+DOMAIN-SUFFIX,prod.service.minerva.devices.a2z.com
+DOMAIN,msh.amazon.co.uk
+DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,amazonprimevideo.cn
+DOMAIN-SUFFIX,amazonprimevideo.com.cn
+DOMAIN-SUFFIX,amazonvideo.cc
+DOMAIN-SUFFIX,primevideo.cc
 DOMAIN-KEYWORD,avoddashs
-USER-AGENT,Prime%20Video*
 USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 ################## EOF ##################
 

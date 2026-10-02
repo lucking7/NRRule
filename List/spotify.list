@@ -1,9 +1,9 @@
 #########################################
-# Streaming
-# Last Updated: 2026-06-15T01:05:44.379Z
-# Size: 8
-# Global streaming media platforms
-# Source: https://rule.kelee.one/Loon/Spotify.lsr
+# Spotify
+# Last Updated: 2026-10-02T21:36:45.325Z
+# Size: 9
+# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
+# Merged from 2 sources
 #########################################
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,spoti.fi
@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-KEYWORD,spotify
 USER-AGENT,Spotify*
+PROCESS-NAME,com.spotify.music
 IP-CIDR,35.186.224.47/32,no-resolve
 IP-CIDR,104.154.127.126/32,no-resolve
 ################## EOF ##################
