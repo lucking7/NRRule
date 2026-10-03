@@ -5,12 +5,14 @@
 #!category=🚫 AD Block
 #!openUrl=https://apps.apple.com/app/id1590997618
 #!category=去广告
-#!loon_version=3.4.0(962)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-07-02 20:41:31
+#!date=2026-10-02 13:57:49
 
-[Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/api\.romielf\.com\/index\/indexv\d\?, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.advertisement%22%2C%5B%5D%5D%2C%5B%22data.listadvertising%22%2C%5B%5D%5D%5D%5D%5D
+[Body Rewrite]
+http-response-jq (?i)^https:\/\/api\.romielf\.com\/index\/indexv\d\? 'if ((getpath(["data"]) // {}) | has("advertisement")) then (setpath(["data","advertisement"]; "[]")) else . end'
+http-response-jq (?i)^https:\/\/api\.romielf\.com\/index\/indexv\d\? 'if ((getpath(["data"]) // {}) | has("listadvertising")) then (setpath(["data","listadvertising"]; "[]")) else . end'
+http-response-jq (?i)^https:\/\/api\.romielf\.com\/index\/indexv\d\? '.data.list |= map(select(.type == 1))'
 
 [MITM]
 hostname = %APPEND% api.romielf.com

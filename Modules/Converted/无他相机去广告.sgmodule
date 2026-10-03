@@ -5,12 +5,18 @@
 #!category=🚫 AD Block
 #!openUrl=https://apps.apple.com/app/id1061534032
 #!category=去广告
-#!loon_version=3.4.0(962)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
+#!date=2026-10-02 13:57:49
 
-[Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/api-release\.wuta-cam\.com\/ad_tree$, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22regular.splash%22%2C%22big_day%22%2C%22big_day_overrides%22%2C%22regular.home_bottom_right_entry_v2%22%2C%22regular.pic_upload_alert%22%2C%22regular.retouching_before_icon%22%5D%5D%5D
+[Body Rewrite]
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["regular","splash"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["big_day"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["big_day_overrides"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["regular","home_bottom_right_entry_v2"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["regular","pic_upload_alert"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ 'delpaths([["regular","retouching_before_icon"]])'
+http-response-jq (?i)^https:\/\/api-release\.wuta-cam\.com\/ad_tree$ '.regular.homepage_25_bottom_nav_bar|=map(.button_list|=map(select(.name|IN("home","me"))))'
 
 [MITM]
 hostname = %APPEND% api-release.wuta-cam.com

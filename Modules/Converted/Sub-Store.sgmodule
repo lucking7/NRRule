@@ -5,16 +5,16 @@
 #!category=🚫 AD Block
 #!openUrl=https://sub.store
 #!category=订阅管理
-#!loon_version=3.4.0(962)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
+#!date=2026-10-02 13:57:49
 #!arguments=cron:"55 23 * * *"
 #!arguments-desc=cron: 定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://nrrule.pages.dev/Scripts/966e5950297f-sub-store-1.min.js, requires-body=true, timeout=120
+Sub-Store Core = type=http-request, pattern=(?i)^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://nrrule.pages.dev/Scripts/966e5950297f-sub-store-1.min.js, requires-body=true, timeout=120
 
-Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://nrrule.pages.dev/Scripts/7ded59db32c0-sub-store-0.min.js, requires-body=true, timeout=120
+Sub-Store Simple = type=http-request, pattern=(?i)^https?:\/\/sub\.store, script-path=https://nrrule.pages.dev/Scripts/7ded59db32c0-sub-store-0.min.js, requires-body=true, timeout=120
 
 Sub-Store Sync = type=cron, cronexp="{{{cron}}}", script-path=https://nrrule.pages.dev/Scripts/504806e4bf45-cron-sync-artifacts.min.js, timeout=120
 

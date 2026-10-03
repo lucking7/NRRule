@@ -5,20 +5,18 @@
 #!category=🚫 AD Block
 #!openUrl=https://apps.apple.com/app/id746925035
 #!category=去广告
-#!loon_version=3.4.0(962)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
+#!date=2026-10-02 13:57:49
+
+[Body Rewrite]
+http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList 'delpaths([["data","banners"]])'
+http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList 'delpaths([["obj","data"]])'
+http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers 'delpaths([["obj","data"]])'
+http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData 'delpaths([["obj","data"]])'
 
 [Script]
-body_rewrite_12 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banners%22%5D%5D%5D
-
-body_rewrite_13 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
-
-body_rewrite_14 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
-
-body_rewrite_15 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData, script-path=https://nrrule.pages.dev/Scripts/aa0bfa004a76-body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22obj.data%22%5D%5D%5D
-
-移除首页底部弹窗 = type=http-response, pattern=^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://nrrule.pages.dev/Scripts/694792f21aae-DubbingShow_remove_ads.js, requires-body=true
+移除首页底部弹窗 = type=http-response, pattern=(?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://nrrule.pages.dev/Scripts/694792f21aae-DubbingShow_remove_ads.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% iosapi.peiyinxiu.com
