@@ -515,6 +515,21 @@
             background: color-mix(in oklch, var(--color-paper) 45%, var(--color-surface));
           }
 
+          .rule-description {
+            margin: 0;
+            padding: 0.75rem 0.85rem 0.5rem 2.1rem;
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            line-height: 1.65;
+            color: var(--color-ink);
+          }
+
+          .rule-help-link {
+            display: inline-flex;
+            align-items: center;
+            min-height: 2.75rem;
+          }
+
           .fmt-list {
             list-style: none;
             margin: 0;
@@ -980,11 +995,11 @@
           </header>
 
           <p class="lede">
-            60 条规则 × 4 客户端格式。搜规则名 → 展开卡片 →
+            67 条规则 × 4 客户端格式。搜规则名 → 展开卡片 →
             复制你客户端的 URL。
           </p>
           <p class="build-line">
-            Last build <time datetime="2026-10-07T14:18:01.165+08:00">2026-10-07 14:18 +08:00</time>
+            Last build <time datetime="2026-10-07T16:28:28.322+08:00">2026-10-07 16:28 +08:00</time>
           </p>
 
           <div class="controls" id="controls">
@@ -1033,7 +1048,7 @@
           <section class="rules-section" aria-labelledby="rules-heading">
             <h2 class="section-h" id="rules-heading">
               Rules
-              <span class="section-count">60</span>
+              <span class="section-count">67</span>
             </h2>
             <div class="rule-list" id="rule-list">
               
@@ -1058,6 +1073,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1168,6 +1184,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1278,6 +1295,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1388,6 +1406,14 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
+    <p class="rule-description">
+      <strong>Apple · 兼容合集</strong><br />
+      Apple 服务、中国大陆 CDN 与 iCloud Private Relay 的兼容合集。<br />
+      需要分别选择策略时，使用 Apple 拆分订阅；Apple Intelligence 单独订阅。
+      
+    </p>
+  
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1479,6 +1505,242 @@
     
       <details
         class="rule"
+        data-rule="apple_cdn"
+        data-name="apple_cdn"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">apple_cdn</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Apple · 中国大陆 CDN</strong><br />
+      Apple 在中国大陆使用的 CDN 域名。<br />
+      大陆用户通常可直连；放在 Apple 服务和 Download 等合集之前。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/apple_cdn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cdn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/apple_cdn.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for apple_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/apple_cdn.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cdn.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/apple_cdn.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for apple_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/apple_cdn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cdn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/apple_cdn.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for apple_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/apple_cdn.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cdn.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/apple_cdn.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for apple_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
+        data-rule="apple_cn"
+        data-name="apple_cn"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">apple_cn</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Apple · 中国大陆服务</strong><br />
+      云上贵州 iCloud、Apple 地图中国大陆服务等域名。<br />
+      通常可直连；放在 Apple 服务合集之前。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/apple_cn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/apple_cn.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for apple_cn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/apple_cn.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cn.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/apple_cn.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for apple_cn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/apple_cn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/apple_cn.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for apple_cn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/apple_cn.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_cn.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/apple_cn.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for apple_cn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
         data-rule="apple_intelligence"
         data-name="apple_intelligence"
         data-clients="List Clash Loon sing-box"
@@ -1498,6 +1760,14 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
+    <p class="rule-description">
+      <strong>Apple · Apple Intelligence</strong><br />
+      Apple Intelligence 服务域名。<br />
+      按服务可用性选择策略；与 iCloud Private Relay 分开订阅。
+      
+    </p>
+  
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1589,6 +1859,242 @@
     
       <details
         class="rule"
+        data-rule="apple_services"
+        data-name="apple_services"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">apple_services</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Apple · 服务规则</strong><br />
+      Apple 服务规则，供用户与中国大陆 CDN、iCloud Private Relay 分别选择策略。<br />
+      放在 CDN 和中国大陆服务订阅之后；Loon 和 sing-box 不包含进程匹配。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/apple_services.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/apple_services.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for apple_services"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/apple_services.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/apple_services.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for apple_services"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/apple_services.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/apple_services.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for apple_services"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/apple_services.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/apple_services.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for apple_services"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
+        data-rule="apple_services_ip"
+        data-name="apple_services_ip"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">apple_services_ip</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Apple · 服务 IP</strong><br />
+      Apple 服务的 IP 地址段。<br />
+      放在所有域名订阅之后；按需选择 Apple 服务策略。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/apple_services_ip.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services_ip.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/apple_services_ip.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for apple_services_ip"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/apple_services_ip.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services_ip.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/apple_services_ip.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for apple_services_ip"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/apple_services_ip.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services_ip.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/apple_services_ip.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for apple_services_ip"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/apple_services_ip.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >apple_services_ip.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/apple_services_ip.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for apple_services_ip"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
         data-rule="bilibili"
         data-name="bilibili"
         data-clients="List Clash Loon sing-box"
@@ -1608,6 +2114,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1718,6 +2225,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1828,6 +2336,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -1938,6 +2447,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2048,6 +2558,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2158,6 +2669,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2268,6 +2780,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2315,6 +2828,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2425,6 +2939,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2535,6 +3050,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2645,6 +3161,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2755,6 +3272,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2865,6 +3383,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -2975,6 +3494,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3085,6 +3605,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3195,6 +3716,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3305,6 +3827,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3415,6 +3938,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3525,6 +4049,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3635,6 +4160,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3745,6 +4271,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3836,6 +4363,124 @@
     
       <details
         class="rule"
+        data-rule="icloud_private_relay"
+        data-name="icloud_private_relay"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">icloud_private_relay</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Apple · iCloud Private Relay</strong><br />
+      iCloud Private Relay 域名，单独选择其连接策略。<br />
+      放在 Apple 合集之前；与 Apple Intelligence 分开订阅。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/icloud_private_relay.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >icloud_private_relay.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/icloud_private_relay.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for icloud_private_relay"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/icloud_private_relay.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >icloud_private_relay.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/icloud_private_relay.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for icloud_private_relay"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/icloud_private_relay.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >icloud_private_relay.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/icloud_private_relay.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for icloud_private_relay"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/icloud_private_relay.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >icloud_private_relay.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/icloud_private_relay.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for icloud_private_relay"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
         data-rule="lan"
         data-name="lan"
         data-clients="List Clash Loon sing-box"
@@ -3855,6 +4500,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -3965,6 +4611,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4056,6 +4703,124 @@
     
       <details
         class="rule"
+        data-rule="microsoft_cdn"
+        data-name="microsoft_cdn"
+        data-clients="List Clash Loon sing-box"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">microsoft_cdn</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-on" title="Clash 可用">C</span>
+<span class="av is-on" title="Loon 可用">L</span>
+<span class="av is-on" title="sing-box 可用">X</span></span>
+          <span class="sr-only">可用格式:Surge、Clash、Loon、sing-box</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Microsoft · 中国大陆 CDN</strong><br />
+      Microsoft 在中国大陆使用的 CDN 和 HTTP 证书查询路径。<br />
+      大陆用户通常可直连；放在 Microsoft 和 Download 合集之前。Clash、sing-box 仅包含域名部分。
+      
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/microsoft_cdn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >microsoft_cdn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/microsoft_cdn.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for microsoft_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Clash">
+            <span class="fmt-client">Clash</span>
+            <a
+              class="fmt-file"
+              href="/Clash/microsoft_cdn.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >microsoft_cdn.txt</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Clash/microsoft_cdn.txt"
+              data-client="Clash"
+              aria-label="Copy Clash URL for microsoft_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="Loon">
+            <span class="fmt-client">Loon</span>
+            <a
+              class="fmt-file"
+              href="/Loon/microsoft_cdn.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >microsoft_cdn.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/Loon/microsoft_cdn.list"
+              data-client="Loon"
+              aria-label="Copy Loon URL for microsoft_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+
+          <li class="fmt" data-client-dir="sing-box">
+            <span class="fmt-client">sing-box</span>
+            <a
+              class="fmt-file"
+              href="/sing-box/microsoft_cdn.json"
+              target="_blank"
+              rel="noopener noreferrer"
+              >microsoft_cdn.json</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/sing-box/microsoft_cdn.json"
+              data-client="sing-box"
+              aria-label="Copy sing-box URL for microsoft_cdn"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
         data-rule="my_git"
         data-name="my_git"
         data-clients="List Clash Loon sing-box"
@@ -4075,6 +4840,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4185,6 +4951,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4295,6 +5062,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4405,6 +5173,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4515,6 +5284,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4625,6 +5395,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4735,6 +5506,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4845,6 +5617,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -4955,6 +5728,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5065,6 +5839,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5175,6 +5950,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5285,6 +6061,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5395,6 +6172,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5505,6 +6283,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5596,6 +6375,61 @@
     
       <details
         class="rule"
+        data-rule="reject_url_regex"
+        data-name="reject_url_regex"
+        data-clients="List"
+        data-copy-scope
+      >
+        <summary class="rule-summary">
+          <span class="rule-name">reject_url_regex</span>
+          <span class="avail" aria-hidden="true"><span class="av is-on" title="Surge 可用">S</span>
+<span class="av is-off" title="无 Clash 格式">C</span>
+<span class="av is-off" title="无 Loon 格式">L</span>
+<span class="av is-off" title="无 sing-box 格式">X</span></span>
+          <span class="sr-only">可用格式:Surge</span>
+        </summary>
+        <div class="rule-body">
+          <div class="copied-strip" hidden>
+            <span class="copied-status"></span>
+            <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
+            <button type="button" class="strip-close" aria-label="关闭">✕</button>
+          </div>
+          
+    <p class="rule-description">
+      <strong>Reject · 可选 URL 拦截 · Surge only</strong><br />
+      URL 级广告与跟踪拦截，仅支持 Surge。HTTPS 匹配需要启用 MITM。<br />
+      启用并信任 Surge MITM 证书，再加载配套模块；需要 URL 拦截时才订阅。
+      <br /><a class="rule-help-link" href="/Mirror/Sukka/sgmodule/sukka_mitm_hostnames.sgmodule">配套 MITM 模块</a>
+    </p>
+  
+          <ul class="fmt-list">
+            
+          <li class="fmt" data-client-dir="List">
+            <span class="fmt-client">Surge</span>
+            <a
+              class="fmt-file"
+              href="/List/reject_url_regex.list"
+              target="_blank"
+              rel="noopener noreferrer"
+              >reject_url_regex.list</a
+            >
+            <button
+              type="button"
+              class="copy-btn"
+              data-path="/List/reject_url_regex.list"
+              data-client="Surge"
+              aria-label="Copy Surge URL for reject_url_regex"
+            >
+              Copy URL
+            </button>
+          </li>
+        
+          </ul>
+        </div>
+      </details>
+    
+      <details
+        class="rule"
         data-rule="sogouinput"
         data-name="sogouinput"
         data-clients="List Clash Loon sing-box"
@@ -5615,6 +6449,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5725,6 +6560,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5835,6 +6671,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -5945,6 +6782,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6055,6 +6893,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6165,6 +7004,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6275,6 +7115,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6385,6 +7226,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6495,6 +7337,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6605,6 +7448,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6715,6 +7559,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6825,6 +7670,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -6935,6 +7781,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -7045,6 +7892,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -7155,6 +8003,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -7265,6 +8114,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -7375,6 +8225,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
@@ -7485,6 +8336,7 @@
             <input class="copied-url" type="text" readonly aria-label="已复制的 URL" />
             <button type="button" class="strip-close" aria-label="关闭">✕</button>
           </div>
+          
           <ul class="fmt-list">
             
           <li class="fmt" data-client-dir="List">
