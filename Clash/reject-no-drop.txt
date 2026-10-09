@@ -1,6 +1,6 @@
 #########################################
 # Reject
-# Last Updated: 2026-10-02T21:36:40.915Z
+# Last Updated: 2026-10-09T18:18:02.390Z
 # Size: 45
 # Ad blocking and privacy protection rules
 # Source: https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf
@@ -49,6 +49,6 @@ DOMAIN-WILDCARD,p2plive-*.douyucdn.cn
 DOMAIN-WILDCARD,dyp2p-*.douyucdn.cn
 DOMAIN-WILDCARD,stun*.douyucdn.cn
 DOMAIN-WILDCARD,p2p-*.douyucdn.cn
-AND,((PROTOCOL,UDP), (DOMAIN-SUFFIX,googlevideo.com))
+AND,((NETWORK,UDP),(DOMAIN-SUFFIX,googlevideo.com))
 ################## EOF ##################
 
