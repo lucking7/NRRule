@@ -1,0 +1,1777 @@
+{
+  "schemaVersion": 1,
+  "basis": "example-order",
+  "scope": [
+    "Proves DOMAIN and DOMAIN-SUFFIX condition containment in the supplied outer order, including earlier narrower exceptions. Earlier extended-matching covers plain conditions; plain matching only partially covers extended conditions.",
+    "Policy differences are review candidates; intentional service exceptions are not automatically configuration errors.",
+    "IP, keyword, wildcard, logical, URL and other unsupported conditions are counted but do not prove unconditional domain shadow.",
+    "USER-AGENT and PROCESS-NAME warnings are conditional on request metadata; they never count as unconditional domain coverage.",
+    "Profile input audits only its [Rule] section. Supply a sanitized effective profile to include enabled module rules.",
+    "Remote subscriptions are not fetched. Missing or unsupported subscriptions are explicit gaps, and earlier gaps may change the actual winner.",
+    "Does not simulate observed TLS SNI or HTTP Host, DNS lookup, pre-matching, client runtime indexes, connections or policy group selections."
+  ],
+  "summary": {
+    "subscriptions": 22,
+    "auditedSubscriptions": 22,
+    "skippedSubscriptions": 0,
+    "missingLocalSubscriptions": 0,
+    "domainRules": 146595,
+    "unsupportedRules": 5528,
+    "fullyCoveredDomainRules": 460,
+    "partlyOverlappingDomainRules": 1083,
+    "samePolicyRedundancies": 26,
+    "differentPolicyConflicts": 1506,
+    "fullyShadowedSubscriptions": 1,
+    "fullyShadowedDomainSubscriptions": 1,
+    "conditionalWarnings": 83
+  },
+  "subscriptions": [
+    {
+      "id": "reject.list",
+      "policy": "REJECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 136955,
+      "domainRules": 135968,
+      "unsupportedRules": 987,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 144,
+        "DOMAIN-WILDCARD": 15,
+        "URL-REGEX": 3,
+        "IP-CIDR": 804,
+        "IP-CIDR6": 6,
+        "IP-ASN": 15
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "wechat_no_ua.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 331,
+      "domainRules": 26,
+      "unsupportedRules": 305,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 233,
+        "IP-CIDR": 3,
+        "IP-CIDR6": 69
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 7,
+      "partlyOverlappingDomainRules": 4,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 11,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+          "line": 8,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12498,
+              "rule": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,wechat.com",
+          "line": 14,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 75335,
+              "rule": "DOMAIN,dns.wechat.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,weixin.qq.com",
+          "line": 19,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 85127,
+              "rule": "DOMAIN,aedns.weixin.qq.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,btrace.qq.com",
+          "line": 21,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 85142,
+              "rule": "DOMAIN-SUFFIX,btrace.qq.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,wup.imtt.qq.com",
+          "line": 22,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 85174,
+              "rule": "DOMAIN-SUFFIX,imtt.qq.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_intelligence.list",
+      "policy": "AppleIntelligence",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 5,
+      "domainRules": 5,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "ai.list",
+      "policy": "AI",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 271,
+      "domainRules": 237,
+      "unsupportedRules": 34,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 6,
+        "URL-REGEX": 1,
+        "IP-CIDR": 25,
+        "IP-ASN": 2
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 20,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 20,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,featuregates.org",
+          "line": 30,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 11178,
+              "rule": "DOMAIN-SUFFIX,featuregates.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,events.statsigapi.net",
+          "line": 35,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12927,
+              "rule": "DOMAIN-SUFFIX,events.statsigapi.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,browser-intake-datadoghq.com",
+          "line": 54,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 17022,
+              "rule": "DOMAIN-SUFFIX,browser-intake-datadoghq.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,rum.browser-intake-datadoghq.com",
+          "line": 55,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 17022,
+              "rule": "DOMAIN-SUFFIX,browser-intake-datadoghq.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,static.cloudflareinsights.com",
+          "line": 57,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 21293,
+              "rule": "DOMAIN-SUFFIX,cloudflareinsights.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emby.list",
+      "policy": "Emby",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 250,
+      "domainRules": 237,
+      "unsupportedRules": 13,
+      "unsupportedTypes": {
+        "IP-CIDR": 13
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "stream.list",
+      "policy": "Streaming",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 361,
+      "domainRules": 265,
+      "unsupportedRules": 96,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 14,
+        "USER-AGENT": 49,
+        "PROCESS-NAME": 14,
+        "IP-CIDR": 15,
+        "IP-CIDR6": 4
+      },
+      "conditionalRules": 63,
+      "fullyCoveredDomainRules": 2,
+      "partlyOverlappingDomainRules": 61,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 63,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,pbs.org",
+          "line": 15,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12115,
+              "rule": "DOMAIN-SUFFIX,microsite.pbs.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflix.net",
+          "line": 52,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14621,
+              "rule": "DOMAIN-SUFFIX,beaconimages.netflix.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,aiv-cdn.net",
+          "line": 55,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14755,
+              "rule": "DOMAIN-SUFFIX,s3-iad-ww.cf.videorolls.row.aiv-cdn.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,fanfox.net",
+          "line": 57,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14952,
+              "rule": "DOMAIN-SUFFIX,adsmg.fanfox.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,smartmediarep.com",
+          "line": 78,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 33026,
+              "rule": "DOMAIN-SUFFIX,adtracking.smartmediarep.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telegram.list",
+      "policy": "Telegram",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 33,
+      "domainRules": 14,
+      "unsupportedRules": 19,
+      "unsupportedTypes": {
+        "IP-CIDR": 9,
+        "IP-CIDR6": 5,
+        "IP-ASN": 5
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "apple_cdn.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 159,
+      "domainRules": 159,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 2,
+      "partlyOverlappingDomainRules": 2,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 4,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
+          "line": 67,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 125,
+              "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,guzzoni.apple.com",
+          "line": 114,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 174,
+              "rule": "DOMAIN,guzzoni.apple.com",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,itunes.apple.com",
+          "line": 118,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "stream.list",
+              "policy": "Streaming",
+              "line": 184,
+              "rule": "DOMAIN,play-edge.itunes.apple.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,guzzoni.smoot.apple.com",
+          "line": 127,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 175,
+              "rule": "DOMAIN-SUFFIX,smoot.apple.com",
+              "matchMode": "extended"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_cn.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 9,
+      "domainRules": 9,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 2,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 2,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN,gs-loc-cn.apple.com",
+          "line": 8,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 105,
+              "rule": "DOMAIN-SUFFIX,gs-loc-cn.apple.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com",
+          "line": 10,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 155,
+              "rule": "DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microsoft_cdn.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 53,
+      "domainRules": 51,
+      "unsupportedRules": 2,
+      "unsupportedTypes": {
+        "URL-REGEX": 2
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "download.list",
+      "policy": "CDN",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 1992,
+      "domainRules": 1971,
+      "unsupportedRules": 21,
+      "unsupportedTypes": {
+        "DOMAIN-WILDCARD": 9,
+        "URL-REGEX": 1,
+        "IP-CIDR": 4,
+        "IP-CIDR6": 7
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 10,
+      "partlyOverlappingDomainRules": 13,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 23,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,archive.org",
+          "line": 156,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 11774,
+              "rule": "DOMAIN-SUFFIX,analytics.archive.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,dl.playstation.net",
+          "line": 284,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12772,
+              "rule": "DOMAIN-SUFFIX,mercury.dl.playstation.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,cdn.nintendo.net",
+          "line": 352,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14252,
+              "rule": "DOMAIN-SUFFIX,sprofile-lp1.cdn.nintendo.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,blob.core.windows.net",
+          "line": 379,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14513,
+              "rule": "DOMAIN,37bvsblobprodcus311.blob.core.windows.net",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 43,
+              "rule": "DOMAIN,copilotprodattachments.blob.core.windows.net",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,s3.yandex.net",
+          "line": 415,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14794,
+              "rule": "DOMAIN-SUFFIX,easy-monetization.s3.yandex.net",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic_cdn.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 19,
+      "domainRules": 18,
+      "unsupportedRules": 1,
+      "unsupportedTypes": {
+        "DOMAIN-WILDCARD": 1
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 5,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 5,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,music.126.net",
+          "line": 9,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 15472,
+              "rule": "DOMAIN,iadmusicmatvideo.music.126.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,alicdn.com",
+          "line": 17,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 79380,
+              "rule": "DOMAIN,httpdns.alicdn.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,qhimg.com",
+          "line": 20,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 80489,
+              "rule": "DOMAIN-SUFFIX,guess.h.qhimg.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,sinaimg.cn",
+          "line": 22,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 120363,
+              "rule": "DOMAIN,ad.us.sinaimg.cn",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,tbcdn.cn",
+          "line": 23,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 120567,
+              "rule": "DOMAIN,g.tbcdn.cn",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 873,
+      "domainRules": 867,
+      "unsupportedRules": 6,
+      "unsupportedTypes": {
+        "DOMAIN-WILDCARD": 1,
+        "USER-AGENT": 3,
+        "IP-CIDR": 2
+      },
+      "conditionalRules": 3,
+      "fullyCoveredDomainRules": 30,
+      "partlyOverlappingDomainRules": 256,
+      "samePolicyRedundancies": 13,
+      "differentPolicyConflicts": 272,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,aliapp.org",
+          "line": 25,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 11886,
+              "rule": "DOMAIN-SUFFIX,ynuf.aliapp.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,7766.org",
+          "line": 29,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12093,
+              "rule": "DOMAIN-SUFFIX,gxqzz.7766.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,tencent-cloud.net",
+          "line": 34,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 12497,
+              "rule": "DOMAIN-SUFFIX,trace.zhiyan.tencent-cloud.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,time.xtracloud.net",
+          "line": 40,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "domestic_cdn.list",
+              "policy": "DIRECT",
+              "line": 8,
+              "rule": "DOMAIN,time.xtracloud.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,biligame.net",
+          "line": 47,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14431,
+              "rule": "DOMAIN-SUFFIX,line1-log.biligame.net",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn.list",
+      "policy": "CDN",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 4748,
+      "domainRules": 4665,
+      "unsupportedRules": 83,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 20,
+        "DOMAIN-WILDCARD": 60,
+        "IP-CIDR": 3
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 183,
+      "partlyOverlappingDomainRules": 74,
+      "samePolicyRedundancies": 5,
+      "differentPolicyConflicts": 242,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN,cdn5.telegram.space",
+          "line": 60,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "telegram.list",
+              "policy": "Telegram",
+              "line": 8,
+              "rule": "DOMAIN-SUFFIX,telegram.space",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,cdn4.telegram.space",
+          "line": 61,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "telegram.list",
+              "policy": "Telegram",
+              "line": 8,
+              "rule": "DOMAIN-SUFFIX,telegram.space",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,cdn3.telegram.space",
+          "line": 62,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "telegram.list",
+              "policy": "Telegram",
+              "line": 8,
+              "rule": "DOMAIN-SUFFIX,telegram.space",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,cdn2.telegram.space",
+          "line": 63,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "telegram.list",
+              "policy": "Telegram",
+              "line": 8,
+              "rule": "DOMAIN-SUFFIX,telegram.space",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,cdn1.telegram.space",
+          "line": 64,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "telegram.list",
+              "policy": "Telegram",
+              "line": 8,
+              "rule": "DOMAIN-SUFFIX,telegram.space",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_services.list",
+      "policy": "Apple",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 25,
+      "domainRules": 16,
+      "unsupportedRules": 9,
+      "unsupportedTypes": {
+        "PROCESS-NAME": 8,
+        "IP-CIDR": 1
+      },
+      "conditionalRules": 8,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 7,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 7,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,apple-dns.net",
+          "line": 9,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 40,
+              "rule": "DOMAIN,apple-relay.mask.apple-dns.net",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,push-apple.com.akadns.net",
+          "line": 10,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 25,
+              "rule": "DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,apple-mapkit.com",
+          "line": 14,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 43,
+              "rule": "DOMAIN-SUFFIX,cdn-cn4.apple-mapkit.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,cdn-apple.com",
+          "line": 15,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 52,
+              "rule": "DOMAIN-SUFFIX,app-site-association.cdn-apple.com",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 2196,
+              "rule": "DOMAIN,sequoia.cdn-apple.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,aaplimg.com",
+          "line": 17,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 74883,
+              "rule": "DOMAIN-SUFFIX,securemetrics-z.v.aaplimg.com",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "apple_cdn.list",
+              "policy": "DIRECT",
+              "line": 79,
+              "rule": "DOMAIN-SUFFIX,swallow-apple-com.v.aaplimg.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_services_ip.list",
+      "policy": "Apple",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 10,
+      "domainRules": 0,
+      "unsupportedRules": 10,
+      "unsupportedTypes": {
+        "IP-CIDR": 10
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "icloud_private_relay.list",
+      "policy": "Apple",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 6,
+      "domainRules": 6,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 6,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 6,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": true,
+      "fullyShadowedSubscription": true,
+      "examples": [
+        {
+          "rule": "DOMAIN,mask.apple-dns.net",
+          "line": 8,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_services.list",
+              "policy": "Apple",
+              "line": 9,
+              "rule": "DOMAIN-SUFFIX,apple-dns.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,canary.mask.apple-dns.net",
+          "line": 9,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_services.list",
+              "policy": "Apple",
+              "line": 9,
+              "rule": "DOMAIN-SUFFIX,apple-dns.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,mask-canary.icloud.com",
+          "line": 10,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_services.list",
+              "policy": "Apple",
+              "line": 19,
+              "rule": "DOMAIN-SUFFIX,icloud.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,mask-api.icloud.com",
+          "line": 11,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_services.list",
+              "policy": "Apple",
+              "line": 19,
+              "rule": "DOMAIN-SUFFIX,icloud.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,mask-h2.icloud.com",
+          "line": 12,
+          "coverage": "full",
+          "relation": "same-policy",
+          "earlier": [
+            {
+              "subscription": "apple_services.list",
+              "policy": "Apple",
+              "line": 19,
+              "rule": "DOMAIN-SUFFIX,icloud.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "google.list",
+      "policy": "Google",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 552,
+      "domainRules": 534,
+      "unsupportedRules": 18,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 5,
+        "USER-AGENT": 3,
+        "PROCESS-NAME": 5,
+        "IP-CIDR": 4,
+        "IP-CIDR6": 1
+      },
+      "conditionalRules": 8,
+      "fullyCoveredDomainRules": 27,
+      "partlyOverlappingDomainRules": 17,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 44,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,ai.studio",
+          "line": 16,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 10,
+              "rule": "DOMAIN-SUFFIX,ai.studio",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,goog",
+          "line": 33,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 8047,
+              "rule": "DOMAIN-SUFFIX,merchant-center-analytics.goog",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 162,
+              "rule": "DOMAIN-SUFFIX,usercontent.goog",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 26,
+              "rule": "DOMAIN-SUFFIX,antigravity-unleash.goog",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,ampproject.org",
+          "line": 64,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 344,
+              "rule": "DOMAIN-SUFFIX,ampproject.org",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 11429,
+              "rule": "DOMAIN-SUFFIX,amptrack-dailymail-co-uk.cdn.ampproject.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,golang.org",
+          "line": 77,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "download.list",
+              "policy": "CDN",
+              "line": 174,
+              "rule": "DOMAIN,google.golang.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,godoc.org",
+          "line": 79,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 437,
+              "rule": "DOMAIN,godoc.org",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amazon.list",
+      "policy": "Amazon",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 234,
+      "domainRules": 234,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 37,
+      "partlyOverlappingDomainRules": 13,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 50,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,amazon",
+          "line": 13,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 2116,
+              "rule": "DOMAIN-SUFFIX,paa-reporting-advertising.amazon",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,primevideo.info",
+          "line": 17,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "stream.list",
+              "policy": "Streaming",
+              "line": 12,
+              "rule": "DOMAIN-SUFFIX,primevideo.info",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,primevideo.org",
+          "line": 28,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "stream.list",
+              "policy": "Streaming",
+              "line": 14,
+              "rule": "DOMAIN-SUFFIX,primevideo.org",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,cloudfront.net",
+          "line": 33,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 566,
+              "rule": "DOMAIN-SUFFIX,cloudfront.net",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 13082,
+              "rule": "DOMAIN-SUFFIX,d3vw4uehoh23hx.cloudfront.net",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "stream.list",
+              "policy": "Streaming",
+              "line": 20,
+              "rule": "DOMAIN,d3c7rimkq79yfu.cloudfront.net",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,aiv-cdn.net",
+          "line": 38,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "stream.list",
+              "policy": "Streaming",
+              "line": 55,
+              "rule": "DOMAIN-SUFFIX,aiv-cdn.net",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 14755,
+              "rule": "DOMAIN-SUFFIX,s3-iad-ww.cf.videorolls.row.aiv-cdn.net",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global.list",
+      "policy": "Proxy",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 1274,
+      "domainRules": 1264,
+      "unsupportedRules": 10,
+      "unsupportedTypes": {
+        "DOMAIN-KEYWORD": 9,
+        "USER-AGENT": 1
+      },
+      "conditionalRules": 1,
+      "fullyCoveredDomainRules": 154,
+      "partlyOverlappingDomainRules": 611,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 765,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,community",
+          "line": 8,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 76,
+              "rule": "DOMAIN-SUFFIX,sa.flux.community",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,network",
+          "line": 9,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 625,
+              "rule": "DOMAIN-SUFFIX,grow.urbandictionary.network",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "download.list",
+              "policy": "CDN",
+              "line": 14,
+              "rule": "DOMAIN,mirror.level66.network",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,x.company",
+          "line": 10,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "google.list",
+              "policy": "Google",
+              "line": 14,
+              "rule": "DOMAIN-SUFFIX,x.company",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,studio",
+          "line": 12,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 796,
+              "rule": "DOMAIN-SUFFIX,u.lessbutbetter.studio",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 25,
+              "rule": "DOMAIN,bcdn.starapps.studio",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 10,
+              "rule": "DOMAIN-SUFFIX,ai.studio",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,social",
+          "line": 13,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 820,
+              "rule": "DOMAIN-SUFFIX,sgtm.getbizzy.social",
+              "matchMode": "destination"
+            },
+            {
+              "subscription": "cdn.list",
+              "policy": "CDN",
+              "line": 33,
+              "rule": "DOMAIN,files.mastodon.social",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lan.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 60,
+      "domainRules": 49,
+      "unsupportedRules": 11,
+      "unsupportedTypes": {
+        "IP-CIDR": 8,
+        "IP-CIDR6": 3
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "china_ip.list",
+      "policy": "DIRECT",
+      "kind": "subscription",
+      "status": "audited",
+      "totalRules": 3903,
+      "domainRules": 0,
+      "unsupportedRules": 3903,
+      "unsupportedTypes": {
+        "IP-CIDR": 3903
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    }
+  ],
+  "conditionalWarnings": [
+    {
+      "subscription": "stream.list",
+      "policy": "Streaming",
+      "line": 287,
+      "rule": "USER-AGENT,AbemaTV*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 16
+    },
+    {
+      "subscription": "stream.list",
+      "policy": "Streaming",
+      "line": 288,
+      "rule": "USER-AGENT,InstantVideo.US*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 16
+    },
+    {
+      "subscription": "stream.list",
+      "policy": "Streaming",
+      "line": 289,
+      "rule": "USER-AGENT,Prime Video*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 16
+    },
+    {
+      "subscription": "stream.list",
+      "policy": "Streaming",
+      "line": 290,
+      "rule": "USER-AGENT,All4*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 16
+    },
+    {
+      "subscription": "stream.list",
+      "policy": "Streaming",
+      "line": 291,
+      "rule": "USER-AGENT,AppleTV*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 16
+    },
+    {
+      "subscription": "domestic.list",
+      "policy": "DIRECT",
+      "line": 876,
+      "rule": "USER-AGENT,%E4%BC%98%E9%85%B7*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 9
+    },
+    {
+      "subscription": "domestic.list",
+      "policy": "DIRECT",
+      "line": 877,
+      "rule": "USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 9
+    },
+    {
+      "subscription": "domestic.list",
+      "policy": "DIRECT",
+      "line": 878,
+      "rule": "USER-AGENT,TeslaMap",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 9
+    },
+    {
+      "subscription": "apple_services.list",
+      "policy": "Apple",
+      "line": 24,
+      "rule": "PROCESS-NAME,com.apple.geod",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 7
+    },
+    {
+      "subscription": "apple_services.list",
+      "policy": "Apple",
+      "line": 25,
+      "rule": "PROCESS-NAME,mapspushd",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 7
+    },
+    {
+      "subscription": "apple_services.list",
+      "policy": "Apple",
+      "line": 26,
+      "rule": "PROCESS-NAME,com.apple.Maps",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 7
+    },
+    {
+      "subscription": "apple_services.list",
+      "policy": "Apple",
+      "line": 27,
+      "rule": "PROCESS-NAME,apsd",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 7
+    },
+    {
+      "subscription": "apple_services.list",
+      "policy": "Apple",
+      "line": 28,
+      "rule": "PROCESS-NAME,fmfd",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 7
+    },
+    {
+      "subscription": "google.list",
+      "policy": "Google",
+      "line": 547,
+      "rule": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 4
+    },
+    {
+      "subscription": "google.list",
+      "policy": "Google",
+      "line": 548,
+      "rule": "USER-AGENT,*com.google.Drive*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 4
+    },
+    {
+      "subscription": "google.list",
+      "policy": "Google",
+      "line": 549,
+      "rule": "USER-AGENT,Google.Drive*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 4
+    },
+    {
+      "subscription": "google.list",
+      "policy": "Google",
+      "line": 550,
+      "rule": "PROCESS-NAME,com.android.vending",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 4
+    },
+    {
+      "subscription": "google.list",
+      "policy": "Google",
+      "line": 551,
+      "rule": "PROCESS-NAME,com.google.android.gms",
+      "matchMode": "destination",
+      "condition": "PROCESS-NAME",
+      "compound": false,
+      "laterSubscriptions": 4
+    },
+    {
+      "subscription": "global.list",
+      "policy": "Proxy",
+      "line": 1281,
+      "rule": "USER-AGENT,Roam*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 2
+    }
+  ]
+}
