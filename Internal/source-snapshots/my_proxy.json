@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "my_proxy",
+  "rulesetId": "my_proxy",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/my_proxy.conf"
+  ],
+  "rawInputSha256": "560f1242f21fd3d11df4075e0cfa8221ddeee037c15c25612fa7710f76466ba4",
+  "semanticSha256": "8e4b4c6223cc52cc60b5fef2d3e9f35a7df239000d49b159f4be86ac2aa30929",
+  "conditionCount": 16,
+  "conditions": [
+    "DOMAIN,fonts.googleapis.cn",
+    "DOMAIN,fonts.gstatic.cn",
+    "DOMAIN,ip.cn",
+    "DOMAIN,sglong.wechat.com",
+    "DOMAIN,sgminorshort.wechat.com",
+    "DOMAIN,sgshort.wechat.com",
+    "DOMAIN-SUFFIX,db-ip.com",
+    "DOMAIN-SUFFIX,ip-api.com",
+    "DOMAIN-SUFFIX,ip.sb",
+    "DOMAIN-SUFFIX,ipdata.co",
+    "DOMAIN-SUFFIX,ipgeolocation.io",
+    "DOMAIN-SUFFIX,ipregistry.co",
+    "DOMAIN-SUFFIX,ipstack.com",
+    "DOMAIN-SUFFIX,ipwho.is",
+    "DOMAIN-SUFFIX,nextdns.io",
+    "DOMAIN-SUFFIX,services.googleapis.cn"
+  ]
+}

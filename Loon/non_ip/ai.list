@@ -1,0 +1,17 @@
+#########################################
+# AI
+# Last Updated: 2026-10-10T11:29:48.836Z
+# Size: 7
+# Rules for AI
+# Merged from 6 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaicom
+DOMAIN-KEYWORD,notebooklm.google
+DOMAIN-KEYWORD,labs.google
+URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+################## EOF ##################
+

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "domestic_cdn",
+  "rulesetId": "domestic_cdn",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/domestic_cdn.conf"
+  ],
+  "rawInputSha256": "eba1129f5d56b02a703c12cc8c00b752f2107a90e402a4a8102d0bb3ec58c056",
+  "semanticSha256": "949612239f6a3866ab98a79a59102934abe1f09e1bd1296682a02fe749569c91",
+  "conditionCount": 19,
+  "conditions": [
+    "DOMAIN,registry.npmmirror.com",
+    "DOMAIN,time.xtracloud.net",
+    "DOMAIN-SUFFIX,360buyimg.com",
+    "DOMAIN-SUFFIX,ali-safety-video.acfun.cn",
+    "DOMAIN-SUFFIX,alicdn.com",
+    "DOMAIN-SUFFIX,alipayobjects.com",
+    "DOMAIN-SUFFIX,biliimg.com",
+    "DOMAIN-SUFFIX,hdslb.com",
+    "DOMAIN-SUFFIX,music.126.net",
+    "DOMAIN-SUFFIX,qhimg.com",
+    "DOMAIN-SUFFIX,qhimgs.com",
+    "DOMAIN-SUFFIX,qhres.com",
+    "DOMAIN-SUFFIX,qhres2.com",
+    "DOMAIN-SUFFIX,sinaimg.cn",
+    "DOMAIN-SUFFIX,sinaimg.com",
+    "DOMAIN-SUFFIX,tbcdn.cn",
+    "DOMAIN-SUFFIX,tx-safety-video.acfun.cn",
+    "DOMAIN-SUFFIX,zhimg.com",
+    "DOMAIN-WILDCARD,qhimgs?.com"
+  ]
+}

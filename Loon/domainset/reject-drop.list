@@ -1,0 +1,37 @@
+#########################################
+# Reject
+# Last Updated: 2026-10-10T11:29:38.837Z
+# Size: 27
+# Ad blocking and privacy protection rules
+# Source: https://ruleset.skk.moe/List/non_ip/reject-drop.conf
+# Variant: domainset. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-SUFFIX,undefined
+DOMAIN-SUFFIX,null
+DOMAIN-SUFFIX,telemetry.mozilla.org
+DOMAIN,stats.grafana.org
+DOMAIN-SUFFIX,getui.net
+DOMAIN,nom.telemetrydeck.com
+DOMAIN-SUFFIX,easytomessage.com
+DOMAIN-SUFFIX,data.microsoft.com
+DOMAIN-SUFFIX,data.grammarly.com
+DOMAIN,data.bilibili.com
+DOMAIN,dataflow.biliapi.com
+DOMAIN-SUFFIX,slackb.com
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,in.applicationinsights.azure.com
+DOMAIN-SUFFIX,geo2.adobe.com
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,tracking.intl.miui.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,trace.qq.com
+DOMAIN,stat.youpin.mi.com
+DOMAIN-SUFFIX,f-log-extension.grammarly.io
+DOMAIN-SUFFIX,f-log-assistant.grammarly.io
+DOMAIN-SUFFIX,femetrics.grammarly.io
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,femetrics.qagr.io
+DOMAIN-SUFFIX,jpush.cn
+################## EOF ##################
+

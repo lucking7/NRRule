@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "gitlab",
+  "rulesetId": "gitlab",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/gitlab.conf"
+  ],
+  "rawInputSha256": "410889ad438bca824347b48fde6ab21f07880c1e368e15216f2ae8fe89a01bb1",
+  "semanticSha256": "beae7be986e526c22fe9b4263eea8122fd55d6a1d9598070b28b1d26daaf244b",
+  "conditionCount": 1,
+  "conditions": [
+    "DOMAIN-SUFFIX,gitlab.com"
+  ]
+}

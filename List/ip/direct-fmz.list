@@ -1,0 +1,11 @@
+#########################################
+# Direct
+# Last Updated: 2026-10-10T11:29:38.954Z
+# Size: 1
+# Direct-only routing corrections from fmz200, without upstream proxy exceptions
+# Source: https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/filterFix.list
+# Variant: ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+IP-CIDR,192.168.0.0/23
+################## EOF ##################
+

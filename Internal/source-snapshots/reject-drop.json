@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "reject-drop",
+  "rulesetId": "reject-drop",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf"
+  ],
+  "rawInputSha256": "9750e34f463d3b8de0618a583f51c72accf239a11d10374c2e5f32bf2b78368b",
+  "semanticSha256": "ef31c39822954764bdaed82d76610bf0714c04c327f0c5f6159ca5dfd1bce4bf",
+  "conditionCount": 28,
+  "conditions": [
+    "DOMAIN,data.bilibili.com",
+    "DOMAIN,dataflow.biliapi.com",
+    "DOMAIN,nom.telemetrydeck.com",
+    "DOMAIN,stat.youpin.mi.com",
+    "DOMAIN,stats.grafana.org",
+    "DOMAIN-SUFFIX,beacon.qq.com",
+    "DOMAIN-SUFFIX,data.grammarly.com",
+    "DOMAIN-SUFFIX,data.microsoft.com",
+    "DOMAIN-SUFFIX,easytomessage.com",
+    "DOMAIN-SUFFIX,f-log-assistant.grammarly.io",
+    "DOMAIN-SUFFIX,f-log-extension.grammarly.io",
+    "DOMAIN-SUFFIX,femetrics.grammarly.io",
+    "DOMAIN-SUFFIX,femetrics.qagr.io",
+    "DOMAIN-SUFFIX,geo2.adobe.com",
+    "DOMAIN-SUFFIX,gepush.com",
+    "DOMAIN-SUFFIX,getui.com",
+    "DOMAIN-SUFFIX,getui.net",
+    "DOMAIN-SUFFIX,in.applicationinsights.azure.com",
+    "DOMAIN-SUFFIX,jpush.cn",
+    "DOMAIN-SUFFIX,jpush.io",
+    "DOMAIN-SUFFIX,null",
+    "DOMAIN-SUFFIX,slackb.com",
+    "DOMAIN-SUFFIX,telemetry.mozilla.org",
+    "DOMAIN-SUFFIX,trace.qq.com",
+    "DOMAIN-SUFFIX,tracking.intl.miui.com",
+    "DOMAIN-SUFFIX,tracking.miui.com",
+    "DOMAIN-SUFFIX,undefined",
+    "DOMAIN-WILDCARD,f-log*.grammarly.io"
+  ]
+}

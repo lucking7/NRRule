@@ -1,0 +1,19 @@
+#########################################
+# Proxy
+# Last Updated: 2026-10-10T11:29:42.087Z
+# Size: 9
+# Global proxy rules for international services
+# Source: https://ruleset.skk.moe/List/non_ip/global.conf
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,sci-hub
+DOMAIN-KEYWORD,browserleaks
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,pinterest
+################## EOF ##################
+

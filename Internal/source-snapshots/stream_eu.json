@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "stream_eu",
+  "rulesetId": "stream_eu",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/stream_eu.conf"
+  ],
+  "rawInputSha256": "9872cbb1864d4716fc76f87bb053f602a5acac18025c9f252b1e95bb68681122",
+  "semanticSha256": "75a0feb69c27469fab81d14134c55a2a52f7b0e1a7ad2dda1132b24a62f26666",
+  "conditionCount": 10,
+  "conditions": [
+    "DOMAIN,bbc.mp-pxcdn.com",
+    "DOMAIN,itvpnpmobile-a.akamaihd.net",
+    "DOMAIN-KEYWORD,bbcfmt",
+    "DOMAIN-KEYWORD,uk-live",
+    "DOMAIN-SUFFIX,bbc.co.uk",
+    "DOMAIN-SUFFIX,bbci.co.uk",
+    "DOMAIN-SUFFIX,itv.com",
+    "DOMAIN-SUFFIX,tvlicensing.co.uk",
+    "USER-AGENT,BBCiPlayer*",
+    "USER-AGENT,ITV_Player*"
+  ]
+}

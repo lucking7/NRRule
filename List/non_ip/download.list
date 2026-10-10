@@ -1,0 +1,20 @@
+#########################################
+# Download
+# Last Updated: 2026-10-10T11:29:47.809Z
+# Size: 10
+# Rules for Download
+# Merged from 3 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-WILDCARD,cdn-*.comaps.tech
+DOMAIN-WILDCARD,ftp.??.freebsd.org
+DOMAIN-WILDCARD,ftp.??.debian.org
+DOMAIN-WILDCARD,s3.*.backblazeb2.com
+DOMAIN-WILDCARD,*.s3.*.backblazeb2.com
+DOMAIN-WILDCARD,download*.mediafire.com
+DOMAIN-WILDCARD,dl-*.mypikpak.com
+DOMAIN-WILDCARD,cdn-*.organicmaps.app
+DOMAIN-WILDCARD,cdn-*.comaps.app
+URL-REGEX,^http://(.+)\.gvt\d\.com/edgedl
+################## EOF ##################
+

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [],
+      "domain_keyword": ["-p2p.pull.yximgs.com", "-p2p-v2.pull.yximgs.com"],
+      "domain_regex": [
+        "^upos-sz-302[\\w.-]*?\\.bilivideo\\.com$",
+        "^p2p[\\w.-]*?\\.qq\\.com$",
+        "^p2pchunk-[\\w.-]*?\\.douyucdn\\.cn$",
+        "^p2plive-[\\w.-]*?\\.douyucdn\\.cn$",
+        "^dyp2p-[\\w.-]*?\\.douyucdn\\.cn$",
+        "^stun[\\w.-]*?\\.douyucdn\\.cn$",
+        "^p2p-[\\w.-]*?\\.douyucdn\\.cn$"
+      ]
+    }
+  ]
+}

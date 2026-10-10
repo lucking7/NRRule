@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "automaticRedirects": false,
+  "records": [
+    {
+      "id": "plugin:tencent-video-remove-ads",
+      "state": "retired",
+      "paths": [
+        "Modules/Converted/腾讯视频去广告.sgmodule",
+        "Modules/Converted/Tencent_Video_remove_ads.sgmodule"
+      ],
+      "canonicalSources": [
+        "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx"
+      ],
+      "reason": "Upstream explicitly no longer maintains Tencent Video ad removal",
+      "evidence": "Upstream plugin notice; README plugin conversion section"
+    },
+    {
+      "id": "ruleset:container",
+      "state": "retired",
+      "paths": [
+        "List/container.list",
+        "Clash/container.txt",
+        "Loon/container.list",
+        "sing-box/container.json"
+      ],
+      "reason": "Standalone ruleset removed from rule sources",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
+    },
+    {
+      "id": "ruleset:discord",
+      "state": "retired",
+      "paths": [
+        "List/discord.list",
+        "Clash/discord.txt",
+        "Loon/discord.list",
+        "sing-box/discord.json"
+      ],
+      "reason": "Standalone ruleset removed from rule sources",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
+    },
+    {
+      "id": "ruleset:scholar",
+      "state": "retired",
+      "paths": [
+        "List/scholar.list",
+        "Clash/scholar.txt",
+        "Loon/scholar.list",
+        "sing-box/scholar.json"
+      ],
+      "reason": "Standalone ruleset removed from rule sources",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
+    },
+    {
+      "id": "ruleset:china_asn:sing-box",
+      "state": "retired",
+      "paths": [
+        "sing-box/china_asn.json"
+      ],
+      "reason": "sing-box rule-set does not support IP-ASN; the artifact had no effective matchers",
+      "evidence": "Build/core/output/rule-support-matrix.ts",
+      "replacement": "sing-box/china_ip.json and sing-box/china_ip_ipv6.json (IP coverage is not equivalent to ASN matching)"
+    }
+  ],
+  "removed": []
+}

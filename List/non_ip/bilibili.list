@@ -1,0 +1,20 @@
+#########################################
+# BiliBili
+# Last Updated: 2026-10-10T11:29:46.828Z
+# Size: 10
+# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
+# Merged from 2 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+USER-AGENT,*bili*
+USER-AGENT,Bilibili*
+USER-AGENT,bili*
+USER-AGENT,bili-inter*
+PROCESS-NAME,com.bilibili.app.blue
+PROCESS-NAME,com.bilibili.app.in
+PROCESS-NAME,com.bilibili.comic
+PROCESS-NAME,com.bilibili.comic.intl
+PROCESS-NAME,tv.danmaku.bili
+PROCESS-NAME,tv.danmaku.bilibilihd
+################## EOF ##################
+

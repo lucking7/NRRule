@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "apple_intelligence",
+  "rulesetId": "apple_intelligence",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/apple_intelligence.conf"
+  ],
+  "rawInputSha256": "c22048eae4f4c96cd5bef9e0b1102b27a2d1accec7d07763a1c1c6b2b0f2c60f",
+  "semanticSha256": "645931ed775a5a883fd7f8eaf06c1131e157ea23873e8a8df7f731a852aae0f2",
+  "conditionCount": 5,
+  "conditions": [
+    "DOMAIN,apple-relay.apple.com",
+    "DOMAIN,apple-relay.cloudflare.com",
+    "DOMAIN,apple-relay.fastly-edge.com",
+    "DOMAIN,cp4.cloudflare.com",
+    "DOMAIN,gspe1-ssl.ls.apple.com"
+  ]
+}

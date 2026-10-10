@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "stream_jp",
+  "rulesetId": "stream_jp",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/stream_jp.conf"
+  ],
+  "rawInputSha256": "35a930184f5158b73edb91dce10bebaf3604354f0f9a88e107d502345b695664",
+  "semanticSha256": "fd6fde86ae7b5b72fb132448e5b97c2a6b95d3827f0f0d6a3e6b6b4498ac64de",
+  "conditionCount": 27,
+  "conditions": [
+    "DOMAIN,ds-linear-abematv.akamaized.net",
+    "DOMAIN-SUFFIX,abema-tv.com",
+    "DOMAIN-SUFFIX,abema.io",
+    "DOMAIN-SUFFIX,abema.tv",
+    "DOMAIN-SUFFIX,ameba.jp",
+    "DOMAIN-SUFFIX,amebame.com",
+    "DOMAIN-SUFFIX,amebaownd.com",
+    "DOMAIN-SUFFIX,amebaowndme.com",
+    "DOMAIN-SUFFIX,ameblo.jp",
+    "DOMAIN-SUFFIX,dmc.nico",
+    "DOMAIN-SUFFIX,dmm-extension.com",
+    "DOMAIN-SUFFIX,dmm.co.jp",
+    "DOMAIN-SUFFIX,dmm.com",
+    "DOMAIN-SUFFIX,dokusho-ojikan.jp",
+    "DOMAIN-SUFFIX,happyon.jp",
+    "DOMAIN-SUFFIX,hayabusa.dev",
+    "DOMAIN-SUFFIX,hayabusa.io",
+    "DOMAIN-SUFFIX,hayabusa.media",
+    "DOMAIN-SUFFIX,hjholdings.jp",
+    "DOMAIN-SUFFIX,hulu.jp",
+    "DOMAIN-SUFFIX,location-plus.nhk.jp",
+    "DOMAIN-SUFFIX,nicovideo.jp",
+    "DOMAIN-SUFFIX,socdm.com",
+    "DOMAIN-SUFFIX,tver.jp",
+    "DOMAIN-SUFFIX,winticket.jp",
+    "USER-AGENT,AbemaTV*",
+    "USER-AGENT,Niconico*"
+  ]
+}

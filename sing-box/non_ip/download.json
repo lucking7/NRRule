@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [],
+      "domain_regex": [
+        "^cdn-[\\w.-]*?\\.comaps\\.tech$",
+        "^ftp\\.[\\w.-][\\w.-]\\.freebsd\\.org$",
+        "^ftp\\.[\\w.-][\\w.-]\\.debian\\.org$",
+        "^s3\\.[\\w.-]*?\\.backblazeb2\\.com$",
+        "^[\\w.-]*?\\.s3\\.[\\w.-]*?\\.backblazeb2\\.com$",
+        "^download[\\w.-]*?\\.mediafire\\.com$",
+        "^dl-[\\w.-]*?\\.mypikpak\\.com$",
+        "^cdn-[\\w.-]*?\\.organicmaps\\.app$",
+        "^cdn-[\\w.-]*?\\.comaps\\.app$"
+      ]
+    }
+  ]
+}

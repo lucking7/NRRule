@@ -1,0 +1,36 @@
+#########################################
+# WeChat without User-Agent bypass
+# Last Updated: 2026-10-10T11:29:47.756Z
+# Size: 26
+# WeChat domain and IP rules from NobyDa, excluding broad User-Agent bypass conditions.
+# Merged from 1 sources
+# Variant: domainset. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN,slife.xy-asia.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN,wx.tenpay.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN,weixin110.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,wxapp.tc.qq.com
+DOMAIN-SUFFIX,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN,soup.v.qq.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+################## EOF ##################
+

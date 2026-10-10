@@ -1,0 +1,23 @@
+#########################################
+# Google
+# Last Updated: 2026-10-10T11:29:47.530Z
+# Size: 13
+# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
+# Merged from 2 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-KEYWORD,appspot
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,recaptcha
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.gms
+PROCESS-NAME,com.google.android.gsf
+PROCESS-NAME,com.google.android.play.games
+PROCESS-NAME,BackupandSync
+################## EOF ##################
+

@@ -1,0 +1,21 @@
+#########################################
+# Sukka Personal Reject (Optional)
+# Last Updated: 2026-10-10T11:29:45.240Z
+# Size: 11
+# Rules for Sukka Personal Reject (Optional)
+# Merged from 1 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-KEYWORD,bahoom
+DOMAIN-KEYWORD,-flv.meituan.net
+DOMAIN-KEYWORD,-live.meituan.net
+DOMAIN-KEYWORD,-fin.meituan.com
+PROCESS-NAME,Tencent Lemon
+PROCESS-NAME,LemonMonitor
+PROCESS-NAME,LemonDaemon
+PROCESS-NAME,LemonAgent
+PROCESS-NAME,LemonService
+DST-PORT,7680
+AND,((DOMAIN-KEYWORD,genuine),(DOMAIN-KEYWORD,autodesk))
+################## EOF ##################
+

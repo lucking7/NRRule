@@ -1,0 +1,16 @@
+#########################################
+# iCloud Private Relay
+# Last Updated: 2026-10-10T11:29:42.253Z
+# Size: 6
+# Rules for iCloud Private Relay
+# Merged from 1 sources
+# Variant: domainset. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN,mask.apple-dns.net
+DOMAIN,canary.mask.apple-dns.net
+DOMAIN,mask-canary.icloud.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask.icloud.com
+################## EOF ##################
+

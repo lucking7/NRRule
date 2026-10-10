@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "apple_services_ip",
+  "rulesetId": "apple_services_ip",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/ip/apple_services.conf"
+  ],
+  "rawInputSha256": "8e2b001395081f38cb816c023e0529e28842e3a76983b75444fb5bfeccabbec4",
+  "semanticSha256": "5fff96d14a99a3125968fb3fb1d2ad0d84339ee4e861cbd4c1072b655ab44f92",
+  "conditionCount": 10,
+  "conditions": [
+    "IP-CIDR,139.178.128.0/18,no-resolve",
+    "IP-CIDR,144.178.0.0/19,no-resolve",
+    "IP-CIDR,144.178.36.0/22,no-resolve",
+    "IP-CIDR,144.178.48.0/20,no-resolve",
+    "IP-CIDR,17.0.0.0/8,no-resolve",
+    "IP-CIDR,192.35.50.0/24,no-resolve",
+    "IP-CIDR,198.183.17.0/24,no-resolve",
+    "IP-CIDR,205.180.175.0/24,no-resolve",
+    "IP-CIDR,63.92.224.0/19,no-resolve",
+    "IP-CIDR,65.199.22.0/23,no-resolve"
+  ]
+}

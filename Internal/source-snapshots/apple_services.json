@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "apple_services",
+  "rulesetId": "apple_services",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ],
+  "rawInputSha256": "bac48fcd8d2387df3abf0bf599c0b165f22450a107b4b5bae1bff06f8666959b",
+  "semanticSha256": "50d7898c1674d02c84c754c9e2a38a106115042e361b2b55e021117cb47b1843",
+  "conditionCount": 25,
+  "conditions": [
+    "DOMAIN-SUFFIX,aaplimg.com",
+    "DOMAIN-SUFFIX,apple-cloudkit.com",
+    "DOMAIN-SUFFIX,apple-dns.net",
+    "DOMAIN-SUFFIX,apple-mapkit.com",
+    "DOMAIN-SUFFIX,apple.co",
+    "DOMAIN-SUFFIX,apple.com",
+    "DOMAIN-SUFFIX,apple.news",
+    "DOMAIN-SUFFIX,appsto.re",
+    "DOMAIN-SUFFIX,appstore.com",
+    "DOMAIN-SUFFIX,cdn-apple.com",
+    "DOMAIN-SUFFIX,icloud-content.com",
+    "DOMAIN-SUFFIX,icloud.com",
+    "DOMAIN-SUFFIX,itunes.com",
+    "DOMAIN-SUFFIX,me.com",
+    "DOMAIN-SUFFIX,organicfruitapps.com",
+    "DOMAIN-SUFFIX,push-apple.com.akadns.net",
+    "IP-CIDR,17.0.0.0/8,no-resolve",
+    "PROCESS-NAME,CoreLocationAgent",
+    "PROCESS-NAME,WeatherWidget",
+    "PROCESS-NAME,apsd",
+    "PROCESS-NAME,com.apple.Maps",
+    "PROCESS-NAME,com.apple.geod",
+    "PROCESS-NAME,findmydevice-user-agent",
+    "PROCESS-NAME,fmfd",
+    "PROCESS-NAME,mapspushd"
+  ]
+}

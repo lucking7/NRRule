@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "icloud_private_relay",
+  "rulesetId": "icloud_private_relay",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf"
+  ],
+  "rawInputSha256": "387de0230f90c74d2ad3c143a2d77baa1c7e81b7b754641122217d7efa670984",
+  "semanticSha256": "35abc24f3ee0cfbd149d58e2db794772dfb525396c7e18aff1238da88ce3f061",
+  "conditionCount": 6,
+  "conditions": [
+    "DOMAIN,canary.mask.apple-dns.net",
+    "DOMAIN,mask-api.icloud.com",
+    "DOMAIN,mask-canary.icloud.com",
+    "DOMAIN,mask-h2.icloud.com",
+    "DOMAIN,mask.apple-dns.net",
+    "DOMAIN,mask.icloud.com"
+  ]
+}

@@ -1,0 +1,14 @@
+#########################################
+# Proxy
+# Last Updated: 2026-10-10T11:29:42.084Z
+# Size: 4
+# Global proxy rules for international services
+# Source: https://ruleset.skk.moe/List/non_ip/my_tw.conf
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+DOMAIN-WILDCARD,*.ffzy-online?.com
+DOMAIN-WILDCARD,*.ffzy-play?.com
+DOMAIN-WILDCARD,*.lz-cdn??.com
+DOMAIN-WILDCARD,*.lz-cdn?.com
+################## EOF ##################
+

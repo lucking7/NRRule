@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "stream_kr",
+  "rulesetId": "stream_kr",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/stream_kr.conf"
+  ],
+  "rawInputSha256": "ce54486b39ea8d0c548e2509a12c60f931244e4ab8707e656c578aec26aca99c",
+  "semanticSha256": "47644b40427392e1b2cf0d3940a51f69b62a63e0ec59306848989e5832453ac0",
+  "conditionCount": 3,
+  "conditions": [
+    "DOMAIN-SUFFIX,smartmediarep.com",
+    "DOMAIN-SUFFIX,tv.naver.com",
+    "USER-AGENT,Naver TV*"
+  ]
+}

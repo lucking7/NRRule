@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "biliintl",
+  "rulesetId": "biliintl",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/stream_biliintl.conf"
+  ],
+  "rawInputSha256": "99de161a85c2d5c46dd2bfb76c9c4755298e820f22b4d2c834a1fecafcb495ff",
+  "semanticSha256": "2de903a87836ce993c8f426b13fc4f2f99820ec27af194a888efd555675965f8",
+  "conditionCount": 6,
+  "conditions": [
+    "DOMAIN,apm-misaka.biliapi.net",
+    "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+    "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+    "DOMAIN-SUFFIX,bilibili.tv",
+    "DOMAIN-SUFFIX,biliintl.com",
+    "PROCESS-NAME,com.bstar.intl"
+  ]
+}

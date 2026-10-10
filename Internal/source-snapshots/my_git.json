@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "my_git",
+  "rulesetId": "my_git",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/my_git.conf"
+  ],
+  "rawInputSha256": "94a414b47c4da8ff22b10a6dd324e709f51379d061b2e2dd2de5a84cb8c7e5d1",
+  "semanticSha256": "82475c565cc44d912246f6a151550a8f3b1522fa51c42433d6314e1ea7ea9992",
+  "conditionCount": 7,
+  "conditions": [
+    "DOMAIN,alive.github.com",
+    "DOMAIN,android.googlesource.com",
+    "DOMAIN,api.github.com",
+    "DOMAIN,github.com",
+    "DOMAIN,github.dev",
+    "DOMAIN-SUFFIX,githubcopilot.com",
+    "DOMAIN-SUFFIX,huggingface.co"
+  ]
+}

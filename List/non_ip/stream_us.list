@@ -1,0 +1,20 @@
+#########################################
+# Streaming - US
+# Last Updated: 2026-10-10T11:29:42.417Z
+# Size: 10
+# Rules for Streaming - US
+# Merged from 1 sources
+# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+#########################################
+USER-AGENT,FOX NOW*
+USER-AGENT,FOXPlus*
+USER-AGENT,Hulu*
+USER-AGENT,encoreTVB*
+USER-AGENT,TVer-Release*
+USER-AGENT,DPlus*
+USER-AGENT,discovery+*
+USER-AGENT,PPlus*
+USER-AGENT,PeacockMobile*
+PROCESS-NAME,com.hulu.plus
+################## EOF ##################
+

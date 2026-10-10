@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "sogouinput",
+  "rulesetId": "sogouinput",
+  "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/sogouinput.conf"
+  ],
+  "rawInputSha256": "ec73b76c95c649c0496edbb4f257cd7f97d1a9c6f2f2dd021608ccc78de11b4c",
+  "semanticSha256": "5305fc149f87c82cdbdf5ddcc2c84c43c98ec5d1aac6c10754b6a13bf167335a",
+  "conditionCount": 14,
+  "conditions": [
+    "DOMAIN,oth.str.mdt.qq.com",
+    "DOMAIN-SUFFIX,account.sogou.com",
+    "DOMAIN-SUFFIX,beacon.qq.com",
+    "DOMAIN-SUFFIX,get.sogou.com",
+    "DOMAIN-SUFFIX,ime.sogou.com",
+    "DOMAIN-SUFFIX,macime.sogou.com",
+    "DOMAIN-SUFFIX,pinyin.sogou.com",
+    "DOMAIN-SUFFIX,sginput.qq.com",
+    "DOMAIN-SUFFIX,shouji.sogou.com",
+    "PROCESS-NAME,SogouInput",
+    "PROCESS-NAME,SogouServices",
+    "PROCESS-NAME,SogouTaskManager",
+    "USER-AGENT,SogouInput",
+    "USER-AGENT,com.sogou.sogouinput.BaseKeyboard"
+  ]
+}

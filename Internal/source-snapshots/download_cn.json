@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "download_cn",
+  "rulesetId": "download_cn",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/DownloadCDN_CN.list"
+  ],
+  "rawInputSha256": "3c57bee541b3ca897ed3b8016e1687df9e8e498c8f950932095ad59f5b196170",
+  "semanticSha256": "ceb770f5f2fa44fdb9aec05b0eb455ff7b657bfd628c62350b49661e492557cb",
+  "conditionCount": 17,
+  "conditions": [
+    "DOMAIN,alibaba.cdn.steampipe.steamcontent.com",
+    "DOMAIN,assets1.xboxlive.cn",
+    "DOMAIN,assets2.xboxlive.cn",
+    "DOMAIN,cdn-ali.content.steamchina.com",
+    "DOMAIN,cdn-qc.content.steamchina.com",
+    "DOMAIN,cdn-ws.content.steamchina.com",
+    "DOMAIN,dl.delivery.mp.microsoft.com",
+    "DOMAIN,dl.steam.clngaa.com",
+    "DOMAIN,epicgames-download1-1251447533.file.myqcloud.com",
+    "DOMAIN,lv.queniujq.cn",
+    "DOMAIN,st.dl.bscstorage.net",
+    "DOMAIN,st.dl.eccdnx.com",
+    "DOMAIN,steampipe.steamcontent.tnkjmec.com",
+    "DOMAIN,tlu.dl.delivery.mp.microsoft.com",
+    "DOMAIN,trts.baishancdnx.cn",
+    "DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn",
+    "DOMAIN,xz.pphimalayanrt.com"
+  ]
+}

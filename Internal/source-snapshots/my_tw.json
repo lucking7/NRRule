@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "my_tw",
+  "rulesetId": "my_tw",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/my_tw.conf"
+  ],
+  "rawInputSha256": "a9500bea031ee103746b2f6828eb95a5a5bb314e5fc04fbc06c048547bf72f83",
+  "semanticSha256": "1629ecb1100537907a23a9ccc19bf91235cd86ec0d0479c9494698d5766b88d0",
+  "conditionCount": 12,
+  "conditions": [
+    "DOMAIN,av.jkforum.net",
+    "DOMAIN,avbebe.com",
+    "DOMAIN,javdb.com",
+    "DOMAIN,mhgui.com",
+    "DOMAIN,www.manhuagui.com",
+    "DOMAIN,www.yymanhua.com",
+    "DOMAIN,yymanhua.com",
+    "DOMAIN-SUFFIX,cdn.hinet.net",
+    "DOMAIN-WILDCARD,*.ffzy-online?.com",
+    "DOMAIN-WILDCARD,*.ffzy-play?.com",
+    "DOMAIN-WILDCARD,*.lz-cdn?.com",
+    "DOMAIN-WILDCARD,*.lz-cdn??.com"
+  ]
+}

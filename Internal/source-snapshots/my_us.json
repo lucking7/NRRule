@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "my_us",
+  "rulesetId": "my_us",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/my_us.conf"
+  ],
+  "rawInputSha256": "e3bba07280d63c231d92c082382e5155fdac54562cd2f3ef85fd4b49bc413fb0",
+  "semanticSha256": "d39418d4447b720a446828ff1744025843b911b81bd1d06af5c884d3eaa7733b",
+  "conditionCount": 6,
+  "conditions": [
+    "DOMAIN,cableav.tv",
+    "DOMAIN,copymanga.site",
+    "DOMAIN,jav.guru",
+    "DOMAIN,www.coinbase.com",
+    "DOMAIN-SUFFIX,crunchyroll.com",
+    "DOMAIN-SUFFIX,mandaom.com"
+  ]
+}

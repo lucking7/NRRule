@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "my_plus",
+  "rulesetId": "my_plus",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://ruleset.skk.moe/List/non_ip/my_plus.conf"
+  ],
+  "rawInputSha256": "f0e408bd71ce648bfd67cc92fb6079c1e6eb15bb7cf24acec13e5de9abe6e65d",
+  "semanticSha256": "bcb6a0b0d8343f395654a2e710ccb6eac0cefcffd6bc389ada72b8cd056ae05b",
+  "conditionCount": 15,
+  "conditions": [
+    "DOMAIN,a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com",
+    "DOMAIN,api.wakatime.com",
+    "DOMAIN,hanime1.me",
+    "DOMAIN,hv-monster-submit.skk.moe",
+    "DOMAIN,simpcraft.com",
+    "DOMAIN-SUFFIX,18comic.org",
+    "DOMAIN-SUFFIX,18comic.vip",
+    "DOMAIN-SUFFIX,akamai-content-networks.com",
+    "DOMAIN-SUFFIX,akamaihd.net",
+    "DOMAIN-SUFFIX,akamaized.net",
+    "DOMAIN-SUFFIX,azurefd.net",
+    "DOMAIN-SUFFIX,hentaiverse.org",
+    "DOMAIN-SUFFIX,kxcdn.com",
+    "DOMAIN-SUFFIX,sososo.io",
+    "DOMAIN-SUFFIX,vo.msecnd.net"
+  ]
+}

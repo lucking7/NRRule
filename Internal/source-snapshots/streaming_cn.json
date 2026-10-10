@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "converterVersion": "mirrrule-rule-output/1",
+  "sourceId": "streaming_cn",
+  "rulesetId": "streaming_cn",
+  "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
+  "sources": [
+    "https://github.com/ConnersHua/RuleGo/raw/master/Surge/Ruleset/Extra/Streaming/CN.list"
+  ],
+  "rawInputSha256": "01bb1d8d7caa8a213da76938d9da0e6e2b4e7d15259b3465ff4a4e236a3d3276",
+  "semanticSha256": "c452805c3aedb7f2a4616225c32203d6cfb4ef12dccbd3a98bf52789d7719db1",
+  "conditionCount": 16,
+  "conditions": [
+    "DOMAIN,api.biliapi.com",
+    "DOMAIN,api.biliapi.net",
+    "DOMAIN,api.bilibili.com",
+    "DOMAIN,app.biliapi.com",
+    "DOMAIN,app.biliapi.net",
+    "DOMAIN,app.bilibili.com",
+    "DOMAIN,cache.video.iqiyi.com",
+    "DOMAIN,grpc.biliapi.net",
+    "DOMAIN,m.bilibili.com",
+    "DOMAIN,mobileso.bz.mgtv.com",
+    "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+    "DOMAIN,www.bilibili.com",
+    "DOMAIN-KEYWORD,cn-hk-eq-bcache-",
+    "DOMAIN-SUFFIX,api.mgtv.com",
+    "IP-CIDR,116.211.202.206/32,no-resolve",
+    "IP-CIDR,116.211.202.216/32,no-resolve"
+  ]
+}
