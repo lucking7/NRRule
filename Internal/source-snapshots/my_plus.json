@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "my_plus",
   "rulesetId": "my_plus",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -26,5 +26,97 @@
     "DOMAIN-SUFFIX,kxcdn.com",
     "DOMAIN-SUFFIX,sososo.io",
     "DOMAIN-SUFFIX,vo.msecnd.net"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com",
+        "DOMAIN,api.wakatime.com",
+        "DOMAIN,hanime1.me",
+        "DOMAIN,hv-monster-submit.skk.moe",
+        "DOMAIN,simpcraft.com",
+        "DOMAIN-SUFFIX,18comic.org",
+        "DOMAIN-SUFFIX,18comic.vip",
+        "DOMAIN-SUFFIX,akamai-content-networks.com",
+        "DOMAIN-SUFFIX,akamaihd.net",
+        "DOMAIN-SUFFIX,akamaized.net",
+        "DOMAIN-SUFFIX,azurefd.net",
+        "DOMAIN-SUFFIX,hentaiverse.org",
+        "DOMAIN-SUFFIX,kxcdn.com",
+        "DOMAIN-SUFFIX,sososo.io",
+        "DOMAIN-SUFFIX,vo.msecnd.net"
+      ],
+      "semanticSha256": "5594210c0d91d26a859b9bd86f5b472d85c902be274fd03de6816b02298ac315"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com",
+        "DOMAIN,api.wakatime.com",
+        "DOMAIN,hanime1.me",
+        "DOMAIN,hv-monster-submit.skk.moe",
+        "DOMAIN,simpcraft.com",
+        "DOMAIN-SUFFIX,18comic.org",
+        "DOMAIN-SUFFIX,18comic.vip",
+        "DOMAIN-SUFFIX,akamai-content-networks.com",
+        "DOMAIN-SUFFIX,akamaihd.net",
+        "DOMAIN-SUFFIX,akamaized.net",
+        "DOMAIN-SUFFIX,azurefd.net",
+        "DOMAIN-SUFFIX,hentaiverse.org",
+        "DOMAIN-SUFFIX,kxcdn.com",
+        "DOMAIN-SUFFIX,sososo.io",
+        "DOMAIN-SUFFIX,vo.msecnd.net"
+      ],
+      "semanticSha256": "ba66d00eeebbd943dd6ae77cec1916652fa8f42048336838689adbfe43315cc7"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com",
+        "domain:api.wakatime.com",
+        "domain:hanime1.me",
+        "domain:hv-monster-submit.skk.moe",
+        "domain:simpcraft.com",
+        "domain_suffix:18comic.org",
+        "domain_suffix:18comic.vip",
+        "domain_suffix:akamai-content-networks.com",
+        "domain_suffix:akamaihd.net",
+        "domain_suffix:akamaized.net",
+        "domain_suffix:azurefd.net",
+        "domain_suffix:hentaiverse.org",
+        "domain_suffix:kxcdn.com",
+        "domain_suffix:sososo.io",
+        "domain_suffix:vo.msecnd.net"
+      ],
+      "semanticSha256": "8842f718329fe88cf177637e2b750b5f38df821c60a5bf3b8d474793b3bb2b6e"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com",
+        "DOMAIN,api.wakatime.com",
+        "DOMAIN,hanime1.me",
+        "DOMAIN,hv-monster-submit.skk.moe",
+        "DOMAIN,simpcraft.com",
+        "DOMAIN-SUFFIX,18comic.org",
+        "DOMAIN-SUFFIX,18comic.vip",
+        "DOMAIN-SUFFIX,akamai-content-networks.com",
+        "DOMAIN-SUFFIX,akamaihd.net",
+        "DOMAIN-SUFFIX,akamaized.net",
+        "DOMAIN-SUFFIX,azurefd.net",
+        "DOMAIN-SUFFIX,hentaiverse.org",
+        "DOMAIN-SUFFIX,kxcdn.com",
+        "DOMAIN-SUFFIX,sososo.io",
+        "DOMAIN-SUFFIX,vo.msecnd.net"
+      ],
+      "semanticSha256": "160fdaafc6a12d3382017cfeab3157a8e307493de3b9528c7114a7c1cc662d72"
+    }
   ]
 }

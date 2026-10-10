@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
-  "generatedAt": "2026-10-10T18:27:30.421Z",
+  "converterVersion": "mirrrule-rule-output/2",
+  "toolConverterVersion": "mirrrule-rule-output/2",
+  "generatedAt": "2026-10-10T18:47:19.865Z",
   "baseline": {
     "configured": true,
-    "receiptId": "6982062113"
+    "receiptId": "6985052656"
   },
   "policy": {
     "sampleLimit": 20,
@@ -14,9 +15,9 @@
   },
   "summary": {
     "sources": 69,
-    "compared": 69,
+    "compared": 0,
     "baselineUnavailable": 0,
-    "notComparable": 0,
+    "notComparable": 69,
     "removed": 0,
     "warnings": 0
   },
@@ -24,14 +25,78 @@
     {
       "sourceId": "ads",
       "rulesetId": "ads",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 1808,
       "baselineConditionCount": 1808,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1801,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1801,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1801,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1801,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -40,19 +105,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "ai",
       "rulesetId": "ai",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 290,
       "baselineConditionCount": 290,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 271,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 272,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 269,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 272,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -61,19 +191,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "amazon",
       "rulesetId": "amazon",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 234,
       "baselineConditionCount": 234,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 234,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 234,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 234,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 234,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -82,19 +277,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple",
       "rulesetId": "apple",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 86,
       "baselineConditionCount": 86,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 86,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 78,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 78,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 86,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -103,19 +363,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple_cdn",
       "rulesetId": "apple_cdn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 159,
       "baselineConditionCount": 159,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 159,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 159,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 159,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 159,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -124,19 +449,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple_cn",
       "rulesetId": "apple_cn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 9,
       "baselineConditionCount": 9,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -145,19 +535,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple_intelligence",
       "rulesetId": "apple_intelligence",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 5,
       "baselineConditionCount": 5,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -166,19 +621,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple_services",
       "rulesetId": "apple_services",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 25,
       "baselineConditionCount": 25,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 25,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 25,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -187,19 +707,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "apple_services_ip",
       "rulesetId": "apple_services_ip",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 10,
       "baselineConditionCount": 10,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -208,19 +793,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "bilibili",
       "rulesetId": "bilibili",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 138,
       "baselineConditionCount": 138,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 134,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 132,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 128,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 138,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -229,19 +879,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "biliintl",
       "rulesetId": "biliintl",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 6,
       "baselineConditionCount": 6,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -250,19 +965,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "cdn",
       "rulesetId": "cdn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 4771,
       "baselineConditionCount": 4771,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 4748,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 4688,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 4748,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 4748,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -271,19 +1051,69 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "china_asn",
       "rulesetId": "china_asn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 5230,
       "baselineConditionCount": 5230,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5230,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5230,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 5230,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -292,19 +1122,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "china_ip",
       "rulesetId": "china_ip",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 3903,
       "baselineConditionCount": 3903,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3903,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3903,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3903,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3903,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -313,19 +1208,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "china_ip_ipv6",
       "rulesetId": "china_ip_ipv6",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 3479,
       "baselineConditionCount": 3479,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3479,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3479,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3479,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3479,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -334,19 +1294,39 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "cloudmounter",
       "rulesetId": "cloudmounter",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 40,
       "baselineConditionCount": 40,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 40,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -355,19 +1335,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "direct",
       "rulesetId": "direct",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 221,
       "baselineConditionCount": 221,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 220,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 184,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 183,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 221,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -376,19 +1421,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "direct-fmz",
       "rulesetId": "direct-fmz",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 61,
       "baselineConditionCount": 61,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -397,19 +1507,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "disney",
       "rulesetId": "disney",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 237,
       "baselineConditionCount": 237,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 236,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 235,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 234,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 237,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -418,19 +1593,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "domestic",
       "rulesetId": "domestic",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 873,
       "baselineConditionCount": 873,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 870,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 872,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 870,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 873,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -439,19 +1679,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "domestic_cdn",
       "rulesetId": "domestic_cdn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 19,
       "baselineConditionCount": 19,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 19,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 18,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 19,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 19,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -460,19 +1765,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "download",
       "rulesetId": "download",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 1992,
       "baselineConditionCount": 1992,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1991,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1983,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1991,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1992,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -481,19 +1851,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "download_cn",
       "rulesetId": "download_cn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 17,
       "baselineConditionCount": 17,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 17,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -502,19 +1937,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "download_global",
       "rulesetId": "download_global",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 178,
       "baselineConditionCount": 178,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 177,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 177,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 175,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 177,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -523,19 +2023,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "emby",
       "rulesetId": "emby",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 250,
       "baselineConditionCount": 250,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 250,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 250,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 250,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 250,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -544,19 +2109,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "game_download",
       "rulesetId": "game_download",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 52,
       "baselineConditionCount": 52,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 52,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 52,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 52,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 52,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -565,19 +2195,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "github",
       "rulesetId": "github",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 64,
       "baselineConditionCount": 64,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 36,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 36,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 36,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 36,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -586,19 +2281,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "gitlab",
       "rulesetId": "gitlab",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 1,
       "baselineConditionCount": 1,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -607,19 +2367,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "global",
       "rulesetId": "global",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 1274,
       "baselineConditionCount": 1274,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1273,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1274,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1273,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1274,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -628,19 +2453,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "google",
       "rulesetId": "google",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 897,
       "baselineConditionCount": 897,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 549,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 547,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 544,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 552,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -649,19 +2539,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "icloud_private_relay",
       "rulesetId": "icloud_private_relay",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 6,
       "baselineConditionCount": 6,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -670,19 +2625,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "lan",
       "rulesetId": "lan",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 60,
       "baselineConditionCount": 60,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 60,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -691,19 +2711,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "microsoft",
       "rulesetId": "microsoft",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 127,
       "baselineConditionCount": 127,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 83,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 85,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 83,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 85,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -712,19 +2797,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "microsoft_cdn",
       "rulesetId": "microsoft_cdn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 53,
       "baselineConditionCount": 53,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 51,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 53,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 51,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 53,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -733,19 +2883,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_git",
       "rulesetId": "my_git",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 7,
       "baselineConditionCount": 7,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 7,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 7,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 7,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 7,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -754,19 +2969,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_plus",
       "rulesetId": "my_plus",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 15,
       "baselineConditionCount": 15,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 15,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 15,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 15,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 15,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -775,19 +3055,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_proxy",
       "rulesetId": "my_proxy",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 16,
       "baselineConditionCount": 16,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -796,19 +3141,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_reject",
       "rulesetId": "my_reject",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 54,
       "baselineConditionCount": 54,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 54,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 49,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 47,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 54,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -817,19 +3227,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_tw",
       "rulesetId": "my_tw",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 12,
       "baselineConditionCount": 12,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 12,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 8,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 12,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 12,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -838,19 +3313,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "my_us",
       "rulesetId": "my_us",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 6,
       "baselineConditionCount": 6,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 6,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -859,19 +3399,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "neteasemusic",
       "rulesetId": "neteasemusic",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 21,
       "baselineConditionCount": 21,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 19,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 21,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 19,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 21,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -880,19 +3485,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "netflix",
       "rulesetId": "netflix",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 1243,
       "baselineConditionCount": 1243,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1231,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1231,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1230,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 1232,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -901,19 +3571,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "primevideo",
       "rulesetId": "primevideo",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 34,
       "baselineConditionCount": 34,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 32,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 33,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 31,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 34,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -922,19 +3657,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject",
       "rulesetId": "reject",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 139343,
       "baselineConditionCount": 139343,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 139340,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 139328,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 139325,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 139343,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -943,19 +3743,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject_extra",
       "rulesetId": "reject_extra",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 212222,
       "baselineConditionCount": 212222,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 212222,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 212222,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 212222,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 212222,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -964,19 +3829,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject_phishing",
       "rulesetId": "reject_phishing",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 135506,
       "baselineConditionCount": 135506,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 135506,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 135506,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 135506,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 135506,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -985,19 +3915,39 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject_url_regex",
       "rulesetId": "reject_url_regex",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 176,
       "baselineConditionCount": 176,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 176,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1006,19 +3956,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject-drop",
       "rulesetId": "reject-drop",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 28,
       "baselineConditionCount": 28,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 28,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 27,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 28,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 28,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1027,19 +4042,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject-fmz",
       "rulesetId": "reject-fmz",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 2146,
       "baselineConditionCount": 2146,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2128,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2129,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2128,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2129,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1048,19 +4128,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "reject-no-drop",
       "rulesetId": "reject-no-drop",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 45,
       "baselineConditionCount": 45,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 45,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 38,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 44,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 45,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1069,19 +4214,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "sogouinput",
       "rulesetId": "sogouinput",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 14,
       "baselineConditionCount": 14,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 12,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 11,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 14,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1090,19 +4300,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "speedtest",
       "rulesetId": "speedtest",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 3421,
       "baselineConditionCount": 3421,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3420,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3420,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3420,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3420,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1111,19 +4386,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "speedtest_china",
       "rulesetId": "speedtest_china",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 11,
       "baselineConditionCount": 11,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 11,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 11,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 11,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 11,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1132,19 +4472,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "speedtest_international",
       "rulesetId": "speedtest_international",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 18499,
       "baselineConditionCount": 18499,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 18499,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 18499,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 18499,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 18499,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1153,19 +4558,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "spotify",
       "rulesetId": "spotify",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 34,
       "baselineConditionCount": 34,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 8,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 8,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 7,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 9,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1174,19 +4644,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream",
       "rulesetId": "stream",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 361,
       "baselineConditionCount": 361,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 312,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 347,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 298,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 361,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1195,19 +4730,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_eu",
       "rulesetId": "stream_eu",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 10,
       "baselineConditionCount": 10,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 8,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 8,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 10,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1216,19 +4816,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_hk",
       "rulesetId": "stream_hk",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 36,
       "baselineConditionCount": 36,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 34,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 31,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 29,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 36,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1237,19 +4902,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_jp",
       "rulesetId": "stream_jp",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 27,
       "baselineConditionCount": 27,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 25,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 27,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 25,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 27,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1258,19 +4988,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_kr",
       "rulesetId": "stream_kr",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 3,
       "baselineConditionCount": 3,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 2,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 3,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1279,19 +5074,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_tw",
       "rulesetId": "stream_tw",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 38,
       "baselineConditionCount": 38,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 34,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 37,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 33,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 38,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1300,19 +5160,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "stream_us",
       "rulesetId": "stream_us",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 52,
       "baselineConditionCount": 52,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 43,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 51,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 42,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 52,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1321,19 +5246,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "streaming_!cn",
       "rulesetId": "streaming_!cn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 239,
       "baselineConditionCount": 239,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 237,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 237,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 236,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 237,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1342,19 +5332,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "streaming_cn",
       "rulesetId": "streaming_cn",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 16,
       "baselineConditionCount": 16,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 16,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1363,19 +5418,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "telegram",
       "rulesetId": "telegram",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 33,
       "baselineConditionCount": 33,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 33,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 33,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 28,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 33,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1384,19 +5504,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "tiktok",
       "rulesetId": "tiktok",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 56,
       "baselineConditionCount": 56,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 30,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 30,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 29,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 31,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1405,19 +5590,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "wechat",
       "rulesetId": "wechat",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 332,
       "baselineConditionCount": 332,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 330,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 332,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 329,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 332,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1426,19 +5676,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "wechat_no_ua",
       "rulesetId": "wechat_no_ua",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 331,
       "baselineConditionCount": 331,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 331,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 331,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 331,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 331,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1447,19 +5762,84 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     },
     {
       "sourceId": "youtube",
       "rulesetId": "youtube",
-      "status": "compared",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "not-comparable",
       "currentConditionCount": 191,
       "baselineConditionCount": 191,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "rawInputChanged": null,
+      "semanticChanged": null,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 14,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 21,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 14,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        },
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 21,
+          "baselineConditionCount": null,
+          "added": null,
+          "removed": null,
+          "samples": {
+            "added": [],
+            "removed": []
+          },
+          "reason": "converter-version-mismatch"
+        }
+      ],
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1468,7 +5848,8 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "converter-version-mismatch"
     }
   ]
 }

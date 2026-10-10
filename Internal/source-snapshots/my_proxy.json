@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "my_proxy",
   "rulesetId": "my_proxy",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -27,5 +27,101 @@
     "DOMAIN-SUFFIX,ipwho.is",
     "DOMAIN-SUFFIX,nextdns.io",
     "DOMAIN-SUFFIX,services.googleapis.cn"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,fonts.googleapis.cn",
+        "DOMAIN,fonts.gstatic.cn",
+        "DOMAIN,ip.cn",
+        "DOMAIN,sglong.wechat.com",
+        "DOMAIN,sgminorshort.wechat.com",
+        "DOMAIN,sgshort.wechat.com",
+        "DOMAIN-SUFFIX,db-ip.com",
+        "DOMAIN-SUFFIX,ip-api.com",
+        "DOMAIN-SUFFIX,ip.sb",
+        "DOMAIN-SUFFIX,ipdata.co",
+        "DOMAIN-SUFFIX,ipgeolocation.io",
+        "DOMAIN-SUFFIX,ipregistry.co",
+        "DOMAIN-SUFFIX,ipstack.com",
+        "DOMAIN-SUFFIX,ipwho.is",
+        "DOMAIN-SUFFIX,nextdns.io",
+        "DOMAIN-SUFFIX,services.googleapis.cn"
+      ],
+      "semanticSha256": "9d8b5310d84bae4af3016f84162d4854d9f5edaa51514f86fe51374a73f169ac"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,fonts.googleapis.cn",
+        "DOMAIN,fonts.gstatic.cn",
+        "DOMAIN,ip.cn",
+        "DOMAIN,sglong.wechat.com",
+        "DOMAIN,sgminorshort.wechat.com",
+        "DOMAIN,sgshort.wechat.com",
+        "DOMAIN-SUFFIX,db-ip.com",
+        "DOMAIN-SUFFIX,ip-api.com",
+        "DOMAIN-SUFFIX,ip.sb",
+        "DOMAIN-SUFFIX,ipdata.co",
+        "DOMAIN-SUFFIX,ipgeolocation.io",
+        "DOMAIN-SUFFIX,ipregistry.co",
+        "DOMAIN-SUFFIX,ipstack.com",
+        "DOMAIN-SUFFIX,ipwho.is",
+        "DOMAIN-SUFFIX,nextdns.io",
+        "DOMAIN-SUFFIX,services.googleapis.cn"
+      ],
+      "semanticSha256": "9d61866f9b6544e2533e8548501b74fffc9333db0fdcc4f962941286e03de825"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:fonts.googleapis.cn",
+        "domain:fonts.gstatic.cn",
+        "domain:ip.cn",
+        "domain:sglong.wechat.com",
+        "domain:sgminorshort.wechat.com",
+        "domain:sgshort.wechat.com",
+        "domain_suffix:db-ip.com",
+        "domain_suffix:ip-api.com",
+        "domain_suffix:ip.sb",
+        "domain_suffix:ipdata.co",
+        "domain_suffix:ipgeolocation.io",
+        "domain_suffix:ipregistry.co",
+        "domain_suffix:ipstack.com",
+        "domain_suffix:ipwho.is",
+        "domain_suffix:nextdns.io",
+        "domain_suffix:services.googleapis.cn"
+      ],
+      "semanticSha256": "4e8716e87d0a448f25c81b1fe71539518ce5a907ce67fbc0621f8ce5b5f27564"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,fonts.googleapis.cn",
+        "DOMAIN,fonts.gstatic.cn",
+        "DOMAIN,ip.cn",
+        "DOMAIN,sglong.wechat.com",
+        "DOMAIN,sgminorshort.wechat.com",
+        "DOMAIN,sgshort.wechat.com",
+        "DOMAIN-SUFFIX,db-ip.com",
+        "DOMAIN-SUFFIX,ip-api.com",
+        "DOMAIN-SUFFIX,ip.sb",
+        "DOMAIN-SUFFIX,ipdata.co",
+        "DOMAIN-SUFFIX,ipgeolocation.io",
+        "DOMAIN-SUFFIX,ipregistry.co",
+        "DOMAIN-SUFFIX,ipstack.com",
+        "DOMAIN-SUFFIX,ipwho.is",
+        "DOMAIN-SUFFIX,nextdns.io",
+        "DOMAIN-SUFFIX,services.googleapis.cn"
+      ],
+      "semanticSha256": "7d7eace5b7750516abfc0c09eeb057ae2eda872d840a19354035520d7c7a142d"
+    }
   ]
 }

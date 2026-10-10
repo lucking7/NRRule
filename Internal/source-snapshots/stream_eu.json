@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "stream_eu",
   "rulesetId": "stream_eu",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -21,5 +21,73 @@
     "DOMAIN-SUFFIX,tvlicensing.co.uk",
     "USER-AGENT,BBCiPlayer*",
     "USER-AGENT,ITV_Player*"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,bbc.mp-pxcdn.com",
+        "DOMAIN,itvpnpmobile-a.akamaihd.net",
+        "DOMAIN-KEYWORD,bbcfmt",
+        "DOMAIN-KEYWORD,uk-live",
+        "DOMAIN-SUFFIX,bbc.co.uk",
+        "DOMAIN-SUFFIX,bbci.co.uk",
+        "DOMAIN-SUFFIX,itv.com",
+        "DOMAIN-SUFFIX,tvlicensing.co.uk",
+        "USER-AGENT,BBCiPlayer*",
+        "USER-AGENT,ITV_Player*"
+      ],
+      "semanticSha256": "e5746a3013df6842ade2ea0fc82bec28c23499eebd9f92ebf19159cbca3cd16a"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,bbc.mp-pxcdn.com",
+        "DOMAIN,itvpnpmobile-a.akamaihd.net",
+        "DOMAIN-KEYWORD,bbcfmt",
+        "DOMAIN-KEYWORD,uk-live",
+        "DOMAIN-SUFFIX,bbc.co.uk",
+        "DOMAIN-SUFFIX,bbci.co.uk",
+        "DOMAIN-SUFFIX,itv.com",
+        "DOMAIN-SUFFIX,tvlicensing.co.uk"
+      ],
+      "semanticSha256": "022afd4727761ecd77ba356d83c15349912f9d1e6be38a1a45e93e4e18965714"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:bbc.mp-pxcdn.com",
+        "domain:itvpnpmobile-a.akamaihd.net",
+        "domain_keyword:bbcfmt",
+        "domain_keyword:uk-live",
+        "domain_suffix:bbc.co.uk",
+        "domain_suffix:bbci.co.uk",
+        "domain_suffix:itv.com",
+        "domain_suffix:tvlicensing.co.uk"
+      ],
+      "semanticSha256": "926169631fad3ff52ce2ce965d7ea2fc33fe5e2da96d4b4eccbed973aa671e58"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,bbc.mp-pxcdn.com",
+        "DOMAIN,itvpnpmobile-a.akamaihd.net",
+        "DOMAIN-KEYWORD,bbcfmt",
+        "DOMAIN-KEYWORD,uk-live",
+        "DOMAIN-SUFFIX,bbc.co.uk",
+        "DOMAIN-SUFFIX,bbci.co.uk",
+        "DOMAIN-SUFFIX,itv.com",
+        "DOMAIN-SUFFIX,tvlicensing.co.uk",
+        "USER-AGENT,BBCiPlayer*",
+        "USER-AGENT,ITV_Player*"
+      ],
+      "semanticSha256": "1060dbd2a46ba7dd59b699d61b69d6581375009527b6b507bfceb484b1d81530"
+    }
   ]
 }

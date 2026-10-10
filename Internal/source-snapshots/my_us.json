@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "my_us",
   "rulesetId": "my_us",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -17,5 +17,61 @@
     "DOMAIN,www.coinbase.com",
     "DOMAIN-SUFFIX,crunchyroll.com",
     "DOMAIN-SUFFIX,mandaom.com"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,cableav.tv",
+        "DOMAIN,copymanga.site",
+        "DOMAIN,jav.guru",
+        "DOMAIN,www.coinbase.com",
+        "DOMAIN-SUFFIX,crunchyroll.com",
+        "DOMAIN-SUFFIX,mandaom.com"
+      ],
+      "semanticSha256": "58e2727f71b3521c519ae382cd7a0459058cb3b8a2cc991ab0d78f75906774d4"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,cableav.tv",
+        "DOMAIN,copymanga.site",
+        "DOMAIN,jav.guru",
+        "DOMAIN,www.coinbase.com",
+        "DOMAIN-SUFFIX,crunchyroll.com",
+        "DOMAIN-SUFFIX,mandaom.com"
+      ],
+      "semanticSha256": "791e5e1ac406ce8bb0848792dbfafba46f37aece26617763f9a8cbc721713d13"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:cableav.tv",
+        "domain:copymanga.site",
+        "domain:jav.guru",
+        "domain:www.coinbase.com",
+        "domain_suffix:crunchyroll.com",
+        "domain_suffix:mandaom.com"
+      ],
+      "semanticSha256": "53d4ac39d79d2484e45141b303d5465fcb1e8591808c1621af33515baa25a11c"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,cableav.tv",
+        "DOMAIN,copymanga.site",
+        "DOMAIN,jav.guru",
+        "DOMAIN,www.coinbase.com",
+        "DOMAIN-SUFFIX,crunchyroll.com",
+        "DOMAIN-SUFFIX,mandaom.com"
+      ],
+      "semanticSha256": "5dda07112e89028614f4d2706dab555d056056594948f65458a2e11bc747417b"
+    }
   ]
 }

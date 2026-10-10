@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "apple_intelligence",
   "rulesetId": "apple_intelligence",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -16,5 +16,57 @@
     "DOMAIN,apple-relay.fastly-edge.com",
     "DOMAIN,cp4.cloudflare.com",
     "DOMAIN,gspe1-ssl.ls.apple.com"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,apple-relay.apple.com",
+        "DOMAIN,apple-relay.cloudflare.com",
+        "DOMAIN,apple-relay.fastly-edge.com",
+        "DOMAIN,cp4.cloudflare.com",
+        "DOMAIN,gspe1-ssl.ls.apple.com"
+      ],
+      "semanticSha256": "720b2fe281d41d5352661e7886483e9e5ce60e92861d132191204c1af1a49e82"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,apple-relay.apple.com",
+        "DOMAIN,apple-relay.cloudflare.com",
+        "DOMAIN,apple-relay.fastly-edge.com",
+        "DOMAIN,cp4.cloudflare.com",
+        "DOMAIN,gspe1-ssl.ls.apple.com"
+      ],
+      "semanticSha256": "9b98d403f266eb1b6b91acb1ede57b6aa8f6da47e038860dd77a36bb04256711"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:apple-relay.apple.com",
+        "domain:apple-relay.cloudflare.com",
+        "domain:apple-relay.fastly-edge.com",
+        "domain:cp4.cloudflare.com",
+        "domain:gspe1-ssl.ls.apple.com"
+      ],
+      "semanticSha256": "ee4fb2559efd00b12693e67e013db68451b37833ee61108bfdf01eb112f24e44"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,apple-relay.apple.com",
+        "DOMAIN,apple-relay.cloudflare.com",
+        "DOMAIN,apple-relay.fastly-edge.com",
+        "DOMAIN,cp4.cloudflare.com",
+        "DOMAIN,gspe1-ssl.ls.apple.com"
+      ],
+      "semanticSha256": "7ecee8945103bdba0e8d5b5503bcc4da5d80277589e9e93271dc17e0df20cc3f"
+    }
   ]
 }

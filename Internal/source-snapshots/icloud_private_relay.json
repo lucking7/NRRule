@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "icloud_private_relay",
   "rulesetId": "icloud_private_relay",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -17,5 +17,61 @@
     "DOMAIN,mask-h2.icloud.com",
     "DOMAIN,mask.apple-dns.net",
     "DOMAIN,mask.icloud.com"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,canary.mask.apple-dns.net",
+        "DOMAIN,mask-api.icloud.com",
+        "DOMAIN,mask-canary.icloud.com",
+        "DOMAIN,mask-h2.icloud.com",
+        "DOMAIN,mask.apple-dns.net",
+        "DOMAIN,mask.icloud.com"
+      ],
+      "semanticSha256": "032eb62fc59d916796924e370cc049dd1c07aea290fcc6e5b4f2526134e5384f"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,canary.mask.apple-dns.net",
+        "DOMAIN,mask-api.icloud.com",
+        "DOMAIN,mask-canary.icloud.com",
+        "DOMAIN,mask-h2.icloud.com",
+        "DOMAIN,mask.apple-dns.net",
+        "DOMAIN,mask.icloud.com"
+      ],
+      "semanticSha256": "cbc0cdd8c107ef791bc71d9559dd21a5cdf72da144dbb8f318a4e9ec347dc4d3"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:canary.mask.apple-dns.net",
+        "domain:mask-api.icloud.com",
+        "domain:mask-canary.icloud.com",
+        "domain:mask-h2.icloud.com",
+        "domain:mask.apple-dns.net",
+        "domain:mask.icloud.com"
+      ],
+      "semanticSha256": "9eb146321600e540390b6113541e22ff49591e90637b532da9fb7270eb37f4e6"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,canary.mask.apple-dns.net",
+        "DOMAIN,mask-api.icloud.com",
+        "DOMAIN,mask-canary.icloud.com",
+        "DOMAIN,mask-h2.icloud.com",
+        "DOMAIN,mask.apple-dns.net",
+        "DOMAIN,mask.icloud.com"
+      ],
+      "semanticSha256": "ed3069be9033947735254a5aa183a88b332af27100058ecbf9ffbf2cd70f0c9f"
+    }
   ]
 }

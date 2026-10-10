@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "my_git",
   "rulesetId": "my_git",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -18,5 +18,65 @@
     "DOMAIN,github.dev",
     "DOMAIN-SUFFIX,githubcopilot.com",
     "DOMAIN-SUFFIX,huggingface.co"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,alive.github.com",
+        "DOMAIN,android.googlesource.com",
+        "DOMAIN,api.github.com",
+        "DOMAIN,github.com",
+        "DOMAIN,github.dev",
+        "DOMAIN-SUFFIX,githubcopilot.com",
+        "DOMAIN-SUFFIX,huggingface.co"
+      ],
+      "semanticSha256": "0ccfdfbe1e60659c5695c0b831ebe4c97c93284ed17f414487c8afeb447846e7"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,alive.github.com",
+        "DOMAIN,android.googlesource.com",
+        "DOMAIN,api.github.com",
+        "DOMAIN,github.com",
+        "DOMAIN,github.dev",
+        "DOMAIN-SUFFIX,githubcopilot.com",
+        "DOMAIN-SUFFIX,huggingface.co"
+      ],
+      "semanticSha256": "c555af4a99b1cbf20a919a6597f88bc6859f53132fa710ef82bba12cd2401a02"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:alive.github.com",
+        "domain:android.googlesource.com",
+        "domain:api.github.com",
+        "domain:github.com",
+        "domain:github.dev",
+        "domain_suffix:githubcopilot.com",
+        "domain_suffix:huggingface.co"
+      ],
+      "semanticSha256": "ba8f23a04ed84bc00b70678057f7bc31f7c43ea4978480e604282b486522a412"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,alive.github.com",
+        "DOMAIN,android.googlesource.com",
+        "DOMAIN,api.github.com",
+        "DOMAIN,github.com",
+        "DOMAIN,github.dev",
+        "DOMAIN-SUFFIX,githubcopilot.com",
+        "DOMAIN-SUFFIX,huggingface.co"
+      ],
+      "semanticSha256": "2794c81e9e3283d65c539607edfa0977455ceb9a74e813f47b64be5b16ff8019"
+    }
   ]
 }

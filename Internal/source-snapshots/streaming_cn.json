@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "streaming_cn",
   "rulesetId": "streaming_cn",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -27,5 +27,101 @@
     "DOMAIN-SUFFIX,api.mgtv.com",
     "IP-CIDR,116.211.202.206/32,no-resolve",
     "IP-CIDR,116.211.202.216/32,no-resolve"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,api.biliapi.com",
+        "DOMAIN,api.biliapi.net",
+        "DOMAIN,api.bilibili.com",
+        "DOMAIN,app.biliapi.com",
+        "DOMAIN,app.biliapi.net",
+        "DOMAIN,app.bilibili.com",
+        "DOMAIN,cache.video.iqiyi.com",
+        "DOMAIN,grpc.biliapi.net",
+        "DOMAIN,m.bilibili.com",
+        "DOMAIN,mobileso.bz.mgtv.com",
+        "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+        "DOMAIN,www.bilibili.com",
+        "DOMAIN-KEYWORD,cn-hk-eq-bcache-",
+        "DOMAIN-SUFFIX,api.mgtv.com",
+        "IP-CIDR,116.211.202.206/32,no-resolve",
+        "IP-CIDR,116.211.202.216/32,no-resolve"
+      ],
+      "semanticSha256": "4ca0b832083580a4a5933c2cbc247088b6ee68be7129173f0f0489bd8c0ad892"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,api.biliapi.com",
+        "DOMAIN,api.biliapi.net",
+        "DOMAIN,api.bilibili.com",
+        "DOMAIN,app.biliapi.com",
+        "DOMAIN,app.biliapi.net",
+        "DOMAIN,app.bilibili.com",
+        "DOMAIN,cache.video.iqiyi.com",
+        "DOMAIN,grpc.biliapi.net",
+        "DOMAIN,m.bilibili.com",
+        "DOMAIN,mobileso.bz.mgtv.com",
+        "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+        "DOMAIN,www.bilibili.com",
+        "DOMAIN-KEYWORD,cn-hk-eq-bcache-",
+        "DOMAIN-SUFFIX,api.mgtv.com",
+        "IP-CIDR,116.211.202.206/32,no-resolve",
+        "IP-CIDR,116.211.202.216/32,no-resolve"
+      ],
+      "semanticSha256": "9482bc4d3f2cbbfe9e29caf185ddd5321d2d0b5c48ee26d33817d7e8ce16f6c5"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:api.biliapi.com",
+        "domain:api.biliapi.net",
+        "domain:api.bilibili.com",
+        "domain:app.biliapi.com",
+        "domain:app.biliapi.net",
+        "domain:app.bilibili.com",
+        "domain:cache.video.iqiyi.com",
+        "domain:grpc.biliapi.net",
+        "domain:m.bilibili.com",
+        "domain:mobileso.bz.mgtv.com",
+        "domain:upos-hz-mirrorakam.akamaized.net",
+        "domain:www.bilibili.com",
+        "domain_keyword:cn-hk-eq-bcache-",
+        "domain_suffix:api.mgtv.com",
+        "ip_cidr:116.211.202.206/32",
+        "ip_cidr:116.211.202.216/32"
+      ],
+      "semanticSha256": "4af793d51b0d266319a528b1e15d358383ef2bd8fde89d2435c67173d0b8be8b"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,api.biliapi.com",
+        "DOMAIN,api.biliapi.net",
+        "DOMAIN,api.bilibili.com",
+        "DOMAIN,app.biliapi.com",
+        "DOMAIN,app.biliapi.net",
+        "DOMAIN,app.bilibili.com",
+        "DOMAIN,cache.video.iqiyi.com",
+        "DOMAIN,grpc.biliapi.net",
+        "DOMAIN,m.bilibili.com",
+        "DOMAIN,mobileso.bz.mgtv.com",
+        "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+        "DOMAIN,www.bilibili.com",
+        "DOMAIN-KEYWORD,cn-hk-eq-bcache-",
+        "DOMAIN-SUFFIX,api.mgtv.com",
+        "IP-CIDR,116.211.202.206/32,no-resolve",
+        "IP-CIDR,116.211.202.216/32,no-resolve"
+      ],
+      "semanticSha256": "baa1a0bbd3d381f779a5ebc36d7dcc946c835d2b3022ccecc0b1d39495db1a11"
+    }
   ]
 }

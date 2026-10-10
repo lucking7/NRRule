@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "biliintl",
   "rulesetId": "biliintl",
   "contextSha256": "73ebb81d237853a12849ef2f26141327378fe9cee8b042c0b24687eb2a703f12",
@@ -17,5 +17,59 @@
     "DOMAIN-SUFFIX,bilibili.tv",
     "DOMAIN-SUFFIX,biliintl.com",
     "PROCESS-NAME,com.bstar.intl"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,apm-misaka.biliapi.net",
+        "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+        "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+        "DOMAIN-SUFFIX,bilibili.tv",
+        "DOMAIN-SUFFIX,biliintl.com",
+        "PROCESS-NAME,com.bstar.intl"
+      ],
+      "semanticSha256": "9cacce01ea340b4b72b2ed2af993495b0242e578bbadb79c2fe1eae6d7c32e78"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,apm-misaka.biliapi.net",
+        "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+        "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+        "DOMAIN-SUFFIX,bilibili.tv",
+        "DOMAIN-SUFFIX,biliintl.com",
+        "PROCESS-NAME,com.bstar.intl"
+      ],
+      "semanticSha256": "beedc3b3ae8d46d409a4ccf34bb924d37cdc8fe6b8507c317b1e96280c35e74e"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:apm-misaka.biliapi.net",
+        "domain:upos-bstar-mirrorakam.akamaized.net",
+        "domain:upos-bstar1-mirrorakam.akamaized.net",
+        "domain_suffix:bilibili.tv",
+        "domain_suffix:biliintl.com"
+      ],
+      "semanticSha256": "f67b94dee507f65f050dd3c308dc906174135b4d263bfa6079592443aa958cc9"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,apm-misaka.biliapi.net",
+        "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+        "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+        "DOMAIN-SUFFIX,bilibili.tv",
+        "DOMAIN-SUFFIX,biliintl.com"
+      ],
+      "semanticSha256": "3a7e2456b36bbd68f54b308b87d08295a754f7ffcf20f99f8dbfabc3d6f57fcf"
+    }
   ]
 }

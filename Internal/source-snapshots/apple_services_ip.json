@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "apple_services_ip",
   "rulesetId": "apple_services_ip",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -21,5 +21,77 @@
     "IP-CIDR,205.180.175.0/24,no-resolve",
     "IP-CIDR,63.92.224.0/19,no-resolve",
     "IP-CIDR,65.199.22.0/23,no-resolve"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "IP-CIDR,139.178.128.0/18,no-resolve",
+        "IP-CIDR,144.178.0.0/19,no-resolve",
+        "IP-CIDR,144.178.36.0/22,no-resolve",
+        "IP-CIDR,144.178.48.0/20,no-resolve",
+        "IP-CIDR,17.0.0.0/8,no-resolve",
+        "IP-CIDR,192.35.50.0/24,no-resolve",
+        "IP-CIDR,198.183.17.0/24,no-resolve",
+        "IP-CIDR,205.180.175.0/24,no-resolve",
+        "IP-CIDR,63.92.224.0/19,no-resolve",
+        "IP-CIDR,65.199.22.0/23,no-resolve"
+      ],
+      "semanticSha256": "f9ce4a81ef8430f3b5053b66a57bb0c972a837dbebe64b307568f079e2def259"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "IP-CIDR,139.178.128.0/18,no-resolve",
+        "IP-CIDR,144.178.0.0/19,no-resolve",
+        "IP-CIDR,144.178.36.0/22,no-resolve",
+        "IP-CIDR,144.178.48.0/20,no-resolve",
+        "IP-CIDR,17.0.0.0/8,no-resolve",
+        "IP-CIDR,192.35.50.0/24,no-resolve",
+        "IP-CIDR,198.183.17.0/24,no-resolve",
+        "IP-CIDR,205.180.175.0/24,no-resolve",
+        "IP-CIDR,63.92.224.0/19,no-resolve",
+        "IP-CIDR,65.199.22.0/23,no-resolve"
+      ],
+      "semanticSha256": "7ec8addfe01753f56674c01cfd1bcec4f1ca9ba546c41b6b2f6f77d77893c52c"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "ip_cidr:139.178.128.0/18",
+        "ip_cidr:144.178.0.0/19",
+        "ip_cidr:144.178.36.0/22",
+        "ip_cidr:144.178.48.0/20",
+        "ip_cidr:17.0.0.0/8",
+        "ip_cidr:192.35.50.0/24",
+        "ip_cidr:198.183.17.0/24",
+        "ip_cidr:205.180.175.0/24",
+        "ip_cidr:63.92.224.0/19",
+        "ip_cidr:65.199.22.0/23"
+      ],
+      "semanticSha256": "ac074cbd088813a8559fd1a8f30b4c9b14bc1fe693a42346be8826627d632c41"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "IP-CIDR,139.178.128.0/18,no-resolve",
+        "IP-CIDR,144.178.0.0/19,no-resolve",
+        "IP-CIDR,144.178.36.0/22,no-resolve",
+        "IP-CIDR,144.178.48.0/20,no-resolve",
+        "IP-CIDR,17.0.0.0/8,no-resolve",
+        "IP-CIDR,192.35.50.0/24,no-resolve",
+        "IP-CIDR,198.183.17.0/24,no-resolve",
+        "IP-CIDR,205.180.175.0/24,no-resolve",
+        "IP-CIDR,63.92.224.0/19,no-resolve",
+        "IP-CIDR,65.199.22.0/23,no-resolve"
+      ],
+      "semanticSha256": "c265d509085691c5daa34cca63d1c620dbd84d5d8863b079db2efceacefdebda"
+    }
   ]
 }

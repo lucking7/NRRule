@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "domestic_cdn",
   "rulesetId": "domestic_cdn",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -30,5 +30,112 @@
     "DOMAIN-SUFFIX,tx-safety-video.acfun.cn",
     "DOMAIN-SUFFIX,zhimg.com",
     "DOMAIN-WILDCARD,qhimgs?.com"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,registry.npmmirror.com",
+        "DOMAIN,time.xtracloud.net",
+        "DOMAIN-SUFFIX,360buyimg.com",
+        "DOMAIN-SUFFIX,ali-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,alicdn.com",
+        "DOMAIN-SUFFIX,alipayobjects.com",
+        "DOMAIN-SUFFIX,biliimg.com",
+        "DOMAIN-SUFFIX,hdslb.com",
+        "DOMAIN-SUFFIX,music.126.net",
+        "DOMAIN-SUFFIX,qhimg.com",
+        "DOMAIN-SUFFIX,qhimgs.com",
+        "DOMAIN-SUFFIX,qhres.com",
+        "DOMAIN-SUFFIX,qhres2.com",
+        "DOMAIN-SUFFIX,sinaimg.cn",
+        "DOMAIN-SUFFIX,sinaimg.com",
+        "DOMAIN-SUFFIX,tbcdn.cn",
+        "DOMAIN-SUFFIX,tx-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,zhimg.com",
+        "DOMAIN-WILDCARD,qhimgs?.com"
+      ],
+      "semanticSha256": "3e396621fc9390421e4cdf0bd62b400f97ef4ad6e7966add4c939e9b599a32e3"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,registry.npmmirror.com",
+        "DOMAIN,time.xtracloud.net",
+        "DOMAIN-SUFFIX,360buyimg.com",
+        "DOMAIN-SUFFIX,ali-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,alicdn.com",
+        "DOMAIN-SUFFIX,alipayobjects.com",
+        "DOMAIN-SUFFIX,biliimg.com",
+        "DOMAIN-SUFFIX,hdslb.com",
+        "DOMAIN-SUFFIX,music.126.net",
+        "DOMAIN-SUFFIX,qhimg.com",
+        "DOMAIN-SUFFIX,qhimgs.com",
+        "DOMAIN-SUFFIX,qhres.com",
+        "DOMAIN-SUFFIX,qhres2.com",
+        "DOMAIN-SUFFIX,sinaimg.cn",
+        "DOMAIN-SUFFIX,sinaimg.com",
+        "DOMAIN-SUFFIX,tbcdn.cn",
+        "DOMAIN-SUFFIX,tx-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,zhimg.com",
+        "DOMAIN-WILDCARD,qhimgs?.com"
+      ],
+      "semanticSha256": "0452e34180bc4de1cfef61c95b134637bd763d36f8af8a9422817e23956256c1"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:registry.npmmirror.com",
+        "domain:time.xtracloud.net",
+        "domain_regex:^qhimgs[\\w.-]\\.com$",
+        "domain_suffix:360buyimg.com",
+        "domain_suffix:ali-safety-video.acfun.cn",
+        "domain_suffix:alicdn.com",
+        "domain_suffix:alipayobjects.com",
+        "domain_suffix:biliimg.com",
+        "domain_suffix:hdslb.com",
+        "domain_suffix:music.126.net",
+        "domain_suffix:qhimg.com",
+        "domain_suffix:qhimgs.com",
+        "domain_suffix:qhres.com",
+        "domain_suffix:qhres2.com",
+        "domain_suffix:sinaimg.cn",
+        "domain_suffix:sinaimg.com",
+        "domain_suffix:tbcdn.cn",
+        "domain_suffix:tx-safety-video.acfun.cn",
+        "domain_suffix:zhimg.com"
+      ],
+      "semanticSha256": "f6e81595121b67e57744451f48d693bd2e985366bfe05c69cd48eb185a79186e"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,registry.npmmirror.com",
+        "DOMAIN,time.xtracloud.net",
+        "DOMAIN-SUFFIX,360buyimg.com",
+        "DOMAIN-SUFFIX,ali-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,alicdn.com",
+        "DOMAIN-SUFFIX,alipayobjects.com",
+        "DOMAIN-SUFFIX,biliimg.com",
+        "DOMAIN-SUFFIX,hdslb.com",
+        "DOMAIN-SUFFIX,music.126.net",
+        "DOMAIN-SUFFIX,qhimg.com",
+        "DOMAIN-SUFFIX,qhimgs.com",
+        "DOMAIN-SUFFIX,qhres.com",
+        "DOMAIN-SUFFIX,qhres2.com",
+        "DOMAIN-SUFFIX,sinaimg.cn",
+        "DOMAIN-SUFFIX,sinaimg.com",
+        "DOMAIN-SUFFIX,tbcdn.cn",
+        "DOMAIN-SUFFIX,tx-safety-video.acfun.cn",
+        "DOMAIN-SUFFIX,zhimg.com"
+      ],
+      "semanticSha256": "25d4958d5f53104fbb64d4a3270bc11d85d1f9167384efddedbe28bf2233cc67"
+    }
   ]
 }

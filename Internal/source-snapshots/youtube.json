@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "converterVersion": "mirrrule-rule-output/1",
+  "converterVersion": "mirrrule-rule-output/2",
   "sourceId": "youtube",
   "rulesetId": "youtube",
   "contextSha256": "183979ea31ae3f07cc04c052d85b68cdf625669aa6c1e9c8e03385bf2fcae42c",
@@ -203,5 +203,107 @@
     "USER-AGENT,YouTubeMusic*",
     "USER-AGENT,com.google.ios.youtube*",
     "USER-AGENT,com.google.ios.youtubemusic*"
+  ],
+  "semanticScope": "normalized-source",
+  "effectiveOutputVersion": 1,
+  "effectiveOutputs": [
+    {
+      "platform": "surge",
+      "format": "surge-classical",
+      "conditions": [
+        "DOMAIN,yt3.googleusercontent.com",
+        "DOMAIN-KEYWORD,youtube",
+        "DOMAIN-SUFFIX,ggpht.cn",
+        "DOMAIN-SUFFIX,ggpht.com",
+        "DOMAIN-SUFFIX,googlevideo.com",
+        "DOMAIN-SUFFIX,gvt1.com",
+        "DOMAIN-SUFFIX,gvt2.com",
+        "DOMAIN-SUFFIX,video.google.com",
+        "DOMAIN-SUFFIX,youtu.be",
+        "DOMAIN-SUFFIX,yt.be",
+        "DOMAIN-SUFFIX,ytimg.com",
+        "IP-CIDR,172.110.32.0/21,no-resolve",
+        "IP-CIDR,216.73.80.0/20,no-resolve",
+        "IP-CIDR6,2620:120:e000::/40,no-resolve",
+        "USER-AGENT,*YouTubeMusic*",
+        "USER-AGENT,*com.google.ios.youtubemusic*",
+        "USER-AGENT,*youtube*",
+        "USER-AGENT,YouTube*",
+        "USER-AGENT,YouTubeMusic*",
+        "USER-AGENT,com.google.ios.youtube*",
+        "USER-AGENT,com.google.ios.youtubemusic*"
+      ],
+      "semanticSha256": "828e9a48b13e16d2479f96d01b161f44e7eac731002be9a503b7f4e75a2dca3e"
+    },
+    {
+      "platform": "clash",
+      "format": "clash-classical",
+      "conditions": [
+        "DOMAIN,yt3.googleusercontent.com",
+        "DOMAIN-KEYWORD,youtube",
+        "DOMAIN-SUFFIX,ggpht.cn",
+        "DOMAIN-SUFFIX,ggpht.com",
+        "DOMAIN-SUFFIX,googlevideo.com",
+        "DOMAIN-SUFFIX,gvt1.com",
+        "DOMAIN-SUFFIX,gvt2.com",
+        "DOMAIN-SUFFIX,video.google.com",
+        "DOMAIN-SUFFIX,youtu.be",
+        "DOMAIN-SUFFIX,yt.be",
+        "DOMAIN-SUFFIX,ytimg.com",
+        "IP-CIDR,172.110.32.0/21,no-resolve",
+        "IP-CIDR,216.73.80.0/20,no-resolve",
+        "IP-CIDR6,2620:120:e000::/40,no-resolve"
+      ],
+      "semanticSha256": "b9267ec8bea9fec7c9639347cff37d09acffca753f33116e3da5fc931075e4a2"
+    },
+    {
+      "platform": "singbox",
+      "format": "singbox-json-v2",
+      "conditions": [
+        "domain:yt3.googleusercontent.com",
+        "domain_keyword:youtube",
+        "domain_suffix:ggpht.cn",
+        "domain_suffix:ggpht.com",
+        "domain_suffix:googlevideo.com",
+        "domain_suffix:gvt1.com",
+        "domain_suffix:gvt2.com",
+        "domain_suffix:video.google.com",
+        "domain_suffix:youtu.be",
+        "domain_suffix:yt.be",
+        "domain_suffix:ytimg.com",
+        "ip_cidr:172.110.32.0/21",
+        "ip_cidr:216.73.80.0/20",
+        "ip_cidr:2620:120:e000::/40"
+      ],
+      "semanticSha256": "0e51236ee5e7077aa02b566b297356f52a8ca22fdfd9cfa2cbfb849d1588e3d5"
+    },
+    {
+      "platform": "loon",
+      "format": "loon-classical",
+      "conditions": [
+        "DOMAIN,yt3.googleusercontent.com",
+        "DOMAIN-KEYWORD,youtube",
+        "DOMAIN-SUFFIX,ggpht.cn",
+        "DOMAIN-SUFFIX,ggpht.com",
+        "DOMAIN-SUFFIX,googlevideo.com",
+        "DOMAIN-SUFFIX,gvt1.com",
+        "DOMAIN-SUFFIX,gvt2.com",
+        "DOMAIN-SUFFIX,video.google.com",
+        "DOMAIN-SUFFIX,youtu.be",
+        "DOMAIN-SUFFIX,yt.be",
+        "DOMAIN-SUFFIX,ytimg.com",
+        "IP-CIDR,172.110.32.0/21,no-resolve",
+        "IP-CIDR,216.73.80.0/20,no-resolve",
+        "IP-CIDR6,2620:120:e000::/40,no-resolve",
+        "USER-AGENT,*YouTubeMusic*",
+        "USER-AGENT,*com.google.ios.youtubemusic*",
+        "USER-AGENT,*youtube*",
+        "USER-AGENT,YouTube*",
+        "USER-AGENT,YouTubeMusic*",
+        "USER-AGENT,com.google.ios.youtube*",
+        "USER-AGENT,com.google.ios.youtubemusic*"
+      ],
+      "semanticSha256": "8adaf614d11defa2be8be8ea04bb0a0dd6f9cc5ae444b4aa4a966d063ff8f754"
+    }
   ]
 }

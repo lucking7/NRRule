@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "automaticRedirects": false,
   "records": [
     {
@@ -20,9 +20,21 @@
       "state": "retired",
       "paths": [
         "List/container.list",
+        "List/domainset/container.list",
+        "List/non_ip/container.list",
+        "List/ip/container.list",
         "Clash/container.txt",
+        "Clash/domainset/container.txt",
+        "Clash/non_ip/container.txt",
+        "Clash/ip/container.txt",
         "Loon/container.list",
-        "sing-box/container.json"
+        "Loon/domainset/container.list",
+        "Loon/non_ip/container.list",
+        "Loon/ip/container.list",
+        "sing-box/container.json",
+        "sing-box/domainset/container.json",
+        "sing-box/non_ip/container.json",
+        "sing-box/ip/container.json"
       ],
       "reason": "Standalone ruleset removed from rule sources",
       "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
@@ -32,9 +44,21 @@
       "state": "retired",
       "paths": [
         "List/discord.list",
+        "List/domainset/discord.list",
+        "List/non_ip/discord.list",
+        "List/ip/discord.list",
         "Clash/discord.txt",
+        "Clash/domainset/discord.txt",
+        "Clash/non_ip/discord.txt",
+        "Clash/ip/discord.txt",
         "Loon/discord.list",
-        "sing-box/discord.json"
+        "Loon/domainset/discord.list",
+        "Loon/non_ip/discord.list",
+        "Loon/ip/discord.list",
+        "sing-box/discord.json",
+        "sing-box/domainset/discord.json",
+        "sing-box/non_ip/discord.json",
+        "sing-box/ip/discord.json"
       ],
       "reason": "Standalone ruleset removed from rule sources",
       "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
@@ -44,9 +68,21 @@
       "state": "retired",
       "paths": [
         "List/scholar.list",
+        "List/domainset/scholar.list",
+        "List/non_ip/scholar.list",
+        "List/ip/scholar.list",
         "Clash/scholar.txt",
+        "Clash/domainset/scholar.txt",
+        "Clash/non_ip/scholar.txt",
+        "Clash/ip/scholar.txt",
         "Loon/scholar.list",
-        "sing-box/scholar.json"
+        "Loon/domainset/scholar.list",
+        "Loon/non_ip/scholar.list",
+        "Loon/ip/scholar.list",
+        "sing-box/scholar.json",
+        "sing-box/domainset/scholar.json",
+        "sing-box/non_ip/scholar.json",
+        "sing-box/ip/scholar.json"
       ],
       "reason": "Standalone ruleset removed from rule sources",
       "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
@@ -55,7 +91,10 @@
       "id": "ruleset:china_asn:sing-box",
       "state": "retired",
       "paths": [
-        "sing-box/china_asn.json"
+        "sing-box/china_asn.json",
+        "sing-box/domainset/china_asn.json",
+        "sing-box/non_ip/china_asn.json",
+        "sing-box/ip/china_asn.json"
       ],
       "reason": "sing-box rule-set does not support IP-ASN; the artifact had no effective matchers",
       "evidence": "Build/core/output/rule-support-matrix.ts",
