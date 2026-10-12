@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-10-12T04:12:17.482Z
-# Size: 238
+# Last Updated: 2026-10-12T12:42:45.272Z
+# Size: 244
 # Rules for AI
 # Merged from 6 sources
 # Variant: domainset. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,youmind.site
 DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,talkai.info
+DOMAIN,trae-api-us.mchost.guru
+DOMAIN,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,opal.goog
 DOMAIN-SUFFIX,oystermercury.top
@@ -95,6 +97,7 @@ DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN-SUFFIX,aicode.googleapis.com
 DOMAIN,jules.googleapis.com
 DOMAIN-SUFFIX,aida.googleapis.com
@@ -120,7 +123,9 @@ DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN,q.eu-central-1.amazonaws.com
 DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN,q.us-east-1.amazonaws.com
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,apps.mzstatic.com
@@ -191,6 +196,7 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,udify.app
+DOMAIN-SUFFIX,traeapi.us
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,chorus.sh
 DOMAIN-SUFFIX,elevenlabs.io
