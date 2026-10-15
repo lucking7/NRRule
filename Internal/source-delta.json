@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-15T09:38:27.709Z",
+  "generatedAt": "2026-10-15T11:21:12.045Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7088200594"
+    "receiptId": "7089159556"
   },
   "policy": {
     "sampleLimit": 20,
@@ -918,23 +918,25 @@
       "rulesetId": "cdn",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 4775,
+      "currentConditionCount": 4776,
       "baselineConditionCount": 4775,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 4752,
+          "semanticChanged": true,
+          "currentConditionCount": 4753,
           "baselineConditionCount": 4752,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,images.higgs.ai"
+            ],
             "removed": []
           }
         },
@@ -942,13 +944,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 4692,
+          "semanticChanged": true,
+          "currentConditionCount": 4693,
           "baselineConditionCount": 4692,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,images.higgs.ai"
+            ],
             "removed": []
           }
         },
@@ -956,13 +960,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 4752,
+          "semanticChanged": true,
+          "currentConditionCount": 4753,
           "baselineConditionCount": 4752,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain:images.higgs.ai"
+            ],
             "removed": []
           }
         },
@@ -970,24 +976,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 4752,
+          "semanticChanged": true,
+          "currentConditionCount": 4753,
           "baselineConditionCount": 4752,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,images.higgs.ai"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.000209,
+      "addedByType": {
+        "DOMAIN": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN,images.higgs.ai"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1066,77 +1078,171 @@
       "rulesetId": "china_ip",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 3909,
+      "currentConditionCount": 3905,
       "baselineConditionCount": 3909,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3909,
+          "semanticChanged": true,
+          "currentConditionCount": 3905,
           "baselineConditionCount": 3909,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 10,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR,113.45.112.0/21",
+              "IP-CIDR,113.45.96.0/20",
+              "IP-CIDR,113.47.208.0/20",
+              "IP-CIDR,116.218.152.0/22",
+              "IP-CIDR,59.111.241.0/24",
+              "IP-CIDR,59.111.242.0/23"
+            ],
+            "removed": [
+              "IP-CIDR,104.251.176.0/22",
+              "IP-CIDR,108.186.72.0/24",
+              "IP-CIDR,113.45.102.0/23",
+              "IP-CIDR,113.45.104.0/21",
+              "IP-CIDR,113.45.112.0/22",
+              "IP-CIDR,113.45.96.0/22",
+              "IP-CIDR,113.47.216.0/21",
+              "IP-CIDR,156.232.13.0/24",
+              "IP-CIDR,165.101.208.0/23",
+              "IP-CIDR,59.111.240.0/22"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3909,
+          "semanticChanged": true,
+          "currentConditionCount": 3905,
           "baselineConditionCount": 3909,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 10,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR,113.45.112.0/21",
+              "IP-CIDR,113.45.96.0/20",
+              "IP-CIDR,113.47.208.0/20",
+              "IP-CIDR,116.218.152.0/22",
+              "IP-CIDR,59.111.241.0/24",
+              "IP-CIDR,59.111.242.0/23"
+            ],
+            "removed": [
+              "IP-CIDR,104.251.176.0/22",
+              "IP-CIDR,108.186.72.0/24",
+              "IP-CIDR,113.45.102.0/23",
+              "IP-CIDR,113.45.104.0/21",
+              "IP-CIDR,113.45.112.0/22",
+              "IP-CIDR,113.45.96.0/22",
+              "IP-CIDR,113.47.216.0/21",
+              "IP-CIDR,156.232.13.0/24",
+              "IP-CIDR,165.101.208.0/23",
+              "IP-CIDR,59.111.240.0/22"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3909,
+          "semanticChanged": true,
+          "currentConditionCount": 3905,
           "baselineConditionCount": 3909,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 10,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "ip_cidr:113.45.112.0/21",
+              "ip_cidr:113.45.96.0/20",
+              "ip_cidr:113.47.208.0/20",
+              "ip_cidr:116.218.152.0/22",
+              "ip_cidr:59.111.241.0/24",
+              "ip_cidr:59.111.242.0/23"
+            ],
+            "removed": [
+              "ip_cidr:104.251.176.0/22",
+              "ip_cidr:108.186.72.0/24",
+              "ip_cidr:113.45.102.0/23",
+              "ip_cidr:113.45.104.0/21",
+              "ip_cidr:113.45.112.0/22",
+              "ip_cidr:113.45.96.0/22",
+              "ip_cidr:113.47.216.0/21",
+              "ip_cidr:156.232.13.0/24",
+              "ip_cidr:165.101.208.0/23",
+              "ip_cidr:59.111.240.0/22"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3909,
+          "semanticChanged": true,
+          "currentConditionCount": 3905,
           "baselineConditionCount": 3909,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 10,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR,113.45.112.0/21",
+              "IP-CIDR,113.45.96.0/20",
+              "IP-CIDR,113.47.208.0/20",
+              "IP-CIDR,116.218.152.0/22",
+              "IP-CIDR,59.111.241.0/24",
+              "IP-CIDR,59.111.242.0/23"
+            ],
+            "removed": [
+              "IP-CIDR,104.251.176.0/22",
+              "IP-CIDR,108.186.72.0/24",
+              "IP-CIDR,113.45.102.0/23",
+              "IP-CIDR,113.45.104.0/21",
+              "IP-CIDR,113.45.112.0/22",
+              "IP-CIDR,113.45.96.0/22",
+              "IP-CIDR,113.47.216.0/21",
+              "IP-CIDR,156.232.13.0/24",
+              "IP-CIDR,165.101.208.0/23",
+              "IP-CIDR,59.111.240.0/22"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 6,
+      "removed": 10,
+      "changeRatio": 0.004093,
+      "addedByType": {
+        "IP-CIDR": 6
+      },
+      "removedByType": {
+        "IP-CIDR": 10
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "IP-CIDR,113.45.112.0/21",
+          "IP-CIDR,113.45.96.0/20",
+          "IP-CIDR,113.47.208.0/20",
+          "IP-CIDR,116.218.152.0/22",
+          "IP-CIDR,59.111.241.0/24",
+          "IP-CIDR,59.111.242.0/23"
+        ],
+        "removed": [
+          "IP-CIDR,104.251.176.0/22",
+          "IP-CIDR,108.186.72.0/24",
+          "IP-CIDR,113.45.102.0/23",
+          "IP-CIDR,113.45.104.0/21",
+          "IP-CIDR,113.45.112.0/22",
+          "IP-CIDR,113.45.96.0/22",
+          "IP-CIDR,113.47.216.0/21",
+          "IP-CIDR,156.232.13.0/24",
+          "IP-CIDR,165.101.208.0/23",
+          "IP-CIDR,59.111.240.0/22"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -1147,77 +1253,106 @@
       "rulesetId": "china_ip_ipv6",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 3482,
+      "currentConditionCount": 3483,
       "baselineConditionCount": 3482,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3482,
+          "semanticChanged": true,
+          "currentConditionCount": 3483,
           "baselineConditionCount": 3482,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR6,2406:840:9113::/48",
+              "IP-CIDR6,2408:4016:1::/48"
+            ],
+            "removed": [
+              "IP-CIDR6,2406:840:9112::/47"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3482,
+          "semanticChanged": true,
+          "currentConditionCount": 3483,
           "baselineConditionCount": 3482,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR6,2406:840:9113::/48",
+              "IP-CIDR6,2408:4016:1::/48"
+            ],
+            "removed": [
+              "IP-CIDR6,2406:840:9112::/47"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3482,
+          "semanticChanged": true,
+          "currentConditionCount": 3483,
           "baselineConditionCount": 3482,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "ip_cidr:2406:840:9113::/48",
+              "ip_cidr:2408:4016:1::/48"
+            ],
+            "removed": [
+              "ip_cidr:2406:840:9112::/47"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 3482,
+          "semanticChanged": true,
+          "currentConditionCount": 3483,
           "baselineConditionCount": 3482,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "IP-CIDR6,2406:840:9113::/48",
+              "IP-CIDR6,2408:4016:1::/48"
+            ],
+            "removed": [
+              "IP-CIDR6,2406:840:9112::/47"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 2,
+      "removed": 1,
+      "changeRatio": 0.000862,
+      "addedByType": {
+        "IP-CIDR6": 2
+      },
+      "removedByType": {
+        "IP-CIDR6": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "IP-CIDR6,2406:840:9113::/48",
+          "IP-CIDR6,2408:4016:1::/48"
+        ],
+        "removed": [
+          "IP-CIDR6,2406:840:9112::/47"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -2563,10 +2698,10 @@
       "rulesetId": "microsoft",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 127,
+      "currentConditionCount": 126,
       "baselineConditionCount": 127,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
@@ -2627,13 +2762,17 @@
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 1,
+      "changeRatio": 0.007874,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN-SUFFIX,download.microsoft.com"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -2644,77 +2783,89 @@
       "rulesetId": "microsoft_cdn",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 53,
+      "currentConditionCount": 52,
       "baselineConditionCount": 53,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 51,
+          "semanticChanged": true,
+          "currentConditionCount": 50,
           "baselineConditionCount": 51,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,download.microsoft.com"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 53,
+          "semanticChanged": true,
+          "currentConditionCount": 52,
           "baselineConditionCount": 53,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,download.microsoft.com"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 51,
+          "semanticChanged": true,
+          "currentConditionCount": 50,
           "baselineConditionCount": 51,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "domain_suffix:download.microsoft.com"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 53,
+          "semanticChanged": true,
+          "currentConditionCount": 52,
           "baselineConditionCount": 53,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,download.microsoft.com"
+            ]
           }
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 1,
+      "changeRatio": 0.018868,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN-SUFFIX,download.microsoft.com"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -3454,77 +3605,291 @@
       "rulesetId": "reject",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 141400,
+      "currentConditionCount": 141360,
       "baselineConditionCount": 141400,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141397,
+          "semanticChanged": true,
+          "currentConditionCount": 141357,
           "baselineConditionCount": 141397,
-          "added": 0,
-          "removed": 0,
+          "added": 234,
+          "removed": 274,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,0cc9ed5f1c.com",
+              "DOMAIN-SUFFIX,1p4z8vhhfh7cymq7klu26.rest",
+              "DOMAIN-SUFFIX,2e0257fad3.858dfdc554.com",
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,6ubmtezxemvqvf.rest",
+              "DOMAIN-SUFFIX,adjkulzooirq.com",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,akfydyrsrflxo.space",
+              "DOMAIN-SUFFIX,am3ydgq1h.com",
+              "DOMAIN-SUFFIX,ariledspools.com",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,atrailshriftsarridge.cyou",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,bconkjmsphvwc.online",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,bleatedgeek.com",
+              "DOMAIN-SUFFIX,bnpwobsswqtmx.space"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,a.bake818.cn",
+              "DOMAIN-SUFFIX,a.rensheng5.com",
+              "DOMAIN-SUFFIX,abcd.5lu.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141385,
+          "semanticChanged": true,
+          "currentConditionCount": 141345,
           "baselineConditionCount": 141385,
-          "added": 0,
-          "removed": 0,
+          "added": 234,
+          "removed": 274,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,0cc9ed5f1c.com",
+              "DOMAIN-SUFFIX,1p4z8vhhfh7cymq7klu26.rest",
+              "DOMAIN-SUFFIX,2e0257fad3.858dfdc554.com",
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,6ubmtezxemvqvf.rest",
+              "DOMAIN-SUFFIX,adjkulzooirq.com",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,akfydyrsrflxo.space",
+              "DOMAIN-SUFFIX,am3ydgq1h.com",
+              "DOMAIN-SUFFIX,ariledspools.com",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,atrailshriftsarridge.cyou",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,bconkjmsphvwc.online",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,bleatedgeek.com",
+              "DOMAIN-SUFFIX,bnpwobsswqtmx.space"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,a.bake818.cn",
+              "DOMAIN-SUFFIX,a.rensheng5.com",
+              "DOMAIN-SUFFIX,abcd.5lu.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141382,
+          "semanticChanged": true,
+          "currentConditionCount": 141342,
           "baselineConditionCount": 141382,
-          "added": 0,
-          "removed": 0,
+          "added": 234,
+          "removed": 274,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:0cc9ed5f1c.com",
+              "domain_suffix:1p4z8vhhfh7cymq7klu26.rest",
+              "domain_suffix:2e0257fad3.858dfdc554.com",
+              "domain_suffix:3u3ymbqj.xyz",
+              "domain_suffix:3wr110.net",
+              "domain_suffix:6ubmtezxemvqvf.rest",
+              "domain_suffix:adjkulzooirq.com",
+              "domain_suffix:ads3.videy.co",
+              "domain_suffix:akfydyrsrflxo.space",
+              "domain_suffix:am3ydgq1h.com",
+              "domain_suffix:ariledspools.com",
+              "domain_suffix:arracekambou.shop",
+              "domain_suffix:atrailshriftsarridge.cyou",
+              "domain_suffix:avouchuramil.com",
+              "domain_suffix:babbittshalier.cyou",
+              "domain_suffix:bconkjmsphvwc.online",
+              "domain_suffix:befdxunkkaxxn.site",
+              "domain_suffix:bjakku.com",
+              "domain_suffix:bleatedgeek.com",
+              "domain_suffix:bnpwobsswqtmx.space"
+            ],
+            "removed": [
+              "domain_suffix:2d89dda515.com",
+              "domain_suffix:31i7tuwyukluliw7bz.cfd",
+              "domain_suffix:4e3bpcinv1krlw54g7ju2.cfd",
+              "domain_suffix:858dfdc554.com",
+              "domain_suffix:a.bake818.cn",
+              "domain_suffix:a.rensheng5.com",
+              "domain_suffix:abcd.5lu.com",
+              "domain_suffix:abkifkamcbfls.space",
+              "domain_suffix:abloynkkdrexl.online",
+              "domain_suffix:abrazossiloed.shop",
+              "domain_suffix:acaridtutrice.qpon",
+              "domain_suffix:acirslblqcjqv.space",
+              "domain_suffix:affiliateer.com",
+              "domain_suffix:agitated-bath.pro",
+              "domain_suffix:alcannalinguet.cyou",
+              "domain_suffix:ambarmealed.cfd",
+              "domain_suffix:amididsavola.com",
+              "domain_suffix:amineswippen.qpon",
+              "domain_suffix:amxrpujyldelq.space",
+              "domain_suffix:anisesdonnedsciara.cfd"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141400,
+          "semanticChanged": true,
+          "currentConditionCount": 141360,
           "baselineConditionCount": 141400,
-          "added": 0,
-          "removed": 0,
+          "added": 234,
+          "removed": 274,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,0cc9ed5f1c.com",
+              "DOMAIN-SUFFIX,1p4z8vhhfh7cymq7klu26.rest",
+              "DOMAIN-SUFFIX,2e0257fad3.858dfdc554.com",
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,6ubmtezxemvqvf.rest",
+              "DOMAIN-SUFFIX,adjkulzooirq.com",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,akfydyrsrflxo.space",
+              "DOMAIN-SUFFIX,am3ydgq1h.com",
+              "DOMAIN-SUFFIX,ariledspools.com",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,atrailshriftsarridge.cyou",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,bconkjmsphvwc.online",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,bleatedgeek.com",
+              "DOMAIN-SUFFIX,bnpwobsswqtmx.space"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,a.bake818.cn",
+              "DOMAIN-SUFFIX,a.rensheng5.com",
+              "DOMAIN-SUFFIX,abcd.5lu.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 234,
+      "removed": 274,
+      "changeRatio": 0.003593,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 234
+      },
+      "removedByType": {
+        "DOMAIN-SUFFIX": 274
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,0cc9ed5f1c.com",
+          "DOMAIN-SUFFIX,1p4z8vhhfh7cymq7klu26.rest",
+          "DOMAIN-SUFFIX,2e0257fad3.858dfdc554.com",
+          "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+          "DOMAIN-SUFFIX,3wr110.net",
+          "DOMAIN-SUFFIX,6ubmtezxemvqvf.rest",
+          "DOMAIN-SUFFIX,adjkulzooirq.com",
+          "DOMAIN-SUFFIX,ads3.videy.co",
+          "DOMAIN-SUFFIX,akfydyrsrflxo.space",
+          "DOMAIN-SUFFIX,am3ydgq1h.com",
+          "DOMAIN-SUFFIX,ariledspools.com",
+          "DOMAIN-SUFFIX,arracekambou.shop",
+          "DOMAIN-SUFFIX,atrailshriftsarridge.cyou",
+          "DOMAIN-SUFFIX,avouchuramil.com",
+          "DOMAIN-SUFFIX,babbittshalier.cyou",
+          "DOMAIN-SUFFIX,bconkjmsphvwc.online",
+          "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+          "DOMAIN-SUFFIX,bjakku.com",
+          "DOMAIN-SUFFIX,bleatedgeek.com",
+          "DOMAIN-SUFFIX,bnpwobsswqtmx.space"
+        ],
+        "removed": [
+          "DOMAIN-SUFFIX,2d89dda515.com",
+          "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+          "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+          "DOMAIN-SUFFIX,858dfdc554.com",
+          "DOMAIN-SUFFIX,a.bake818.cn",
+          "DOMAIN-SUFFIX,a.rensheng5.com",
+          "DOMAIN-SUFFIX,abcd.5lu.com",
+          "DOMAIN-SUFFIX,abkifkamcbfls.space",
+          "DOMAIN-SUFFIX,abloynkkdrexl.online",
+          "DOMAIN-SUFFIX,abrazossiloed.shop",
+          "DOMAIN-SUFFIX,acaridtutrice.qpon",
+          "DOMAIN-SUFFIX,acirslblqcjqv.space",
+          "DOMAIN-SUFFIX,affiliateer.com",
+          "DOMAIN-SUFFIX,agitated-bath.pro",
+          "DOMAIN-SUFFIX,alcannalinguet.cyou",
+          "DOMAIN-SUFFIX,ambarmealed.cfd",
+          "DOMAIN-SUFFIX,amididsavola.com",
+          "DOMAIN-SUFFIX,amineswippen.qpon",
+          "DOMAIN-SUFFIX,amxrpujyldelq.space",
+          "DOMAIN-SUFFIX,anisesdonnedsciara.cfd"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -3535,77 +3900,291 @@
       "rulesetId": "reject_extra",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 77604,
+      "currentConditionCount": 77811,
       "baselineConditionCount": 77604,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 77604,
+          "semanticChanged": true,
+          "currentConditionCount": 77811,
           "baselineConditionCount": 77604,
-          "added": 0,
-          "removed": 0,
+          "added": 273,
+          "removed": 66,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd",
+              "DOMAIN-SUFFIX,apiarytulsa.cfd",
+              "DOMAIN-SUFFIX,arylbrainspaliest.qpon",
+              "DOMAIN-SUFFIX,auetowakondaabiding.cfd"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,ads.d21.media",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,d1k3dpebxhgqjc.cloudfront.net",
+              "DOMAIN-SUFFIX,d1n7ypf85zfej7.cloudfront.net",
+              "DOMAIN-SUFFIX,d1qggq1at2gusn.cloudfront.net",
+              "DOMAIN-SUFFIX,d1t8it0ywk3xu.cloudfront.net",
+              "DOMAIN-SUFFIX,d1zw85ny9dtn37.cloudfront.net",
+              "DOMAIN-SUFFIX,d28u86vqawvw52.cloudfront.net",
+              "DOMAIN-SUFFIX,d2juccxzu13rax.cloudfront.net",
+              "DOMAIN-SUFFIX,d2tkdzior84vck.cloudfront.net",
+              "DOMAIN-SUFFIX,d31y1abh02y2oj.cloudfront.net",
+              "DOMAIN-SUFFIX,d595452bdd.com",
+              "DOMAIN-SUFFIX,dazhantai.com"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 77604,
+          "semanticChanged": true,
+          "currentConditionCount": 77811,
           "baselineConditionCount": 77604,
-          "added": 0,
-          "removed": 0,
+          "added": 273,
+          "removed": 66,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd",
+              "DOMAIN-SUFFIX,apiarytulsa.cfd",
+              "DOMAIN-SUFFIX,arylbrainspaliest.qpon",
+              "DOMAIN-SUFFIX,auetowakondaabiding.cfd"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,ads.d21.media",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,d1k3dpebxhgqjc.cloudfront.net",
+              "DOMAIN-SUFFIX,d1n7ypf85zfej7.cloudfront.net",
+              "DOMAIN-SUFFIX,d1qggq1at2gusn.cloudfront.net",
+              "DOMAIN-SUFFIX,d1t8it0ywk3xu.cloudfront.net",
+              "DOMAIN-SUFFIX,d1zw85ny9dtn37.cloudfront.net",
+              "DOMAIN-SUFFIX,d28u86vqawvw52.cloudfront.net",
+              "DOMAIN-SUFFIX,d2juccxzu13rax.cloudfront.net",
+              "DOMAIN-SUFFIX,d2tkdzior84vck.cloudfront.net",
+              "DOMAIN-SUFFIX,d31y1abh02y2oj.cloudfront.net",
+              "DOMAIN-SUFFIX,d595452bdd.com",
+              "DOMAIN-SUFFIX,dazhantai.com"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 77604,
+          "semanticChanged": true,
+          "currentConditionCount": 77811,
           "baselineConditionCount": 77604,
-          "added": 0,
-          "removed": 0,
+          "added": 273,
+          "removed": 66,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:2d89dda515.com",
+              "domain_suffix:31i7tuwyukluliw7bz.cfd",
+              "domain_suffix:4e3bpcinv1krlw54g7ju2.cfd",
+              "domain_suffix:858dfdc554.com",
+              "domain_suffix:abkifkamcbfls.space",
+              "domain_suffix:abloynkkdrexl.online",
+              "domain_suffix:abrazossiloed.shop",
+              "domain_suffix:acaridtutrice.qpon",
+              "domain_suffix:acirslblqcjqv.space",
+              "domain_suffix:affiliateer.com",
+              "domain_suffix:agitated-bath.pro",
+              "domain_suffix:alcannalinguet.cyou",
+              "domain_suffix:ambarmealed.cfd",
+              "domain_suffix:amididsavola.com",
+              "domain_suffix:amineswippen.qpon",
+              "domain_suffix:amxrpujyldelq.space",
+              "domain_suffix:anisesdonnedsciara.cfd",
+              "domain_suffix:apiarytulsa.cfd",
+              "domain_suffix:arylbrainspaliest.qpon",
+              "domain_suffix:auetowakondaabiding.cfd"
+            ],
+            "removed": [
+              "domain_suffix:3u3ymbqj.xyz",
+              "domain_suffix:3wr110.net",
+              "domain_suffix:ads.d21.media",
+              "domain_suffix:ads3.videy.co",
+              "domain_suffix:arracekambou.shop",
+              "domain_suffix:avouchuramil.com",
+              "domain_suffix:babbittshalier.cyou",
+              "domain_suffix:befdxunkkaxxn.site",
+              "domain_suffix:bjakku.com",
+              "domain_suffix:d1k3dpebxhgqjc.cloudfront.net",
+              "domain_suffix:d1n7ypf85zfej7.cloudfront.net",
+              "domain_suffix:d1qggq1at2gusn.cloudfront.net",
+              "domain_suffix:d1t8it0ywk3xu.cloudfront.net",
+              "domain_suffix:d1zw85ny9dtn37.cloudfront.net",
+              "domain_suffix:d28u86vqawvw52.cloudfront.net",
+              "domain_suffix:d2juccxzu13rax.cloudfront.net",
+              "domain_suffix:d2tkdzior84vck.cloudfront.net",
+              "domain_suffix:d31y1abh02y2oj.cloudfront.net",
+              "domain_suffix:d595452bdd.com",
+              "domain_suffix:dazhantai.com"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 77604,
+          "semanticChanged": true,
+          "currentConditionCount": 77811,
           "baselineConditionCount": 77604,
-          "added": 0,
-          "removed": 0,
+          "added": 273,
+          "removed": 66,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,2d89dda515.com",
+              "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+              "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+              "DOMAIN-SUFFIX,858dfdc554.com",
+              "DOMAIN-SUFFIX,abkifkamcbfls.space",
+              "DOMAIN-SUFFIX,abloynkkdrexl.online",
+              "DOMAIN-SUFFIX,abrazossiloed.shop",
+              "DOMAIN-SUFFIX,acaridtutrice.qpon",
+              "DOMAIN-SUFFIX,acirslblqcjqv.space",
+              "DOMAIN-SUFFIX,affiliateer.com",
+              "DOMAIN-SUFFIX,agitated-bath.pro",
+              "DOMAIN-SUFFIX,alcannalinguet.cyou",
+              "DOMAIN-SUFFIX,ambarmealed.cfd",
+              "DOMAIN-SUFFIX,amididsavola.com",
+              "DOMAIN-SUFFIX,amineswippen.qpon",
+              "DOMAIN-SUFFIX,amxrpujyldelq.space",
+              "DOMAIN-SUFFIX,anisesdonnedsciara.cfd",
+              "DOMAIN-SUFFIX,apiarytulsa.cfd",
+              "DOMAIN-SUFFIX,arylbrainspaliest.qpon",
+              "DOMAIN-SUFFIX,auetowakondaabiding.cfd"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+              "DOMAIN-SUFFIX,3wr110.net",
+              "DOMAIN-SUFFIX,ads.d21.media",
+              "DOMAIN-SUFFIX,ads3.videy.co",
+              "DOMAIN-SUFFIX,arracekambou.shop",
+              "DOMAIN-SUFFIX,avouchuramil.com",
+              "DOMAIN-SUFFIX,babbittshalier.cyou",
+              "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+              "DOMAIN-SUFFIX,bjakku.com",
+              "DOMAIN-SUFFIX,d1k3dpebxhgqjc.cloudfront.net",
+              "DOMAIN-SUFFIX,d1n7ypf85zfej7.cloudfront.net",
+              "DOMAIN-SUFFIX,d1qggq1at2gusn.cloudfront.net",
+              "DOMAIN-SUFFIX,d1t8it0ywk3xu.cloudfront.net",
+              "DOMAIN-SUFFIX,d1zw85ny9dtn37.cloudfront.net",
+              "DOMAIN-SUFFIX,d28u86vqawvw52.cloudfront.net",
+              "DOMAIN-SUFFIX,d2juccxzu13rax.cloudfront.net",
+              "DOMAIN-SUFFIX,d2tkdzior84vck.cloudfront.net",
+              "DOMAIN-SUFFIX,d31y1abh02y2oj.cloudfront.net",
+              "DOMAIN-SUFFIX,d595452bdd.com",
+              "DOMAIN-SUFFIX,dazhantai.com"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 273,
+      "removed": 66,
+      "changeRatio": 0.004368,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 273
+      },
+      "removedByType": {
+        "DOMAIN-SUFFIX": 66
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,2d89dda515.com",
+          "DOMAIN-SUFFIX,31i7tuwyukluliw7bz.cfd",
+          "DOMAIN-SUFFIX,4e3bpcinv1krlw54g7ju2.cfd",
+          "DOMAIN-SUFFIX,858dfdc554.com",
+          "DOMAIN-SUFFIX,abkifkamcbfls.space",
+          "DOMAIN-SUFFIX,abloynkkdrexl.online",
+          "DOMAIN-SUFFIX,abrazossiloed.shop",
+          "DOMAIN-SUFFIX,acaridtutrice.qpon",
+          "DOMAIN-SUFFIX,acirslblqcjqv.space",
+          "DOMAIN-SUFFIX,affiliateer.com",
+          "DOMAIN-SUFFIX,agitated-bath.pro",
+          "DOMAIN-SUFFIX,alcannalinguet.cyou",
+          "DOMAIN-SUFFIX,ambarmealed.cfd",
+          "DOMAIN-SUFFIX,amididsavola.com",
+          "DOMAIN-SUFFIX,amineswippen.qpon",
+          "DOMAIN-SUFFIX,amxrpujyldelq.space",
+          "DOMAIN-SUFFIX,anisesdonnedsciara.cfd",
+          "DOMAIN-SUFFIX,apiarytulsa.cfd",
+          "DOMAIN-SUFFIX,arylbrainspaliest.qpon",
+          "DOMAIN-SUFFIX,auetowakondaabiding.cfd"
+        ],
+        "removed": [
+          "DOMAIN-SUFFIX,3u3ymbqj.xyz",
+          "DOMAIN-SUFFIX,3wr110.net",
+          "DOMAIN-SUFFIX,ads.d21.media",
+          "DOMAIN-SUFFIX,ads3.videy.co",
+          "DOMAIN-SUFFIX,arracekambou.shop",
+          "DOMAIN-SUFFIX,avouchuramil.com",
+          "DOMAIN-SUFFIX,babbittshalier.cyou",
+          "DOMAIN-SUFFIX,befdxunkkaxxn.site",
+          "DOMAIN-SUFFIX,bjakku.com",
+          "DOMAIN-SUFFIX,d1k3dpebxhgqjc.cloudfront.net",
+          "DOMAIN-SUFFIX,d1n7ypf85zfej7.cloudfront.net",
+          "DOMAIN-SUFFIX,d1qggq1at2gusn.cloudfront.net",
+          "DOMAIN-SUFFIX,d1t8it0ywk3xu.cloudfront.net",
+          "DOMAIN-SUFFIX,d1zw85ny9dtn37.cloudfront.net",
+          "DOMAIN-SUFFIX,d28u86vqawvw52.cloudfront.net",
+          "DOMAIN-SUFFIX,d2juccxzu13rax.cloudfront.net",
+          "DOMAIN-SUFFIX,d2tkdzior84vck.cloudfront.net",
+          "DOMAIN-SUFFIX,d31y1abh02y2oj.cloudfront.net",
+          "DOMAIN-SUFFIX,d595452bdd.com",
+          "DOMAIN-SUFFIX,dazhantai.com"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -3616,77 +4195,291 @@
       "rulesetId": "reject_phishing",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 141082,
+      "currentConditionCount": 141114,
       "baselineConditionCount": 141082,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141082,
+          "semanticChanged": true,
+          "currentConditionCount": 141114,
           "baselineConditionCount": 141082,
-          "added": 0,
-          "removed": 0,
+          "added": 1331,
+          "removed": 1299,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,11-ivi.pages.dev",
+              "DOMAIN-SUFFIX,154p-adk-yg8k-xl14x3-gllncd.pages.dev",
+              "DOMAIN-SUFFIX,1911wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,1sttheworld.online",
+              "DOMAIN-SUFFIX,20-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,21-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,22-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,23-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,24-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,25-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,25-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,2xtsla.io",
+              "DOMAIN-SUFFIX,32x32x32.pages.dev",
+              "DOMAIN-SUFFIX,34998-zc7-a67t-h50gm-03-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,5871616.lat",
+              "DOMAIN-SUFFIX,60q5i-c6f-j22t-4ryap-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,6mi8p-ewe-ai1x-cosn7-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,777sched-dpmmfdzetjwv.edgeone.dev",
+              "DOMAIN-SUFFIX,85175125.lat",
+              "DOMAIN-SUFFIX,99zzzz.fun"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,01g82-iwk-l01b-xnha9-29-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,09862845634647882034678y4r35873.blogspot.com",
+              "DOMAIN-SUFFIX,0m8u6-af8-h3hs-3hph8-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,1-app-pools.pages.dev",
+              "DOMAIN-SUFFIX,1-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,10-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,1140x300wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,124-derivexyz.pages.dev",
+              "DOMAIN-SUFFIX,15fvxnum.yajfbm.com",
+              "DOMAIN-SUFFIX,1879327537001324.shop",
+              "DOMAIN-SUFFIX,192-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,193-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,194-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,195-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,1myzv-5z0-i0p6-90jag-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,1nlost.lz9eim.qpon",
+              "DOMAIN-SUFFIX,22cu0i-20zkk-7s8-i96d9n-w9z.pages.dev",
+              "DOMAIN-SUFFIX,2bjx7-6gh-wo5e-m4n46-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,301-aizhaotu-com-tz-dpttc9i3hjgm.edgeone.dev",
+              "DOMAIN-SUFFIX,301-zaixianfanyi-org-cn-tz-dpls2ab84ryu.edgeone.dev"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141082,
+          "semanticChanged": true,
+          "currentConditionCount": 141114,
           "baselineConditionCount": 141082,
-          "added": 0,
-          "removed": 0,
+          "added": 1331,
+          "removed": 1299,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,11-ivi.pages.dev",
+              "DOMAIN-SUFFIX,154p-adk-yg8k-xl14x3-gllncd.pages.dev",
+              "DOMAIN-SUFFIX,1911wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,1sttheworld.online",
+              "DOMAIN-SUFFIX,20-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,21-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,22-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,23-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,24-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,25-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,25-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,2xtsla.io",
+              "DOMAIN-SUFFIX,32x32x32.pages.dev",
+              "DOMAIN-SUFFIX,34998-zc7-a67t-h50gm-03-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,5871616.lat",
+              "DOMAIN-SUFFIX,60q5i-c6f-j22t-4ryap-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,6mi8p-ewe-ai1x-cosn7-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,777sched-dpmmfdzetjwv.edgeone.dev",
+              "DOMAIN-SUFFIX,85175125.lat",
+              "DOMAIN-SUFFIX,99zzzz.fun"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,01g82-iwk-l01b-xnha9-29-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,09862845634647882034678y4r35873.blogspot.com",
+              "DOMAIN-SUFFIX,0m8u6-af8-h3hs-3hph8-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,1-app-pools.pages.dev",
+              "DOMAIN-SUFFIX,1-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,10-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,1140x300wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,124-derivexyz.pages.dev",
+              "DOMAIN-SUFFIX,15fvxnum.yajfbm.com",
+              "DOMAIN-SUFFIX,1879327537001324.shop",
+              "DOMAIN-SUFFIX,192-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,193-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,194-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,195-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,1myzv-5z0-i0p6-90jag-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,1nlost.lz9eim.qpon",
+              "DOMAIN-SUFFIX,22cu0i-20zkk-7s8-i96d9n-w9z.pages.dev",
+              "DOMAIN-SUFFIX,2bjx7-6gh-wo5e-m4n46-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,301-aizhaotu-com-tz-dpttc9i3hjgm.edgeone.dev",
+              "DOMAIN-SUFFIX,301-zaixianfanyi-org-cn-tz-dpls2ab84ryu.edgeone.dev"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141082,
+          "semanticChanged": true,
+          "currentConditionCount": 141114,
           "baselineConditionCount": 141082,
-          "added": 0,
-          "removed": 0,
+          "added": 1331,
+          "removed": 1299,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:11-ivi.pages.dev",
+              "domain_suffix:154p-adk-yg8k-xl14x3-gllncd.pages.dev",
+              "domain_suffix:1911wallpaper.pages.dev",
+              "domain_suffix:1sttheworld.online",
+              "domain_suffix:20-arguspad.pages.dev",
+              "domain_suffix:21-arguspad.pages.dev",
+              "domain_suffix:22-arguspad.pages.dev",
+              "domain_suffix:23-arguspad.pages.dev",
+              "domain_suffix:24-arguspad.pages.dev",
+              "domain_suffix:25-allocation-argus.pages.dev",
+              "domain_suffix:25-arguspad.pages.dev",
+              "domain_suffix:2xtsla.io",
+              "domain_suffix:32x32x32.pages.dev",
+              "domain_suffix:34998-zc7-a67t-h50gm-03-10-2026-aa.pages.dev",
+              "domain_suffix:5871616.lat",
+              "domain_suffix:60q5i-c6f-j22t-4ryap-13-10-2026-aa.pages.dev",
+              "domain_suffix:6mi8p-ewe-ai1x-cosn7-13-10-2026-aa.pages.dev",
+              "domain_suffix:777sched-dpmmfdzetjwv.edgeone.dev",
+              "domain_suffix:85175125.lat",
+              "domain_suffix:99zzzz.fun"
+            ],
+            "removed": [
+              "domain_suffix:01g82-iwk-l01b-xnha9-29-09-2026-hh.pages.dev",
+              "domain_suffix:09862845634647882034678y4r35873.blogspot.com",
+              "domain_suffix:0m8u6-af8-h3hs-3hph8-13-10-2026-aa.pages.dev",
+              "domain_suffix:1-app-pools.pages.dev",
+              "domain_suffix:1-arguspad.pages.dev",
+              "domain_suffix:10-allocation-argus.pages.dev",
+              "domain_suffix:1140x300wallpaper.pages.dev",
+              "domain_suffix:124-derivexyz.pages.dev",
+              "domain_suffix:15fvxnum.yajfbm.com",
+              "domain_suffix:1879327537001324.shop",
+              "domain_suffix:192-allowlist-ascendlaunch.pages.dev",
+              "domain_suffix:193-allowlist-ascendlaunch.pages.dev",
+              "domain_suffix:194-allowlist-ascendlaunch.pages.dev",
+              "domain_suffix:195-allowlist-ascendlaunch.pages.dev",
+              "domain_suffix:1myzv-5z0-i0p6-90jag-30-09-2026-hh.pages.dev",
+              "domain_suffix:1nlost.lz9eim.qpon",
+              "domain_suffix:22cu0i-20zkk-7s8-i96d9n-w9z.pages.dev",
+              "domain_suffix:2bjx7-6gh-wo5e-m4n46-30-09-2026-hh.pages.dev",
+              "domain_suffix:301-aizhaotu-com-tz-dpttc9i3hjgm.edgeone.dev",
+              "domain_suffix:301-zaixianfanyi-org-cn-tz-dpls2ab84ryu.edgeone.dev"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 141082,
+          "semanticChanged": true,
+          "currentConditionCount": 141114,
           "baselineConditionCount": 141082,
-          "added": 0,
-          "removed": 0,
+          "added": 1331,
+          "removed": 1299,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,11-ivi.pages.dev",
+              "DOMAIN-SUFFIX,154p-adk-yg8k-xl14x3-gllncd.pages.dev",
+              "DOMAIN-SUFFIX,1911wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,1sttheworld.online",
+              "DOMAIN-SUFFIX,20-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,21-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,22-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,23-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,24-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,25-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,25-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,2xtsla.io",
+              "DOMAIN-SUFFIX,32x32x32.pages.dev",
+              "DOMAIN-SUFFIX,34998-zc7-a67t-h50gm-03-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,5871616.lat",
+              "DOMAIN-SUFFIX,60q5i-c6f-j22t-4ryap-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,6mi8p-ewe-ai1x-cosn7-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,777sched-dpmmfdzetjwv.edgeone.dev",
+              "DOMAIN-SUFFIX,85175125.lat",
+              "DOMAIN-SUFFIX,99zzzz.fun"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,01g82-iwk-l01b-xnha9-29-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,09862845634647882034678y4r35873.blogspot.com",
+              "DOMAIN-SUFFIX,0m8u6-af8-h3hs-3hph8-13-10-2026-aa.pages.dev",
+              "DOMAIN-SUFFIX,1-app-pools.pages.dev",
+              "DOMAIN-SUFFIX,1-arguspad.pages.dev",
+              "DOMAIN-SUFFIX,10-allocation-argus.pages.dev",
+              "DOMAIN-SUFFIX,1140x300wallpaper.pages.dev",
+              "DOMAIN-SUFFIX,124-derivexyz.pages.dev",
+              "DOMAIN-SUFFIX,15fvxnum.yajfbm.com",
+              "DOMAIN-SUFFIX,1879327537001324.shop",
+              "DOMAIN-SUFFIX,192-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,193-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,194-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,195-allowlist-ascendlaunch.pages.dev",
+              "DOMAIN-SUFFIX,1myzv-5z0-i0p6-90jag-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,1nlost.lz9eim.qpon",
+              "DOMAIN-SUFFIX,22cu0i-20zkk-7s8-i96d9n-w9z.pages.dev",
+              "DOMAIN-SUFFIX,2bjx7-6gh-wo5e-m4n46-30-09-2026-hh.pages.dev",
+              "DOMAIN-SUFFIX,301-aizhaotu-com-tz-dpttc9i3hjgm.edgeone.dev",
+              "DOMAIN-SUFFIX,301-zaixianfanyi-org-cn-tz-dpls2ab84ryu.edgeone.dev"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1331,
+      "removed": 1299,
+      "changeRatio": 0.018642,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1331
+      },
+      "removedByType": {
+        "DOMAIN-SUFFIX": 1299
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,11-ivi.pages.dev",
+          "DOMAIN-SUFFIX,154p-adk-yg8k-xl14x3-gllncd.pages.dev",
+          "DOMAIN-SUFFIX,1911wallpaper.pages.dev",
+          "DOMAIN-SUFFIX,1sttheworld.online",
+          "DOMAIN-SUFFIX,20-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,21-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,22-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,23-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,24-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,25-allocation-argus.pages.dev",
+          "DOMAIN-SUFFIX,25-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,2xtsla.io",
+          "DOMAIN-SUFFIX,32x32x32.pages.dev",
+          "DOMAIN-SUFFIX,34998-zc7-a67t-h50gm-03-10-2026-aa.pages.dev",
+          "DOMAIN-SUFFIX,5871616.lat",
+          "DOMAIN-SUFFIX,60q5i-c6f-j22t-4ryap-13-10-2026-aa.pages.dev",
+          "DOMAIN-SUFFIX,6mi8p-ewe-ai1x-cosn7-13-10-2026-aa.pages.dev",
+          "DOMAIN-SUFFIX,777sched-dpmmfdzetjwv.edgeone.dev",
+          "DOMAIN-SUFFIX,85175125.lat",
+          "DOMAIN-SUFFIX,99zzzz.fun"
+        ],
+        "removed": [
+          "DOMAIN-SUFFIX,01g82-iwk-l01b-xnha9-29-09-2026-hh.pages.dev",
+          "DOMAIN-SUFFIX,09862845634647882034678y4r35873.blogspot.com",
+          "DOMAIN-SUFFIX,0m8u6-af8-h3hs-3hph8-13-10-2026-aa.pages.dev",
+          "DOMAIN-SUFFIX,1-app-pools.pages.dev",
+          "DOMAIN-SUFFIX,1-arguspad.pages.dev",
+          "DOMAIN-SUFFIX,10-allocation-argus.pages.dev",
+          "DOMAIN-SUFFIX,1140x300wallpaper.pages.dev",
+          "DOMAIN-SUFFIX,124-derivexyz.pages.dev",
+          "DOMAIN-SUFFIX,15fvxnum.yajfbm.com",
+          "DOMAIN-SUFFIX,1879327537001324.shop",
+          "DOMAIN-SUFFIX,192-allowlist-ascendlaunch.pages.dev",
+          "DOMAIN-SUFFIX,193-allowlist-ascendlaunch.pages.dev",
+          "DOMAIN-SUFFIX,194-allowlist-ascendlaunch.pages.dev",
+          "DOMAIN-SUFFIX,195-allowlist-ascendlaunch.pages.dev",
+          "DOMAIN-SUFFIX,1myzv-5z0-i0p6-90jag-30-09-2026-hh.pages.dev",
+          "DOMAIN-SUFFIX,1nlost.lz9eim.qpon",
+          "DOMAIN-SUFFIX,22cu0i-20zkk-7s8-i96d9n-w9z.pages.dev",
+          "DOMAIN-SUFFIX,2bjx7-6gh-wo5e-m4n46-30-09-2026-hh.pages.dev",
+          "DOMAIN-SUFFIX,301-aizhaotu-com-tz-dpttc9i3hjgm.edgeone.dev",
+          "DOMAIN-SUFFIX,301-zaixianfanyi-org-cn-tz-dpls2ab84ryu.edgeone.dev"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
