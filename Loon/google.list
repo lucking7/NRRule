@@ -1,6 +1,6 @@
 #########################################
 # Google
-# Last Updated: 2026-10-15T16:16:50.606Z
+# Last Updated: 2026-10-15T16:54:43.476Z
 # Size: 547
 # Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
 # Merged from 2 sources
@@ -547,10 +547,10 @@ DOMAIN-KEYWORD,recaptcha
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
 USER-AGENT,*com.google.Drive*
 USER-AGENT,Google.Drive*
-IP-CIDR,74.125.0.0/16
-IP-CIDR,172.110.32.0/21
-IP-CIDR,173.194.0.0/16
-IP-CIDR,216.73.80.0/20
-IP-CIDR6,2620:120:e000::/40
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
 ################## EOF ##################
 
