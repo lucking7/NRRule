@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-15T03:04:53.496Z",
+  "generatedAt": "2026-10-15T08:50:45.385Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7080634787"
+    "receiptId": "7082785188"
   },
   "policy": {
     "sampleLimit": 20,
@@ -110,7 +110,7 @@
       "status": "compared",
       "currentConditionCount": 296,
       "baselineConditionCount": 296,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -191,7 +191,7 @@
       "status": "compared",
       "currentConditionCount": 234,
       "baselineConditionCount": 234,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1431,7 +1431,7 @@
       "status": "compared",
       "currentConditionCount": 237,
       "baselineConditionCount": 237,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1915,23 +1915,25 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 250,
+      "currentConditionCount": 251,
       "baselineConditionCount": 250,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 250,
+          "semanticChanged": true,
+          "currentConditionCount": 251,
           "baselineConditionCount": 250,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,hxdemby.com"
+            ],
             "removed": []
           }
         },
@@ -1939,13 +1941,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 250,
+          "semanticChanged": true,
+          "currentConditionCount": 251,
           "baselineConditionCount": 250,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,hxdemby.com"
+            ],
             "removed": []
           }
         },
@@ -1953,13 +1957,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 250,
+          "semanticChanged": true,
+          "currentConditionCount": 251,
           "baselineConditionCount": 250,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:hxdemby.com"
+            ],
             "removed": []
           }
         },
@@ -1967,24 +1973,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 250,
+          "semanticChanged": true,
+          "currentConditionCount": 251,
           "baselineConditionCount": 250,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,hxdemby.com"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.004,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,hxdemby.com"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -2079,7 +2091,7 @@
       "status": "compared",
       "currentConditionCount": 64,
       "baselineConditionCount": 64,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2334,7 @@
       "status": "compared",
       "currentConditionCount": 897,
       "baselineConditionCount": 897,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
