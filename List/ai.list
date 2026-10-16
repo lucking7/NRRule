@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-10-16T12:43:37.032Z
-# Size: 278
+# Last Updated: 2026-10-16T16:02:59.632Z
+# Size: 297
 # Rules for AI
 # Merged from 6 sources
 #########################################
@@ -57,6 +57,8 @@ DOMAIN,browser-intake-datadoghq.com,extended-matching
 DOMAIN,rum.browser-intake-datadoghq.com,extended-matching
 DOMAIN-SUFFIX,agentclientprotocol.com,extended-matching
 DOMAIN,static.cloudflareinsights.com,extended-matching
+DOMAIN,lh5.googleusercontent.com,extended-matching
+DOMAIN,lh3.googleusercontent.com,extended-matching
 DOMAIN,copilot-telemetry-service.githubusercontent.com,extended-matching
 DOMAIN,copilot-telemetry.githubusercontent.com,extended-matching
 DOMAIN,origin-tracker.githubusercontent.com,extended-matching
@@ -81,14 +83,18 @@ DOMAIN-SUFFIX,augmentcode.com,extended-matching
 DOMAIN-SUFFIX,anythingllm.com,extended-matching
 DOMAIN-SUFFIX,stitch.withgoogle.com,extended-matching
 DOMAIN-SUFFIX,opal.withgoogle.com,extended-matching
+DOMAIN,csp.withgoogle.com,extended-matching
 DOMAIN-SUFFIX,perplexity.com,extended-matching
 DOMAIN-SUFFIX,oaistatsig.com,extended-matching
 DOMAIN-SUFFIX,midjourney.com,extended-matching
 DOMAIN-SUFFIX,grokipedia.com,extended-matching
+DOMAIN,optimizationguide-pa.googleapis.com,extended-matching
+DOMAIN,streetviewpixels-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,extended-matching
 DOMAIN,daily-cloudcode-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,extended-matching
+DOMAIN,content-autofill.googleapis.com,extended-matching
 DOMAIN,cloudaicompanion.googleapis.com,extended-matching
 DOMAIN,antigravity-pa.googleapis.com,extended-matching
 DOMAIN,notebooklm-pa.googleapis.com,extended-matching
@@ -97,8 +103,11 @@ DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,extended-matching
 DOMAIN,antigravity.googleapis.com,extended-matching
 DOMAIN-SUFFIX,geller-pa.googleapis.com,extended-matching
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com,extended-matching
+DOMAIN,jnn-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,aicode.googleapis.com,extended-matching
 DOMAIN,jules.googleapis.com,extended-matching
+DOMAIN,fonts.googleapis.com,extended-matching
+DOMAIN,maps.googleapis.com,extended-matching
 DOMAIN-SUFFIX,aida.googleapis.com,extended-matching
 DOMAIN-SUFFIX,labstailwind.pa.googleapis.com,extended-matching
 DOMAIN,appcatalyst.pa.googleapis.com,extended-matching
@@ -137,7 +146,14 @@ DOMAIN-SUFFIX,deepmind.com,extended-matching
 DOMAIN-SUFFIX,cursorvm.com,extended-matching
 DOMAIN-SUFFIX,youmind.com,extended-matching
 DOMAIN-SUFFIX,api.statsig.com,extended-matching
+DOMAIN,encrypted-tbn3.gstatic.com,extended-matching
+DOMAIN,encrypted-tbn2.gstatic.com,extended-matching
+DOMAIN,encrypted-tbn1.gstatic.com,extended-matching
+DOMAIN,encrypted-tbn0.gstatic.com,extended-matching
 DOMAIN-SUFFIX,gemini.gstatic.com,extended-matching
+DOMAIN,fonts.gstatic.com,extended-matching
+DOMAIN,maps.gstatic.com,extended-matching
+DOMAIN,ssl.gstatic.com,extended-matching
 DOMAIN,default.exp-tas.com,extended-matching
 DOMAIN-SUFFIX,copilot.com,extended-matching
 DOMAIN-SUFFIX,codeium.com,extended-matching
@@ -160,10 +176,13 @@ DOMAIN,geminiweb-pa.clients.google.com,extended-matching
 DOMAIN-SUFFIX,gemini.google.com,extended-matching
 DOMAIN-SUFFIX,jules.google.com,extended-matching
 DOMAIN-SUFFIX,notebooklm.cloud.google.com,extended-matching
+DOMAIN,play.google.com,extended-matching
 DOMAIN-SUFFIX,opal.google.com,extended-matching
 DOMAIN-SUFFIX,flow.google.com,extended-matching
 DOMAIN-SUFFIX,bard.google.com,extended-matching
 DOMAIN,apis.google.com,extended-matching
+DOMAIN,ogs.google.com,extended-matching
+DOMAIN,lh3.google.com,extended-matching
 DOMAIN,copilot-reports.github.com,extended-matching
 DOMAIN,api.github.com,extended-matching
 DOMAIN-SUFFIX,envato.com,extended-matching

@@ -16,12 +16,12 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 151383,
+    "domainRules": 151402,
     "unsupportedRules": 5510,
-    "fullyCoveredDomainRules": 462,
-    "partlyOverlappingDomainRules": 1083,
+    "fullyCoveredDomainRules": 471,
+    "partlyOverlappingDomainRules": 1085,
     "samePolicyRedundancies": 26,
-    "differentPolicyConflicts": 1508,
+    "differentPolicyConflicts": 1519,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
     "conditionalWarnings": 83,
@@ -184,8 +184,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 278,
-      "domainRules": 244,
+      "totalRules": 297,
+      "domainRules": 263,
       "unsupportedRules": 34,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 6,
@@ -454,7 +454,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 130,
+              "line": 139,
               "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
               "matchMode": "extended"
             }
@@ -469,7 +469,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 179,
+              "line": 198,
               "rule": "DOMAIN,guzzoni.apple.com",
               "matchMode": "extended"
             }
@@ -499,7 +499,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 180,
+              "line": 199,
               "rule": "DOMAIN-SUFFIX,smoot.apple.com",
               "matchMode": "extended"
             }
@@ -902,10 +902,10 @@
         "IP-CIDR": 3
       },
       "conditionalRules": 0,
-      "fullyCoveredDomainRules": 185,
-      "partlyOverlappingDomainRules": 75,
+      "fullyCoveredDomainRules": 194,
+      "partlyOverlappingDomainRules": 77,
       "samePolicyRedundancies": 5,
-      "differentPolicyConflicts": 245,
+      "differentPolicyConflicts": 256,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
