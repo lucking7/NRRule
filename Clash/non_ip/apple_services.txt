@@ -1,7 +1,7 @@
 #########################################
 # Apple Services
-# Last Updated: 2026-10-17T10:33:24.616Z
-# Size: 8
+# Last Updated: 2026-10-17T11:35:26.338Z
+# Size: 9
 # Rules for Apple Services
 # Merged from 1 sources
 # Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
@@ -14,5 +14,6 @@ PROCESS-NAME,fmfd
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,CoreLocationAgent
 PROCESS-NAME,WeatherWidget
+IP-CIDR,17.0.0.0/8,no-resolve
 ################## EOF ##################
 

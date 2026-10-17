@@ -1,11 +1,13 @@
 #########################################
 # lucking - Domestic
-# Last Updated: 2026-10-17T10:33:39.997Z
-# Size: 1
+# Last Updated: 2026-10-17T11:35:37.945Z
+# Size: 3
 # Rules for lucking - Domestic
 # Merged from 2 sources
 # Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
 #########################################
 DOMAIN-WILDCARD,qhimgs?.com
+IP-CIDR,140.205.1.0/24,no-resolve
+IP-CIDR,162.14.0.0/18,no-resolve
 ################## EOF ##################
 

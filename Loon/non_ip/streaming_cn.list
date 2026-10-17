@@ -1,11 +1,13 @@
 #########################################
 # Streaming
-# Last Updated: 2026-10-17T10:33:21.771Z
-# Size: 1
+# Last Updated: 2026-10-17T11:35:24.058Z
+# Size: 3
 # Global streaming media platforms
 # Source: https://github.com/ConnersHua/RuleGo/raw/master/Surge/Ruleset/Extra/Streaming/CN.list
 # Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
 #########################################
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
 ################## EOF ##################
 
