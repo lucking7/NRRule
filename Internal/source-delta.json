@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-17T06:30:42.687Z",
+  "generatedAt": "2026-10-17T08:16:28.752Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7133886947"
+    "receiptId": "7135922761"
   },
   "policy": {
     "sampleLimit": 20,
@@ -15,9 +15,9 @@
   },
   "summary": {
     "sources": 69,
-    "compared": 68,
+    "compared": 69,
     "baselineUnavailable": 0,
-    "notComparable": 1,
+    "notComparable": 0,
     "removed": 0,
     "warnings": 0
   },
@@ -917,77 +917,73 @@
       "sourceId": "cdn",
       "rulesetId": "cdn",
       "converterVersion": "mirrrule-rule-output/2",
-      "status": "not-comparable",
+      "status": "compared",
       "currentConditionCount": 4778,
       "baselineConditionCount": 4778,
-      "rawInputChanged": null,
-      "semanticChanged": null,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
-          "status": "not-comparable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 4755,
           "baselineConditionCount": 4755,
-          "added": null,
-          "removed": null,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "processing-context-changed"
+          }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
-          "status": "not-comparable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 4695,
           "baselineConditionCount": 4695,
-          "added": null,
-          "removed": null,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "processing-context-changed"
+          }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
-          "status": "not-comparable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 4755,
           "baselineConditionCount": 4755,
-          "added": null,
-          "removed": null,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "processing-context-changed"
+          }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
-          "status": "not-comparable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 4755,
           "baselineConditionCount": 4755,
-          "added": null,
-          "removed": null,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "processing-context-changed"
+          }
         }
       ],
-      "added": null,
-      "removed": null,
-      "changeRatio": null,
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -996,8 +992,7 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": [],
-      "reason": "processing-context-changed"
+      "warnings": []
     },
     {
       "sourceId": "china_asn",
