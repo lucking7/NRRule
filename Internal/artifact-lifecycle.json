@@ -20,19 +20,15 @@
       "state": "retired",
       "paths": [
         "List/container.list",
-        "List/domainset/container.list",
         "List/non_ip/container.list",
         "List/ip/container.list",
         "Clash/container.txt",
-        "Clash/domainset/container.txt",
         "Clash/non_ip/container.txt",
         "Clash/ip/container.txt",
         "Loon/container.list",
-        "Loon/domainset/container.list",
         "Loon/non_ip/container.list",
         "Loon/ip/container.list",
         "sing-box/container.json",
-        "sing-box/domainset/container.json",
         "sing-box/non_ip/container.json",
         "sing-box/ip/container.json"
       ],
@@ -44,19 +40,15 @@
       "state": "retired",
       "paths": [
         "List/discord.list",
-        "List/domainset/discord.list",
         "List/non_ip/discord.list",
         "List/ip/discord.list",
         "Clash/discord.txt",
-        "Clash/domainset/discord.txt",
         "Clash/non_ip/discord.txt",
         "Clash/ip/discord.txt",
         "Loon/discord.list",
-        "Loon/domainset/discord.list",
         "Loon/non_ip/discord.list",
         "Loon/ip/discord.list",
         "sing-box/discord.json",
-        "sing-box/domainset/discord.json",
         "sing-box/non_ip/discord.json",
         "sing-box/ip/discord.json"
       ],
@@ -68,19 +60,15 @@
       "state": "retired",
       "paths": [
         "List/scholar.list",
-        "List/domainset/scholar.list",
         "List/non_ip/scholar.list",
         "List/ip/scholar.list",
         "Clash/scholar.txt",
-        "Clash/domainset/scholar.txt",
         "Clash/non_ip/scholar.txt",
         "Clash/ip/scholar.txt",
         "Loon/scholar.list",
-        "Loon/domainset/scholar.list",
         "Loon/non_ip/scholar.list",
         "Loon/ip/scholar.list",
         "sing-box/scholar.json",
-        "sing-box/domainset/scholar.json",
         "sing-box/non_ip/scholar.json",
         "sing-box/ip/scholar.json"
       ],
@@ -92,13 +80,26 @@
       "state": "retired",
       "paths": [
         "sing-box/china_asn.json",
-        "sing-box/domainset/china_asn.json",
         "sing-box/non_ip/china_asn.json",
         "sing-box/ip/china_asn.json"
       ],
       "reason": "sing-box rule-set does not support IP-ASN; the artifact had no effective matchers",
       "evidence": "Build/core/output/rule-support-matrix.ts",
       "replacement": "sing-box/china_ip.json and sing-box/china_ip_ipv6.json (IP coverage is not equivalent to ASN matching)"
+    },
+    {
+      "id": "variant:domainset",
+      "state": "retired",
+      "paths": [],
+      "pathPrefixes": [
+        "List/domainset/",
+        "Clash/domainset/",
+        "Loon/domainset/",
+        "sing-box/domainset/"
+      ],
+      "reason": "The domainset variant was merged into non_ip; Surge RULE-SET indexes domain rules",
+      "evidence": "Build/lib/rule-output-variants.ts publishes only non_ip and ip",
+      "replacement": "<platform>/non_ip/<id> (Surge: RULE-SET instead of DOMAIN-SET)"
     }
   ],
   "removed": []
