@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-17T18:09:53.556Z",
+  "generatedAt": "2026-10-17T18:33:42.906Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7143586523"
+    "receiptId": "7143688273"
   },
   "policy": {
     "sampleLimit": 20,
@@ -15,9 +15,9 @@
   },
   "summary": {
     "sources": 69,
-    "compared": 69,
+    "compared": 67,
     "baselineUnavailable": 0,
-    "notComparable": 0,
+    "notComparable": 2,
     "removed": 0,
     "warnings": 0
   },
@@ -1001,7 +1001,7 @@
       "status": "compared",
       "currentConditionCount": 5231,
       "baselineConditionCount": 5231,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1428,73 +1428,77 @@
       "sourceId": "disney",
       "rulesetId": "disney",
       "converterVersion": "mirrrule-rule-output/2",
-      "status": "compared",
-      "currentConditionCount": 235,
+      "status": "not-comparable",
+      "currentConditionCount": 222,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": null,
+      "semanticChanged": null,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 234,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 222,
           "baselineConditionCount": 234,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "loon",
           "format": "loon-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 233,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 222,
           "baselineConditionCount": 233,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 232,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 222,
           "baselineConditionCount": 232,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "surge",
           "format": "surge-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 235,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 222,
           "baselineConditionCount": 235,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -1503,7 +1507,8 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "processing-context-changed"
     },
     {
       "sourceId": "domestic",
@@ -2077,80 +2082,192 @@
       "rulesetId": "github",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 64,
+      "currentConditionCount": 59,
       "baselineConditionCount": 64,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 36,
+          "semanticChanged": true,
+          "currentConditionCount": 59,
           "baselineConditionCount": 36,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,github-api.arkoselabs.com",
+              "DOMAIN,github-cloud.s3.amazonaws.com",
+              "DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com",
+              "DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
+              "DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com",
+              "DOMAIN-SUFFIX,github.ai",
+              "DOMAIN-SUFFIX,github.blog",
+              "DOMAIN-SUFFIX,github.career",
+              "DOMAIN-SUFFIX,github.com",
+              "DOMAIN-SUFFIX,github.community",
+              "DOMAIN-SUFFIX,github.dev",
+              "DOMAIN-SUFFIX,github.io",
+              "DOMAIN-SUFFIX,githubapp.com",
+              "DOMAIN-SUFFIX,githubassets.com",
+              "DOMAIN-SUFFIX,githubcopilot.com",
+              "DOMAIN-SUFFIX,githubhackathon.com",
+              "DOMAIN-SUFFIX,githubnext.com",
+              "DOMAIN-SUFFIX,githubpreview.dev"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,github",
+              "DOMAIN-SUFFIX,rawgit.com"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 36,
+          "semanticChanged": true,
+          "currentConditionCount": 59,
           "baselineConditionCount": 36,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,github-api.arkoselabs.com",
+              "DOMAIN,github-cloud.s3.amazonaws.com",
+              "DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com",
+              "DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
+              "DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com",
+              "DOMAIN-SUFFIX,github.ai",
+              "DOMAIN-SUFFIX,github.blog",
+              "DOMAIN-SUFFIX,github.career",
+              "DOMAIN-SUFFIX,github.com",
+              "DOMAIN-SUFFIX,github.community",
+              "DOMAIN-SUFFIX,github.dev",
+              "DOMAIN-SUFFIX,github.io",
+              "DOMAIN-SUFFIX,githubapp.com",
+              "DOMAIN-SUFFIX,githubassets.com",
+              "DOMAIN-SUFFIX,githubcopilot.com",
+              "DOMAIN-SUFFIX,githubhackathon.com",
+              "DOMAIN-SUFFIX,githubnext.com",
+              "DOMAIN-SUFFIX,githubpreview.dev"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,github",
+              "DOMAIN-SUFFIX,rawgit.com"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 36,
+          "semanticChanged": true,
+          "currentConditionCount": 59,
           "baselineConditionCount": 36,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:github-api.arkoselabs.com",
+              "domain:github-cloud.s3.amazonaws.com",
+              "domain:github-production-release-asset-2e65be.s3.amazonaws.com",
+              "domain:github-production-repository-file-5c1aeb.s3.amazonaws.com",
+              "domain:github-production-repository-image-32fea6.s3.amazonaws.com",
+              "domain:github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
+              "domain:github-production-user-asset-6210df.s3.amazonaws.com",
+              "domain_suffix:github.ai",
+              "domain_suffix:github.blog",
+              "domain_suffix:github.career",
+              "domain_suffix:github.com",
+              "domain_suffix:github.community",
+              "domain_suffix:github.dev",
+              "domain_suffix:github.io",
+              "domain_suffix:githubapp.com",
+              "domain_suffix:githubassets.com",
+              "domain_suffix:githubcopilot.com",
+              "domain_suffix:githubhackathon.com",
+              "domain_suffix:githubnext.com",
+              "domain_suffix:githubpreview.dev"
+            ],
+            "removed": [
+              "domain_keyword:github",
+              "domain_suffix:rawgit.com"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 36,
+          "semanticChanged": true,
+          "currentConditionCount": 59,
           "baselineConditionCount": 36,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,github-api.arkoselabs.com",
+              "DOMAIN,github-cloud.s3.amazonaws.com",
+              "DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com",
+              "DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com",
+              "DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
+              "DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com",
+              "DOMAIN-SUFFIX,github.ai",
+              "DOMAIN-SUFFIX,github.blog",
+              "DOMAIN-SUFFIX,github.career",
+              "DOMAIN-SUFFIX,github.com",
+              "DOMAIN-SUFFIX,github.community",
+              "DOMAIN-SUFFIX,github.dev",
+              "DOMAIN-SUFFIX,github.io",
+              "DOMAIN-SUFFIX,githubapp.com",
+              "DOMAIN-SUFFIX,githubassets.com",
+              "DOMAIN-SUFFIX,githubcopilot.com",
+              "DOMAIN-SUFFIX,githubhackathon.com",
+              "DOMAIN-SUFFIX,githubnext.com",
+              "DOMAIN-SUFFIX,githubpreview.dev"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,github",
+              "DOMAIN-SUFFIX,rawgit.com"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1,
+      "removed": 6,
+      "changeRatio": 0.109375,
+      "addedByType": {
+        "DOMAIN": 1
+      },
+      "removedByType": {
+        "DOMAIN-KEYWORD": 1,
+        "DOMAIN-SUFFIX": 5
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN,github-cloud.s3.amazonaws.com"
+        ],
+        "removed": [
+          "DOMAIN-KEYWORD,github",
+          "DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net",
+          "DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com",
+          "DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com",
+          "DOMAIN-SUFFIX,rawgit.com",
+          "DOMAIN-SUFFIX,rawgithub.com"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
+      ],
       "warnings": []
     },
     {
@@ -2320,80 +2437,299 @@
       "rulesetId": "google",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 897,
+      "currentConditionCount": 847,
       "baselineConditionCount": 897,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 549,
+          "semanticChanged": true,
+          "currentConditionCount": 847,
           "baselineConditionCount": 549,
-          "added": 0,
-          "removed": 0,
+          "added": 354,
+          "removed": 56,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,apps5.oingo.com",
+              "DOMAIN,avail.googleflights.net",
+              "DOMAIN,clickserve.cc-dt.com",
+              "DOMAIN,dartsearch-cn.net",
+              "DOMAIN,gongyichuangyi.net",
+              "DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com",
+              "DOMAIN,googleapis-cn.com",
+              "DOMAIN,googleapps-cn.com",
+              "DOMAIN,googleflights-cn.net",
+              "DOMAIN,gstatic-cn.com",
+              "DOMAIN,gtm.oasisfeng.com",
+              "DOMAIN,qiao-cn.com",
+              "DOMAIN,qpx.googleflights.net",
+              "DOMAIN,recaptcha-cn.net",
+              "DOMAIN,recaptcha.net",
+              "DOMAIN,www.destinationurl.com",
+              "DOMAIN,www.pxcc.com",
+              "DOMAIN,www.recaptcha-cn.net",
+              "DOMAIN,www.recaptcha.net",
+              "DOMAIN-SUFFIX,adgoogle.net"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,appspot",
+              "DOMAIN-KEYWORD,blogspot",
+              "DOMAIN-KEYWORD,gmail",
+              "DOMAIN-KEYWORD,google",
+              "DOMAIN-KEYWORD,recaptcha",
+              "DOMAIN-SUFFIX,abc.xyz",
+              "DOMAIN-SUFFIX,amp.dev",
+              "DOMAIN-SUFFIX,ampproject.com",
+              "DOMAIN-SUFFIX,ampproject.net",
+              "DOMAIN-SUFFIX,ampproject.org",
+              "DOMAIN-SUFFIX,androidtv.com",
+              "DOMAIN-SUFFIX,app-measurement.net",
+              "DOMAIN-SUFFIX,apps5.oingo.com",
+              "DOMAIN-SUFFIX,capitalg.com",
+              "DOMAIN-SUFFIX,certificate-transparency.dev",
+              "DOMAIN-SUFFIX,chromeexperiments.com",
+              "DOMAIN-SUFFIX,chromercise.com",
+              "DOMAIN-SUFFIX,clickserve.cc-dt.com",
+              "DOMAIN-SUFFIX,crbug.com",
+              "DOMAIN-SUFFIX,creativelab5.com"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 547,
+          "semanticChanged": true,
+          "currentConditionCount": 847,
           "baselineConditionCount": 547,
-          "added": 0,
-          "removed": 0,
+          "added": 354,
+          "removed": 54,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,apps5.oingo.com",
+              "DOMAIN,avail.googleflights.net",
+              "DOMAIN,clickserve.cc-dt.com",
+              "DOMAIN,dartsearch-cn.net",
+              "DOMAIN,gongyichuangyi.net",
+              "DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com",
+              "DOMAIN,googleapis-cn.com",
+              "DOMAIN,googleapps-cn.com",
+              "DOMAIN,googleflights-cn.net",
+              "DOMAIN,gstatic-cn.com",
+              "DOMAIN,gtm.oasisfeng.com",
+              "DOMAIN,qiao-cn.com",
+              "DOMAIN,qpx.googleflights.net",
+              "DOMAIN,recaptcha-cn.net",
+              "DOMAIN,recaptcha.net",
+              "DOMAIN,www.destinationurl.com",
+              "DOMAIN,www.pxcc.com",
+              "DOMAIN,www.recaptcha-cn.net",
+              "DOMAIN,www.recaptcha.net",
+              "DOMAIN-SUFFIX,adgoogle.net"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,appspot",
+              "DOMAIN-KEYWORD,blogspot",
+              "DOMAIN-KEYWORD,gmail",
+              "DOMAIN-KEYWORD,google",
+              "DOMAIN-KEYWORD,recaptcha",
+              "DOMAIN-SUFFIX,abc.xyz",
+              "DOMAIN-SUFFIX,amp.dev",
+              "DOMAIN-SUFFIX,ampproject.com",
+              "DOMAIN-SUFFIX,ampproject.net",
+              "DOMAIN-SUFFIX,ampproject.org",
+              "DOMAIN-SUFFIX,androidtv.com",
+              "DOMAIN-SUFFIX,app-measurement.net",
+              "DOMAIN-SUFFIX,apps5.oingo.com",
+              "DOMAIN-SUFFIX,capitalg.com",
+              "DOMAIN-SUFFIX,certificate-transparency.dev",
+              "DOMAIN-SUFFIX,chromeexperiments.com",
+              "DOMAIN-SUFFIX,chromercise.com",
+              "DOMAIN-SUFFIX,clickserve.cc-dt.com",
+              "DOMAIN-SUFFIX,crbug.com",
+              "DOMAIN-SUFFIX,creativelab5.com"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 544,
+          "semanticChanged": true,
+          "currentConditionCount": 847,
           "baselineConditionCount": 544,
-          "added": 0,
-          "removed": 0,
+          "added": 354,
+          "removed": 51,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:apps5.oingo.com",
+              "domain:avail.googleflights.net",
+              "domain:clickserve.cc-dt.com",
+              "domain:dartsearch-cn.net",
+              "domain:gongyichuangyi.net",
+              "domain:google-ohttp-relay-safebrowsing.fastly-edge.com",
+              "domain:googleapis-cn.com",
+              "domain:googleapps-cn.com",
+              "domain:googleflights-cn.net",
+              "domain:gstatic-cn.com",
+              "domain:gtm.oasisfeng.com",
+              "domain:qiao-cn.com",
+              "domain:qpx.googleflights.net",
+              "domain:recaptcha-cn.net",
+              "domain:recaptcha.net",
+              "domain:www.destinationurl.com",
+              "domain:www.pxcc.com",
+              "domain:www.recaptcha-cn.net",
+              "domain:www.recaptcha.net",
+              "domain_suffix:adgoogle.net"
+            ],
+            "removed": [
+              "domain_keyword:appspot",
+              "domain_keyword:blogspot",
+              "domain_keyword:gmail",
+              "domain_keyword:google",
+              "domain_keyword:recaptcha",
+              "domain_suffix:abc.xyz",
+              "domain_suffix:amp.dev",
+              "domain_suffix:ampproject.com",
+              "domain_suffix:ampproject.net",
+              "domain_suffix:ampproject.org",
+              "domain_suffix:androidtv.com",
+              "domain_suffix:app-measurement.net",
+              "domain_suffix:apps5.oingo.com",
+              "domain_suffix:capitalg.com",
+              "domain_suffix:certificate-transparency.dev",
+              "domain_suffix:chromeexperiments.com",
+              "domain_suffix:chromercise.com",
+              "domain_suffix:clickserve.cc-dt.com",
+              "domain_suffix:crbug.com",
+              "domain_suffix:creativelab5.com"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 552,
+          "semanticChanged": true,
+          "currentConditionCount": 847,
           "baselineConditionCount": 552,
-          "added": 0,
-          "removed": 0,
+          "added": 354,
+          "removed": 59,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,apps5.oingo.com",
+              "DOMAIN,avail.googleflights.net",
+              "DOMAIN,clickserve.cc-dt.com",
+              "DOMAIN,dartsearch-cn.net",
+              "DOMAIN,gongyichuangyi.net",
+              "DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com",
+              "DOMAIN,googleapis-cn.com",
+              "DOMAIN,googleapps-cn.com",
+              "DOMAIN,googleflights-cn.net",
+              "DOMAIN,gstatic-cn.com",
+              "DOMAIN,gtm.oasisfeng.com",
+              "DOMAIN,qiao-cn.com",
+              "DOMAIN,qpx.googleflights.net",
+              "DOMAIN,recaptcha-cn.net",
+              "DOMAIN,recaptcha.net",
+              "DOMAIN,www.destinationurl.com",
+              "DOMAIN,www.pxcc.com",
+              "DOMAIN,www.recaptcha-cn.net",
+              "DOMAIN,www.recaptcha.net",
+              "DOMAIN-SUFFIX,adgoogle.net"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,appspot",
+              "DOMAIN-KEYWORD,blogspot",
+              "DOMAIN-KEYWORD,gmail",
+              "DOMAIN-KEYWORD,google",
+              "DOMAIN-KEYWORD,recaptcha",
+              "DOMAIN-SUFFIX,abc.xyz",
+              "DOMAIN-SUFFIX,amp.dev",
+              "DOMAIN-SUFFIX,ampproject.com",
+              "DOMAIN-SUFFIX,ampproject.net",
+              "DOMAIN-SUFFIX,ampproject.org",
+              "DOMAIN-SUFFIX,androidtv.com",
+              "DOMAIN-SUFFIX,app-measurement.net",
+              "DOMAIN-SUFFIX,apps5.oingo.com",
+              "DOMAIN-SUFFIX,capitalg.com",
+              "DOMAIN-SUFFIX,certificate-transparency.dev",
+              "DOMAIN-SUFFIX,chromeexperiments.com",
+              "DOMAIN-SUFFIX,chromercise.com",
+              "DOMAIN-SUFFIX,clickserve.cc-dt.com",
+              "DOMAIN-SUFFIX,crbug.com",
+              "DOMAIN-SUFFIX,creativelab5.com"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 18,
+      "removed": 68,
+      "changeRatio": 0.095875,
+      "addedByType": {
+        "DOMAIN": 18
+      },
+      "removedByType": {
+        "DOMAIN-KEYWORD": 5,
+        "DOMAIN-SUFFIX": 50,
+        "IP-CIDR": 4,
+        "IP-CIDR6": 1,
+        "PROCESS-NAME": 5,
+        "USER-AGENT": 3
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN,apps5.oingo.com",
+          "DOMAIN,avail.googleflights.net",
+          "DOMAIN,clickserve.cc-dt.com",
+          "DOMAIN,dartsearch-cn.net",
+          "DOMAIN,gongyichuangyi.net",
+          "DOMAIN,googleapis-cn.com",
+          "DOMAIN,googleapps-cn.com",
+          "DOMAIN,googleflights-cn.net",
+          "DOMAIN,gstatic-cn.com",
+          "DOMAIN,gtm.oasisfeng.com",
+          "DOMAIN,qiao-cn.com",
+          "DOMAIN,qpx.googleflights.net",
+          "DOMAIN,recaptcha-cn.net",
+          "DOMAIN,recaptcha.net",
+          "DOMAIN,www.destinationurl.com",
+          "DOMAIN,www.pxcc.com",
+          "DOMAIN,www.recaptcha-cn.net",
+          "DOMAIN,www.recaptcha.net"
+        ],
+        "removed": [
+          "DOMAIN-KEYWORD,appspot",
+          "DOMAIN-KEYWORD,blogspot",
+          "DOMAIN-KEYWORD,gmail",
+          "DOMAIN-KEYWORD,google",
+          "DOMAIN-KEYWORD,recaptcha",
+          "DOMAIN-SUFFIX,abc.xyz",
+          "DOMAIN-SUFFIX,amp.dev",
+          "DOMAIN-SUFFIX,ampproject.com",
+          "DOMAIN-SUFFIX,ampproject.net",
+          "DOMAIN-SUFFIX,ampproject.org",
+          "DOMAIN-SUFFIX,androidtv.com",
+          "DOMAIN-SUFFIX,app-measurement.net",
+          "DOMAIN-SUFFIX,apps5.oingo.com",
+          "DOMAIN-SUFFIX,avail.googleflights.net",
+          "DOMAIN-SUFFIX,capitalg.com",
+          "DOMAIN-SUFFIX,certificate-transparency.dev",
+          "DOMAIN-SUFFIX,chromeexperiments.com",
+          "DOMAIN-SUFFIX,chromercise.com",
+          "DOMAIN-SUFFIX,clickserve.cc-dt.com",
+          "DOMAIN-SUFFIX,crbug.com"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list"
+      ],
       "warnings": []
     },
     {
@@ -3291,73 +3627,77 @@
       "sourceId": "netflix",
       "rulesetId": "netflix",
       "converterVersion": "mirrrule-rule-output/2",
-      "status": "compared",
-      "currentConditionCount": 1240,
+      "status": "not-comparable",
+      "currentConditionCount": 146,
       "baselineConditionCount": 1240,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": null,
+      "semanticChanged": null,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1228,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 146,
           "baselineConditionCount": 1228,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "loon",
           "format": "loon-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1228,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 146,
           "baselineConditionCount": 1228,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1227,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 146,
           "baselineConditionCount": 1227,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         },
         {
           "platform": "surge",
           "format": "surge-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1229,
+          "status": "not-comparable",
+          "semanticChanged": null,
+          "currentConditionCount": 146,
           "baselineConditionCount": 1229,
-          "added": 0,
-          "removed": 0,
+          "added": null,
+          "removed": null,
           "samples": {
             "added": [],
             "removed": []
-          }
+          },
+          "reason": "processing-context-changed"
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "added": null,
+      "removed": null,
+      "changeRatio": null,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -3366,7 +3706,8 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": []
+      "warnings": [],
+      "reason": "processing-context-changed"
     },
     {
       "sourceId": "primevideo",
@@ -4303,80 +4644,213 @@
       "rulesetId": "spotify",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 34,
+      "currentConditionCount": 25,
       "baselineConditionCount": 34,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 8,
+          "semanticChanged": true,
+          "currentConditionCount": 25,
           "baselineConditionCount": 8,
-          "added": 0,
-          "removed": 0,
+          "added": 22,
+          "removed": 5,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,audio-ak-spotify-com.akamaized.net",
+              "DOMAIN,audio4-ak-spotify-com.akamaized.net",
+              "DOMAIN,cdn-spotify-experiments.conductrics.com",
+              "DOMAIN,heads-ak-spotify-com.akamaized.net",
+              "DOMAIN,heads4-ak-spotify-com.akamaized.net",
+              "DOMAIN,spotify.com.edgesuite.net",
+              "DOMAIN,spotify.map.fastly.net",
+              "DOMAIN,spotify.map.fastlylb.net",
+              "DOMAIN-SUFFIX,byspotify.com",
+              "DOMAIN-SUFFIX,lifeatspotify.com",
+              "DOMAIN-SUFFIX,spotify-everywhere.com",
+              "DOMAIN-SUFFIX,spotify.com",
+              "DOMAIN-SUFFIX,spotify.design",
+              "DOMAIN-SUFFIX,spotify.link",
+              "DOMAIN-SUFFIX,spotifycdn.com",
+              "DOMAIN-SUFFIX,spotifycdn.net",
+              "DOMAIN-SUFFIX,spotifycharts.com",
+              "DOMAIN-SUFFIX,spotifycodes.com",
+              "DOMAIN-SUFFIX,spotifyforbrands.com",
+              "DOMAIN-SUFFIX,spotifyforvendors.com"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,spotify",
+              "DOMAIN-SUFFIX,spotilocal.com",
+              "IP-CIDR,104.154.127.126/32,no-resolve",
+              "IP-CIDR,35.186.224.47/32,no-resolve",
+              "PROCESS-NAME,com.spotify.music"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 8,
+          "semanticChanged": true,
+          "currentConditionCount": 25,
           "baselineConditionCount": 8,
-          "added": 0,
-          "removed": 0,
+          "added": 22,
+          "removed": 5,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,audio-ak-spotify-com.akamaized.net",
+              "DOMAIN,audio4-ak-spotify-com.akamaized.net",
+              "DOMAIN,cdn-spotify-experiments.conductrics.com",
+              "DOMAIN,heads-ak-spotify-com.akamaized.net",
+              "DOMAIN,heads4-ak-spotify-com.akamaized.net",
+              "DOMAIN,spotify.com.edgesuite.net",
+              "DOMAIN,spotify.map.fastly.net",
+              "DOMAIN,spotify.map.fastlylb.net",
+              "DOMAIN-SUFFIX,byspotify.com",
+              "DOMAIN-SUFFIX,lifeatspotify.com",
+              "DOMAIN-SUFFIX,spotify-everywhere.com",
+              "DOMAIN-SUFFIX,spotify.com",
+              "DOMAIN-SUFFIX,spotify.design",
+              "DOMAIN-SUFFIX,spotify.link",
+              "DOMAIN-SUFFIX,spotifycdn.com",
+              "DOMAIN-SUFFIX,spotifycdn.net",
+              "DOMAIN-SUFFIX,spotifycharts.com",
+              "DOMAIN-SUFFIX,spotifycodes.com",
+              "DOMAIN-SUFFIX,spotifyforbrands.com",
+              "DOMAIN-SUFFIX,spotifyforvendors.com"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,spotify",
+              "DOMAIN-SUFFIX,spotilocal.com",
+              "IP-CIDR,104.154.127.126/32,no-resolve",
+              "IP-CIDR,35.186.224.47/32,no-resolve",
+              "USER-AGENT,Spotify*"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 7,
+          "semanticChanged": true,
+          "currentConditionCount": 25,
           "baselineConditionCount": 7,
-          "added": 0,
-          "removed": 0,
+          "added": 22,
+          "removed": 4,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:audio-ak-spotify-com.akamaized.net",
+              "domain:audio4-ak-spotify-com.akamaized.net",
+              "domain:cdn-spotify-experiments.conductrics.com",
+              "domain:heads-ak-spotify-com.akamaized.net",
+              "domain:heads4-ak-spotify-com.akamaized.net",
+              "domain:spotify.com.edgesuite.net",
+              "domain:spotify.map.fastly.net",
+              "domain:spotify.map.fastlylb.net",
+              "domain_suffix:byspotify.com",
+              "domain_suffix:lifeatspotify.com",
+              "domain_suffix:spotify-everywhere.com",
+              "domain_suffix:spotify.com",
+              "domain_suffix:spotify.design",
+              "domain_suffix:spotify.link",
+              "domain_suffix:spotifycdn.com",
+              "domain_suffix:spotifycdn.net",
+              "domain_suffix:spotifycharts.com",
+              "domain_suffix:spotifycodes.com",
+              "domain_suffix:spotifyforbrands.com",
+              "domain_suffix:spotifyforvendors.com"
+            ],
+            "removed": [
+              "domain_keyword:spotify",
+              "domain_suffix:spotilocal.com",
+              "ip_cidr:104.154.127.126/32",
+              "ip_cidr:35.186.224.47/32"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 9,
+          "semanticChanged": true,
+          "currentConditionCount": 25,
           "baselineConditionCount": 9,
-          "added": 0,
-          "removed": 0,
+          "added": 22,
+          "removed": 6,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,audio-ak-spotify-com.akamaized.net",
+              "DOMAIN,audio4-ak-spotify-com.akamaized.net",
+              "DOMAIN,cdn-spotify-experiments.conductrics.com",
+              "DOMAIN,heads-ak-spotify-com.akamaized.net",
+              "DOMAIN,heads4-ak-spotify-com.akamaized.net",
+              "DOMAIN,spotify.com.edgesuite.net",
+              "DOMAIN,spotify.map.fastly.net",
+              "DOMAIN,spotify.map.fastlylb.net",
+              "DOMAIN-SUFFIX,byspotify.com",
+              "DOMAIN-SUFFIX,lifeatspotify.com",
+              "DOMAIN-SUFFIX,spotify-everywhere.com",
+              "DOMAIN-SUFFIX,spotify.com",
+              "DOMAIN-SUFFIX,spotify.design",
+              "DOMAIN-SUFFIX,spotify.link",
+              "DOMAIN-SUFFIX,spotifycdn.com",
+              "DOMAIN-SUFFIX,spotifycdn.net",
+              "DOMAIN-SUFFIX,spotifycharts.com",
+              "DOMAIN-SUFFIX,spotifycodes.com",
+              "DOMAIN-SUFFIX,spotifyforbrands.com",
+              "DOMAIN-SUFFIX,spotifyforvendors.com"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,spotify",
+              "DOMAIN-SUFFIX,spotilocal.com",
+              "IP-CIDR,104.154.127.126/32,no-resolve",
+              "IP-CIDR,35.186.224.47/32,no-resolve",
+              "PROCESS-NAME,com.spotify.music",
+              "USER-AGENT,Spotify*"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 2,
+      "removed": 11,
+      "changeRatio": 0.382353,
+      "addedByType": {
+        "DOMAIN": 2
+      },
+      "removedByType": {
+        "DOMAIN-KEYWORD": 1,
+        "DOMAIN-SUFFIX": 6,
+        "IP-CIDR": 2,
+        "PROCESS-NAME": 1,
+        "USER-AGENT": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN,audio-ak-spotify-com.akamaized.net",
+          "DOMAIN,heads4-ak-spotify-com.akamaized.net"
+        ],
+        "removed": [
+          "DOMAIN-KEYWORD,spotify",
+          "DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net",
+          "DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net",
+          "DOMAIN-SUFFIX,spotify-com.akamaized.net",
+          "DOMAIN-SUFFIX,spotify.app.link",
+          "DOMAIN-SUFFIX,spotifynewsroom.jp",
+          "DOMAIN-SUFFIX,spotilocal.com",
+          "IP-CIDR,104.154.127.126/32,no-resolve",
+          "IP-CIDR,35.186.224.47/32,no-resolve",
+          "PROCESS-NAME,com.spotify.music",
+          "USER-AGENT,Spotify*"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list"
+      ],
       "warnings": []
     },
     {
@@ -5437,80 +5911,233 @@
       "rulesetId": "youtube",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 191,
+      "currentConditionCount": 177,
       "baselineConditionCount": 191,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 14,
+          "semanticChanged": true,
+          "currentConditionCount": 177,
           "baselineConditionCount": 14,
-          "added": 0,
-          "removed": 0,
+          "added": 170,
+          "removed": 7,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,wide-youtube.l.google.com",
+              "DOMAIN-SUFFIX,withyoutube.com",
+              "DOMAIN-SUFFIX,youtube",
+              "DOMAIN-SUFFIX,youtube-nocookie.com",
+              "DOMAIN-SUFFIX,youtube-ui.l.google.com",
+              "DOMAIN-SUFFIX,youtube.ae",
+              "DOMAIN-SUFFIX,youtube.al",
+              "DOMAIN-SUFFIX,youtube.am",
+              "DOMAIN-SUFFIX,youtube.at",
+              "DOMAIN-SUFFIX,youtube.az",
+              "DOMAIN-SUFFIX,youtube.ba",
+              "DOMAIN-SUFFIX,youtube.be",
+              "DOMAIN-SUFFIX,youtube.bg",
+              "DOMAIN-SUFFIX,youtube.bh",
+              "DOMAIN-SUFFIX,youtube.bo",
+              "DOMAIN-SUFFIX,youtube.by",
+              "DOMAIN-SUFFIX,youtube.ca",
+              "DOMAIN-SUFFIX,youtube.cat",
+              "DOMAIN-SUFFIX,youtube.ch",
+              "DOMAIN-SUFFIX,youtube.cl"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,youtube",
+              "DOMAIN-SUFFIX,gvt1.com",
+              "DOMAIN-SUFFIX,gvt2.com",
+              "DOMAIN-SUFFIX,video.google.com",
+              "IP-CIDR,172.110.32.0/21,no-resolve",
+              "IP-CIDR,216.73.80.0/20,no-resolve",
+              "IP-CIDR6,2620:120:e000::/40,no-resolve"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 21,
+          "semanticChanged": true,
+          "currentConditionCount": 177,
           "baselineConditionCount": 21,
-          "added": 0,
-          "removed": 0,
+          "added": 170,
+          "removed": 14,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,wide-youtube.l.google.com",
+              "DOMAIN-SUFFIX,withyoutube.com",
+              "DOMAIN-SUFFIX,youtube",
+              "DOMAIN-SUFFIX,youtube-nocookie.com",
+              "DOMAIN-SUFFIX,youtube-ui.l.google.com",
+              "DOMAIN-SUFFIX,youtube.ae",
+              "DOMAIN-SUFFIX,youtube.al",
+              "DOMAIN-SUFFIX,youtube.am",
+              "DOMAIN-SUFFIX,youtube.at",
+              "DOMAIN-SUFFIX,youtube.az",
+              "DOMAIN-SUFFIX,youtube.ba",
+              "DOMAIN-SUFFIX,youtube.be",
+              "DOMAIN-SUFFIX,youtube.bg",
+              "DOMAIN-SUFFIX,youtube.bh",
+              "DOMAIN-SUFFIX,youtube.bo",
+              "DOMAIN-SUFFIX,youtube.by",
+              "DOMAIN-SUFFIX,youtube.ca",
+              "DOMAIN-SUFFIX,youtube.cat",
+              "DOMAIN-SUFFIX,youtube.ch",
+              "DOMAIN-SUFFIX,youtube.cl"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,youtube",
+              "DOMAIN-SUFFIX,gvt1.com",
+              "DOMAIN-SUFFIX,gvt2.com",
+              "DOMAIN-SUFFIX,video.google.com",
+              "IP-CIDR,172.110.32.0/21,no-resolve",
+              "IP-CIDR,216.73.80.0/20,no-resolve",
+              "IP-CIDR6,2620:120:e000::/40,no-resolve",
+              "USER-AGENT,*YouTubeMusic*",
+              "USER-AGENT,*com.google.ios.youtubemusic*",
+              "USER-AGENT,*youtube*",
+              "USER-AGENT,YouTube*",
+              "USER-AGENT,YouTubeMusic*",
+              "USER-AGENT,com.google.ios.youtube*",
+              "USER-AGENT,com.google.ios.youtubemusic*"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 14,
+          "semanticChanged": true,
+          "currentConditionCount": 177,
           "baselineConditionCount": 14,
-          "added": 0,
-          "removed": 0,
+          "added": 170,
+          "removed": 7,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:wide-youtube.l.google.com",
+              "domain_suffix:withyoutube.com",
+              "domain_suffix:youtube",
+              "domain_suffix:youtube-nocookie.com",
+              "domain_suffix:youtube-ui.l.google.com",
+              "domain_suffix:youtube.ae",
+              "domain_suffix:youtube.al",
+              "domain_suffix:youtube.am",
+              "domain_suffix:youtube.at",
+              "domain_suffix:youtube.az",
+              "domain_suffix:youtube.ba",
+              "domain_suffix:youtube.be",
+              "domain_suffix:youtube.bg",
+              "domain_suffix:youtube.bh",
+              "domain_suffix:youtube.bo",
+              "domain_suffix:youtube.by",
+              "domain_suffix:youtube.ca",
+              "domain_suffix:youtube.cat",
+              "domain_suffix:youtube.ch",
+              "domain_suffix:youtube.cl"
+            ],
+            "removed": [
+              "domain_keyword:youtube",
+              "domain_suffix:gvt1.com",
+              "domain_suffix:gvt2.com",
+              "domain_suffix:video.google.com",
+              "ip_cidr:172.110.32.0/21",
+              "ip_cidr:216.73.80.0/20",
+              "ip_cidr:2620:120:e000::/40"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 21,
+          "semanticChanged": true,
+          "currentConditionCount": 177,
           "baselineConditionCount": 21,
-          "added": 0,
-          "removed": 0,
+          "added": 170,
+          "removed": 14,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,wide-youtube.l.google.com",
+              "DOMAIN-SUFFIX,withyoutube.com",
+              "DOMAIN-SUFFIX,youtube",
+              "DOMAIN-SUFFIX,youtube-nocookie.com",
+              "DOMAIN-SUFFIX,youtube-ui.l.google.com",
+              "DOMAIN-SUFFIX,youtube.ae",
+              "DOMAIN-SUFFIX,youtube.al",
+              "DOMAIN-SUFFIX,youtube.am",
+              "DOMAIN-SUFFIX,youtube.at",
+              "DOMAIN-SUFFIX,youtube.az",
+              "DOMAIN-SUFFIX,youtube.ba",
+              "DOMAIN-SUFFIX,youtube.be",
+              "DOMAIN-SUFFIX,youtube.bg",
+              "DOMAIN-SUFFIX,youtube.bh",
+              "DOMAIN-SUFFIX,youtube.bo",
+              "DOMAIN-SUFFIX,youtube.by",
+              "DOMAIN-SUFFIX,youtube.ca",
+              "DOMAIN-SUFFIX,youtube.cat",
+              "DOMAIN-SUFFIX,youtube.ch",
+              "DOMAIN-SUFFIX,youtube.cl"
+            ],
+            "removed": [
+              "DOMAIN-KEYWORD,youtube",
+              "DOMAIN-SUFFIX,gvt1.com",
+              "DOMAIN-SUFFIX,gvt2.com",
+              "DOMAIN-SUFFIX,video.google.com",
+              "IP-CIDR,172.110.32.0/21,no-resolve",
+              "IP-CIDR,216.73.80.0/20,no-resolve",
+              "IP-CIDR6,2620:120:e000::/40,no-resolve",
+              "USER-AGENT,*YouTubeMusic*",
+              "USER-AGENT,*com.google.ios.youtubemusic*",
+              "USER-AGENT,*youtube*",
+              "USER-AGENT,YouTube*",
+              "USER-AGENT,YouTubeMusic*",
+              "USER-AGENT,com.google.ios.youtube*",
+              "USER-AGENT,com.google.ios.youtubemusic*"
+            ]
           }
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 14,
+      "changeRatio": 0.073298,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN-KEYWORD": 1,
+        "DOMAIN-SUFFIX": 3,
+        "IP-CIDR": 2,
+        "IP-CIDR6": 1,
+        "USER-AGENT": 7
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN-KEYWORD,youtube",
+          "DOMAIN-SUFFIX,gvt1.com",
+          "DOMAIN-SUFFIX,gvt2.com",
+          "DOMAIN-SUFFIX,video.google.com",
+          "IP-CIDR,172.110.32.0/21,no-resolve",
+          "IP-CIDR,216.73.80.0/20,no-resolve",
+          "IP-CIDR6,2620:120:e000::/40,no-resolve",
+          "USER-AGENT,*YouTubeMusic*",
+          "USER-AGENT,*com.google.ios.youtubemusic*",
+          "USER-AGENT,*youtube*",
+          "USER-AGENT,YouTube*",
+          "USER-AGENT,YouTubeMusic*",
+          "USER-AGENT,com.google.ios.youtube*",
+          "USER-AGENT,com.google.ios.youtubemusic*"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+      ],
       "warnings": []
     }
   ]

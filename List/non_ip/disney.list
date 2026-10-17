@@ -1,9 +1,9 @@
 #########################################
 # Disney
-# Last Updated: 2026-10-17T18:09:43.002Z
-# Size: 235
-# Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
-# Merged from 2 sources
+# Last Updated: 2026-10-17T18:33:32.297Z
+# Size: 222
+# Service rules from MetaCubeX domain and IP categories.
+# Merged from 1 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
 DOMAIN-SUFFIX,dtci.technology
@@ -14,14 +14,11 @@ DOMAIN-SUFFIX,disney-studio.net
 DOMAIN-SUFFIX,marvelparty.net
 DOMAIN-SUFFIX,hotstar-cdn.net
 DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,abcnews.edgesuite.net
 DOMAIN-SUFFIX,hsprepack.akamaized.net
-DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bamtech.net
-DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
-DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
-DOMAIN-SUFFIX,espn.hb.omtrdc.net
-DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN,espndotcom.tt.omtrdc.net
+DOMAIN,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN,espn.hb.omtrdc.net
 DOMAIN-SUFFIX,espn.net
 DOMAIN-SUFFIX,disneyplus.bn5x.net
 DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com
@@ -86,7 +83,6 @@ DOMAIN-SUFFIX,registerhulu.com
 DOMAIN-SUFFIX,originalhulu.com
 DOMAIN-SUFFIX,hulupurchase.com
 DOMAIN-SUFFIX,hotstar-labs.com
-DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,disneylatino.com
 DOMAIN-SUFFIX,disneyjunior.com
 DOMAIN-SUFFIX,disneyiejobs.com
@@ -104,7 +100,6 @@ DOMAIN-SUFFIX,abc-studios.com
 DOMAIN-SUFFIX,star-latam.com
 DOMAIN-SUFFIX,shopdisney.com
 DOMAIN-SUFFIX,playmation.com
-DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,natgeomaps.com
 DOMAIN-SUFFIX,joinmaidez.com
 DOMAIN-SUFFIX,hulustream.com
@@ -120,12 +115,10 @@ DOMAIN-SUFFIX,lucasfilm.com
 DOMAIN-SUFFIX,huluspain.com
 DOMAIN-SUFFIX,huluitaly.com
 DOMAIN-SUFFIX,fxnetwork.com
-DOMAIN-SUFFIX,dlp-media.com
 DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,starwars.com
 DOMAIN-SUFFIX,starplus.com
 DOMAIN-SUFFIX,disney-portal.my.onetrust.com
-DOMAIN-SUFFIX,js-agent.newrelic.com
 DOMAIN-SUFFIX,huluteam.com
 DOMAIN-SUFFIX,huluplus.com
 DOMAIN-SUFFIX,hulugans.com
@@ -139,7 +132,6 @@ DOMAIN-SUFFIX,disneyme.com
 DOMAIN-SUFFIX,detpress.com
 DOMAIN-SUFFIX,callhulu.com
 DOMAIN-SUFFIX,babyzone.com
-DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,starott.com
 DOMAIN-SUFFIX,payhulu.com
 DOMAIN-SUFFIX,huluusa.com
@@ -147,8 +139,6 @@ DOMAIN-SUFFIX,hulunet.com
 DOMAIN-SUFFIX,huluapp.com
 DOMAIN-SUFFIX,hotstar.com
 DOMAIN-SUFFIX,espncdn.com
-DOMAIN-SUFFIX,dssedge.com
-DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,abcnews.com
 DOMAIN-SUFFIX,myhulu.com
@@ -208,7 +198,7 @@ DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,disney.co.jp
 DOMAIN-SUFFIX,disneymagicmoments.it
 DOMAIN-SUFFIX,disney.it
-DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN,disney.my.sentry.io
 DOMAIN-SUFFIX,disney.io
 DOMAIN-SUFFIX,disney.in
 DOMAIN-SUFFIX,disneymagicmoments.co.il
@@ -238,8 +228,5 @@ DOMAIN-SUFFIX,disney.bg
 DOMAIN-SUFFIX,disney.be
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,disney.com.au
-USER-AGENT,Disney+*
-PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
-PROCESS-NAME,com.disney.disneyplus
 ################## EOF ##################
 

@@ -16,15 +16,15 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 151474,
-    "unsupportedRules": 5511,
-    "fullyCoveredDomainRules": 471,
-    "partlyOverlappingDomainRules": 1085,
+    "domainRules": 151787,
+    "unsupportedRules": 5493,
+    "fullyCoveredDomainRules": 480,
+    "partlyOverlappingDomainRules": 1094,
     "samePolicyRedundancies": 26,
-    "differentPolicyConflicts": 1519,
+    "differentPolicyConflicts": 1537,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
-    "conditionalWarnings": 83,
+    "conditionalWarnings": 75,
     "notCoveredSubscriptions": 0,
     "absentVariantSubscriptions": 0,
     "formatMismatchSubscriptions": 0
@@ -1224,27 +1224,21 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 552,
-      "domainRules": 534,
-      "unsupportedRules": 18,
-      "unsupportedTypes": {
-        "DOMAIN-KEYWORD": 5,
-        "USER-AGENT": 3,
-        "PROCESS-NAME": 5,
-        "IP-CIDR": 4,
-        "IP-CIDR6": 1
-      },
-      "conditionalRules": 8,
-      "fullyCoveredDomainRules": 27,
-      "partlyOverlappingDomainRules": 17,
+      "totalRules": 847,
+      "domainRules": 847,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 46,
+      "partlyOverlappingDomainRules": 26,
       "samePolicyRedundancies": 0,
-      "differentPolicyConflicts": 44,
+      "differentPolicyConflicts": 72,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
         {
           "rule": "DOMAIN-SUFFIX,ai.studio",
-          "line": 16,
+          "line": 17,
           "coverage": "full",
           "relation": "different-policy",
           "earlier": [
@@ -1258,8 +1252,23 @@
           ]
         },
         {
+          "rule": "DOMAIN-SUFFIX,google",
+          "line": 18,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "ai.list",
+              "policy": "AI",
+              "line": 11,
+              "rule": "DOMAIN-SUFFIX,generativeai.google",
+              "matchMode": "extended"
+            }
+          ]
+        },
+        {
           "rule": "DOMAIN-SUFFIX,goog",
-          "line": 33,
+          "line": 36,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -1287,30 +1296,8 @@
           ]
         },
         {
-          "rule": "DOMAIN-SUFFIX,ampproject.org",
-          "line": 64,
-          "coverage": "full",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "cdn.list",
-              "policy": "CDN",
-              "line": 345,
-              "rule": "DOMAIN-SUFFIX,ampproject.org",
-              "matchMode": "destination"
-            },
-            {
-              "subscription": "reject.list",
-              "policy": "REJECT",
-              "line": 11991,
-              "rule": "DOMAIN-SUFFIX,amptrack-dailymail-co-uk.cdn.ampproject.org",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
           "rule": "DOMAIN-SUFFIX,golang.org",
-          "line": 77,
+          "line": 73,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -1325,7 +1312,7 @@
         },
         {
           "rule": "DOMAIN-SUFFIX,godoc.org",
-          "line": 79,
+          "line": 75,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -1472,10 +1459,10 @@
         "USER-AGENT": 1
       },
       "conditionalRules": 1,
-      "fullyCoveredDomainRules": 154,
+      "fullyCoveredDomainRules": 144,
       "partlyOverlappingDomainRules": 611,
       "samePolicyRedundancies": 0,
-      "differentPolicyConflicts": 765,
+      "differentPolicyConflicts": 755,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
@@ -1525,7 +1512,7 @@
             {
               "subscription": "google.list",
               "policy": "Google",
-              "line": 14,
+              "line": 15,
               "rule": "DOMAIN-SUFFIX,x.company",
               "matchMode": "destination"
             }
@@ -1760,56 +1747,6 @@
       "condition": "PROCESS-NAME",
       "compound": false,
       "laterSubscriptions": 7
-    },
-    {
-      "subscription": "google.list",
-      "policy": "Google",
-      "line": 547,
-      "rule": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*",
-      "matchMode": "destination",
-      "condition": "USER-AGENT",
-      "compound": false,
-      "laterSubscriptions": 4
-    },
-    {
-      "subscription": "google.list",
-      "policy": "Google",
-      "line": 548,
-      "rule": "USER-AGENT,*com.google.Drive*",
-      "matchMode": "destination",
-      "condition": "USER-AGENT",
-      "compound": false,
-      "laterSubscriptions": 4
-    },
-    {
-      "subscription": "google.list",
-      "policy": "Google",
-      "line": 549,
-      "rule": "USER-AGENT,Google.Drive*",
-      "matchMode": "destination",
-      "condition": "USER-AGENT",
-      "compound": false,
-      "laterSubscriptions": 4
-    },
-    {
-      "subscription": "google.list",
-      "policy": "Google",
-      "line": 550,
-      "rule": "PROCESS-NAME,com.android.vending",
-      "matchMode": "destination",
-      "condition": "PROCESS-NAME",
-      "compound": false,
-      "laterSubscriptions": 4
-    },
-    {
-      "subscription": "google.list",
-      "policy": "Google",
-      "line": 551,
-      "rule": "PROCESS-NAME,com.google.android.gms",
-      "matchMode": "destination",
-      "condition": "PROCESS-NAME",
-      "compound": false,
-      "laterSubscriptions": 4
     },
     {
       "subscription": "global.list",
