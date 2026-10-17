@@ -1,7 +1,7 @@
 #########################################
 # Reject
-# Last Updated: 2026-10-17T17:39:07.588Z
-# Size: 1801
+# Last Updated: 2026-10-17T17:47:18.737Z
+# Size: 1797
 # Rules for Reject
 # Merged from 4 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -1803,9 +1803,5 @@ DOMAIN-KEYWORD,hoisin.coocaa.com
 DOMAIN-KEYWORD,hoisin.coocaatv.com
 DOMAIN-KEYWORD,stsdk.vivo.com.cn
 DOMAIN-KEYWORD,stsdk.vivoglobal.com
-IP-CIDR,101.227.97.240/32,no-resolve
-IP-CIDR,101.227.200.11/32,no-resolve
-IP-CIDR,101.227.200.28/32,no-resolve
-IP-CIDR,124.192.153.42/32,no-resolve
 ################## EOF ##################
 

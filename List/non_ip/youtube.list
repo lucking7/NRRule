@@ -1,7 +1,7 @@
 #########################################
 # YouTube
-# Last Updated: 2026-10-17T17:39:05.259Z
-# Size: 21
+# Last Updated: 2026-10-17T17:47:16.640Z
+# Size: 18
 # Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
 # Merged from 2 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -24,8 +24,5 @@ USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
-IP-CIDR,172.110.32.0/21,no-resolve
-IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR6,2620:120:e000::/40,no-resolve
 ################## EOF ##################
 

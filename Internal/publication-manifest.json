@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "kind": "build",
-  "sourceCommit": "508fc4939627482c4db700fed540cd500b464904",
-  "candidateId": "sha256:973d3fd1178fe71580d4a90384aae81696667be32c9a94ce6d6099e68a3c2eb1",
-  "baselineReceiptId": 7143220797,
-  "baselineDeployCommit": "8d54fbfe28c663c94b3d4b74546c1f19bc572512",
+  "sourceCommit": "069f30cee5e9467937248d34f979976045692c14",
+  "candidateId": "sha256:12b68bedabb32975c35ba6e62b66a8dc5402a175862b1bbc1ee3d7804b9ecabf",
+  "baselineReceiptId": 7143338653,
+  "baselineDeployCommit": "ffb8c7d56cddb97929dcf2eac6eceaa525240f56",
   "lifecycleVersion": 3,
-  "generatedAt": "2026-10-17T17:39:17.553Z",
+  "generatedAt": "2026-10-17T17:47:32.848Z",
   "freshDirs": [
     "Clash",
     "GeoIP",
@@ -20,7 +20,11 @@
   ],
   "preservedDirs": [],
   "retiredRemoved": [],
-  "removedPaths": [],
+  "removedPaths": [
+    "Clash/non_ip/apple_services_ip.txt",
+    "List/non_ip/apple_services_ip.list",
+    "Loon/non_ip/apple_services_ip.list"
+  ],
   "rollbackOf": null,
   "files": [
     {
@@ -31,847 +35,955 @@
     },
     {
       "path": "Clash/ads.txt",
-      "sha256": "855b1d1b698e49882ccd4d64e2183d706ee2ebb855f291ce7514756182195310",
+      "sha256": "770a267c2a119466d4fb9369b1e397ad37735ce1d0395126f13ef41fcefc4928",
       "bytes": 54734,
       "origin": "generated"
     },
     {
       "path": "Clash/ai.txt",
-      "sha256": "fdea4f209a18eba32b3c18783a101ddf765c4adc8c4dc4bebb793fb7df3168e0",
+      "sha256": "4d5b3a4d0ae0a6c78cb0e17f320bc07092138addb76218a72a52a498babc1878",
       "bytes": 9165,
       "origin": "generated"
     },
     {
       "path": "Clash/amazon.txt",
-      "sha256": "8d0d8e6aa78d8af4ef6d395e8f29de39e174d751ef46ba7701a596b4ac80df99",
+      "sha256": "e291110bbc55934e763bd742619e4d5dbffd7acb85f3f51e640a1f2f32a4751a",
       "bytes": 7113,
       "origin": "generated"
     },
     {
       "path": "Clash/apple.txt",
-      "sha256": "1916d6953eb039f506b81be0f6448a963f12b52f9accb3e8c52f48c56ea0224b",
+      "sha256": "850426887aebffc250e8665a304ea71ac80deeebff718143dddc9dcb0b23017a",
       "bytes": 3483,
       "origin": "generated"
     },
     {
       "path": "Clash/apple_cdn.txt",
-      "sha256": "6d70ad66bd91182a6c185f20db52736abd4cced154af1faa1e049a0135da3ba8",
+      "sha256": "750f3892c68e77a0422956e27f00c223ae30d35ea3da367c4f4d45524bb0086b",
       "bytes": 6371,
       "origin": "generated"
     },
     {
       "path": "Clash/apple_cn.txt",
-      "sha256": "86d3081dd72634320025ca8f0091102ab692063a1b83a2b61504096f4753929c",
+      "sha256": "bf835f691244edb500ad26451e54ced762978685e947ad434cfc43d1d1dd1763",
       "bytes": 528,
       "origin": "generated"
     },
     {
       "path": "Clash/apple_intelligence.txt",
-      "sha256": "2b317949c50b10d96aa9f885a307ba82f7b7ba9dd2085905991431e90f860223",
+      "sha256": "0b8a0573099373623ec15642a6654d0056c2fc275405a6fb433d71e49c6716d2",
       "bytes": 408,
       "origin": "generated"
     },
     {
       "path": "Clash/apple_services.txt",
-      "sha256": "a4d73fe6e233c709e21380d1c9fe2d3632fe023f9950ec87e11d2a33c283c784",
+      "sha256": "8bb4e7ae0cdd4623c4a9cdd0e9e7a1a3da7f1c8ffd8470b86732bdc7d90d9ec4",
       "bytes": 935,
       "origin": "generated"
     },
     {
       "path": "Clash/apple_services_ip.txt",
-      "sha256": "2e596dce442020cedb4dc2a3f8bab2c740cb2b969c99dcaa114bb35838f67deb",
+      "sha256": "48fae9bc04261769c4729535b030ce5b4dd8e87818769875f392b09763d304df",
       "bytes": 596,
       "origin": "generated"
     },
     {
       "path": "Clash/bilibili.txt",
-      "sha256": "b45fc69929bf70c68f1bf8755924d2924826f0f4dbc8ef64d8723ea4ccb774c1",
+      "sha256": "44eb2faece0208ff9cd77f01f83e0979718ab54b0f9d93ade6b23e6501c80bbb",
       "bytes": 4881,
       "origin": "generated"
     },
     {
       "path": "Clash/biliintl.txt",
-      "sha256": "cac9a1fba708501b6933eff6aeebf4a72880e50364780330b4e9aebab107eb6d",
+      "sha256": "e509d814f4e24e662824b61b55d9e36f5170acbaaa65ef9af747a14656d3c326",
       "bytes": 490,
       "origin": "generated"
     },
     {
       "path": "Clash/cdn.txt",
-      "sha256": "448c31430b5906eea15d8548484c97481757e81b7ae8bcb9740c1bb50bac76f1",
+      "sha256": "bd2648175c66c2ca0493994a1a4026a7a034da9728aa5fbecbfc5779c72c03f2",
       "bytes": 132202,
       "origin": "generated"
     },
     {
       "path": "Clash/china_asn.txt",
-      "sha256": "984031aa63987742778b485a7edcda2db9b04b3657d82f80e5d007b32649ea2f",
+      "sha256": "5fccc9de007733c971c4c3a97d6a9bff040a83484cb2f16f025429f82266aad3",
       "bytes": 250575,
       "origin": "generated"
     },
     {
       "path": "Clash/china_ip.txt",
-      "sha256": "4d7ef132128a0c1e2ba3c19f7403c6fcb7dfb047a77a26ec2c62c7378cf32d2b",
+      "sha256": "63876079f35da8fc332f8f02f6d332ec833e4511246424be7fae26f34564df9f",
       "bytes": 91745,
       "origin": "generated"
     },
     {
       "path": "Clash/china_ip_ipv6.txt",
-      "sha256": "41c1fdecc8454974c4d4e1e37a3a542b1b567c3c10b447eea3e5ff7dc5d42656",
+      "sha256": "87518613a3be8aa5bae0b5dd1991ba52af9b92cf727174e471dbac9db67e56ae",
       "bytes": 89699,
       "origin": "generated"
     },
     {
       "path": "Clash/direct-fmz.txt",
-      "sha256": "16d76360ced18ddf0bf9b78f2c620f21a20fc2e6dee824b0bf4820e9563115ef",
+      "sha256": "5919787249fdead928ba63cbd01ee3fd074cc296eab5d302018876eb765474ba",
       "bytes": 2024,
       "origin": "generated"
     },
     {
       "path": "Clash/direct.txt",
-      "sha256": "5cf74feb1bdb7b2e208b97c38c3bff96d848486432fa44495cf8402f91670ef7",
+      "sha256": "5f2c8aebb94c2d9a36c2ce996fd0115a5139839b1194da634f5045efc452526d",
       "bytes": 6097,
       "origin": "generated"
     },
     {
       "path": "Clash/disney.txt",
-      "sha256": "6bd7d1bf79973479e4fb7252d88e48381409e91592d56d837e7c126ed15c4213",
-      "bytes": 7517,
+      "sha256": "498b127b3f4d357ffc27a6775ae8cd267a5488352d38085126e6175bf28dea1c",
+      "bytes": 7443,
       "origin": "generated"
     },
     {
       "path": "Clash/domestic.txt",
-      "sha256": "759a183d5dc295d3b4aa0b9fb8520b2e6cc5a86c66eb1aaeb48e621fa05e8e7f",
+      "sha256": "e44f1aaf01ff1d30dc90aee5634cda62ccf515248dd9e7b74d8218c89636a425",
       "bytes": 22424,
       "origin": "generated"
     },
     {
       "path": "Clash/domestic_cdn.txt",
-      "sha256": "03cf5daef6968ec64f6e2505ec13268bab8a0ff86ca31c6b0d812140f79e4158",
+      "sha256": "a63c044bb041a302d92f2563b4eb054b0d83905fadd40f300f394480fa445005",
       "bytes": 765,
       "origin": "generated"
     },
     {
       "path": "Clash/download.txt",
-      "sha256": "579c4e0ec35bae5c2af0b906b4f1316eba5fdd1e664d512a9920ecb4b14949af",
+      "sha256": "8659c123ed33c31a402e9b5b18a279c41252025863a55c24d531fe72e2127601",
       "bytes": 63246,
       "origin": "generated"
     },
     {
       "path": "Clash/download_cn.txt",
-      "sha256": "b5ae7f62e556840ef1d2bc9f5975bd42b48851fd229626f72240e8363825caaa",
+      "sha256": "d639cc0cd229dd15486796ee63c26629b491848512dbdb323ab4bc8f8ccd3cbb",
       "bytes": 878,
       "origin": "generated"
     },
     {
       "path": "Clash/download_global.txt",
-      "sha256": "bb86e30f8c921541143fda9319ba730c6ec8b4381f275ba310fa02bb19039d5d",
+      "sha256": "6a0c32cbb57e006c3b131f4437d9d48e9dfafcd52b8ba960db5ee59db20db0a6",
       "bytes": 6647,
       "origin": "generated"
     },
     {
       "path": "Clash/emby.txt",
-      "sha256": "3759314c74b6ae9416c463baf5ce2ac1f402de0af23dfc94cc2f07194822f59a",
+      "sha256": "8d2e58988fee6c3e8f448c263f1f7d959099511eae075ef931f4e6bda73c4203",
       "bytes": 6967,
       "origin": "generated"
     },
     {
       "path": "Clash/game_download.txt",
-      "sha256": "fd5bb100d6890d40f08158c0ef4fba0d9225547f3ecf4f6d11d6dde71a938154",
+      "sha256": "dda773ab38cd17907da791bfc314fb0794950b4aaace52acc0c2596942740a16",
       "bytes": 1949,
       "origin": "generated"
     },
     {
       "path": "Clash/github.txt",
-      "sha256": "73b367b0be930757bdcc6d486c23e0f68352d810f96f085073a01081dc138b23",
+      "sha256": "475855766cc4f3856be30c3beb346ee8e7d51b27cf64a8ab56be2435b2418d1b",
       "bytes": 1738,
       "origin": "generated"
     },
     {
       "path": "Clash/gitlab.txt",
-      "sha256": "cc559fe78deb4c64b675c897d84d66e1ae2a4a15342132722558acf9b7e3108c",
+      "sha256": "11ae1a7e6cd9c5cafefc9da5b08b112c9378d44d065e0f8769cd8d4732f397be",
       "bytes": 255,
       "origin": "generated"
     },
     {
       "path": "Clash/global.txt",
-      "sha256": "2efa068f0f6d6ca07fd9edd22665117a7bf1ea5148c2389493ffe55b26cc5adc",
+      "sha256": "b839d59e8b6b6fed1bf494093bc9f59d8e83e31fae794a4b9fc676aa99adddd8",
       "bytes": 33125,
       "origin": "generated"
     },
     {
       "path": "Clash/google.txt",
-      "sha256": "1675c29adb87fcb74ef08868c58fca4318f50cbfe2007cef04b9b09b37880790",
+      "sha256": "0947b77148c546949c4dc85380f084d4a6b7a1dd61e3cc3a981ad80042f1886b",
       "bytes": 15525,
       "origin": "generated"
     },
     {
       "path": "Clash/icloud_private_relay.txt",
-      "sha256": "2e7cd5a79409a298bc7339dc129104f6bd04af17ac4c7e4e7fcf932da842ecdf",
+      "sha256": "13fcfee2469c1d5f56628719b4b0e9f6ae8dcd873a4a6c63fe13398879fd258b",
       "bytes": 423,
       "origin": "generated"
     },
     {
+      "path": "Clash/ip/ads.txt",
+      "sha256": "37b75dd020656d57c2d5bc17d94fa3e99bf866ff14bbfff099ed89ad3b8ab6ef",
+      "bytes": 457,
+      "origin": "generated"
+    },
+    {
       "path": "Clash/ip/ai.txt",
-      "sha256": "f196f43e47ec890bece021f2f193f1e99430eb4a767daf8a8756a4554eee9596",
-      "bytes": 315,
+      "sha256": "7cf874e6b1d4cef89acf31416a105ee6f6f67c6169fe6eaa299344a257137cdd",
+      "bytes": 1241,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/apple.txt",
+      "sha256": "05b098b98c34714e201818a7af74f63cd61b3fbf706a09febcf0ed0cec301a09",
+      "bytes": 651,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/apple_services.txt",
+      "sha256": "f5a544c68525595772dfa6d68f62d56d9399a6313e170b2df95624f3083ca0a0",
+      "bytes": 355,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/apple_services_ip.txt",
+      "sha256": "dd06616fe045e817f4b62ca36e9aee9999ba1504edbcca6d8ce4bf879b918df6",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/bilibili.txt",
+      "sha256": "cbb775836bdd15f6aa08caee7a6e4055bd4858baeb1faf443839b0213a6afcef",
+      "bytes": 674,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/cdn.txt",
-      "sha256": "63316441e5af91b9c298ddef6f3a9832af6d366558bca2912e0e6670d8d68bb6",
+      "sha256": "26ee784162344269464bff68da83c1d38b8a70d436b20feb9a972f4ed480ce7e",
       "bytes": 380,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/china_asn.txt",
-      "sha256": "b8375f69532ec81bedf1b521f7568b12755b2049af50a805950aa4cc03b1c40c",
+      "sha256": "d6ceb9eaf6c44aa0d508c546a67e3191e4de48a2e4a56b350f6c3dc75aa6f9e7",
       "bytes": 250654,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/china_ip.txt",
-      "sha256": "a2a9ca2bf6e3e26a680faed38b069eceee464bef15fcf6a5c24a1a6f6288ee20",
+      "sha256": "856deee23f989ecf7c0d94f5ac2dbaddc5030e6d2d7aaa5930291cdebcc2d6f3",
       "bytes": 91824,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/china_ip_ipv6.txt",
-      "sha256": "6cffb85df83a906e7fabefa6db4688f19e35ab9ac6c6afeadc98199aaa0e4be4",
+      "sha256": "1bb456597b5b80796210592103904d4fc483e55aa95d41792d9bdb570d8d4b41",
       "bytes": 89778,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/direct-fmz.txt",
-      "sha256": "6a4dcf8c5800a476dbdd6dc5181e38942d8efa170095c92bd2f1c9ea648912be",
+      "sha256": "640431b855f2283081176c040dc76749d708074b5f5d232f6d459ab8f341e3e9",
       "bytes": 473,
       "origin": "generated"
     },
     {
+      "path": "Clash/ip/domestic.txt",
+      "sha256": "3b6096b7829746ac239d72d701ff23bf9784e19967e676f7a53d8e2386f7a9dd",
+      "bytes": 400,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/download.txt",
+      "sha256": "95673514c74a1bd650cec2ca99648c9dd0702abb573ca68e4e36a1b0e82908bb",
+      "bytes": 704,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/emby.txt",
+      "sha256": "78f6e4dfd44cf7049a1cb2e6498c43979b09671ce80bae1217598cf9aa1e7224",
+      "bytes": 786,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/google.txt",
+      "sha256": "65d34f954edb068a3756b4ef19760c376610484560c18ea42cfc59593878278a",
+      "bytes": 558,
+      "origin": "generated"
+    },
+    {
       "path": "Clash/ip/lan.txt",
-      "sha256": "235ae5a9e3ff32d17afc044945096459e7909fd7c1383a60a61c8100ab9cecd9",
+      "sha256": "9744d2caa2853a58f75f44ab7e404d5ff383a53e0736e23e8e6851347d25376b",
       "bytes": 525,
       "origin": "generated"
     },
     {
+      "path": "Clash/ip/neteasemusic.txt",
+      "sha256": "e0ed23067ba7b06cf5f28217e9f0fac021fd67654cd52370357b152d76f029d0",
+      "bytes": 939,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/netflix.txt",
+      "sha256": "ca1921988beee090c9e09313ca743ceaf6348b224b267b244e2bffa5a417e552",
+      "bytes": 42734,
+      "origin": "generated"
+    },
+    {
       "path": "Clash/ip/reject-fmz.txt",
-      "sha256": "406472c998f7d31f57d1fcee5d300727fe9bd343f4559a739f4c88064f0bdffc",
+      "sha256": "2233eeb4d187d099a3c20ba43c518f4df181815655e4d4b0e1f6913725ce22c6",
       "bytes": 1180,
       "origin": "generated"
     },
     {
       "path": "Clash/ip/reject.txt",
-      "sha256": "a9dbc95d258df1a7ddfb7b1aecde6e8a2cbc9d63777d5aaf895f71e5223c91fd",
+      "sha256": "67f6d8ae21fa16c4b2cadf529940addba376c98677fc09ae5837f2019cf4f49c",
       "bytes": 20318,
       "origin": "generated"
     },
     {
+      "path": "Clash/ip/speedtest_international.txt",
+      "sha256": "b761b41c74d2ef6fcdec4270498c97234a12dd6a24dcb0721d41373b9f2a82d4",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/spotify.txt",
+      "sha256": "02ae05f485806585f3c48e0cadff79ae8f226592fe9d4c66608299c19e1b43f3",
+      "bytes": 458,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/stream.txt",
+      "sha256": "83209eb82dd87f9c787cad64c17c34429c2f0aaef977b2898f53ce014515db3d",
+      "bytes": 976,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/streaming_!cn.txt",
+      "sha256": "562da86a3989c6563cf740716314049f4ad47c1ec79a4bcc08df8f1b4ced0048",
+      "bytes": 1003,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/streaming_cn.txt",
+      "sha256": "f03ae2284a3d6bc96b9c5785d2925df9e02e49a6443c27014de99d9e754760d2",
+      "bytes": 476,
+      "origin": "generated"
+    },
+    {
       "path": "Clash/ip/telegram.txt",
-      "sha256": "6554d8848b11d76275a7825f46699e03e4888bd24247e530936e2a4ec7121be2",
-      "bytes": 379,
+      "sha256": "edd7f684b116b3fe87f5b5c4d02352e554a82f95cae26c4f59938564ce85bf90",
+      "bytes": 881,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/wechat.txt",
+      "sha256": "a44e211006ad090d55f2a16361dca5d579eba4943459478b96d173946ffafe59",
+      "bytes": 3229,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/wechat_no_ua.txt",
+      "sha256": "9ebf29ff223bc7c991acf38fd0807ec6d7d5e873eb48ac806d49772648b68d54",
+      "bytes": 3437,
+      "origin": "generated"
+    },
+    {
+      "path": "Clash/ip/youtube.txt",
+      "sha256": "433329c1b931d7fa5f57ee998b094f4d74e2a98e0619536fd4a4d221dd639a5e",
+      "bytes": 492,
       "origin": "generated"
     },
     {
       "path": "Clash/lan.txt",
-      "sha256": "e823f6fad09735b2ef0265beb5dd8d5568e8c0073afdbd6f64489311d76e7804",
+      "sha256": "26e9b867ab0acc468b536813cf97ca4f52097b3e61d24205e9e606e1a76192f9",
       "bytes": 1838,
       "origin": "generated"
     },
     {
       "path": "Clash/microsoft.txt",
-      "sha256": "b0d348b24c5f376bebf53ddd1ba1d2ba6cea138d8476f8e89cf3855e17e62b76",
+      "sha256": "90c2a2d43db07b3d799a18ec60e619cf36e8faa50c76409097b80bc25979a833",
       "bytes": 2479,
       "origin": "generated"
     },
     {
       "path": "Clash/microsoft_cdn.txt",
-      "sha256": "e9f2d05ea5b055df622f58a3fa6e7c60acbc70c22aca46d58f97b3bb05740ec4",
+      "sha256": "132996cc5e9e3a0d60c8adec9d24d2b63934954bc158684417cd51a1f3b0bb15",
       "bytes": 2636,
       "origin": "generated"
     },
     {
       "path": "Clash/my_git.txt",
-      "sha256": "394804b5d343b7b2a3a53a38b9f81cb5ca4e6a9ce4db65459f88260ef42006f5",
+      "sha256": "188a8e0ce7d277c98573efae5c3baab93bcee0fc07284d1595bb595dabcbdd94",
       "bytes": 467,
       "origin": "generated"
     },
     {
       "path": "Clash/my_plus.txt",
-      "sha256": "0eda914d7d320320cc98e62cab0e12ca3be5c71b510f816c0241e948e4f039f3",
+      "sha256": "330540a2a26d67cafd561577bc7d20e941271c0180e0a19642f00279b9ac7591",
       "bytes": 725,
       "origin": "generated"
     },
     {
       "path": "Clash/my_proxy.txt",
-      "sha256": "d78543f72d217f77646d89a90923e73d79859788d8cd834ea83e04bfe816e98f",
+      "sha256": "a1a991e2106b70c8d5194b862d888d9db61ef7c6db31788bd490536fa68281d3",
       "bytes": 704,
       "origin": "generated"
     },
     {
       "path": "Clash/my_reject.txt",
-      "sha256": "5b6fc2cf3e88073704dec5a1514d5f74c3ba3a55427b8f2e7615b419bfc391f2",
+      "sha256": "17274eab945d0c61a278dd34efcae25d407285d094530e0ff8b6948856fe8b16",
       "bytes": 1940,
       "origin": "generated"
     },
     {
       "path": "Clash/my_tw.txt",
-      "sha256": "f42e476622e98b10658145352c9ccdf5c952d898c500af37ea3d3e259ab4b528",
+      "sha256": "bd184c6aea527539ae881c4374422e581228728560bdfb71b5e2cc239ae7838e",
       "bytes": 592,
       "origin": "generated"
     },
     {
       "path": "Clash/my_us.txt",
-      "sha256": "8b3e29fd29baa85485bb3734995958f3009f4890533a7ed9916df40fb9f68f32",
+      "sha256": "4b16c03ee067596b71a217c415cec8a746082bef8821b31ea0f01b84bdf5b667",
       "bytes": 427,
       "origin": "generated"
     },
     {
       "path": "Clash/neteasemusic.txt",
-      "sha256": "9140dc8e7bc04bb8e55bda45ffa9d4ea82bf27b64d7c0b25dc6a2010cd61398d",
+      "sha256": "5a05cc92601461872e344bbbf6661c6c78075755960a4d7f95440b7cfb34604b",
       "bytes": 916,
       "origin": "generated"
     },
     {
       "path": "Clash/netflix.txt",
-      "sha256": "0914ced4d09985d559240a436d02f97ae38774a255256e0cb0ec10efea939050",
-      "bytes": 43453,
+      "sha256": "96c3cac25bbb033e30004a6353a6a23c50252be7e4a705e23edc4aae489bd03b",
+      "bytes": 43360,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/ads.txt",
-      "sha256": "5f6678dc335d12d0def3da77bb181bc5f903ffeddfc4856e72af9ae881384853",
-      "bytes": 54817,
+      "sha256": "09d33a9528135d474b790ac5af0a1e019e5f54245fcc128f6f520e8422873791",
+      "bytes": 54669,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/ai.txt",
-      "sha256": "b497a7b52e4dc258fe6274014d651b44bdfa9ec5b9d73f4b109bd11281570d0d",
-      "bytes": 9234,
+      "sha256": "b97da2fdca6f56fab803ab4632b172db013498650fbf28157ab08ecd46b546a0",
+      "bytes": 8309,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/amazon.txt",
-      "sha256": "76dc23561a103f640555768146f5dd98a280ce2ccd5c1ef2a7f04f7dbfebbbaf",
+      "sha256": "6203830088b563ce5e7fe0e176976f8fe276ad510d364dc41dfac85b44adc5c5",
       "bytes": 7196,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/apple.txt",
-      "sha256": "d26d6f32b2fc3318ca3bb048020a8930f36c3184cccf5e0062ab23c517a37b5a",
-      "bytes": 3566,
+      "sha256": "3c98fc1045bf6e4cf9993cbdc7b34b7bcf7b11e1d38cd48ef881a13f90f3eac4",
+      "bytes": 3223,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/apple_cdn.txt",
-      "sha256": "fb4191790a45c7114a256df1f137199aea70bfe613831530c6f29fff804dd5bc",
+      "sha256": "855dd2b8507e68ee51dd7f3054161ba01898282358734aac69828a7c80ac3d8f",
       "bytes": 6454,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/apple_cn.txt",
-      "sha256": "779253b81934ec9053672dae2b4f01bcd098d11864ffe4d161da3f3059733569",
+      "sha256": "49a94f415d6a48229f4617a1ff98ff65f1d021f38499db976d79385c788a7755",
       "bytes": 611,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/apple_intelligence.txt",
-      "sha256": "0b4400e475ef7c8d926e3d5faa555e3752d491b102dd73c4d20a32bf7c2e2327",
+      "sha256": "7c24eef5645dafad5a824a5055343f181fae3660679586edd365b3b5a2d1dee0",
       "bytes": 491,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/apple_services.txt",
-      "sha256": "2cf628319873a35598ed4b4c3e43eb1adc02140ab6fd68f14311f87cba45fe8d",
-      "bytes": 1018,
-      "origin": "generated"
-    },
-    {
-      "path": "Clash/non_ip/apple_services_ip.txt",
-      "sha256": "70db5e70453b106ab4d329ba9be0613a553f3671b2d3dfde7230c57c5b7fe295",
-      "bytes": 679,
+      "sha256": "dc1151b0246dc12c36fea8c0f860572a50576c25d3decd10eac5cdd6a5e9c9b4",
+      "bytes": 988,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/bilibili.txt",
-      "sha256": "576dacbc6c986d16eb519fa0c7aa4cbbf78d5553d0f6669a6c004162da8194e8",
-      "bytes": 4964,
+      "sha256": "0545b7dca4dc431d7d54b975411c98d8411ffad65d35cfb8a9bd2828fbf631d9",
+      "bytes": 4675,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/biliintl.txt",
-      "sha256": "b27c5b7a30a6a2069f8c9340ef17dff0d98c47953e0b9c1dfe46426c1564e770",
+      "sha256": "88d3fdad9a2107ffe50fe35a8bcea04d2a78838265be0a971ada9196b741ade2",
       "bytes": 573,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/cdn.txt",
-      "sha256": "401ba07cd02cc133285af5797862eaaf661a38994fedf0d1e1a1bdbbf00af587",
+      "sha256": "395fe11bfda832b650b8e054773a55506a131ec9afe9d26f46d4ed8e617e92b5",
       "bytes": 132208,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/direct-fmz.txt",
-      "sha256": "bf28b87795f71e532f6042f743dbbe6b3b416fc4cf26163f3503c90e19b8f0a5",
+      "sha256": "2bcc8889a60e8260b10133d3e1290d6ca5623f23609ea6ec62bc6ba84c430293",
       "bytes": 2084,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/direct.txt",
-      "sha256": "283f20ea0aaa686983c7e0ba37fe113f0fdb19cdc5dcffdb9de361bd4396299e",
+      "sha256": "5d89fe000b7236fda27b1b895dba72688e0203eeca7241a7604e0fcff7efa94b",
       "bytes": 6180,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/disney.txt",
-      "sha256": "dec5e4d04179afe9366d07ce0ae778f61d1ddbed575da240ece10201923d421e",
-      "bytes": 7600,
+      "sha256": "e3d1d02a1373ea420f12e0e5a31c1aade27d59dbcec7d75fae5798c6b1eebc96",
+      "bytes": 7526,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/domestic.txt",
-      "sha256": "0da89559e78f3b8a191645922f30dd452c31784510f4cd88cd2dc782c4a38dc6",
-      "bytes": 22507,
+      "sha256": "f5cc3fbb21630d24cc0a14d9bc6c597912e7cbf4d9144ae9c92bf8bb0e95d4d0",
+      "bytes": 22440,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/domestic_cdn.txt",
-      "sha256": "66dc4e34838115ed39276faab34379cab45c7cd3b564bda44f0326f94affdc2f",
+      "sha256": "6ed202d44eac454532b97d2a69b75c5ddb0c8793eb6e357d69db8b428bcc23ff",
       "bytes": 848,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/download.txt",
-      "sha256": "3f54880887f4a995eb3a05aefd3cbf5fe4e6b2e5bc144f54382ce9a7ff0d7720",
-      "bytes": 63329,
+      "sha256": "026ac8a46db6361a44930e5e31a77185d17fead497b0288f9b676387e405e3e3",
+      "bytes": 62939,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/download_cn.txt",
-      "sha256": "08916685a21dc11d4e097b966a80d85bfc6f1bfce9ac2eae8d4112ba3be24faa",
+      "sha256": "d8b2166a66b9f635292d7ec8aa4ecad947db745f8840043548b0df3fe3946d7e",
       "bytes": 961,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/download_global.txt",
-      "sha256": "1d9edaad67fd6377eae9f7db1f8194f73ae2a3424ecbd3efbe4bc170bb868bac",
+      "sha256": "e68e969939a819139280264ded48b024046a3f071702ccfb9032a1b5f4ad9bbf",
       "bytes": 6730,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/emby.txt",
-      "sha256": "511713f800515fedc28c21f293b511000c4aab44b2a501ccbb006862f2c3127f",
-      "bytes": 7050,
+      "sha256": "1a2eb2877c3c640e11dc3ae4bb0bbd725449b4e86987cf5cbc936b8456a1c957",
+      "bytes": 6570,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/game_download.txt",
-      "sha256": "71f9bb16b6a7fdbeb861d7cd88e7c46735a05b2fb9591392e05b28b06214f77c",
+      "sha256": "0a8f731cb37f0ead8bec04e05b9d5cff8c7b9d35eecf9d4f1f7896b3015aee76",
       "bytes": 2032,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/github.txt",
-      "sha256": "61e081099293f416866304f70b038ee19db475ba1ecc2204ec66ebf77db56a47",
+      "sha256": "5d5e5b647486978a2b6ffb21e37b698dd3c29c6ff4f9da9c7a10603e686a9f32",
       "bytes": 1821,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/gitlab.txt",
-      "sha256": "c61b3f261a168c879d5d3ef2dce8052e730cc125f8ff31bdb7af94fb6834f883",
+      "sha256": "ca5cfe48f2ac1fa2754175e3f74ff320b959b624c86e1d67b597d24788f11e78",
       "bytes": 338,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/global.txt",
-      "sha256": "542f2c29cddccd327c5611a95c194c71d786f856e512d98e96a79d886deb4efc",
+      "sha256": "4e24b835bbab51b634e1ae23338dcb24668a87988b1559b7843195032459a8f1",
       "bytes": 33208,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/google.txt",
-      "sha256": "f7ece6763c1286f14383146ec51eb3ccc9ae3bdb2287d07c3441d95fe24c73b2",
-      "bytes": 15608,
+      "sha256": "10e103e6145fc2670cf682d26e15549d2a4d185ac1bc231d44cab10629d2d21d",
+      "bytes": 15433,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/icloud_private_relay.txt",
-      "sha256": "73a1d8cf4720c60eb049079b422109792dacc7a49474ca0ec23efdf691b628ab",
+      "sha256": "9598dd3faec948255a0b2e9c420ca1e57cab84459f88aba4a3b06ea084e1d125",
       "bytes": 506,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/lan.txt",
-      "sha256": "20077795298a28db193b78b4e68685fe21ac072730d5f4134cf3edbbf66039c0",
+      "sha256": "87286724cb1dacc3b41d38b17884b855947549baed35ecd81d035b0aa6578996",
       "bytes": 1700,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/microsoft.txt",
-      "sha256": "f6f895a609fb3a13079b50c42240dbceeec0bb6d0c192152e249cef46ed24bbc",
+      "sha256": "7cf48c7053f9fb7115d13ac5abf786426c98561cf4ae37e5de19eaf78ca33786",
       "bytes": 2562,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/microsoft_cdn.txt",
-      "sha256": "d9b5af52f5d7906aad171d43ee880c629f6c4b46b197c0e8ecf2ad996ec3db45",
+      "sha256": "a6e22c90ad2b68004b279cb19ad25c0a9824e02463863b68e3f77f6bf918751a",
       "bytes": 2719,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_git.txt",
-      "sha256": "9e2c7ed12bee2061cc1cd65a64e7050ccbbf10a9d9f0b9ea7403c24ebde19e90",
+      "sha256": "99c42e611fd6b65cc47ba43a530e14ee66a0a893d3518ce2c4f68830f6620889",
       "bytes": 550,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_plus.txt",
-      "sha256": "fa9384e3e0e3eeedc65a8f29b820fa8fa2c90034c5ff5bfb5a0d0f3004e7ea18",
+      "sha256": "e49bd654d08d870cd26758b504d08ad1c8f3f10275271f8cc0fd922ab1195c63",
       "bytes": 808,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_proxy.txt",
-      "sha256": "59cb062f33a27b5eb19b601181dc2156e7aa36c17bb49c46c8d08aae9647ed85",
+      "sha256": "4c166f4e1e1a86b09e99592dd1f904fc878546542ef551e1c6bd70cd8c2a8545",
       "bytes": 787,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_reject.txt",
-      "sha256": "92c9c97ce461b591e000f045749d05a3786e53fd292f68ed382e7b5100a63c44",
+      "sha256": "e43c0df0ae8172da9c641455489b0c5da5a6476c6019151bffd3b23c5e2ef1f3",
       "bytes": 2023,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_tw.txt",
-      "sha256": "7507716b059bce1ed31f69f1f6ddc73d8c2b081f9b1c5b127a9fbcf54a2889c2",
+      "sha256": "c8531443aa2b02e0d7168c5ee1e28c03aa76b9b9687cbe715701f772e30ff530",
       "bytes": 675,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/my_us.txt",
-      "sha256": "e440b85d69c84e15ff95e56f93161f4904c3676eeb8313c74bb0ba5719701f5e",
+      "sha256": "7333bf19e474bf7ae7f28e6621a7c16ec9ff7bc84bf9a5d1dcb7c2aa2f4e861a",
       "bytes": 510,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/neteasemusic.txt",
-      "sha256": "f5b983337dc1154a39d24bee63c4af35ab5dc37c1ae3f05bbb96380c89067a03",
-      "bytes": 999,
+      "sha256": "a522031b7a8883e948aefc0cbbf41bc7693c363d3d2d909c087b44b0193dd0f4",
+      "bytes": 381,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/netflix.txt",
-      "sha256": "48c0fb9b67ac03c085539bfb1058e9fb1c52d07205a3e566ebabf176c862eba0",
-      "bytes": 43536,
+      "sha256": "0a6d427c544cdcd59c873d638881d5ed1bd48d4a3e5e0db79dc4832f30d8c357",
+      "bytes": 1094,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/primevideo.txt",
-      "sha256": "a25d6987c5fcef37f7a0822183b3a1e582f629f59766154b7b773cca2ca787e4",
+      "sha256": "317a496468a9b498eaba69e470180917c085cca123b596e212c33171af3c8af7",
       "bytes": 1454,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject-drop.txt",
-      "sha256": "2e89f54f65ab82dc4576a4596eb30bba1a27554baf870736327789b2dfe3bd5c",
+      "sha256": "6c873162e97753b9995e2b825ee013807be0b78f20224bd507a2b353d8d56277",
       "bytes": 1222,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject-fmz.txt",
-      "sha256": "c1d5ec1da154415f07fda9a0268490298875667a3aff56f81dd38a9ead99173d",
+      "sha256": "6b2905704c70a5cf4477b44ecc248dba6ba7a69f0d6221eda9fc354ed4817232",
       "bytes": 64950,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject-no-drop.txt",
-      "sha256": "71c51dde25f4a2a5956446e36b9d7dea69836fd78bede0f130a4e4176b74d6ed",
+      "sha256": "7753f4f372c04a9741bb87479513156f3bbdd595e5955c7170463a7519d384cf",
       "bytes": 1769,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject.txt",
-      "sha256": "4fac8185013cd4c71f132716d3dbba2ce5cd5ef1294fc372d4b1610eff118542",
+      "sha256": "17d8bc66b93f1400b93ad7572183d636ec9a9f1d46797c505a539cda0f305dbd",
       "bytes": 4964566,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject_extra.txt",
-      "sha256": "1962e54e9735ea3a682e9e1c562978777c02c821292855ab6a401f070133ce02",
+      "sha256": "5e42adc5529307a68042225e4c8d4cf3716f412b60d445c9bd5da6846467cfaa",
       "bytes": 2560798,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/reject_phishing.txt",
-      "sha256": "ab78fa8c3aff9fff55e9943e450c2ab9eadf96ca080d74c4ca07b7186d1b6a9f",
+      "sha256": "cac80644a0b2986b7156a3c8ff27bfc02224a6c071a3a1ee2d9d2afae1bdd31a",
       "bytes": 4918738,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/sogouinput.txt",
-      "sha256": "2e10537780c85ffe680da69d618e846a4a6cf67b9ddcecec34bc8c9a9338349c",
+      "sha256": "506a2cf948c21b2cacd8d2e2c23c5076a0f327bef37fdcedb87341f2bf948480",
       "bytes": 669,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/speedtest.txt",
-      "sha256": "c4f92959a43d1caf9731d0de6c6b23b473c6d52d6849fe1c9b52965bf44d4c99",
+      "sha256": "9b585bc194a883f5128ab202bb05150814f0101220268c49e72b7335662fbf5a",
       "bytes": 112662,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/speedtest_china.txt",
-      "sha256": "30471ce76572b1770ab0a49c3608f55dfffe6ad740b5b0d3bdfcd50fac2006ac",
+      "sha256": "ada9d8949cc40dba54b8337fd42f96d2599d3f683b8afaec853e4bf2c9740039",
       "bytes": 804,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/speedtest_international.txt",
-      "sha256": "5dca262833db9166126dc3ae4bf12a5889e9123f3e9e9b38013e9e1a4385e5d0",
-      "bytes": 613660,
+      "sha256": "722d87ab69875bacfc982f1899c2e7e87d7aca2a4842f67977d01ee1c72c8d69",
+      "bytes": 613337,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/spotify.txt",
-      "sha256": "ad3dbfcd29aefaf66eeae9675c4e1aaac6cfbfba1212821cd6f4a70836bf5796",
-      "bytes": 613,
+      "sha256": "c42b616c8e6d26ada8ad9dc0e96c0f90140feb1dfb2a7b3dcd643e6086c81b73",
+      "bytes": 539,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream.txt",
-      "sha256": "50c7c79767e1076bc57e7c15ee2e08ee2d67facf7f8ba02729f6c942a90edd9c",
-      "bytes": 9422,
+      "sha256": "e65e234f7374ef4bf5138c462a31381e23438b6b8165c421ab19882d4f8739c7",
+      "bytes": 8762,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_eu.txt",
-      "sha256": "bbd346045a52cf8e8232e7e3ecda5e078f2b4b8c39141e4d2e7576839bb7efa0",
+      "sha256": "eb3df01b743d0326df09803084c5469fafb6ebb1c7d42ac5dd87d0376e661d73",
       "bytes": 536,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_hk.txt",
-      "sha256": "5845f72b2e38e26013ff7004d47685f4e1b833168125eeb5f72353f9151fbf18",
+      "sha256": "71184abb720eaa94a4a4fb14407d36d704dfae99af3598778ea3f04847a8a904",
       "bytes": 1342,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_jp.txt",
-      "sha256": "5cf56381f626384dc4369188eb0278cb935b89dc0a1930bfc1ed7e9ce63d21e5",
+      "sha256": "a783b734a3cf5ad20c346c6b956f6cc873ea6fd808008faa53a130fc064feffe",
       "bytes": 998,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_kr.txt",
-      "sha256": "eab9970faba021e63d14495d5b2ce0deedaa01ba0f09b69af66f5a348f232a7f",
+      "sha256": "29236334506924217f57257a0f6fe063bfa83e5a0a5f2d4b8eff6ed2c282d1af",
       "bytes": 388,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_tw.txt",
-      "sha256": "32d47dff286f94d36431e6f35b252419155f86b491db08835319af8f42584975",
+      "sha256": "208a4a73faf4f413754b5a1fbd3e40fa575e7d80b48abd990e1399e09fb628d2",
       "bytes": 1331,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/stream_us.txt",
-      "sha256": "a237c8ef8b196a369dd2522944a07f7a3cb8635a4ff35922e29f86d2d219818e",
+      "sha256": "e409d06ba8a0618d5406e47fd897599c4a07718f6605ea65c7ec51a8291390b9",
       "bytes": 1498,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/streaming_!cn.txt",
-      "sha256": "b1338d20db87f24f4cd7dec1128e38bfe385410f5f681d6c7046596649e97087",
-      "bytes": 7305,
+      "sha256": "efaab8b9a0c59207de70488234fbcec6c11bcf22d03534a83eaeb4a4531af3e8",
+      "bytes": 6704,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/streaming_cn.txt",
-      "sha256": "752850932b1ea3e1f57c898b760a1f253302ef9be031d8703b3c9e07541be88b",
-      "bytes": 847,
+      "sha256": "d8795cb77f8cdbb13da0ad4fffeacd09935d99d14b244b6afc684aad29bd19f2",
+      "bytes": 771,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/telegram.txt",
-      "sha256": "33ac4ce99144ee63956b205b255d503067516d01bc6870e90722b84de8511081",
-      "bytes": 1168,
+      "sha256": "360b25d18681ab48889df9b8dccc1acc098714a1a8a9ae5413dba6701ed9043b",
+      "bytes": 667,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/tiktok.txt",
-      "sha256": "b25d2f17bf0e1c488bf78cf429e7dd80a18733e50bf0d562b140bb742f8a8ca2",
+      "sha256": "92e52d42427b625490246507c4b20a4a7e9cafbda6b159a60bcb883a490ca1d0",
       "bytes": 1377,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/wechat.txt",
-      "sha256": "c0f4f48e61b2079e734f29fd0eb9b661e1af421de73d4774be59483b1c76efb6",
-      "bytes": 10280,
+      "sha256": "ce1cb195670a29c2bf28e394741063426c44f24b775f58b8ce9a217457a8d309",
+      "bytes": 7435,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/wechat_no_ua.txt",
-      "sha256": "74a05a08b719ad40816ca571cf6d7f7fa5479656c92811a7a192c66099c25d9e",
-      "bytes": 10381,
+      "sha256": "b3f9dd7428b526e8f5101fd63048c7c8744d6b4324fa8226c9c01933127258d5",
+      "bytes": 7349,
       "origin": "generated"
     },
     {
       "path": "Clash/non_ip/youtube.txt",
-      "sha256": "04a3beffcab6ce4fe71e8c27d8ccd25f885a303f5e22e166a0b8287c4ed836e8",
-      "bytes": 774,
+      "sha256": "8193d5ad9dcf97896ccdfa18fca79fa84bbc0d8578514dab4a730c6cc7d3c2b7",
+      "bytes": 666,
       "origin": "generated"
     },
     {
       "path": "Clash/primevideo.txt",
-      "sha256": "8ede82b35807e2cb844ea4ce5b7ca1d1cff9f526372b62a29b8a213f25f62add",
+      "sha256": "c41b2c8dd8c80179474c9624f8b10a026ccb1cc75936222dcce8e99f35ef3da4",
       "bytes": 1371,
       "origin": "generated"
     },
     {
       "path": "Clash/reject-drop.txt",
-      "sha256": "9aa3de6e43e5c0e4a982ec5f5a6cb50da3878d46dc41e74cfbc52a459d5d88fc",
+      "sha256": "b0fb15f4b29a5d5501471bed71b52c46a55da4279569551339e154bd11a040d8",
       "bytes": 1139,
       "origin": "generated"
     },
     {
       "path": "Clash/reject-fmz.txt",
-      "sha256": "d8aab94950f409b7cc5364642ce26364ec6f8c7327de071fb6d4347114887248",
+      "sha256": "4d79de81734219410aada54d100108ba22df8351f165e1f96858025748c5b39a",
       "bytes": 65637,
       "origin": "generated"
     },
     {
       "path": "Clash/reject-no-drop.txt",
-      "sha256": "d4482f93654299d4756d12c9c256c4b9b6244cb583f5f312b8cc03da21dfdd55",
+      "sha256": "89ed1b90278da8e9106b998a8605df2d18ff700748391acb84d32b6c5cd502d8",
       "bytes": 1686,
       "origin": "generated"
     },
     {
       "path": "Clash/reject.txt",
-      "sha256": "ce54f3760cc063b8d3cd8d87eef9d5d38d1dc133e19d58194dc86f4068108857",
+      "sha256": "14f19aa2cbd4a9a4e7637696be296874289b285a2999c7eddb7030dc6507e4da",
       "bytes": 4984470,
       "origin": "generated"
     },
     {
       "path": "Clash/reject_extra.txt",
-      "sha256": "1144d1e3cd7e81178b53996ec0c55699030ccf331189a454939598cc534f0596",
+      "sha256": "9e3e2e58860d79be0c97d4f6033797a03cc30cce7b639f9f3369a3ea8f2f8fe9",
       "bytes": 2560715,
       "origin": "generated"
     },
     {
       "path": "Clash/reject_phishing.txt",
-      "sha256": "d6121a579898cf7fd23a86f2ade999a16dc4d7a8f8dcb949ec6927e4f8da591f",
+      "sha256": "f2d7b32dbd40c0d60425102893c59e58e73cb15993486a1a9c3c3965f62bbc17",
       "bytes": 4918655,
       "origin": "generated"
     },
     {
       "path": "Clash/sogouinput.txt",
-      "sha256": "c743b024c6bd1b3fd80e2a7ae69612029c4d477044ddc811e82367fad1d994ea",
+      "sha256": "c10831bb1a92bcde02d0d930798f0a59ef4099e2ad3788b09d058bde972185cb",
       "bytes": 586,
       "origin": "generated"
     },
     {
       "path": "Clash/speedtest.txt",
-      "sha256": "4c4dc5c1e0ebd87b8cef0b35fd1b7898fd87864835446c10d8a24109bff7e7f4",
+      "sha256": "5758f6eb6499ff8d59db2a92bd2c22cf74b4dd8d087ee1004053696da028a7a9",
       "bytes": 112579,
       "origin": "generated"
     },
     {
       "path": "Clash/speedtest_china.txt",
-      "sha256": "8a29733b1bfaf488b29a0335154184d502dfa9630ba9266d6e778b1fd9f3303e",
+      "sha256": "ea6ba9b2614360b564600849876e60639757fd8927bba8a7d81c4ac89ec0ccee",
       "bytes": 721,
       "origin": "generated"
     },
     {
       "path": "Clash/speedtest_international.txt",
-      "sha256": "7e89eeca2f2213ea91bd41e0d1ce7d379c2a88376ca24c28bb8c50dd7e837986",
+      "sha256": "bc445befc8db9e6e18297868a6ec02654e3055a6dcd25d245783235e056d73c8",
       "bytes": 613577,
       "origin": "generated"
     },
     {
       "path": "Clash/spotify.txt",
-      "sha256": "c79fcfcaf42fd538e8f31fb0fe8c3bc2a62fd88b8c2eadd730d80ff92ae7fe81",
+      "sha256": "ecbab68541c261986d924d1f28f1b37fd92754a6368ce19d409f28db70808267",
       "bytes": 530,
       "origin": "generated"
     },
     {
       "path": "Clash/stream.txt",
-      "sha256": "76362704a03362ccbf673cfced2ba4b0b21df9e80ab247cbc73d55f446aeaf14",
+      "sha256": "d456d9ccf91d0b6a9ef444cacc84600b7b77e78dc386830a17644a0204086be8",
       "bytes": 9339,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_eu.txt",
-      "sha256": "f4e43e0d2ca0ef0f592bb635376dc782c49730dad70b3c48ed42da218e2be43c",
+      "sha256": "a9ddb0f76929da998f2d79fba4551142ffa20fc7329d18772d940a1d2d2110c0",
       "bytes": 453,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_hk.txt",
-      "sha256": "e3969f85587b147065544b39cd7a82efb819d491db0e4a015ca122ff5181e47d",
+      "sha256": "0fc8367369d188886cba73b43b779aef05160fd728600de4c610a5beaedd4217",
       "bytes": 1259,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_jp.txt",
-      "sha256": "3471215c7ccd3d49077c0837b71f1579eacc8a298335bc55c8e614614d201cea",
+      "sha256": "3ea491d3a7d926521c2bb77d19a1b9c65927928c3fa34192321a1f3b5b6efe61",
       "bytes": 915,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_kr.txt",
-      "sha256": "0e13ca9e3964873c01419a3901f31263976c6d9d39708563c0c88a1a697db68e",
+      "sha256": "83d11a4dc20cbed8bef1c0d0db479963b58744fd7f8b0e44c24b1b0d6a29943c",
       "bytes": 305,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_tw.txt",
-      "sha256": "7a8834f36fe61879e7ac59c21bb63c3f0e681befa5179d293207722043adec4f",
+      "sha256": "1c39bc0a8aaa12a499ba3bb3d2e5e180fa858945d58f85f7caee65a482c8dba9",
       "bytes": 1248,
       "origin": "generated"
     },
     {
       "path": "Clash/stream_us.txt",
-      "sha256": "017223d44ebea2f062f5d3dfe654e1282da8fe0458f6f30d870c0fdc6463a253",
+      "sha256": "5d1de0614f53668f30752bd00925d8bac97891ba487d2f9487cb6ab0be6a0707",
       "bytes": 1415,
       "origin": "generated"
     },
     {
       "path": "Clash/streaming_!cn.txt",
-      "sha256": "69900058dd3997e5a3039b4df5a2dd15e67f12d9a7fd6a3ec01f01738c720228",
+      "sha256": "94228c9af0131ee096f3d9c93d69367085c3e315eadbfb5aba0d597356d98dbe",
       "bytes": 7222,
       "origin": "generated"
     },
     {
       "path": "Clash/streaming_cn.txt",
-      "sha256": "9034f6003aed8957103c2dcfcd0df6a7c9daabf41504b953442b04f5b3ea920c",
+      "sha256": "1fbd01bc2a38734ffbba702525a08440aa8bb66ea63e6d629f4dbb93c100bf16",
       "bytes": 764,
       "origin": "generated"
     },
     {
       "path": "Clash/telegram.txt",
-      "sha256": "222f0dd449020febe7584a66ce91cbc9853d18534dac3897b1b514ce4c3adf5c",
+      "sha256": "6428c6508765c1a84f43c9dfcd42223f98e7ecdb3a3a79aa487a39e03e9b85ce",
       "bytes": 1151,
       "origin": "generated"
     },
     {
       "path": "Clash/tiktok.txt",
-      "sha256": "4ee187d2fe772e7e357aaad2da587bd7cf80d942429729bd0d2a67bc5451553a",
+      "sha256": "0f0d24def6c371f54f2e6e4fb2e6512789d2ebc6be9708628ec42892ccfac68a",
       "bytes": 1294,
       "origin": "generated"
     },
     {
       "path": "Clash/wechat.txt",
-      "sha256": "8e6d5de076e2d76d1b9ed54fb7dfc3ca9bffd957294a46ddf7c38548cf745d57",
+      "sha256": "912e5fb964e40fccb7a4863ba0b8f32659235c63e5b6974f23afa8e263bf886b",
       "bytes": 10197,
       "origin": "generated"
     },
     {
       "path": "Clash/wechat_no_ua.txt",
-      "sha256": "7cfbbc0777452b2a7b26f85ac304fc041048de08d7e13d5cf660c21037bc0c4d",
+      "sha256": "8c420a517a48eb06b07e92761d80d7f1e0390c65b68d73a8d3dad80c3346e876",
       "bytes": 10298,
       "origin": "generated"
     },
     {
       "path": "Clash/youtube.txt",
-      "sha256": "e2bb36be24bff7257884494e7a4d33a86376a543235869d07ec4bf5c34469739",
+      "sha256": "8ac4ca8f06287fa7754d3e2a5562b216e7790bf6c8a0539a346e9804d59b8738",
       "bytes": 691,
       "origin": "generated"
     },
@@ -907,7 +1019,7 @@
     },
     {
       "path": "Internal/preserved-artifacts.json",
-      "sha256": "ca1614eee83318cbc3a5831488643d1a01d9ef871684c33087a1bc2fc8fdccb1",
+      "sha256": "3964df5b3ea8956e0052be25cff3527e96d17f43259733601c5e4e2662281903",
       "bytes": 274,
       "origin": "generated"
     },
@@ -919,14 +1031,14 @@
     },
     {
       "path": "Internal/rule-output-audit.json",
-      "sha256": "f42970aa76aac59c1f053f6caac31cfe6d7aeb289d8518f80734b37888677d49",
-      "bytes": 701697,
+      "sha256": "5ba3d87d8697d1518235533a0f3dd0e38cb85f5510d03481328447c800723d21",
+      "bytes": 704900,
       "origin": "generated"
     },
     {
       "path": "Internal/source-delta.json",
-      "sha256": "a480ae7952f54e3bca11f7b3f50ec203444cbc17e36633ca1b04e3273e168bb9",
-      "bytes": 144046,
+      "sha256": "aef0822cbec8cd883b7742321acd25e3d0441b3d16749d3105b1bf420e90feb1",
+      "bytes": 144652,
       "origin": "generated"
     },
     {
@@ -1039,8 +1151,8 @@
     },
     {
       "path": "Internal/source-snapshots/disney.json.gz",
-      "sha256": "0114111130dd0cbaddf80059971e89d41099f23fa27e073e6b13c0349c46eb30",
-      "bytes": 3468,
+      "sha256": "005ee7fc8f3b7863d24043e34abdc2cf99423b412e2846b9edc55682a1b396f8",
+      "bytes": 3422,
       "origin": "generated"
     },
     {
@@ -1177,8 +1289,8 @@
     },
     {
       "path": "Internal/source-snapshots/netflix.json.gz",
-      "sha256": "49101c4e2f070659c1c752fd39eb8a1a641fbad9ebd45e04821c4ef26aba1480",
-      "bytes": 32055,
+      "sha256": "1878fc87a526416d060e52774d46c16e627e0be05ac77e2d5dbbca1823744284",
+      "bytes": 31854,
       "origin": "generated"
     },
     {
@@ -1351,1717 +1463,1933 @@
     },
     {
       "path": "List/ads.list",
-      "sha256": "855b1d1b698e49882ccd4d64e2183d706ee2ebb855f291ce7514756182195310",
+      "sha256": "770a267c2a119466d4fb9369b1e397ad37735ce1d0395126f13ef41fcefc4928",
       "bytes": 54734,
       "origin": "generated"
     },
     {
       "path": "List/ai.list",
-      "sha256": "567517128938786abc90389873f87a435c966785b30a110ab6eacc714a20638e",
+      "sha256": "27f641f3f40f3a806a1e33df9d908601cd9d13652f1287de5121da15fab020f3",
       "bytes": 14083,
       "origin": "generated"
     },
     {
       "path": "List/amazon.list",
-      "sha256": "8d0d8e6aa78d8af4ef6d395e8f29de39e174d751ef46ba7701a596b4ac80df99",
+      "sha256": "e291110bbc55934e763bd742619e4d5dbffd7acb85f3f51e640a1f2f32a4751a",
       "bytes": 7113,
       "origin": "generated"
     },
     {
       "path": "List/apple.list",
-      "sha256": "1916d6953eb039f506b81be0f6448a963f12b52f9accb3e8c52f48c56ea0224b",
+      "sha256": "850426887aebffc250e8665a304ea71ac80deeebff718143dddc9dcb0b23017a",
       "bytes": 3483,
       "origin": "generated"
     },
     {
       "path": "List/apple_cdn.list",
-      "sha256": "6d70ad66bd91182a6c185f20db52736abd4cced154af1faa1e049a0135da3ba8",
+      "sha256": "750f3892c68e77a0422956e27f00c223ae30d35ea3da367c4f4d45524bb0086b",
       "bytes": 6371,
       "origin": "generated"
     },
     {
       "path": "List/apple_cn.list",
-      "sha256": "86d3081dd72634320025ca8f0091102ab692063a1b83a2b61504096f4753929c",
+      "sha256": "bf835f691244edb500ad26451e54ced762978685e947ad434cfc43d1d1dd1763",
       "bytes": 528,
       "origin": "generated"
     },
     {
       "path": "List/apple_intelligence.list",
-      "sha256": "2b317949c50b10d96aa9f885a307ba82f7b7ba9dd2085905991431e90f860223",
+      "sha256": "0b8a0573099373623ec15642a6654d0056c2fc275405a6fb433d71e49c6716d2",
       "bytes": 408,
       "origin": "generated"
     },
     {
       "path": "List/apple_services.list",
-      "sha256": "a4d73fe6e233c709e21380d1c9fe2d3632fe023f9950ec87e11d2a33c283c784",
+      "sha256": "8bb4e7ae0cdd4623c4a9cdd0e9e7a1a3da7f1c8ffd8470b86732bdc7d90d9ec4",
       "bytes": 935,
       "origin": "generated"
     },
     {
       "path": "List/apple_services_ip.list",
-      "sha256": "2e596dce442020cedb4dc2a3f8bab2c740cb2b969c99dcaa114bb35838f67deb",
+      "sha256": "48fae9bc04261769c4729535b030ce5b4dd8e87818769875f392b09763d304df",
       "bytes": 596,
       "origin": "generated"
     },
     {
       "path": "List/bilibili.list",
-      "sha256": "583b128e5b529fdf27e5d008f396164f206149fad021f84ee765c875937c48f4",
+      "sha256": "f81dd6aec7c321096c609c993345fd9e6c71ecaf0c3b09e06195002a1999ee03",
       "bytes": 4960,
       "origin": "generated"
     },
     {
       "path": "List/biliintl.list",
-      "sha256": "cac9a1fba708501b6933eff6aeebf4a72880e50364780330b4e9aebab107eb6d",
+      "sha256": "e509d814f4e24e662824b61b55d9e36f5170acbaaa65ef9af747a14656d3c326",
       "bytes": 490,
       "origin": "generated"
     },
     {
       "path": "List/cdn.list",
-      "sha256": "448c31430b5906eea15d8548484c97481757e81b7ae8bcb9740c1bb50bac76f1",
+      "sha256": "bd2648175c66c2ca0493994a1a4026a7a034da9728aa5fbecbfc5779c72c03f2",
       "bytes": 132202,
       "origin": "generated"
     },
     {
       "path": "List/china_asn.list",
-      "sha256": "984031aa63987742778b485a7edcda2db9b04b3657d82f80e5d007b32649ea2f",
+      "sha256": "5fccc9de007733c971c4c3a97d6a9bff040a83484cb2f16f025429f82266aad3",
       "bytes": 250575,
       "origin": "generated"
     },
     {
       "path": "List/china_ip.list",
-      "sha256": "4d7ef132128a0c1e2ba3c19f7403c6fcb7dfb047a77a26ec2c62c7378cf32d2b",
+      "sha256": "63876079f35da8fc332f8f02f6d332ec833e4511246424be7fae26f34564df9f",
       "bytes": 91745,
       "origin": "generated"
     },
     {
       "path": "List/china_ip_ipv6.list",
-      "sha256": "41c1fdecc8454974c4d4e1e37a3a542b1b567c3c10b447eea3e5ff7dc5d42656",
+      "sha256": "87518613a3be8aa5bae0b5dd1991ba52af9b92cf727174e471dbac9db67e56ae",
       "bytes": 89699,
       "origin": "generated"
     },
     {
       "path": "List/cloudmounter.list",
-      "sha256": "7307640692f9ec82dd589372eef178316dbc25ae3095335079083595b19b6f3f",
+      "sha256": "c45a359f9f8775c406d8134c0fb9cb5bc53161ffff2745bfc5d7d437eae27daa",
       "bytes": 2793,
       "origin": "generated"
     },
     {
       "path": "List/direct-fmz.list",
-      "sha256": "16d76360ced18ddf0bf9b78f2c620f21a20fc2e6dee824b0bf4820e9563115ef",
+      "sha256": "5919787249fdead928ba63cbd01ee3fd074cc296eab5d302018876eb765474ba",
       "bytes": 2024,
       "origin": "generated"
     },
     {
       "path": "List/direct.list",
-      "sha256": "695c4b8793dcb237e17aa7bd2a72df9ffd3b860aa855aeb9750d1b067ab9088e",
+      "sha256": "6881a35f8fc11ce6954ff389ee6248fa0c74778aaceb3781ffaa0f1e03e5ed48",
       "bytes": 6127,
       "origin": "generated"
     },
     {
       "path": "List/disney.list",
-      "sha256": "ed131f9fd7715618d332c1270875ec070cc56f296517f80d487f9a8d3a900406",
-      "bytes": 7537,
+      "sha256": "b74dd0d9861757db9b308c67fc4305bda9648d34b678db7ea0728edc71682081",
+      "bytes": 7463,
       "origin": "generated"
     },
     {
       "path": "List/domestic.list",
-      "sha256": "a817a6313a1acc6b31c7c16b60bc095a84413cefe71b4656b4ffb1f013a49dc1",
+      "sha256": "961925935d43bc1cd366f14a2d5f8b55bab7c3ba73aa08053dc83b30f32575f6",
       "bytes": 22524,
       "origin": "generated"
     },
     {
       "path": "List/domestic_cdn.list",
-      "sha256": "03cf5daef6968ec64f6e2505ec13268bab8a0ff86ca31c6b0d812140f79e4158",
+      "sha256": "a63c044bb041a302d92f2563b4eb054b0d83905fadd40f300f394480fa445005",
       "bytes": 765,
       "origin": "generated"
     },
     {
       "path": "List/download.list",
-      "sha256": "ab6515b8e6b85de964f648c3a5b7108b6d8516f6d7fa933401662cf1a3caa82e",
+      "sha256": "2981bf55afad4d37f2f56f44c24af7aa37bc18cf30706b44da792f1dfd82aa91",
       "bytes": 63288,
       "origin": "generated"
     },
     {
       "path": "List/download_cn.list",
-      "sha256": "b5ae7f62e556840ef1d2bc9f5975bd42b48851fd229626f72240e8363825caaa",
+      "sha256": "d639cc0cd229dd15486796ee63c26629b491848512dbdb323ab4bc8f8ccd3cbb",
       "bytes": 878,
       "origin": "generated"
     },
     {
       "path": "List/download_global.list",
-      "sha256": "bb86e30f8c921541143fda9319ba730c6ec8b4381f275ba310fa02bb19039d5d",
+      "sha256": "6a0c32cbb57e006c3b131f4437d9d48e9dfafcd52b8ba960db5ee59db20db0a6",
       "bytes": 6647,
       "origin": "generated"
     },
     {
       "path": "List/emby.list",
-      "sha256": "3759314c74b6ae9416c463baf5ce2ac1f402de0af23dfc94cc2f07194822f59a",
+      "sha256": "8d2e58988fee6c3e8f448c263f1f7d959099511eae075ef931f4e6bda73c4203",
       "bytes": 6967,
       "origin": "generated"
     },
     {
       "path": "List/game_download.list",
-      "sha256": "fd5bb100d6890d40f08158c0ef4fba0d9225547f3ecf4f6d11d6dde71a938154",
+      "sha256": "dda773ab38cd17907da791bfc314fb0794950b4aaace52acc0c2596942740a16",
       "bytes": 1949,
       "origin": "generated"
     },
     {
       "path": "List/github.list",
-      "sha256": "73b367b0be930757bdcc6d486c23e0f68352d810f96f085073a01081dc138b23",
+      "sha256": "475855766cc4f3856be30c3beb346ee8e7d51b27cf64a8ab56be2435b2418d1b",
       "bytes": 1738,
       "origin": "generated"
     },
     {
       "path": "List/gitlab.list",
-      "sha256": "cc559fe78deb4c64b675c897d84d66e1ae2a4a15342132722558acf9b7e3108c",
+      "sha256": "11ae1a7e6cd9c5cafefc9da5b08b112c9378d44d065e0f8769cd8d4732f397be",
       "bytes": 255,
       "origin": "generated"
     },
     {
       "path": "List/global.list",
-      "sha256": "f9fbd415be1a94bffb8a6ebd21911f7858a396a03900cfe53f83c6e1b9581427",
+      "sha256": "fbd4754500ac9a9b8d1737dbf9636b1eea2f6fb07aacb360ecd08d6917daa643",
       "bytes": 33142,
       "origin": "generated"
     },
     {
       "path": "List/google.list",
-      "sha256": "d8fc014b049dddda5f5fb0d1fd08630d6730104dfa3fee9e79ea6997242ba327",
+      "sha256": "b1f1ab77a6d708a1c03a1401019f0a6da744b8ca5df09e2d7d1eaa31842ed2fe",
       "bytes": 15629,
       "origin": "generated"
     },
     {
       "path": "List/icloud_private_relay.list",
-      "sha256": "2e7cd5a79409a298bc7339dc129104f6bd04af17ac4c7e4e7fcf932da842ecdf",
+      "sha256": "13fcfee2469c1d5f56628719b4b0e9f6ae8dcd873a4a6c63fe13398879fd258b",
       "bytes": 423,
       "origin": "generated"
     },
     {
+      "path": "List/ip/ads.list",
+      "sha256": "37b75dd020656d57c2d5bc17d94fa3e99bf866ff14bbfff099ed89ad3b8ab6ef",
+      "bytes": 457,
+      "origin": "generated"
+    },
+    {
       "path": "List/ip/ai.list",
-      "sha256": "f196f43e47ec890bece021f2f193f1e99430eb4a767daf8a8756a4554eee9596",
-      "bytes": 315,
+      "sha256": "7cf874e6b1d4cef89acf31416a105ee6f6f67c6169fe6eaa299344a257137cdd",
+      "bytes": 1241,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/apple.list",
+      "sha256": "05b098b98c34714e201818a7af74f63cd61b3fbf706a09febcf0ed0cec301a09",
+      "bytes": 651,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/apple_services.list",
+      "sha256": "f5a544c68525595772dfa6d68f62d56d9399a6313e170b2df95624f3083ca0a0",
+      "bytes": 355,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/apple_services_ip.list",
+      "sha256": "dd06616fe045e817f4b62ca36e9aee9999ba1504edbcca6d8ce4bf879b918df6",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/bilibili.list",
+      "sha256": "cbb775836bdd15f6aa08caee7a6e4055bd4858baeb1faf443839b0213a6afcef",
+      "bytes": 674,
       "origin": "generated"
     },
     {
       "path": "List/ip/cdn.list",
-      "sha256": "63316441e5af91b9c298ddef6f3a9832af6d366558bca2912e0e6670d8d68bb6",
+      "sha256": "26ee784162344269464bff68da83c1d38b8a70d436b20feb9a972f4ed480ce7e",
       "bytes": 380,
       "origin": "generated"
     },
     {
       "path": "List/ip/china_asn.list",
-      "sha256": "b8375f69532ec81bedf1b521f7568b12755b2049af50a805950aa4cc03b1c40c",
+      "sha256": "d6ceb9eaf6c44aa0d508c546a67e3191e4de48a2e4a56b350f6c3dc75aa6f9e7",
       "bytes": 250654,
       "origin": "generated"
     },
     {
       "path": "List/ip/china_ip.list",
-      "sha256": "a2a9ca2bf6e3e26a680faed38b069eceee464bef15fcf6a5c24a1a6f6288ee20",
+      "sha256": "856deee23f989ecf7c0d94f5ac2dbaddc5030e6d2d7aaa5930291cdebcc2d6f3",
       "bytes": 91824,
       "origin": "generated"
     },
     {
       "path": "List/ip/china_ip_ipv6.list",
-      "sha256": "6cffb85df83a906e7fabefa6db4688f19e35ab9ac6c6afeadc98199aaa0e4be4",
+      "sha256": "1bb456597b5b80796210592103904d4fc483e55aa95d41792d9bdb570d8d4b41",
       "bytes": 89778,
       "origin": "generated"
     },
     {
       "path": "List/ip/direct-fmz.list",
-      "sha256": "6a4dcf8c5800a476dbdd6dc5181e38942d8efa170095c92bd2f1c9ea648912be",
+      "sha256": "640431b855f2283081176c040dc76749d708074b5f5d232f6d459ab8f341e3e9",
       "bytes": 473,
       "origin": "generated"
     },
     {
+      "path": "List/ip/domestic.list",
+      "sha256": "3b6096b7829746ac239d72d701ff23bf9784e19967e676f7a53d8e2386f7a9dd",
+      "bytes": 400,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/download.list",
+      "sha256": "95673514c74a1bd650cec2ca99648c9dd0702abb573ca68e4e36a1b0e82908bb",
+      "bytes": 704,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/emby.list",
+      "sha256": "78f6e4dfd44cf7049a1cb2e6498c43979b09671ce80bae1217598cf9aa1e7224",
+      "bytes": 786,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/google.list",
+      "sha256": "65d34f954edb068a3756b4ef19760c376610484560c18ea42cfc59593878278a",
+      "bytes": 558,
+      "origin": "generated"
+    },
+    {
       "path": "List/ip/lan.list",
-      "sha256": "235ae5a9e3ff32d17afc044945096459e7909fd7c1383a60a61c8100ab9cecd9",
+      "sha256": "9744d2caa2853a58f75f44ab7e404d5ff383a53e0736e23e8e6851347d25376b",
       "bytes": 525,
       "origin": "generated"
     },
     {
+      "path": "List/ip/neteasemusic.list",
+      "sha256": "e0ed23067ba7b06cf5f28217e9f0fac021fd67654cd52370357b152d76f029d0",
+      "bytes": 939,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/netflix.list",
+      "sha256": "ca1921988beee090c9e09313ca743ceaf6348b224b267b244e2bffa5a417e552",
+      "bytes": 42734,
+      "origin": "generated"
+    },
+    {
       "path": "List/ip/reject-fmz.list",
-      "sha256": "406472c998f7d31f57d1fcee5d300727fe9bd343f4559a739f4c88064f0bdffc",
+      "sha256": "2233eeb4d187d099a3c20ba43c518f4df181815655e4d4b0e1f6913725ce22c6",
       "bytes": 1180,
       "origin": "generated"
     },
     {
       "path": "List/ip/reject.list",
-      "sha256": "a9dbc95d258df1a7ddfb7b1aecde6e8a2cbc9d63777d5aaf895f71e5223c91fd",
+      "sha256": "67f6d8ae21fa16c4b2cadf529940addba376c98677fc09ae5837f2019cf4f49c",
       "bytes": 20318,
       "origin": "generated"
     },
     {
+      "path": "List/ip/speedtest_international.list",
+      "sha256": "b761b41c74d2ef6fcdec4270498c97234a12dd6a24dcb0721d41373b9f2a82d4",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/spotify.list",
+      "sha256": "02ae05f485806585f3c48e0cadff79ae8f226592fe9d4c66608299c19e1b43f3",
+      "bytes": 458,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/stream.list",
+      "sha256": "83209eb82dd87f9c787cad64c17c34429c2f0aaef977b2898f53ce014515db3d",
+      "bytes": 976,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/streaming_!cn.list",
+      "sha256": "562da86a3989c6563cf740716314049f4ad47c1ec79a4bcc08df8f1b4ced0048",
+      "bytes": 1003,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/streaming_cn.list",
+      "sha256": "f03ae2284a3d6bc96b9c5785d2925df9e02e49a6443c27014de99d9e754760d2",
+      "bytes": 476,
+      "origin": "generated"
+    },
+    {
       "path": "List/ip/telegram.list",
-      "sha256": "6554d8848b11d76275a7825f46699e03e4888bd24247e530936e2a4ec7121be2",
-      "bytes": 379,
+      "sha256": "edd7f684b116b3fe87f5b5c4d02352e554a82f95cae26c4f59938564ce85bf90",
+      "bytes": 881,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/wechat.list",
+      "sha256": "a44e211006ad090d55f2a16361dca5d579eba4943459478b96d173946ffafe59",
+      "bytes": 3229,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/wechat_no_ua.list",
+      "sha256": "9ebf29ff223bc7c991acf38fd0807ec6d7d5e873eb48ac806d49772648b68d54",
+      "bytes": 3437,
+      "origin": "generated"
+    },
+    {
+      "path": "List/ip/youtube.list",
+      "sha256": "433329c1b931d7fa5f57ee998b094f4d74e2a98e0619536fd4a4d221dd639a5e",
+      "bytes": 492,
       "origin": "generated"
     },
     {
       "path": "List/lan.list",
-      "sha256": "e823f6fad09735b2ef0265beb5dd8d5568e8c0073afdbd6f64489311d76e7804",
+      "sha256": "26e9b867ab0acc468b536813cf97ca4f52097b3e61d24205e9e606e1a76192f9",
       "bytes": 1838,
       "origin": "generated"
     },
     {
       "path": "List/microsoft.list",
-      "sha256": "129b5a8ab07c072cfa27beffbe6ea9d16c9c0002eda89d03ac4c0ac53b198af3",
+      "sha256": "04d625006c5364064c2c58a1c241f3b2be8b8fe02887a1e787aedae28faa4bde",
       "bytes": 2568,
       "origin": "generated"
     },
     {
       "path": "List/microsoft_cdn.list",
-      "sha256": "67beffa9bf27581e0e51d15d16ea37760c095c0f598d32a733e7bb4b357b1bfb",
+      "sha256": "15a735880787fa025fe2660c021be2970d0590850d67e8ab4f6761cd428e43b4",
       "bytes": 2725,
       "origin": "generated"
     },
     {
       "path": "List/my_git.list",
-      "sha256": "394804b5d343b7b2a3a53a38b9f81cb5ca4e6a9ce4db65459f88260ef42006f5",
+      "sha256": "188a8e0ce7d277c98573efae5c3baab93bcee0fc07284d1595bb595dabcbdd94",
       "bytes": 467,
       "origin": "generated"
     },
     {
       "path": "List/my_plus.list",
-      "sha256": "0eda914d7d320320cc98e62cab0e12ca3be5c71b510f816c0241e948e4f039f3",
+      "sha256": "330540a2a26d67cafd561577bc7d20e941271c0180e0a19642f00279b9ac7591",
       "bytes": 725,
       "origin": "generated"
     },
     {
       "path": "List/my_proxy.list",
-      "sha256": "d78543f72d217f77646d89a90923e73d79859788d8cd834ea83e04bfe816e98f",
+      "sha256": "a1a991e2106b70c8d5194b862d888d9db61ef7c6db31788bd490536fa68281d3",
       "bytes": 704,
       "origin": "generated"
     },
     {
       "path": "List/my_reject.list",
-      "sha256": "87becc6f3e0fd88a356960bc42d536ed9e9a8ef6f46d0a98f2c6aeb2fef172fd",
+      "sha256": "ea880b2005036640f1f5de9664df9818313fb4a9403b99c554c287c05520a8c3",
       "bytes": 1941,
       "origin": "generated"
     },
     {
       "path": "List/my_tw.list",
-      "sha256": "f42e476622e98b10658145352c9ccdf5c952d898c500af37ea3d3e259ab4b528",
+      "sha256": "bd184c6aea527539ae881c4374422e581228728560bdfb71b5e2cc239ae7838e",
       "bytes": 592,
       "origin": "generated"
     },
     {
       "path": "List/my_us.list",
-      "sha256": "8b3e29fd29baa85485bb3734995958f3009f4890533a7ed9916df40fb9f68f32",
+      "sha256": "4b16c03ee067596b71a217c415cec8a746082bef8821b31ea0f01b84bdf5b667",
       "bytes": 427,
       "origin": "generated"
     },
     {
       "path": "List/neteasemusic.list",
-      "sha256": "59f0017cd9d6b71e0aa0610a965bdaa6732ed775cf61cefb146842b7e4f40b04",
+      "sha256": "5f9875b0be53446a63526d69248f4cc859ea8d4c40895457ec099842b75301d9",
       "bytes": 998,
       "origin": "generated"
     },
     {
       "path": "List/netflix.list",
-      "sha256": "7045850d55869e4e0ecd493b0530bfd5109cf9f5b08f54fe210fb730d6d6b365",
-      "bytes": 43470,
+      "sha256": "ab3975041edc99fd99e2f194d49520ee1ceb19f7d10ffe08d456ca7cbb2b6878",
+      "bytes": 43377,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/ads.list",
-      "sha256": "5f6678dc335d12d0def3da77bb181bc5f903ffeddfc4856e72af9ae881384853",
-      "bytes": 54817,
+      "sha256": "09d33a9528135d474b790ac5af0a1e019e5f54245fcc128f6f520e8422873791",
+      "bytes": 54669,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/ai.list",
-      "sha256": "4f1f50fc802d3ad4c439f532aa29e29b82cb002362e860d515668413e0f161b2",
-      "bytes": 14152,
+      "sha256": "eeb388249d40e930b41d33449d90643d4da2f19c3cc379cb502c8dc4b4d3e300",
+      "bytes": 13227,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/amazon.list",
-      "sha256": "76dc23561a103f640555768146f5dd98a280ce2ccd5c1ef2a7f04f7dbfebbbaf",
+      "sha256": "6203830088b563ce5e7fe0e176976f8fe276ad510d364dc41dfac85b44adc5c5",
       "bytes": 7196,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/apple.list",
-      "sha256": "d26d6f32b2fc3318ca3bb048020a8930f36c3184cccf5e0062ab23c517a37b5a",
-      "bytes": 3566,
+      "sha256": "3c98fc1045bf6e4cf9993cbdc7b34b7bcf7b11e1d38cd48ef881a13f90f3eac4",
+      "bytes": 3223,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/apple_cdn.list",
-      "sha256": "fb4191790a45c7114a256df1f137199aea70bfe613831530c6f29fff804dd5bc",
+      "sha256": "855dd2b8507e68ee51dd7f3054161ba01898282358734aac69828a7c80ac3d8f",
       "bytes": 6454,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/apple_cn.list",
-      "sha256": "779253b81934ec9053672dae2b4f01bcd098d11864ffe4d161da3f3059733569",
+      "sha256": "49a94f415d6a48229f4617a1ff98ff65f1d021f38499db976d79385c788a7755",
       "bytes": 611,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/apple_intelligence.list",
-      "sha256": "0b4400e475ef7c8d926e3d5faa555e3752d491b102dd73c4d20a32bf7c2e2327",
+      "sha256": "7c24eef5645dafad5a824a5055343f181fae3660679586edd365b3b5a2d1dee0",
       "bytes": 491,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/apple_services.list",
-      "sha256": "2cf628319873a35598ed4b4c3e43eb1adc02140ab6fd68f14311f87cba45fe8d",
-      "bytes": 1018,
-      "origin": "generated"
-    },
-    {
-      "path": "List/non_ip/apple_services_ip.list",
-      "sha256": "70db5e70453b106ab4d329ba9be0613a553f3671b2d3dfde7230c57c5b7fe295",
-      "bytes": 679,
+      "sha256": "dc1151b0246dc12c36fea8c0f860572a50576c25d3decd10eac5cdd6a5e9c9b4",
+      "bytes": 988,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/bilibili.list",
-      "sha256": "60d40013f95968f2970261a6ee53599d41186712ab1695683d8b79a8f16c8bb5",
-      "bytes": 5043,
+      "sha256": "45e73615649805f7b2c308cbc44cdf667c8e3ccd199f05330b653dcd1dce584d",
+      "bytes": 4754,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/biliintl.list",
-      "sha256": "b27c5b7a30a6a2069f8c9340ef17dff0d98c47953e0b9c1dfe46426c1564e770",
+      "sha256": "88d3fdad9a2107ffe50fe35a8bcea04d2a78838265be0a971ada9196b741ade2",
       "bytes": 573,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/cdn.list",
-      "sha256": "401ba07cd02cc133285af5797862eaaf661a38994fedf0d1e1a1bdbbf00af587",
+      "sha256": "395fe11bfda832b650b8e054773a55506a131ec9afe9d26f46d4ed8e617e92b5",
       "bytes": 132208,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/cloudmounter.list",
-      "sha256": "1911ea1226334bd292b4550ffd8c26d7340fc6a26e5958803e82a08312c07f57",
+      "sha256": "0cd88c37696ae0318b0552b6e0ec9df13fce9c99b416d6fe2f1f716d39925f43",
       "bytes": 2876,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/direct-fmz.list",
-      "sha256": "bf28b87795f71e532f6042f743dbbe6b3b416fc4cf26163f3503c90e19b8f0a5",
+      "sha256": "2bcc8889a60e8260b10133d3e1290d6ca5623f23609ea6ec62bc6ba84c430293",
       "bytes": 2084,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/direct.list",
-      "sha256": "de1a4be92fd5f11b10f3972c27243f2b76deb155e259180bb444f626cbd8b539",
+      "sha256": "22de977e9864e6d252aa57c723b69536aa11e9119fd4101b8e0ad683af4c312f",
       "bytes": 6210,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/disney.list",
-      "sha256": "0f51ba00a4b999d49691c8f7ef6e1659da564819d78e3c9d021ea959daac4218",
-      "bytes": 7620,
+      "sha256": "53512f1fdaa85d54d65fa348db50f01e701705dd89c7360f4c319bd7db5bfc43",
+      "bytes": 7546,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/domestic.list",
-      "sha256": "d1f333a31d162ac9a72f789d905562a2f9bef085d1917f225193b89bbb92e350",
-      "bytes": 22607,
+      "sha256": "c3f0340df4bbe0ac62a80470bc7744fd3350d90139b573f2bac65c3dc5002431",
+      "bytes": 22540,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/domestic_cdn.list",
-      "sha256": "66dc4e34838115ed39276faab34379cab45c7cd3b564bda44f0326f94affdc2f",
+      "sha256": "6ed202d44eac454532b97d2a69b75c5ddb0c8793eb6e357d69db8b428bcc23ff",
       "bytes": 848,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/download.list",
-      "sha256": "db4e2d5ec3a6373217200224696a86728fc16de01adca531207d3ceb7bda8fe3",
-      "bytes": 63371,
+      "sha256": "4485a01ee526a31f8db694c7fc27ed5b86940be295a26dfaa87f52f50e395039",
+      "bytes": 62981,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/download_cn.list",
-      "sha256": "08916685a21dc11d4e097b966a80d85bfc6f1bfce9ac2eae8d4112ba3be24faa",
+      "sha256": "d8b2166a66b9f635292d7ec8aa4ecad947db745f8840043548b0df3fe3946d7e",
       "bytes": 961,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/download_global.list",
-      "sha256": "1d9edaad67fd6377eae9f7db1f8194f73ae2a3424ecbd3efbe4bc170bb868bac",
+      "sha256": "e68e969939a819139280264ded48b024046a3f071702ccfb9032a1b5f4ad9bbf",
       "bytes": 6730,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/emby.list",
-      "sha256": "511713f800515fedc28c21f293b511000c4aab44b2a501ccbb006862f2c3127f",
-      "bytes": 7050,
+      "sha256": "1a2eb2877c3c640e11dc3ae4bb0bbd725449b4e86987cf5cbc936b8456a1c957",
+      "bytes": 6570,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/game_download.list",
-      "sha256": "71f9bb16b6a7fdbeb861d7cd88e7c46735a05b2fb9591392e05b28b06214f77c",
+      "sha256": "0a8f731cb37f0ead8bec04e05b9d5cff8c7b9d35eecf9d4f1f7896b3015aee76",
       "bytes": 2032,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/github.list",
-      "sha256": "61e081099293f416866304f70b038ee19db475ba1ecc2204ec66ebf77db56a47",
+      "sha256": "5d5e5b647486978a2b6ffb21e37b698dd3c29c6ff4f9da9c7a10603e686a9f32",
       "bytes": 1821,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/gitlab.list",
-      "sha256": "c61b3f261a168c879d5d3ef2dce8052e730cc125f8ff31bdb7af94fb6834f883",
+      "sha256": "ca5cfe48f2ac1fa2754175e3f74ff320b959b624c86e1d67b597d24788f11e78",
       "bytes": 338,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/global.list",
-      "sha256": "06f0e2f454c59bdfe9c3792a8c0ccc88b859eeada7f9a28e716fab48ef65026e",
+      "sha256": "1c50e542b92629e61b7490054f51d9879414edfd88a91536789d1c281728cded",
       "bytes": 33225,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/google.list",
-      "sha256": "74f1a0b8ecc1a1cfa079683ee6fc15d9ba68e208adbad5fc4fedf6e8bc394001",
-      "bytes": 15712,
+      "sha256": "14453f9b0876dd2a2946b454df56cdb0e62534d3882e76f3b3e32acfd98e47a0",
+      "bytes": 15537,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/icloud_private_relay.list",
-      "sha256": "73a1d8cf4720c60eb049079b422109792dacc7a49474ca0ec23efdf691b628ab",
+      "sha256": "9598dd3faec948255a0b2e9c420ca1e57cab84459f88aba4a3b06ea084e1d125",
       "bytes": 506,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/lan.list",
-      "sha256": "20077795298a28db193b78b4e68685fe21ac072730d5f4134cf3edbbf66039c0",
+      "sha256": "87286724cb1dacc3b41d38b17884b855947549baed35ecd81d035b0aa6578996",
       "bytes": 1700,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/microsoft.list",
-      "sha256": "c603999c5d094b761553c31a5763886ea3065b2386eaebc30e1bcdafa4fd4e0f",
+      "sha256": "a64b9a12137c74a149410080ca92c955daac536ca0a467d32c289996ac5dfaba",
       "bytes": 2651,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/microsoft_cdn.list",
-      "sha256": "b9328c4023f00f509d10da817625f17ea6e31b3695735014a78a3e6f1ab70360",
+      "sha256": "48b2752dc000924f5142d4b1db6d13a30e7ca595213997001b06c75ad0edfc81",
       "bytes": 2808,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_git.list",
-      "sha256": "9e2c7ed12bee2061cc1cd65a64e7050ccbbf10a9d9f0b9ea7403c24ebde19e90",
+      "sha256": "99c42e611fd6b65cc47ba43a530e14ee66a0a893d3518ce2c4f68830f6620889",
       "bytes": 550,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_plus.list",
-      "sha256": "fa9384e3e0e3eeedc65a8f29b820fa8fa2c90034c5ff5bfb5a0d0f3004e7ea18",
+      "sha256": "e49bd654d08d870cd26758b504d08ad1c8f3f10275271f8cc0fd922ab1195c63",
       "bytes": 808,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_proxy.list",
-      "sha256": "59cb062f33a27b5eb19b601181dc2156e7aa36c17bb49c46c8d08aae9647ed85",
+      "sha256": "4c166f4e1e1a86b09e99592dd1f904fc878546542ef551e1c6bd70cd8c2a8545",
       "bytes": 787,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_reject.list",
-      "sha256": "0432e875d8c3d289088239ded8050e444db885470626bfa74b8f1cf8ceacbd46",
+      "sha256": "340b192ceaae7c496999b3e1df2a55489c7674e84287026b40cdca0d97bcba1d",
       "bytes": 2024,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_tw.list",
-      "sha256": "7507716b059bce1ed31f69f1f6ddc73d8c2b081f9b1c5b127a9fbcf54a2889c2",
+      "sha256": "c8531443aa2b02e0d7168c5ee1e28c03aa76b9b9687cbe715701f772e30ff530",
       "bytes": 675,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/my_us.list",
-      "sha256": "e440b85d69c84e15ff95e56f93161f4904c3676eeb8313c74bb0ba5719701f5e",
+      "sha256": "7333bf19e474bf7ae7f28e6621a7c16ec9ff7bc84bf9a5d1dcb7c2aa2f4e861a",
       "bytes": 510,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/neteasemusic.list",
-      "sha256": "993e031035b52d1524d6c5d413338dc92726e8d9d0b9c97d10465986b07066bf",
-      "bytes": 1081,
+      "sha256": "ea2c53b4f21fdf36c8da3f17f1c8946d78b883f2f715e5838ff66f7cf2d23b8a",
+      "bytes": 463,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/netflix.list",
-      "sha256": "4042b0bf2518518c71d2f9a1bdf3a68a8d8621b3d9b57dc798406881ecdb8fbd",
-      "bytes": 43553,
+      "sha256": "62c3f5effcff3a4a3b8a94523eeda36b03a33cc51acb788050e8b579de19c3ff",
+      "bytes": 1111,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/primevideo.list",
-      "sha256": "060c02303cb5b0bc3c76aacdae691d8c54d532c1b4d80b5518b7995b03fcc43a",
+      "sha256": "fdb22d6b2a9235ea03a474243ae755867f1915019fdc0999b41475e169fce276",
       "bytes": 1508,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject-drop.list",
-      "sha256": "2e89f54f65ab82dc4576a4596eb30bba1a27554baf870736327789b2dfe3bd5c",
+      "sha256": "6c873162e97753b9995e2b825ee013807be0b78f20224bd507a2b353d8d56277",
       "bytes": 1222,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject-fmz.list",
-      "sha256": "1827651ec148ee11ff4c9b65b6f04e5cb8ac63a7c62d785c3cc9280b11cca4bb",
+      "sha256": "55efd5f22afd358751738d71fa264883ac2f1e801af2498137e2ee2d7a65f355",
       "bytes": 64967,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject-no-drop.list",
-      "sha256": "e9e7dc6965552b494d506a540b78e19a24d78c2f7a46cff3bab2fb5d877e9504",
+      "sha256": "af9345633a4c74adf69630e7f304cbb5198863ab28e7f4a3f99afcafedcc4017",
       "bytes": 1770,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject.list",
-      "sha256": "8e17cc0ed97e6324c96f2b509961b1000d9cd71dab8211e345fcd967a9a37b71",
+      "sha256": "6e8541afaaf36a373e34eb6826d73110593959da7bf00afe338b6b0d8fa3d8ce",
       "bytes": 4964631,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject_extra.list",
-      "sha256": "1962e54e9735ea3a682e9e1c562978777c02c821292855ab6a401f070133ce02",
+      "sha256": "5e42adc5529307a68042225e4c8d4cf3716f412b60d445c9bd5da6846467cfaa",
       "bytes": 2560798,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject_phishing.list",
-      "sha256": "ab78fa8c3aff9fff55e9943e450c2ab9eadf96ca080d74c4ca07b7186d1b6a9f",
+      "sha256": "cac80644a0b2986b7156a3c8ff27bfc02224a6c071a3a1ee2d9d2afae1bdd31a",
       "bytes": 4918738,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/reject_url_regex.list",
-      "sha256": "c79f05a4e9c45130cc62e682f4cda48acd65295425540255c7ec9daf4a7ab653",
+      "sha256": "2e3ce12cc9aeced57d67cd73d6b51b00cdc0cb46b1c3ce6e49e43eb28769b668",
       "bytes": 11917,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/sogouinput.list",
-      "sha256": "5a246ebc53b0b7c1ed3b30fb72af9a1ec10dcff45fc6c8d0c41cae1f56308f67",
+      "sha256": "54c135c9ed3ecdf20e109ecea6cf7b374e9a07ba8a2b87af8457f270bf460ec5",
       "bytes": 736,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/speedtest.list",
-      "sha256": "c4f92959a43d1caf9731d0de6c6b23b473c6d52d6849fe1c9b52965bf44d4c99",
+      "sha256": "9b585bc194a883f5128ab202bb05150814f0101220268c49e72b7335662fbf5a",
       "bytes": 112662,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/speedtest_china.list",
-      "sha256": "30471ce76572b1770ab0a49c3608f55dfffe6ad740b5b0d3bdfcd50fac2006ac",
+      "sha256": "ada9d8949cc40dba54b8337fd42f96d2599d3f683b8afaec853e4bf2c9740039",
       "bytes": 804,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/speedtest_international.list",
-      "sha256": "5dca262833db9166126dc3ae4bf12a5889e9123f3e9e9b38013e9e1a4385e5d0",
-      "bytes": 613660,
+      "sha256": "722d87ab69875bacfc982f1899c2e7e87d7aca2a4842f67977d01ee1c72c8d69",
+      "bytes": 613337,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/spotify.list",
-      "sha256": "e0e2bfcbc3db273e874dc72ebfba56f5bb9672afced853864c60c87e1d32f674",
-      "bytes": 633,
+      "sha256": "261e3827ed69f45a9bc2b653218be10fb7b913ca768c5bb911a21b2c0b539b7d",
+      "bytes": 559,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream.list",
-      "sha256": "479305b8f00dd115fa48104e4181d4c782d92022abbedbd6bf482dfc22b5c462",
-      "bytes": 10458,
+      "sha256": "7252063e7418aa8ee0b2915d68c00ceedae93e63b32196cfd104bd3968422c69",
+      "bytes": 9798,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_eu.list",
-      "sha256": "afa5bcb6aa1160bda33cd5b1cf19af1a6050f349804ab350da0311cfe0fb9000",
+      "sha256": "b7045b243724a86f5145c6534d8cd0f08953cb25b9a4ebe0a11f53785a0fb625",
       "bytes": 583,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_hk.list",
-      "sha256": "0ad9083668c7400b128213bb18dcff520090c0b115fea4e08dc2dca3786e2605",
+      "sha256": "51587f67e386bbf0a21accffa3647d50e55f22d9ddf051559014da4b303ba010",
       "bytes": 1375,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_jp.list",
-      "sha256": "f5e1a1124a805410d2d396e57e8278b894c4ddabed0db9b161c18dd21d5aa167",
+      "sha256": "da714d82d5c6ef906f713619aad38ee955d74daf7aa61eec746a82c1d9c5234a",
       "bytes": 1039,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_kr.list",
-      "sha256": "4ad212eeb0804eb0657776a4a2ae87cc49dc6efe10cf17fd36a33255e2be637d",
+      "sha256": "14aa92d51b984345c2c57f44f872574b32754ed9e03244aeaffc9d5549d54af1",
       "bytes": 409,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_tw.list",
-      "sha256": "714ead322f1d6f6538d7e36f1856aafd2ff05815104008964deb81e9f52e3300",
+      "sha256": "31ff7d7ced43ff721147c8f66a66b183f9ab0dc84a92181976bdd90075dbc7b8",
       "bytes": 1416,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/stream_us.list",
-      "sha256": "1098ce4f6079095e3e580d1e707d24e59346c9abb6b05530c4fa5680222e8a47",
+      "sha256": "54a41cd92838ff2d0ab7b1b3f669c3c76c4e3f981b455fac9ee78630d7c765b9",
       "bytes": 1687,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/streaming_!cn.list",
-      "sha256": "b1338d20db87f24f4cd7dec1128e38bfe385410f5f681d6c7046596649e97087",
-      "bytes": 7305,
+      "sha256": "efaab8b9a0c59207de70488234fbcec6c11bcf22d03534a83eaeb4a4531af3e8",
+      "bytes": 6704,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/streaming_cn.list",
-      "sha256": "752850932b1ea3e1f57c898b760a1f253302ef9be031d8703b3c9e07541be88b",
-      "bytes": 847,
+      "sha256": "d8795cb77f8cdbb13da0ad4fffeacd09935d99d14b244b6afc684aad29bd19f2",
+      "bytes": 771,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/telegram.list",
-      "sha256": "33ac4ce99144ee63956b205b255d503067516d01bc6870e90722b84de8511081",
-      "bytes": 1168,
+      "sha256": "360b25d18681ab48889df9b8dccc1acc098714a1a8a9ae5413dba6701ed9043b",
+      "bytes": 667,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/tiktok.list",
-      "sha256": "c52b5117d8e593727bc2a685d15f90cc82e4e595f197c1c90e0d5e7b6872c61a",
+      "sha256": "5f3daa1d5fdbb45c74b19651f859b44bec4d947095ca380105d5fd59c682de00",
       "bytes": 1396,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/wechat.list",
-      "sha256": "bd99c7efbda2882d55318e2c87a27b4db4b82b0c9d15729039dd79ec927a9084",
-      "bytes": 10326,
+      "sha256": "7f4d4173950a1c06b12b7d1481a923d48042868ab36782e33009e414e9545f2e",
+      "bytes": 7481,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/wechat_no_ua.list",
-      "sha256": "74a05a08b719ad40816ca571cf6d7f7fa5479656c92811a7a192c66099c25d9e",
-      "bytes": 10381,
+      "sha256": "b3f9dd7428b526e8f5101fd63048c7c8744d6b4324fa8226c9c01933127258d5",
+      "bytes": 7349,
       "origin": "generated"
     },
     {
       "path": "List/non_ip/youtube.list",
-      "sha256": "6fd405a05baee20db926ee348e7c2aeeccaec910650f2aa2c46e38dacf4571db",
-      "bytes": 982,
+      "sha256": "8fdba063780a7b0802b6b3fc592bd90cdd393556c1d841e00004feafd56a758e",
+      "bytes": 874,
       "origin": "generated"
     },
     {
       "path": "List/primevideo.list",
-      "sha256": "835dcacd05abc750856e18e7b3d0ab8a5c2119cc90645c669ee4399a1c2a1c49",
+      "sha256": "4f210f37fa24928401e35d199d18c5d6c51bc3301266643756c346f75cb31817",
       "bytes": 1425,
       "origin": "generated"
     },
     {
       "path": "List/reject-drop.list",
-      "sha256": "9aa3de6e43e5c0e4a982ec5f5a6cb50da3878d46dc41e74cfbc52a459d5d88fc",
+      "sha256": "b0fb15f4b29a5d5501471bed71b52c46a55da4279569551339e154bd11a040d8",
       "bytes": 1139,
       "origin": "generated"
     },
     {
       "path": "List/reject-fmz.list",
-      "sha256": "c51b158aca89c08ae514e360f5d1cd745b8c6a5adaceaee3f2d3d1c44cf7ab89",
+      "sha256": "a2a2d137a0f52a170470e47c02ac625cce2629e935f2dc5e76aba0afd5f146a3",
       "bytes": 65654,
       "origin": "generated"
     },
     {
       "path": "List/reject-no-drop.list",
-      "sha256": "ea35524f40a4946b49cf24f611d799d7380dfd456e32c7d18ec857e7aea07771",
+      "sha256": "b17bd762589f99fe90ce6d085124742ac17cf93474b7ebff033168ac076f1de3",
       "bytes": 1687,
       "origin": "generated"
     },
     {
       "path": "List/reject.list",
-      "sha256": "7b38b3ba4bf3d56db47772f94617503e452fb9d4c4c5a43ff97f515a60713818",
+      "sha256": "c5ef3f48eeff34218bc84affd2f26102a8d7c62c298f5359907cb002c0d63792",
       "bytes": 4984535,
       "origin": "generated"
     },
     {
       "path": "List/reject_extra.list",
-      "sha256": "1144d1e3cd7e81178b53996ec0c55699030ccf331189a454939598cc534f0596",
+      "sha256": "9e3e2e58860d79be0c97d4f6033797a03cc30cce7b639f9f3369a3ea8f2f8fe9",
       "bytes": 2560715,
       "origin": "generated"
     },
     {
       "path": "List/reject_phishing.list",
-      "sha256": "d6121a579898cf7fd23a86f2ade999a16dc4d7a8f8dcb949ec6927e4f8da591f",
+      "sha256": "f2d7b32dbd40c0d60425102893c59e58e73cb15993486a1a9c3c3965f62bbc17",
       "bytes": 4918655,
       "origin": "generated"
     },
     {
       "path": "List/reject_url_regex.list",
-      "sha256": "720258955ef61e80fef14c8dfbaa51614ea3982ac372b300a59ae904ad6ebc93",
+      "sha256": "430cad9b31923ab5d7afe294b62ba4a7a985aeb30b3e05755d16a3d7b761b916",
       "bytes": 11834,
       "origin": "generated"
     },
     {
       "path": "List/sogouinput.list",
-      "sha256": "d15862fe772bead7532a6081d7f34d3aeb9a1b2d5d1cc6776b45d8563ad0ecf0",
+      "sha256": "8e738a3bc5ed6f4d1b7957c0993ade167f99a9af45fac418622d5fc9f5309b98",
       "bytes": 653,
       "origin": "generated"
     },
     {
       "path": "List/speedtest.list",
-      "sha256": "4c4dc5c1e0ebd87b8cef0b35fd1b7898fd87864835446c10d8a24109bff7e7f4",
+      "sha256": "5758f6eb6499ff8d59db2a92bd2c22cf74b4dd8d087ee1004053696da028a7a9",
       "bytes": 112579,
       "origin": "generated"
     },
     {
       "path": "List/speedtest_china.list",
-      "sha256": "8a29733b1bfaf488b29a0335154184d502dfa9630ba9266d6e778b1fd9f3303e",
+      "sha256": "ea6ba9b2614360b564600849876e60639757fd8927bba8a7d81c4ac89ec0ccee",
       "bytes": 721,
       "origin": "generated"
     },
     {
       "path": "List/speedtest_international.list",
-      "sha256": "7e89eeca2f2213ea91bd41e0d1ce7d379c2a88376ca24c28bb8c50dd7e837986",
+      "sha256": "bc445befc8db9e6e18297868a6ec02654e3055a6dcd25d245783235e056d73c8",
       "bytes": 613577,
       "origin": "generated"
     },
     {
       "path": "List/spotify.list",
-      "sha256": "e846acd575c276f1b80c29ca4ea83eb55718109bfdd0e7fd76e8bce6544cb207",
+      "sha256": "8344bb5cfa12b5c7e643b832429a4f91bb405bf3f515feaa518ea0368d62ac4d",
       "bytes": 550,
       "origin": "generated"
     },
     {
       "path": "List/stream.list",
-      "sha256": "269b41349e0da1511639b5f277d7c0ab7cede37e53a54c0b41ddadf0eda87851",
+      "sha256": "ded1a4bd824f920c5cefeaf4473a8874fdb2be64c90e4f5eb004d2ac944028ad",
       "bytes": 10375,
       "origin": "generated"
     },
     {
       "path": "List/stream_eu.list",
-      "sha256": "11d45530933c3c28b810cd47db5175c61444f6eb6ba8b9187ceda06014e1a0f1",
+      "sha256": "7db8fe4f741ec4aeef23ce26e2e715257d3b207242ad4d0655068e77ad071caf",
       "bytes": 500,
       "origin": "generated"
     },
     {
       "path": "List/stream_hk.list",
-      "sha256": "8f2c1906f6e5ea3d3237d189673d32507e1cd3c99d83587fb2a12a1977b33e41",
+      "sha256": "4b11ebd556e9e6a0565046c10d79b8addccedc4243a374d9ec4f20439a17b3fa",
       "bytes": 1292,
       "origin": "generated"
     },
     {
       "path": "List/stream_jp.list",
-      "sha256": "360d5ecc0fd0354cabf031e790bc9b855e2c4836a326aa290ff6132e6042b5c1",
+      "sha256": "46c934adbab31fe90b633568bf943ae924aff333d6a0eb6003dfeded4fbbc10d",
       "bytes": 956,
       "origin": "generated"
     },
     {
       "path": "List/stream_kr.list",
-      "sha256": "21b4471b0f152e936bf55f57c2d9b6ca7e5ce1cf121c2210a5ca8ed9d4af6c01",
+      "sha256": "1a168dcd323435100f2ee318e50a53d14901d3f659ed5f82fb670c5c88828da5",
       "bytes": 326,
       "origin": "generated"
     },
     {
       "path": "List/stream_tw.list",
-      "sha256": "d41808f606432c1714a2f31128377051acc30276013be7882f6b21c908353c32",
+      "sha256": "f9a16ddef69ce056edbb981af86492ca5fed692b684a89318c0842dc4b38ec28",
       "bytes": 1333,
       "origin": "generated"
     },
     {
       "path": "List/stream_us.list",
-      "sha256": "08f5641fb09dce5daff169699a670ac0883749dfebb183c76a7ab7a801badea9",
+      "sha256": "7f3ee31e576577ee005559e9d80ac22b04427c0fe9b01a5655f61988d5db3ae4",
       "bytes": 1604,
       "origin": "generated"
     },
     {
       "path": "List/streaming_!cn.list",
-      "sha256": "69900058dd3997e5a3039b4df5a2dd15e67f12d9a7fd6a3ec01f01738c720228",
+      "sha256": "94228c9af0131ee096f3d9c93d69367085c3e315eadbfb5aba0d597356d98dbe",
       "bytes": 7222,
       "origin": "generated"
     },
     {
       "path": "List/streaming_cn.list",
-      "sha256": "9034f6003aed8957103c2dcfcd0df6a7c9daabf41504b953442b04f5b3ea920c",
+      "sha256": "1fbd01bc2a38734ffbba702525a08440aa8bb66ea63e6d629f4dbb93c100bf16",
       "bytes": 764,
       "origin": "generated"
     },
     {
       "path": "List/telegram.list",
-      "sha256": "222f0dd449020febe7584a66ce91cbc9853d18534dac3897b1b514ce4c3adf5c",
+      "sha256": "6428c6508765c1a84f43c9dfcd42223f98e7ecdb3a3a79aa487a39e03e9b85ce",
       "bytes": 1151,
       "origin": "generated"
     },
     {
       "path": "List/tiktok.list",
-      "sha256": "271f5fe924837ea5600660769f72fb0cedba60188b88b11343f881a4963dd98f",
+      "sha256": "03ba678b92bbbaa77c185c823e6b6f3e92a73570802d89327c5dbfecd10b3806",
       "bytes": 1313,
       "origin": "generated"
     },
     {
       "path": "List/wechat.list",
-      "sha256": "3852aa1c0b249293ae8e110307b6fffa5e20c11d55b5b2f8379dbc6b44e209aa",
+      "sha256": "e418694ee90924e937395fe5ff6456063409346a09544fb4cf5df2d145e86dee",
       "bytes": 10243,
       "origin": "generated"
     },
     {
       "path": "List/wechat_no_ua.list",
-      "sha256": "7cfbbc0777452b2a7b26f85ac304fc041048de08d7e13d5cf660c21037bc0c4d",
+      "sha256": "8c420a517a48eb06b07e92761d80d7f1e0390c65b68d73a8d3dad80c3346e876",
       "bytes": 10298,
       "origin": "generated"
     },
     {
       "path": "List/youtube.list",
-      "sha256": "abf2657ef1dc92135b91efa77eb2c39cdabf3f77424d13c3b1cd6429f06b8d2a",
+      "sha256": "0c376978fc1762962171a2ca6948ebd6315705b9b07d0ca260d24e3ed5e1385c",
       "bytes": 899,
       "origin": "generated"
     },
     {
       "path": "Loon/ads.list",
-      "sha256": "855b1d1b698e49882ccd4d64e2183d706ee2ebb855f291ce7514756182195310",
+      "sha256": "770a267c2a119466d4fb9369b1e397ad37735ce1d0395126f13ef41fcefc4928",
       "bytes": 54734,
       "origin": "generated"
     },
     {
       "path": "Loon/ai.list",
-      "sha256": "1968ce9b927ede00b6babb40c683dcbdad9befe8582fb40360a5c28e6782c29b",
+      "sha256": "c1830a51224b08a17989472ffa3cb1b57dbf1c5c609c215decf86d9034d42093",
       "bytes": 9241,
       "origin": "generated"
     },
     {
       "path": "Loon/amazon.list",
-      "sha256": "8d0d8e6aa78d8af4ef6d395e8f29de39e174d751ef46ba7701a596b4ac80df99",
+      "sha256": "e291110bbc55934e763bd742619e4d5dbffd7acb85f3f51e640a1f2f32a4751a",
       "bytes": 7113,
       "origin": "generated"
     },
     {
       "path": "Loon/apple.list",
-      "sha256": "41fc2458cb87ac1ddf2049b1740f4f77893c0d32f38c6582a4c6c983bbbedca9",
+      "sha256": "6bdf9435a11112900606308944a9222a0976274b85c0e5784462270ccb4dafa5",
       "bytes": 3273,
       "origin": "generated"
     },
     {
       "path": "Loon/apple_cdn.list",
-      "sha256": "6d70ad66bd91182a6c185f20db52736abd4cced154af1faa1e049a0135da3ba8",
+      "sha256": "750f3892c68e77a0422956e27f00c223ae30d35ea3da367c4f4d45524bb0086b",
       "bytes": 6371,
       "origin": "generated"
     },
     {
       "path": "Loon/apple_cn.list",
-      "sha256": "86d3081dd72634320025ca8f0091102ab692063a1b83a2b61504096f4753929c",
+      "sha256": "bf835f691244edb500ad26451e54ced762978685e947ad434cfc43d1d1dd1763",
       "bytes": 528,
       "origin": "generated"
     },
     {
       "path": "Loon/apple_intelligence.list",
-      "sha256": "2b317949c50b10d96aa9f885a307ba82f7b7ba9dd2085905991431e90f860223",
+      "sha256": "0b8a0573099373623ec15642a6654d0056c2fc275405a6fb433d71e49c6716d2",
       "bytes": 408,
       "origin": "generated"
     },
     {
       "path": "Loon/apple_services.list",
-      "sha256": "c19a31ed3d795513b1640bf08af790a929bac010fd63801c91714cfbdf0aac42",
+      "sha256": "dc063e1207f41bd6d6d6e6b3705069a8441c7887fbf45bb5d0a3ba6933dc0716",
       "bytes": 725,
       "origin": "generated"
     },
     {
       "path": "Loon/apple_services_ip.list",
-      "sha256": "2e596dce442020cedb4dc2a3f8bab2c740cb2b969c99dcaa114bb35838f67deb",
+      "sha256": "48fae9bc04261769c4729535b030ce5b4dd8e87818769875f392b09763d304df",
       "bytes": 596,
       "origin": "generated"
     },
     {
       "path": "Loon/bilibili.list",
-      "sha256": "cc0223ef2d27b1dbf63a67090d5f8d0c5b1fab3d82672117dd2a0e2d162c0cd5",
+      "sha256": "0f2ae78c2901c8d0e925acfaf9bec57d2908adce18b96bd9738a668440896c33",
       "bytes": 4759,
       "origin": "generated"
     },
     {
       "path": "Loon/biliintl.list",
-      "sha256": "b4360ff50aded2007be4d7ca50c64622546c83e79001fd684b821afb89011720",
+      "sha256": "2ae39e792e25d54dc79c1b36467a9e3c0d182e490447f9978d6af906e4a2680b",
       "bytes": 462,
       "origin": "generated"
     },
     {
       "path": "Loon/cdn.list",
-      "sha256": "20fff60fe0362d9c755b9e9e099a9f50dea94f8878a64c53a13c848c78eb68ed",
+      "sha256": "68f54223d3f684403ec96d7df4f41f0ee751c63090b873b22feb430cadefcf1a",
       "bytes": 130013,
       "origin": "generated"
     },
     {
       "path": "Loon/china_asn.list",
-      "sha256": "984031aa63987742778b485a7edcda2db9b04b3657d82f80e5d007b32649ea2f",
+      "sha256": "5fccc9de007733c971c4c3a97d6a9bff040a83484cb2f16f025429f82266aad3",
       "bytes": 250575,
       "origin": "generated"
     },
     {
       "path": "Loon/china_ip.list",
-      "sha256": "4d7ef132128a0c1e2ba3c19f7403c6fcb7dfb047a77a26ec2c62c7378cf32d2b",
+      "sha256": "63876079f35da8fc332f8f02f6d332ec833e4511246424be7fae26f34564df9f",
       "bytes": 91745,
       "origin": "generated"
     },
     {
       "path": "Loon/china_ip_ipv6.list",
-      "sha256": "41c1fdecc8454974c4d4e1e37a3a542b1b567c3c10b447eea3e5ff7dc5d42656",
+      "sha256": "87518613a3be8aa5bae0b5dd1991ba52af9b92cf727174e471dbac9db67e56ae",
       "bytes": 89699,
       "origin": "generated"
     },
     {
       "path": "Loon/direct-fmz.list",
-      "sha256": "16d76360ced18ddf0bf9b78f2c620f21a20fc2e6dee824b0bf4820e9563115ef",
+      "sha256": "5919787249fdead928ba63cbd01ee3fd074cc296eab5d302018876eb765474ba",
       "bytes": 2024,
       "origin": "generated"
     },
     {
       "path": "Loon/direct.list",
-      "sha256": "a95c8b52e7444ac8b2de172657b6573e8116784272f8b92bd22250289c34fa7d",
+      "sha256": "c9df2c1a09f3179f77cb52fa71463bd1a9639c4951bf6e3589d5a165c6a27a20",
       "bytes": 5229,
       "origin": "generated"
     },
     {
       "path": "Loon/disney.list",
-      "sha256": "9d7499cd37813ab53a8b98b20eaa683b5a300705e43823ddda213128020c31c5",
-      "bytes": 7446,
+      "sha256": "85efae63045e1c7b002167bcb3fa9149869e2a7f21a3d6d413f4448f9b8b2362",
+      "bytes": 7372,
       "origin": "generated"
     },
     {
       "path": "Loon/domestic.list",
-      "sha256": "45a8f1984d58da4eebc3db00d005dc8904d5f22b0ad7619a462bca4fa5d9225a",
+      "sha256": "bd56a8cdb15a19848c7d0d89016464bb450d23b62630d787bcb937242af3f818",
       "bytes": 22496,
       "origin": "generated"
     },
     {
       "path": "Loon/domestic_cdn.list",
-      "sha256": "f2f1993496d6cf7a2636798e757cd71c9f52ba8953cf34db81e04041ac5c6d4e",
+      "sha256": "d54e1305fdb99a6120b61719a5bf552c79bc61ee3cdda1e2a0c5c776601f38c7",
       "bytes": 737,
       "origin": "generated"
     },
     {
       "path": "Loon/download.list",
-      "sha256": "d391b60a1339cfb545cef4b425f9f46deb6a395fd394e7db9ee79e0800a54b02",
+      "sha256": "4c6335a7429f5614c465ad01c4d3368a51c92a17e1188eb762d5cdf4f55e62d5",
       "bytes": 62964,
       "origin": "generated"
     },
     {
       "path": "Loon/download_cn.list",
-      "sha256": "b5ae7f62e556840ef1d2bc9f5975bd42b48851fd229626f72240e8363825caaa",
+      "sha256": "d639cc0cd229dd15486796ee63c26629b491848512dbdb323ab4bc8f8ccd3cbb",
       "bytes": 878,
       "origin": "generated"
     },
     {
       "path": "Loon/download_global.list",
-      "sha256": "bb86e30f8c921541143fda9319ba730c6ec8b4381f275ba310fa02bb19039d5d",
+      "sha256": "6a0c32cbb57e006c3b131f4437d9d48e9dfafcd52b8ba960db5ee59db20db0a6",
       "bytes": 6647,
       "origin": "generated"
     },
     {
       "path": "Loon/emby.list",
-      "sha256": "3759314c74b6ae9416c463baf5ce2ac1f402de0af23dfc94cc2f07194822f59a",
+      "sha256": "8d2e58988fee6c3e8f448c263f1f7d959099511eae075ef931f4e6bda73c4203",
       "bytes": 6967,
       "origin": "generated"
     },
     {
       "path": "Loon/game_download.list",
-      "sha256": "fd5bb100d6890d40f08158c0ef4fba0d9225547f3ecf4f6d11d6dde71a938154",
+      "sha256": "dda773ab38cd17907da791bfc314fb0794950b4aaace52acc0c2596942740a16",
       "bytes": 1949,
       "origin": "generated"
     },
     {
       "path": "Loon/github.list",
-      "sha256": "73b367b0be930757bdcc6d486c23e0f68352d810f96f085073a01081dc138b23",
+      "sha256": "475855766cc4f3856be30c3beb346ee8e7d51b27cf64a8ab56be2435b2418d1b",
       "bytes": 1738,
       "origin": "generated"
     },
     {
       "path": "Loon/gitlab.list",
-      "sha256": "cc559fe78deb4c64b675c897d84d66e1ae2a4a15342132722558acf9b7e3108c",
+      "sha256": "11ae1a7e6cd9c5cafefc9da5b08b112c9378d44d065e0f8769cd8d4732f397be",
       "bytes": 255,
       "origin": "generated"
     },
     {
       "path": "Loon/global.list",
-      "sha256": "f9fbd415be1a94bffb8a6ebd21911f7858a396a03900cfe53f83c6e1b9581427",
+      "sha256": "fbd4754500ac9a9b8d1737dbf9636b1eea2f6fb07aacb360ecd08d6917daa643",
       "bytes": 33142,
       "origin": "generated"
     },
     {
       "path": "Loon/google.list",
-      "sha256": "d794df326572974e072f249474a297beeb3710e74613f635665c966ed53dccf2",
+      "sha256": "aa0b92fc4805ea0c6dfa90007bc964db87a5eb5486132ea2b728ee38e410a5d4",
       "bytes": 15454,
       "origin": "generated"
     },
     {
       "path": "Loon/icloud_private_relay.list",
-      "sha256": "2e7cd5a79409a298bc7339dc129104f6bd04af17ac4c7e4e7fcf932da842ecdf",
+      "sha256": "13fcfee2469c1d5f56628719b4b0e9f6ae8dcd873a4a6c63fe13398879fd258b",
       "bytes": 423,
       "origin": "generated"
     },
     {
+      "path": "Loon/ip/ads.list",
+      "sha256": "37b75dd020656d57c2d5bc17d94fa3e99bf866ff14bbfff099ed89ad3b8ab6ef",
+      "bytes": 457,
+      "origin": "generated"
+    },
+    {
       "path": "Loon/ip/ai.list",
-      "sha256": "f196f43e47ec890bece021f2f193f1e99430eb4a767daf8a8756a4554eee9596",
-      "bytes": 315,
+      "sha256": "7cf874e6b1d4cef89acf31416a105ee6f6f67c6169fe6eaa299344a257137cdd",
+      "bytes": 1241,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/apple.list",
+      "sha256": "05b098b98c34714e201818a7af74f63cd61b3fbf706a09febcf0ed0cec301a09",
+      "bytes": 651,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/apple_services.list",
+      "sha256": "f5a544c68525595772dfa6d68f62d56d9399a6313e170b2df95624f3083ca0a0",
+      "bytes": 355,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/apple_services_ip.list",
+      "sha256": "dd06616fe045e817f4b62ca36e9aee9999ba1504edbcca6d8ce4bf879b918df6",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/bilibili.list",
+      "sha256": "cbb775836bdd15f6aa08caee7a6e4055bd4858baeb1faf443839b0213a6afcef",
+      "bytes": 674,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/cdn.list",
-      "sha256": "63316441e5af91b9c298ddef6f3a9832af6d366558bca2912e0e6670d8d68bb6",
+      "sha256": "26ee784162344269464bff68da83c1d38b8a70d436b20feb9a972f4ed480ce7e",
       "bytes": 380,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/china_asn.list",
-      "sha256": "b8375f69532ec81bedf1b521f7568b12755b2049af50a805950aa4cc03b1c40c",
+      "sha256": "d6ceb9eaf6c44aa0d508c546a67e3191e4de48a2e4a56b350f6c3dc75aa6f9e7",
       "bytes": 250654,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/china_ip.list",
-      "sha256": "a2a9ca2bf6e3e26a680faed38b069eceee464bef15fcf6a5c24a1a6f6288ee20",
+      "sha256": "856deee23f989ecf7c0d94f5ac2dbaddc5030e6d2d7aaa5930291cdebcc2d6f3",
       "bytes": 91824,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/china_ip_ipv6.list",
-      "sha256": "6cffb85df83a906e7fabefa6db4688f19e35ab9ac6c6afeadc98199aaa0e4be4",
+      "sha256": "1bb456597b5b80796210592103904d4fc483e55aa95d41792d9bdb570d8d4b41",
       "bytes": 89778,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/direct-fmz.list",
-      "sha256": "6a4dcf8c5800a476dbdd6dc5181e38942d8efa170095c92bd2f1c9ea648912be",
+      "sha256": "640431b855f2283081176c040dc76749d708074b5f5d232f6d459ab8f341e3e9",
       "bytes": 473,
       "origin": "generated"
     },
     {
+      "path": "Loon/ip/domestic.list",
+      "sha256": "3b6096b7829746ac239d72d701ff23bf9784e19967e676f7a53d8e2386f7a9dd",
+      "bytes": 400,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/download.list",
+      "sha256": "95673514c74a1bd650cec2ca99648c9dd0702abb573ca68e4e36a1b0e82908bb",
+      "bytes": 704,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/emby.list",
+      "sha256": "78f6e4dfd44cf7049a1cb2e6498c43979b09671ce80bae1217598cf9aa1e7224",
+      "bytes": 786,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/google.list",
+      "sha256": "65d34f954edb068a3756b4ef19760c376610484560c18ea42cfc59593878278a",
+      "bytes": 558,
+      "origin": "generated"
+    },
+    {
       "path": "Loon/ip/lan.list",
-      "sha256": "235ae5a9e3ff32d17afc044945096459e7909fd7c1383a60a61c8100ab9cecd9",
+      "sha256": "9744d2caa2853a58f75f44ab7e404d5ff383a53e0736e23e8e6851347d25376b",
       "bytes": 525,
       "origin": "generated"
     },
     {
+      "path": "Loon/ip/neteasemusic.list",
+      "sha256": "e0ed23067ba7b06cf5f28217e9f0fac021fd67654cd52370357b152d76f029d0",
+      "bytes": 939,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/netflix.list",
+      "sha256": "ca1921988beee090c9e09313ca743ceaf6348b224b267b244e2bffa5a417e552",
+      "bytes": 42734,
+      "origin": "generated"
+    },
+    {
       "path": "Loon/ip/reject-fmz.list",
-      "sha256": "406472c998f7d31f57d1fcee5d300727fe9bd343f4559a739f4c88064f0bdffc",
+      "sha256": "2233eeb4d187d099a3c20ba43c518f4df181815655e4d4b0e1f6913725ce22c6",
       "bytes": 1180,
       "origin": "generated"
     },
     {
       "path": "Loon/ip/reject.list",
-      "sha256": "a9dbc95d258df1a7ddfb7b1aecde6e8a2cbc9d63777d5aaf895f71e5223c91fd",
+      "sha256": "67f6d8ae21fa16c4b2cadf529940addba376c98677fc09ae5837f2019cf4f49c",
       "bytes": 20318,
       "origin": "generated"
     },
     {
+      "path": "Loon/ip/speedtest_international.list",
+      "sha256": "b761b41c74d2ef6fcdec4270498c97234a12dd6a24dcb0721d41373b9f2a82d4",
+      "bytes": 675,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/spotify.list",
+      "sha256": "02ae05f485806585f3c48e0cadff79ae8f226592fe9d4c66608299c19e1b43f3",
+      "bytes": 458,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/stream.list",
+      "sha256": "83209eb82dd87f9c787cad64c17c34429c2f0aaef977b2898f53ce014515db3d",
+      "bytes": 976,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/streaming_!cn.list",
+      "sha256": "562da86a3989c6563cf740716314049f4ad47c1ec79a4bcc08df8f1b4ced0048",
+      "bytes": 1003,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/streaming_cn.list",
+      "sha256": "f03ae2284a3d6bc96b9c5785d2925df9e02e49a6443c27014de99d9e754760d2",
+      "bytes": 476,
+      "origin": "generated"
+    },
+    {
       "path": "Loon/ip/telegram.list",
-      "sha256": "6554d8848b11d76275a7825f46699e03e4888bd24247e530936e2a4ec7121be2",
-      "bytes": 379,
+      "sha256": "edd7f684b116b3fe87f5b5c4d02352e554a82f95cae26c4f59938564ce85bf90",
+      "bytes": 881,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/wechat.list",
+      "sha256": "a44e211006ad090d55f2a16361dca5d579eba4943459478b96d173946ffafe59",
+      "bytes": 3229,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/wechat_no_ua.list",
+      "sha256": "9ebf29ff223bc7c991acf38fd0807ec6d7d5e873eb48ac806d49772648b68d54",
+      "bytes": 3437,
+      "origin": "generated"
+    },
+    {
+      "path": "Loon/ip/youtube.list",
+      "sha256": "433329c1b931d7fa5f57ee998b094f4d74e2a98e0619536fd4a4d221dd639a5e",
+      "bytes": 492,
       "origin": "generated"
     },
     {
       "path": "Loon/lan.list",
-      "sha256": "e823f6fad09735b2ef0265beb5dd8d5568e8c0073afdbd6f64489311d76e7804",
+      "sha256": "26e9b867ab0acc468b536813cf97ca4f52097b3e61d24205e9e606e1a76192f9",
       "bytes": 1838,
       "origin": "generated"
     },
     {
       "path": "Loon/microsoft.list",
-      "sha256": "129b5a8ab07c072cfa27beffbe6ea9d16c9c0002eda89d03ac4c0ac53b198af3",
+      "sha256": "04d625006c5364064c2c58a1c241f3b2be8b8fe02887a1e787aedae28faa4bde",
       "bytes": 2568,
       "origin": "generated"
     },
     {
       "path": "Loon/microsoft_cdn.list",
-      "sha256": "67beffa9bf27581e0e51d15d16ea37760c095c0f598d32a733e7bb4b357b1bfb",
+      "sha256": "15a735880787fa025fe2660c021be2970d0590850d67e8ab4f6761cd428e43b4",
       "bytes": 2725,
       "origin": "generated"
     },
     {
       "path": "Loon/my_git.list",
-      "sha256": "394804b5d343b7b2a3a53a38b9f81cb5ca4e6a9ce4db65459f88260ef42006f5",
+      "sha256": "188a8e0ce7d277c98573efae5c3baab93bcee0fc07284d1595bb595dabcbdd94",
       "bytes": 467,
       "origin": "generated"
     },
     {
       "path": "Loon/my_plus.list",
-      "sha256": "0eda914d7d320320cc98e62cab0e12ca3be5c71b510f816c0241e948e4f039f3",
+      "sha256": "330540a2a26d67cafd561577bc7d20e941271c0180e0a19642f00279b9ac7591",
       "bytes": 725,
       "origin": "generated"
     },
     {
       "path": "Loon/my_proxy.list",
-      "sha256": "d78543f72d217f77646d89a90923e73d79859788d8cd834ea83e04bfe816e98f",
+      "sha256": "a1a991e2106b70c8d5194b862d888d9db61ef7c6db31788bd490536fa68281d3",
       "bytes": 704,
       "origin": "generated"
     },
     {
       "path": "Loon/my_reject.list",
-      "sha256": "95c5431d63a543461f90dd5bb10f00878a0344d9f374ecbbc2d2c76f93f93427",
+      "sha256": "bff9d3d30ce9c065084633b0a145696b3879ba0dba766cb11c1ff8041c3439fd",
       "bytes": 1813,
       "origin": "generated"
     },
     {
       "path": "Loon/my_tw.list",
-      "sha256": "5372a7dba62928f301e2ac5a454597a65985ba4c6f5f45cf6ea3dc9cc8c49f52",
+      "sha256": "3cd9bb8f3f11062718faa868376befd0ffbcd71acf3122fda5c451771dd19f6b",
       "bytes": 462,
       "origin": "generated"
     },
     {
       "path": "Loon/my_us.list",
-      "sha256": "8b3e29fd29baa85485bb3734995958f3009f4890533a7ed9916df40fb9f68f32",
+      "sha256": "4b16c03ee067596b71a217c415cec8a746082bef8821b31ea0f01b84bdf5b667",
       "bytes": 427,
       "origin": "generated"
     },
     {
       "path": "Loon/neteasemusic.list",
-      "sha256": "59f0017cd9d6b71e0aa0610a965bdaa6732ed775cf61cefb146842b7e4f40b04",
+      "sha256": "5f9875b0be53446a63526d69248f4cc859ea8d4c40895457ec099842b75301d9",
       "bytes": 998,
       "origin": "generated"
     },
     {
       "path": "Loon/netflix.list",
-      "sha256": "265653ffb5feabc67a20448b95edfba53a1d2dc05d1c9de107ea1980f5040f2c",
-      "bytes": 43433,
+      "sha256": "14564912e7627f229a76bfbf219a1bcc947e2629672f64e86e763f366e03d956",
+      "bytes": 43340,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/ads.list",
-      "sha256": "5f6678dc335d12d0def3da77bb181bc5f903ffeddfc4856e72af9ae881384853",
-      "bytes": 54817,
+      "sha256": "09d33a9528135d474b790ac5af0a1e019e5f54245fcc128f6f520e8422873791",
+      "bytes": 54669,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/ai.list",
-      "sha256": "ac285e89281934ddb7916fb4b267c278ab393f8b343404238dc5e153ab35697a",
-      "bytes": 9310,
+      "sha256": "ab4d6de20a7865e3ffcc401c1ca6ba4a6c57272ecd74b0508c8baa87f7b2e42b",
+      "bytes": 8385,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/amazon.list",
-      "sha256": "76dc23561a103f640555768146f5dd98a280ce2ccd5c1ef2a7f04f7dbfebbbaf",
+      "sha256": "6203830088b563ce5e7fe0e176976f8fe276ad510d364dc41dfac85b44adc5c5",
       "bytes": 7196,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/apple.list",
-      "sha256": "6eaccf6d714c3f61c7c883c90acf9f2717c050d5eecbfca309ca4e69f335bc48",
-      "bytes": 3356,
+      "sha256": "59461d063028cff3ae17f413f134611c41d05bfd7e637fb6ef64d0e511c1862e",
+      "bytes": 3013,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/apple_cdn.list",
-      "sha256": "fb4191790a45c7114a256df1f137199aea70bfe613831530c6f29fff804dd5bc",
+      "sha256": "855dd2b8507e68ee51dd7f3054161ba01898282358734aac69828a7c80ac3d8f",
       "bytes": 6454,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/apple_cn.list",
-      "sha256": "779253b81934ec9053672dae2b4f01bcd098d11864ffe4d161da3f3059733569",
+      "sha256": "49a94f415d6a48229f4617a1ff98ff65f1d021f38499db976d79385c788a7755",
       "bytes": 611,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/apple_intelligence.list",
-      "sha256": "0b4400e475ef7c8d926e3d5faa555e3752d491b102dd73c4d20a32bf7c2e2327",
+      "sha256": "7c24eef5645dafad5a824a5055343f181fae3660679586edd365b3b5a2d1dee0",
       "bytes": 491,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/apple_services.list",
-      "sha256": "43853b125d5d8b97b2aea837722f68c193d91aa269ccaa718d8034321fceb7d4",
-      "bytes": 808,
-      "origin": "generated"
-    },
-    {
-      "path": "Loon/non_ip/apple_services_ip.list",
-      "sha256": "70db5e70453b106ab4d329ba9be0613a553f3671b2d3dfde7230c57c5b7fe295",
-      "bytes": 679,
+      "sha256": "f4e358b4927e1c795fed70eccf159658367b31203dc5b07e9d82627b0080f448",
+      "bytes": 778,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/bilibili.list",
-      "sha256": "09a54501c494eeea484585d61512500a5717f8acdf7575ef1bed1072081b056a",
-      "bytes": 4842,
+      "sha256": "9bb173b5d02d5946af838bee74addff3d7a127568312b12fef4f76ac2285ec4b",
+      "bytes": 4553,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/biliintl.list",
-      "sha256": "b8a396c8ff974f9aa1fc0860d4cd1bff3b926deb002771e5b52c7cc60e1459a7",
+      "sha256": "a801e91e34df231cd995994954975847c2acb64905d60e20206039333c180bc2",
       "bytes": 545,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/cdn.list",
-      "sha256": "c79db1094eb61678a836db270850cced33897569fac466b93f6d5c304a36771a",
+      "sha256": "a58db704481396986e79b833c9cebaedf5d23cb7a03edce54be31e820fbb787c",
       "bytes": 130019,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/direct-fmz.list",
-      "sha256": "bf28b87795f71e532f6042f743dbbe6b3b416fc4cf26163f3503c90e19b8f0a5",
+      "sha256": "2bcc8889a60e8260b10133d3e1290d6ca5623f23609ea6ec62bc6ba84c430293",
       "bytes": 2084,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/direct.list",
-      "sha256": "fd7eb52a848c730e9fc010d754db99db6eb488a5ab675d67f93621a6fb257ac3",
+      "sha256": "65109e544bb9df0b344242adc82aa6940a9ad670e5a19c0e5adf51aa65f6e713",
       "bytes": 5312,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/disney.list",
-      "sha256": "75dd8343028f0440b1609996c9a234d38c0daf4cd5da1a1c59f8d20b5ed2a316",
-      "bytes": 7529,
+      "sha256": "ed41a8dd4c0f3379c628db0ed8be19cb16e9c17c044e6f090d0f8795ac3b6d82",
+      "bytes": 7455,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/domestic.list",
-      "sha256": "8cc6523ab875bb3a3e1dd853d1d5179ed4ad70b8b488e1b42bac26e3022688c3",
-      "bytes": 22579,
+      "sha256": "5bf643a29daecb16480029e3dbfa1a30d7c782340a5a8e1ffc46b8bd9c8a9c45",
+      "bytes": 22512,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/domestic_cdn.list",
-      "sha256": "75ef4d02bf9032369d55be3fa288c348b5c856170b99aa2935faafcf3be1839b",
+      "sha256": "df10f742947608d2ab1fdcb869ba2d057293710fa3a854cd7d8e9818ae3c1d77",
       "bytes": 820,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/download.list",
-      "sha256": "7823266448e15d212aa51997531346acb2894f6933e08513de5ed12a73b87459",
-      "bytes": 63047,
+      "sha256": "4c6019e16ef363f074fede18498c32bfa905bba8f35d86dd146260ccb3853705",
+      "bytes": 62657,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/download_cn.list",
-      "sha256": "08916685a21dc11d4e097b966a80d85bfc6f1bfce9ac2eae8d4112ba3be24faa",
+      "sha256": "d8b2166a66b9f635292d7ec8aa4ecad947db745f8840043548b0df3fe3946d7e",
       "bytes": 961,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/download_global.list",
-      "sha256": "1d9edaad67fd6377eae9f7db1f8194f73ae2a3424ecbd3efbe4bc170bb868bac",
+      "sha256": "e68e969939a819139280264ded48b024046a3f071702ccfb9032a1b5f4ad9bbf",
       "bytes": 6730,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/emby.list",
-      "sha256": "511713f800515fedc28c21f293b511000c4aab44b2a501ccbb006862f2c3127f",
-      "bytes": 7050,
+      "sha256": "1a2eb2877c3c640e11dc3ae4bb0bbd725449b4e86987cf5cbc936b8456a1c957",
+      "bytes": 6570,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/game_download.list",
-      "sha256": "71f9bb16b6a7fdbeb861d7cd88e7c46735a05b2fb9591392e05b28b06214f77c",
+      "sha256": "0a8f731cb37f0ead8bec04e05b9d5cff8c7b9d35eecf9d4f1f7896b3015aee76",
       "bytes": 2032,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/github.list",
-      "sha256": "61e081099293f416866304f70b038ee19db475ba1ecc2204ec66ebf77db56a47",
+      "sha256": "5d5e5b647486978a2b6ffb21e37b698dd3c29c6ff4f9da9c7a10603e686a9f32",
       "bytes": 1821,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/gitlab.list",
-      "sha256": "c61b3f261a168c879d5d3ef2dce8052e730cc125f8ff31bdb7af94fb6834f883",
+      "sha256": "ca5cfe48f2ac1fa2754175e3f74ff320b959b624c86e1d67b597d24788f11e78",
       "bytes": 338,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/global.list",
-      "sha256": "06f0e2f454c59bdfe9c3792a8c0ccc88b859eeada7f9a28e716fab48ef65026e",
+      "sha256": "1c50e542b92629e61b7490054f51d9879414edfd88a91536789d1c281728cded",
       "bytes": 33225,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/google.list",
-      "sha256": "a78ce392a3c5d6fa9255ef2f395d3285ca952b54985819ceffeebe59177629d3",
-      "bytes": 15537,
+      "sha256": "ec19b27918ff3c6633e2a9cd9561c6433b2d43f2847cc1594ba056713308be34",
+      "bytes": 15362,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/icloud_private_relay.list",
-      "sha256": "73a1d8cf4720c60eb049079b422109792dacc7a49474ca0ec23efdf691b628ab",
+      "sha256": "9598dd3faec948255a0b2e9c420ca1e57cab84459f88aba4a3b06ea084e1d125",
       "bytes": 506,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/lan.list",
-      "sha256": "20077795298a28db193b78b4e68685fe21ac072730d5f4134cf3edbbf66039c0",
+      "sha256": "87286724cb1dacc3b41d38b17884b855947549baed35ecd81d035b0aa6578996",
       "bytes": 1700,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/microsoft.list",
-      "sha256": "c603999c5d094b761553c31a5763886ea3065b2386eaebc30e1bcdafa4fd4e0f",
+      "sha256": "a64b9a12137c74a149410080ca92c955daac536ca0a467d32c289996ac5dfaba",
       "bytes": 2651,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/microsoft_cdn.list",
-      "sha256": "b9328c4023f00f509d10da817625f17ea6e31b3695735014a78a3e6f1ab70360",
+      "sha256": "48b2752dc000924f5142d4b1db6d13a30e7ca595213997001b06c75ad0edfc81",
       "bytes": 2808,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_git.list",
-      "sha256": "9e2c7ed12bee2061cc1cd65a64e7050ccbbf10a9d9f0b9ea7403c24ebde19e90",
+      "sha256": "99c42e611fd6b65cc47ba43a530e14ee66a0a893d3518ce2c4f68830f6620889",
       "bytes": 550,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_plus.list",
-      "sha256": "fa9384e3e0e3eeedc65a8f29b820fa8fa2c90034c5ff5bfb5a0d0f3004e7ea18",
+      "sha256": "e49bd654d08d870cd26758b504d08ad1c8f3f10275271f8cc0fd922ab1195c63",
       "bytes": 808,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_proxy.list",
-      "sha256": "59cb062f33a27b5eb19b601181dc2156e7aa36c17bb49c46c8d08aae9647ed85",
+      "sha256": "4c166f4e1e1a86b09e99592dd1f904fc878546542ef551e1c6bd70cd8c2a8545",
       "bytes": 787,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_reject.list",
-      "sha256": "2497637b19639f2ed3b2866e6263e347cf4cde6c784ab259edd81122910b418f",
+      "sha256": "947bf00a37f6da3d4abca3b370abf02b0fbd0309efaf9baa8dc297f80e3e7332",
       "bytes": 1896,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_tw.list",
-      "sha256": "45c08d73e26359830e4c564bdec5a4920534ea3c897a9c9d225b11fae1ad3ccb",
+      "sha256": "d0455918ddc9f76cd08e7aadbcf7363aba10f8a3e87fd1fd7526c1a44bd1f158",
       "bytes": 545,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/my_us.list",
-      "sha256": "e440b85d69c84e15ff95e56f93161f4904c3676eeb8313c74bb0ba5719701f5e",
+      "sha256": "7333bf19e474bf7ae7f28e6621a7c16ec9ff7bc84bf9a5d1dcb7c2aa2f4e861a",
       "bytes": 510,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/neteasemusic.list",
-      "sha256": "993e031035b52d1524d6c5d413338dc92726e8d9d0b9c97d10465986b07066bf",
-      "bytes": 1081,
+      "sha256": "ea2c53b4f21fdf36c8da3f17f1c8946d78b883f2f715e5838ff66f7cf2d23b8a",
+      "bytes": 463,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/netflix.list",
-      "sha256": "4625dcdd26c42cde1d6d1c5fec274589cd6353d738e038d12fefef4c594a9a2a",
-      "bytes": 43516,
+      "sha256": "2372f8e6479996733b1a693c5c1abf415037e8a30c21f8cb7e54ceec04bbe7d8",
+      "bytes": 1074,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/primevideo.list",
-      "sha256": "5d1cf12b03815aa0384dd438fe1ae7da614d0b88eef4ae0d83838fad34ec2613",
+      "sha256": "c4527f0997c0d254d98aaf233fd3c6365c280470a57a14b01fd09a7527f51927",
       "bytes": 1462,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject-drop.list",
-      "sha256": "ace27aea224be3ebe127f10a8b1048c0651bad2a5c48f55673ce4955fd4d8c08",
+      "sha256": "5294121f9d9d01623c0d5230aa0a453146b5119d0b2ae19629a66be1849278d9",
       "bytes": 1186,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject-fmz.list",
-      "sha256": "1827651ec148ee11ff4c9b65b6f04e5cb8ac63a7c62d785c3cc9280b11cca4bb",
+      "sha256": "55efd5f22afd358751738d71fa264883ac2f1e801af2498137e2ee2d7a65f355",
       "bytes": 64967,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject-no-drop.list",
-      "sha256": "f75351f18f154c748a27580f18bdaaeed6fe2442034cd7f90823a9a8cbbc26ad",
+      "sha256": "6797aedab850a28e47ef457e938406130369cb766da584a2a6b76b3f36425edc",
       "bytes": 1518,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject.list",
-      "sha256": "59f6a0c710ab9135b2b53bd604949da5bcbc564c0b8bedadacd9888aee09fb6f",
+      "sha256": "81c5fac0bdc12e759ec7d649deb67337047253470daf5ad8e55cab5ae30e1340",
       "bytes": 4964065,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject_extra.list",
-      "sha256": "1962e54e9735ea3a682e9e1c562978777c02c821292855ab6a401f070133ce02",
+      "sha256": "5e42adc5529307a68042225e4c8d4cf3716f412b60d445c9bd5da6846467cfaa",
       "bytes": 2560798,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/reject_phishing.list",
-      "sha256": "ab78fa8c3aff9fff55e9943e450c2ab9eadf96ca080d74c4ca07b7186d1b6a9f",
+      "sha256": "cac80644a0b2986b7156a3c8ff27bfc02224a6c071a3a1ee2d9d2afae1bdd31a",
       "bytes": 4918738,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/sogouinput.list",
-      "sha256": "5f56daf4993534544db1f9f3f5d49eb7f70823e8f504c41ad67765e0681b43af",
+      "sha256": "830a95bf2bda3c42641b0ed7a513be62b89c9af7cf645cab32c5246748c46b66",
       "bytes": 655,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/speedtest.list",
-      "sha256": "c4f92959a43d1caf9731d0de6c6b23b473c6d52d6849fe1c9b52965bf44d4c99",
+      "sha256": "9b585bc194a883f5128ab202bb05150814f0101220268c49e72b7335662fbf5a",
       "bytes": 112662,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/speedtest_china.list",
-      "sha256": "30471ce76572b1770ab0a49c3608f55dfffe6ad740b5b0d3bdfcd50fac2006ac",
+      "sha256": "ada9d8949cc40dba54b8337fd42f96d2599d3f683b8afaec853e4bf2c9740039",
       "bytes": 804,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/speedtest_international.list",
-      "sha256": "5dca262833db9166126dc3ae4bf12a5889e9123f3e9e9b38013e9e1a4385e5d0",
-      "bytes": 613660,
+      "sha256": "722d87ab69875bacfc982f1899c2e7e87d7aca2a4842f67977d01ee1c72c8d69",
+      "bytes": 613337,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/spotify.list",
-      "sha256": "c09ee5916e9ec0eb470f9d78b5628a439eb8b75192b8dfdc2a5108f17ec2e805",
-      "bytes": 602,
+      "sha256": "76051d6a1a7c657b03700f4a0e073bf477c1247e9f93e43c444c9168d2facbd7",
+      "bytes": 528,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream.list",
-      "sha256": "758cc3f8f1e686e8f9672c2c7a760b21d812047d30c6ee0ee4a4849d55217a80",
-      "bytes": 10042,
+      "sha256": "d3e816a51ab23c477ea05b15f956668623931af7e7332faf6da373afbeb4d6b6",
+      "bytes": 9382,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_eu.list",
-      "sha256": "afa5bcb6aa1160bda33cd5b1cf19af1a6050f349804ab350da0311cfe0fb9000",
+      "sha256": "b7045b243724a86f5145c6534d8cd0f08953cb25b9a4ebe0a11f53785a0fb625",
       "bytes": 583,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_hk.list",
-      "sha256": "c083da536b058180a5023f2538e2c6f75a39f63affb50c586080da6a74224c2d",
+      "sha256": "2a00cae87785bba4116a82ba97908f8ae062c82bba595b98ee96047e8f51a839",
       "bytes": 1238,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_jp.list",
-      "sha256": "f5e1a1124a805410d2d396e57e8278b894c4ddabed0db9b161c18dd21d5aa167",
+      "sha256": "da714d82d5c6ef906f713619aad38ee955d74daf7aa61eec746a82c1d9c5234a",
       "bytes": 1039,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_kr.list",
-      "sha256": "4ad212eeb0804eb0657776a4a2ae87cc49dc6efe10cf17fd36a33255e2be637d",
+      "sha256": "14aa92d51b984345c2c57f44f872574b32754ed9e03244aeaffc9d5549d54af1",
       "bytes": 409,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_tw.list",
-      "sha256": "66601957153fb7f7ff963be79fb70c0bce817e4b5928940a86b32e0f12f4861d",
+      "sha256": "08c0097646fe2cba23b3974d0a85b6ba226ca4d755f93ba975ef7ba11b7a29f6",
       "bytes": 1383,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/stream_us.list",
-      "sha256": "db362d10dc98ab462230a1d4add5a5bc45333ff130600d71673027f35d2ec846",
+      "sha256": "907f77313c535bf1fad77e5eb860b959c3a452ab5aaa3bc5019c4e22cac0196a",
       "bytes": 1660,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/streaming_!cn.list",
-      "sha256": "b1338d20db87f24f4cd7dec1128e38bfe385410f5f681d6c7046596649e97087",
-      "bytes": 7305,
+      "sha256": "efaab8b9a0c59207de70488234fbcec6c11bcf22d03534a83eaeb4a4531af3e8",
+      "bytes": 6704,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/streaming_cn.list",
-      "sha256": "752850932b1ea3e1f57c898b760a1f253302ef9be031d8703b3c9e07541be88b",
-      "bytes": 847,
+      "sha256": "d8795cb77f8cdbb13da0ad4fffeacd09935d99d14b244b6afc684aad29bd19f2",
+      "bytes": 771,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/telegram.list",
-      "sha256": "33ac4ce99144ee63956b205b255d503067516d01bc6870e90722b84de8511081",
-      "bytes": 1168,
+      "sha256": "360b25d18681ab48889df9b8dccc1acc098714a1a8a9ae5413dba6701ed9043b",
+      "bytes": 667,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/tiktok.list",
-      "sha256": "033cfebc643aa68632d64ebd1d6894b32594453a46034829c8a4baff2a43a6df",
+      "sha256": "a0d36244cc576df72fd45c62dda779fab0f526e38cc3f75e9bc237d51fd55169",
       "bytes": 1358,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/wechat.list",
-      "sha256": "bd99c7efbda2882d55318e2c87a27b4db4b82b0c9d15729039dd79ec927a9084",
-      "bytes": 10326,
+      "sha256": "7f4d4173950a1c06b12b7d1481a923d48042868ab36782e33009e414e9545f2e",
+      "bytes": 7481,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/wechat_no_ua.list",
-      "sha256": "74a05a08b719ad40816ca571cf6d7f7fa5479656c92811a7a192c66099c25d9e",
-      "bytes": 10381,
+      "sha256": "b3f9dd7428b526e8f5101fd63048c7c8744d6b4324fa8226c9c01933127258d5",
+      "bytes": 7349,
       "origin": "generated"
     },
     {
       "path": "Loon/non_ip/youtube.list",
-      "sha256": "6fd405a05baee20db926ee348e7c2aeeccaec910650f2aa2c46e38dacf4571db",
-      "bytes": 982,
+      "sha256": "8fdba063780a7b0802b6b3fc592bd90cdd393556c1d841e00004feafd56a758e",
+      "bytes": 874,
       "origin": "generated"
     },
     {
       "path": "Loon/primevideo.list",
-      "sha256": "c61b94d9fb99717ef0e938a3b9e3338fc0b9533141884c1753794a5560d5e275",
+      "sha256": "fbc39441e498c0a2a2b6ad8c9073fe8b79501823f3c970d9b1728e79d5742abe",
       "bytes": 1379,
       "origin": "generated"
     },
     {
       "path": "Loon/reject-drop.list",
-      "sha256": "a9610b656fb62a49f2587b08fd61cc40fff6300b4e24280c9b3db5eab9cfd969",
+      "sha256": "03de7c81331db2331c789f101c0d01dae5b87c4231799d965c0aad29925a7d27",
       "bytes": 1103,
       "origin": "generated"
     },
     {
       "path": "Loon/reject-fmz.list",
-      "sha256": "c51b158aca89c08ae514e360f5d1cd745b8c6a5adaceaee3f2d3d1c44cf7ab89",
+      "sha256": "a2a2d137a0f52a170470e47c02ac625cce2629e935f2dc5e76aba0afd5f146a3",
       "bytes": 65654,
       "origin": "generated"
     },
     {
       "path": "Loon/reject-no-drop.list",
-      "sha256": "ce2baa0a5981f5d5b67ca3fdd35e54c138d0e860d5deed145d3b9bff5187168f",
+      "sha256": "20586bd164d3e288b2d939153fbed97afb15f4a839af0bdbb20c301bf21bcaf6",
       "bytes": 1435,
       "origin": "generated"
     },
     {
       "path": "Loon/reject.list",
-      "sha256": "c888e643b24d0fc1c31cb55eea9b3244b9afb9a00d3d02cde718937928290546",
+      "sha256": "230f46cf5201c07b8073fae9c8b6995f2c295db41c70c5f9e2c3af77df05ba25",
       "bytes": 4983969,
       "origin": "generated"
     },
     {
       "path": "Loon/reject_extra.list",
-      "sha256": "1144d1e3cd7e81178b53996ec0c55699030ccf331189a454939598cc534f0596",
+      "sha256": "9e3e2e58860d79be0c97d4f6033797a03cc30cce7b639f9f3369a3ea8f2f8fe9",
       "bytes": 2560715,
       "origin": "generated"
     },
     {
       "path": "Loon/reject_phishing.list",
-      "sha256": "d6121a579898cf7fd23a86f2ade999a16dc4d7a8f8dcb949ec6927e4f8da591f",
+      "sha256": "f2d7b32dbd40c0d60425102893c59e58e73cb15993486a1a9c3c3965f62bbc17",
       "bytes": 4918655,
       "origin": "generated"
     },
     {
       "path": "Loon/sogouinput.list",
-      "sha256": "b60e15648a319a594fe6955436e79f5b8307aa790043b8126a32bec84808281b",
+      "sha256": "e074d2ab19c8c1cf75c22aa9d0e77db310f78172188afbb61216fb50678eefb1",
       "bytes": 572,
       "origin": "generated"
     },
     {
       "path": "Loon/speedtest.list",
-      "sha256": "4c4dc5c1e0ebd87b8cef0b35fd1b7898fd87864835446c10d8a24109bff7e7f4",
+      "sha256": "5758f6eb6499ff8d59db2a92bd2c22cf74b4dd8d087ee1004053696da028a7a9",
       "bytes": 112579,
       "origin": "generated"
     },
     {
       "path": "Loon/speedtest_china.list",
-      "sha256": "8a29733b1bfaf488b29a0335154184d502dfa9630ba9266d6e778b1fd9f3303e",
+      "sha256": "ea6ba9b2614360b564600849876e60639757fd8927bba8a7d81c4ac89ec0ccee",
       "bytes": 721,
       "origin": "generated"
     },
     {
       "path": "Loon/speedtest_international.list",
-      "sha256": "7e89eeca2f2213ea91bd41e0d1ce7d379c2a88376ca24c28bb8c50dd7e837986",
+      "sha256": "bc445befc8db9e6e18297868a6ec02654e3055a6dcd25d245783235e056d73c8",
       "bytes": 613577,
       "origin": "generated"
     },
     {
       "path": "Loon/spotify.list",
-      "sha256": "67e01802570ae0f9e671e12848320be5b358c0545593a69e7e2b1f4e7f7cf99c",
+      "sha256": "9f44177d502678f01551394513940581f7efa24a7987e7d020d316d0022d39b3",
       "bytes": 519,
       "origin": "generated"
     },
     {
       "path": "Loon/stream.list",
-      "sha256": "ffd2e30544c5ee65cdb893f2d660191a023a7c07fb776a7958d13ca6f3198eb4",
+      "sha256": "66f2c760622253b1185ca8b766f79e3e067bbaad56e46da353770bf194a652e5",
       "bytes": 9959,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_eu.list",
-      "sha256": "11d45530933c3c28b810cd47db5175c61444f6eb6ba8b9187ceda06014e1a0f1",
+      "sha256": "7db8fe4f741ec4aeef23ce26e2e715257d3b207242ad4d0655068e77ad071caf",
       "bytes": 500,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_hk.list",
-      "sha256": "33f4f91af8318a7a09237f0cc937e1b26b80dd0bc4a347380bfe0146302daa64",
+      "sha256": "492c40c3ac38edc4359e4a227c033ff171e41824de4d14d73ff7e8807fa9665c",
       "bytes": 1155,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_jp.list",
-      "sha256": "360d5ecc0fd0354cabf031e790bc9b855e2c4836a326aa290ff6132e6042b5c1",
+      "sha256": "46c934adbab31fe90b633568bf943ae924aff333d6a0eb6003dfeded4fbbc10d",
       "bytes": 956,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_kr.list",
-      "sha256": "21b4471b0f152e936bf55f57c2d9b6ca7e5ce1cf121c2210a5ca8ed9d4af6c01",
+      "sha256": "1a168dcd323435100f2ee318e50a53d14901d3f659ed5f82fb670c5c88828da5",
       "bytes": 326,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_tw.list",
-      "sha256": "1e6ee473f1dfda057c2216abf55df682aa71bd6ca130c7973ae183b877782b33",
+      "sha256": "f4988413c2976fc215b745f400a2959ccfeda10768aad53af8b739e390279df3",
       "bytes": 1300,
       "origin": "generated"
     },
     {
       "path": "Loon/stream_us.list",
-      "sha256": "b9590d80eafc325d413a5f4c7a0011b2c164d3edc1727a5090269cb2972b5333",
+      "sha256": "ce0e097768664d77b0affd936c210c366f393f075cda34a3bb623386c9f6c745",
       "bytes": 1577,
       "origin": "generated"
     },
     {
       "path": "Loon/streaming_!cn.list",
-      "sha256": "69900058dd3997e5a3039b4df5a2dd15e67f12d9a7fd6a3ec01f01738c720228",
+      "sha256": "94228c9af0131ee096f3d9c93d69367085c3e315eadbfb5aba0d597356d98dbe",
       "bytes": 7222,
       "origin": "generated"
     },
     {
       "path": "Loon/streaming_cn.list",
-      "sha256": "9034f6003aed8957103c2dcfcd0df6a7c9daabf41504b953442b04f5b3ea920c",
+      "sha256": "1fbd01bc2a38734ffbba702525a08440aa8bb66ea63e6d629f4dbb93c100bf16",
       "bytes": 764,
       "origin": "generated"
     },
     {
       "path": "Loon/telegram.list",
-      "sha256": "222f0dd449020febe7584a66ce91cbc9853d18534dac3897b1b514ce4c3adf5c",
+      "sha256": "6428c6508765c1a84f43c9dfcd42223f98e7ecdb3a3a79aa487a39e03e9b85ce",
       "bytes": 1151,
       "origin": "generated"
     },
     {
       "path": "Loon/tiktok.list",
-      "sha256": "b2edf6335ff1f8baf81106e188e1abf547e11c3fb744393365688f88c3a14f5e",
+      "sha256": "737817a1de052d35d59638b23cd171cf79ae7105c643948127981a3169b6f225",
       "bytes": 1275,
       "origin": "generated"
     },
     {
       "path": "Loon/wechat.list",
-      "sha256": "3852aa1c0b249293ae8e110307b6fffa5e20c11d55b5b2f8379dbc6b44e209aa",
+      "sha256": "e418694ee90924e937395fe5ff6456063409346a09544fb4cf5df2d145e86dee",
       "bytes": 10243,
       "origin": "generated"
     },
     {
       "path": "Loon/wechat_no_ua.list",
-      "sha256": "7cfbbc0777452b2a7b26f85ac304fc041048de08d7e13d5cf660c21037bc0c4d",
+      "sha256": "8c420a517a48eb06b07e92761d80d7f1e0390c65b68d73a8d3dad80c3346e876",
       "bytes": 10298,
       "origin": "generated"
     },
     {
       "path": "Loon/youtube.list",
-      "sha256": "abf2657ef1dc92135b91efa77eb2c39cdabf3f77424d13c3b1cd6429f06b8d2a",
+      "sha256": "0c376978fc1762962171a2ca6948ebd6315705b9b07d0ca260d24e3ed5e1385c",
       "bytes": 899,
       "origin": "generated"
     },
@@ -10402,7 +10730,7 @@
       "sha256": "288af1f3cdc9a0e834fe5ecebc25550af9abdb953e0953eb05593c31763972bb",
       "bytes": 13050,
       "origin": "preserved",
-      "preservedFromCommit": "8d54fbfe28c663c94b3d4b74546c1f19bc572512"
+      "preservedFromCommit": "ffb8c7d56cddb97929dcf2eac6eceaa525240f56"
     },
     {
       "path": "Scripts/ab9007d4c508-NodeUnlockDetection.js",
@@ -10754,14 +11082,14 @@
     },
     {
       "path": "_worker.js",
-      "sha256": "f189c062e9aeda68fd4b0a9870a2df984f321e6f052a2e35d104a277b135dc17",
-      "bytes": 16262,
+      "sha256": "4d141e57fd3c7f141dc2156b0ccdbc7730e26c0945a7a8cbb743d9e0e92141f0",
+      "bytes": 17651,
       "origin": "generated"
     },
     {
       "path": "index.html",
-      "sha256": "6d32639b27ba0ecc33695018a00efae8b01e5e46e331d637047329c726365f87",
-      "bytes": 313914,
+      "sha256": "863c0b82b34dcccedeb860678e497b28d58c9fa689e99a9312d54f78f98c4106",
+      "bytes": 319710,
       "origin": "generated"
     },
     {
@@ -10862,8 +11190,8 @@
     },
     {
       "path": "sing-box/disney.json",
-      "sha256": "a17815dc3c67b57e4abe60dd4bab6d618588825508cfdf131448f25629bf71c3",
-      "bytes": 6519,
+      "sha256": "fe4269f156002365d90d83951c612a823222b9de026b9765d4e930a338bef4e3",
+      "bytes": 6451,
       "origin": "generated"
     },
     {
@@ -11168,8 +11496,8 @@
     },
     {
       "path": "sing-box/netflix.json",
-      "sha256": "e7b46b9b243ffc4a61ab6f1c0b80225f45bd9ad4db3b60238a3a34144e0b574e",
-      "bytes": 33459,
+      "sha256": "fc2e6cd88b04f616d2760157334cab115cd3b5110ef708c1596b9de96b800267",
+      "bytes": 33375,
       "origin": "generated"
     },
     {
@@ -11252,8 +11580,8 @@
     },
     {
       "path": "sing-box/non_ip/disney.json",
-      "sha256": "a17815dc3c67b57e4abe60dd4bab6d618588825508cfdf131448f25629bf71c3",
-      "bytes": 6519,
+      "sha256": "fe4269f156002365d90d83951c612a823222b9de026b9765d4e930a338bef4e3",
+      "bytes": 6451,
       "origin": "generated"
     },
     {
@@ -11390,8 +11718,8 @@
     },
     {
       "path": "sing-box/non_ip/netflix.json",
-      "sha256": "dfbb04a66d64cdb4aa54848df659ba85e59ee2cfe3e123253ba73edff290e1d2",
-      "bytes": 813,
+      "sha256": "c5ef9c6c4f89e42b9de8b17aae3194b4d61392ac2c1974a0328ef0fe4e2db298",
+      "bytes": 729,
       "origin": "generated"
     },
     {
@@ -11708,7 +12036,7 @@
     },
     {
       "path": "status.json",
-      "sha256": "a7f3c28ed13a81e73cec6a1de09b57e85726eb546af71f22b0ae74d42c4d49c7",
+      "sha256": "e02bc950b728625daca6339b2079ae3baa5c532e137e7ac071f90a9e8cc87368",
       "bytes": 14493,
       "origin": "generated"
     }
