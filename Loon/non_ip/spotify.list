@@ -1,11 +1,15 @@
 #########################################
 # Spotify
-# Last Updated: 2026-10-17T14:56:11.091Z
-# Size: 4
+# Last Updated: 2026-10-17T15:21:05.250Z
+# Size: 8
 # Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
 # Merged from 2 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN-SUFFIX,spotilocal.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
 DOMAIN-KEYWORD,spotify
 USER-AGENT,Spotify*
 IP-CIDR,35.186.224.47/32,no-resolve

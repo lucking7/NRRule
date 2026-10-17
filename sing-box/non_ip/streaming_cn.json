@@ -2,8 +2,21 @@
   "version": 2,
   "rules": [
     {
-      "domain": [],
-      "domain_suffix": [],
+      "domain": [
+        "upos-hz-mirrorakam.akamaized.net",
+        "grpc.biliapi.net",
+        "app.biliapi.net",
+        "api.biliapi.net",
+        "www.bilibili.com",
+        "app.bilibili.com",
+        "api.bilibili.com",
+        "m.bilibili.com",
+        "app.biliapi.com",
+        "api.biliapi.com",
+        "cache.video.iqiyi.com",
+        "mobileso.bz.mgtv.com"
+      ],
+      "domain_suffix": ["api.mgtv.com"],
       "domain_keyword": ["cn-hk-eq-bcache-"],
       "ip_cidr": ["116.211.202.206/32", "116.211.202.216/32"]
     }

@@ -1,11 +1,21 @@
 #########################################
 # YouTube
-# Last Updated: 2026-10-17T14:56:11.278Z
-# Size: 11
+# Last Updated: 2026-10-17T15:21:05.674Z
+# Size: 21
 # Service rules from blackmatrix7, merged with available MetaCubeX domain and IP categories.
 # Merged from 2 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN,yt3.googleusercontent.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
 DOMAIN-KEYWORD,youtube
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*

@@ -2,8 +2,16 @@
   "version": 2,
   "rules": [
     {
-      "domain": [],
-      "domain_suffix": [],
+      "domain": [
+        "av.jkforum.net",
+        "www.manhuagui.com",
+        "yymanhua.com",
+        "www.yymanhua.com",
+        "avbebe.com",
+        "mhgui.com",
+        "javdb.com"
+      ],
+      "domain_suffix": ["cdn.hinet.net"],
       "domain_regex": [
         "^[\\w.-]*?\\.ffzy-online[\\w.-]\\.com$",
         "^[\\w.-]*?\\.ffzy-play[\\w.-]\\.com$",

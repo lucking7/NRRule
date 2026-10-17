@@ -1,11 +1,37 @@
 #########################################
 # WeChat without User-Agent bypass
-# Last Updated: 2026-10-17T14:56:12.010Z
-# Size: 305
+# Last Updated: 2026-10-17T15:21:06.369Z
+# Size: 331
 # WeChat domain and IP rules from NobyDa, excluding broad User-Agent bypass conditions.
 # Merged from 1 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN,slife.xy-asia.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN,wx.tenpay.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN,weixin110.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,wxapp.tc.qq.com
+DOMAIN-SUFFIX,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN,soup.v.qq.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
 DOMAIN-KEYWORD,101.226.211.
 DOMAIN-KEYWORD,101.226.222.
 DOMAIN-KEYWORD,101.226.226.

@@ -1,11 +1,13 @@
 #########################################
 # NeteaseMusic
-# Last Updated: 2026-10-17T14:56:19.112Z
-# Size: 19
+# Last Updated: 2026-10-17T15:21:16.968Z
+# Size: 21
 # Rules for NeteaseMusic
 # Merged from 2 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,music.163.com
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,NeteaseMusic*
 IP-CIDR,39.105.63.80/32,no-resolve

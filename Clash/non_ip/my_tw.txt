@@ -1,11 +1,19 @@
 #########################################
 # Proxy
-# Last Updated: 2026-10-17T14:56:05.940Z
-# Size: 4
+# Last Updated: 2026-10-17T15:20:59.821Z
+# Size: 12
 # Global proxy rules for international services
 # Source: https://ruleset.skk.moe/List/non_ip/my_tw.conf
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN,av.jkforum.net
+DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN,www.manhuagui.com
+DOMAIN,yymanhua.com
+DOMAIN,www.yymanhua.com
+DOMAIN,avbebe.com
+DOMAIN,mhgui.com
+DOMAIN,javdb.com
 DOMAIN-WILDCARD,*.ffzy-online?.com
 DOMAIN-WILDCARD,*.ffzy-play?.com
 DOMAIN-WILDCARD,*.lz-cdn??.com

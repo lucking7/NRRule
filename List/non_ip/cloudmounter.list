@@ -1,10 +1,10 @@
 #########################################
 # CloudMounter / RaiDrive
-# Last Updated: 2026-10-17T14:56:10.722Z
+# Last Updated: 2026-10-17T15:21:04.837Z
 # Size: 40
 # Rules for CloudMounter / RaiDrive
 # Merged from 1 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
 AND,((DOMAIN-SUFFIX,sharepoint.com),(PROCESS-NAME,*CloudMounter))
 AND,((DOMAIN-SUFFIX,sharepoint.com),(SRC-IP,10.0.0.0/8))

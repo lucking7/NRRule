@@ -1,11 +1,25 @@
 #########################################
 # Telegram
-# Last Updated: 2026-10-17T14:56:19.446Z
-# Size: 14
+# Last Updated: 2026-10-17T15:21:17.113Z
+# Size: 28
 # Rules for Telegram
 # Merged from 3 sources
-# Variant: non_ip. Combine domainset, non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
 #########################################
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,t.me
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
