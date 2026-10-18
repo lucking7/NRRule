@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-17T23:59:20.828Z",
+  "generatedAt": "2026-10-18T02:55:26.729Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7146385807"
+    "receiptId": "7147560248"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,25 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 315,
+      "currentConditionCount": 317,
       "baselineConditionCount": 315,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 296,
+          "semanticChanged": true,
+          "currentConditionCount": 297,
           "baselineConditionCount": 296,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,typesafe.ai"
+            ],
             "removed": []
           }
         },
@@ -132,13 +134,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 297,
+          "semanticChanged": true,
+          "currentConditionCount": 298,
           "baselineConditionCount": 297,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,typesafe.ai"
+            ],
             "removed": []
           }
         },
@@ -146,13 +150,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 294,
+          "semanticChanged": true,
+          "currentConditionCount": 295,
           "baselineConditionCount": 294,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:typesafe.ai"
+            ],
             "removed": []
           }
         },
@@ -160,24 +166,31 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 297,
+          "semanticChanged": true,
+          "currentConditionCount": 298,
           "baselineConditionCount": 297,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,typesafe.ai,extended-matching"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 2,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.006349,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 2
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,openai.org,extended-matching",
+          "DOMAIN-SUFFIX,typesafe.ai,extended-matching"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1431,7 +1444,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2335,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
