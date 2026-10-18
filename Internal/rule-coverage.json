@@ -16,12 +16,12 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 151943,
-    "unsupportedRules": 5493,
-    "fullyCoveredDomainRules": 480,
-    "partlyOverlappingDomainRules": 1094,
+    "domainRules": 151935,
+    "unsupportedRules": 5490,
+    "fullyCoveredDomainRules": 465,
+    "partlyOverlappingDomainRules": 1093,
     "samePolicyRedundancies": 26,
-    "differentPolicyConflicts": 1537,
+    "differentPolicyConflicts": 1521,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
     "conditionalWarnings": 75,
@@ -184,56 +184,26 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 298,
-      "domainRules": 264,
-      "unsupportedRules": 34,
+      "totalRules": 287,
+      "domainRules": 256,
+      "unsupportedRules": 31,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 6,
         "URL-REGEX": 1,
-        "IP-CIDR": 25,
-        "IP-ASN": 2
+        "IP-CIDR": 23,
+        "IP-ASN": 1
       },
       "conditionalRules": 0,
       "fullyCoveredDomainRules": 0,
-      "partlyOverlappingDomainRules": 20,
+      "partlyOverlappingDomainRules": 15,
       "samePolicyRedundancies": 0,
-      "differentPolicyConflicts": 20,
+      "differentPolicyConflicts": 15,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
         {
-          "rule": "DOMAIN-SUFFIX,featuregates.org",
-          "line": 32,
-          "coverage": "partial",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "reject.list",
-              "policy": "REJECT",
-              "line": 11834,
-              "rule": "DOMAIN-SUFFIX,featuregates.org",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
-          "rule": "DOMAIN-SUFFIX,events.statsigapi.net",
-          "line": 37,
-          "coverage": "partial",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "reject.list",
-              "policy": "REJECT",
-              "line": 13651,
-              "rule": "DOMAIN-SUFFIX,events.statsigapi.net",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
           "rule": "DOMAIN,browser-intake-datadoghq.com",
-          "line": 56,
+          "line": 52,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -248,7 +218,7 @@
         },
         {
           "rule": "DOMAIN,rum.browser-intake-datadoghq.com",
-          "line": 57,
+          "line": 53,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -262,16 +232,46 @@
           ]
         },
         {
-          "rule": "DOMAIN,static.cloudflareinsights.com",
-          "line": 59,
+          "rule": "DOMAIN,copilot-telemetry.githubusercontent.com",
+          "line": 58,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
             {
               "subscription": "reject.list",
               "policy": "REJECT",
-              "line": 22377,
-              "rule": "DOMAIN-SUFFIX,cloudflareinsights.com",
+              "line": 23704,
+              "rule": "DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,githubcopilot.com",
+          "line": 68,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 36830,
+              "rule": "DOMAIN-SUFFIX,telemetry.individual.githubcopilot.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN,apple-relay.fastly-edge.com",
+          "line": 72,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "apple_intelligence.list",
+              "policy": "AppleIntelligence",
+              "line": 8,
+              "rule": "DOMAIN,apple-relay.fastly-edge.com",
               "matchMode": "destination"
             }
           ]
@@ -454,7 +454,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 139,
+              "line": 131,
               "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
               "matchMode": "extended"
             }
@@ -469,7 +469,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 198,
+              "line": 190,
               "rule": "DOMAIN,guzzoni.apple.com",
               "matchMode": "extended"
             }
@@ -499,7 +499,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 199,
+              "line": 191,
               "rule": "DOMAIN-SUFFIX,smoot.apple.com",
               "matchMode": "extended"
             }
@@ -665,7 +665,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 45,
+              "line": 42,
               "rule": "DOMAIN,copilotprodattachments.blob.core.windows.net",
               "matchMode": "extended"
             }
@@ -902,10 +902,10 @@
         "IP-CIDR": 3
       },
       "conditionalRules": 0,
-      "fullyCoveredDomainRules": 194,
-      "partlyOverlappingDomainRules": 77,
+      "fullyCoveredDomainRules": 182,
+      "partlyOverlappingDomainRules": 78,
       "samePolicyRedundancies": 5,
-      "differentPolicyConflicts": 256,
+      "differentPolicyConflicts": 245,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
@@ -1017,7 +1017,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 42,
+              "line": 39,
               "rule": "DOMAIN,apple-relay.mask.apple-dns.net",
               "matchMode": "extended"
             }
@@ -1459,8 +1459,8 @@
         "USER-AGENT": 1
       },
       "conditionalRules": 1,
-      "fullyCoveredDomainRules": 144,
-      "partlyOverlappingDomainRules": 611,
+      "fullyCoveredDomainRules": 141,
+      "partlyOverlappingDomainRules": 614,
       "samePolicyRedundancies": 0,
       "differentPolicyConflicts": 755,
       "fullyShadowedDomains": false,

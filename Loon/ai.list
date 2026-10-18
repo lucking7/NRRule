@@ -1,9 +1,9 @@
 #########################################
 # AI
-# Last Updated: 2026-10-18T09:19:37.134Z
-# Size: 298
+# Last Updated: 2026-10-18T09:28:22.922Z
+# Size: 287
 # Rules for AI
-# Merged from 6 sources
+# Merged from 5 sources
 #########################################
 DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,copilot.cloud.microsoft
@@ -29,22 +29,18 @@ DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,opal.goog
 DOMAIN-SUFFIX,oystermercury.top
 DOMAIN-SUFFIX,comfyregistry.org
-DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,deepwiki.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,themeforest.net
-DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN-SUFFIX,novelai.net
-DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN,workos.imgix.net
 DOMAIN,servd-anthropic-website.b-cdn.net
@@ -56,7 +52,6 @@ DOMAIN-SUFFIX,zed.dev
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN-SUFFIX,agentclientprotocol.com
-DOMAIN,static.cloudflareinsights.com
 DOMAIN,lh5.googleusercontent.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,copilot-telemetry-service.githubusercontent.com
@@ -72,7 +67,6 @@ DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,envato-static.com
-DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,spicywriter.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN,apple-relay.fastly-edge.com
@@ -120,14 +114,12 @@ DOMAIN,apple-relay.cloudflare.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN,images.workoscdn.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,langchain.com
 DOMAIN,account.jetbrains.com
 DOMAIN,oauth.account.jetbrains.com
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,anthropic.com
@@ -145,7 +137,7 @@ DOMAIN-SUFFIX,deepwiki.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,youmind.com
-DOMAIN-SUFFIX,api.statsig.com
+DOMAIN,api.statsig.com
 DOMAIN,encrypted-tbn3.gstatic.com
 DOMAIN,encrypted-tbn2.gstatic.com
 DOMAIN,encrypted-tbn1.gstatic.com
@@ -162,7 +154,7 @@ DOMAIN-SUFFIX,augment.com
 DOMAIN,forwarder.workos.com
 DOMAIN,setup.workos.com
 DOMAIN,cdn.workos.com
-DOMAIN-SUFFIX,stripe.com
+DOMAIN,js.stripe.com
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,antigravity.google.com
@@ -193,7 +185,7 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,qoder.com
-DOMAIN-SUFFIX,auth0.com
+DOMAIN,anthropic.auth0.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
@@ -220,10 +212,10 @@ DOMAIN-SUFFIX,chorus.sh
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,coderabbit.gallery.vsassets.io
 DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,notegpt.io
 DOMAIN-SUFFIX,minimax.io
-DOMAIN-SUFFIX,sentry.io
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
 DOMAIN,anthropic-com.ghost.io
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,clau.de
@@ -287,11 +279,9 @@ IP-CIDR,20.162.96.163/32,no-resolve
 IP-CIDR,20.168.48.117/32,no-resolve
 IP-CIDR,20.184.36.134/32,no-resolve
 IP-CIDR,20.203.144.245/32,no-resolve
-IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,40.118.236.137/32,no-resolve
 IP-CIDR,51.4.112.173/32,no-resolve
 IP-CIDR,52.143.181.161/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
 IP-CIDR,68.155.152.41/32,no-resolve
 IP-CIDR,72.146.20.246/32,no-resolve
 IP-CIDR,74.248.148.7/32,no-resolve
@@ -301,7 +291,6 @@ IP-CIDR,172.203.39.49/32,no-resolve
 IP-CIDR,172.207.173.200/32,no-resolve
 IP-CIDR,172.214.226.198/32,no-resolve
 IP-CIDR,191.233.251.27/32,no-resolve
-IP-ASN,20473,no-resolve
 IP-ASN,399358
 ################## EOF ##################
 
