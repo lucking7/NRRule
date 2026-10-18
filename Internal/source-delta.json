@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-18T02:55:26.729Z",
+  "generatedAt": "2026-10-18T08:26:11.947Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7147560248"
+    "receiptId": "7149129193"
   },
   "policy": {
     "sampleLimit": 20,
@@ -19,7 +19,7 @@
     "baselineUnavailable": 0,
     "notComparable": 0,
     "removed": 0,
-    "warnings": 0
+    "warnings": 2
   },
   "sources": [
     {
@@ -109,24 +109,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 317,
-      "baselineConditionCount": 315,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 317,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 297,
-          "baselineConditionCount": 296,
-          "added": 1,
+          "baselineConditionCount": 297,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,typesafe.ai"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -134,15 +132,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 298,
-          "baselineConditionCount": 297,
-          "added": 1,
+          "baselineConditionCount": 298,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,typesafe.ai"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -150,15 +146,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 295,
-          "baselineConditionCount": 294,
-          "added": 1,
+          "baselineConditionCount": 295,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:typesafe.ai"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -166,31 +160,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 298,
-          "baselineConditionCount": 297,
-          "added": 1,
+          "baselineConditionCount": 298,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,typesafe.ai,extended-matching"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 2,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.006349,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 2
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,openai.org,extended-matching",
-          "DOMAIN-SUFFIX,typesafe.ai,extended-matching"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -769,81 +756,232 @@
       "rulesetId": "bilibili",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 138,
+      "currentConditionCount": 57,
       "baselineConditionCount": 138,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 134,
+          "semanticChanged": true,
+          "currentConditionCount": 57,
           "baselineConditionCount": 134,
-          "added": 0,
-          "removed": 0,
+          "added": 5,
+          "removed": 82,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,bstarstatic.com",
+              "DOMAIN-SUFFIX,p-bstarstatic.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net"
+            ],
+            "removed": [
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com",
+              "DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com",
+              "DOMAIN,112-81-125-43.dhost.00cdn.com",
+              "DOMAIN,113-219-145-1.ksyungslb.com",
+              "DOMAIN,114-236-92-129.ksyungslb.com",
+              "DOMAIN,180-101-74-1.ksyungslb.com",
+              "DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com",
+              "DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 132,
+          "semanticChanged": true,
+          "currentConditionCount": 57,
           "baselineConditionCount": 132,
-          "added": 0,
-          "removed": 0,
+          "added": 5,
+          "removed": 80,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,bstarstatic.com",
+              "DOMAIN-SUFFIX,p-bstarstatic.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net"
+            ],
+            "removed": [
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com",
+              "DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com",
+              "DOMAIN,112-81-125-43.dhost.00cdn.com",
+              "DOMAIN,113-219-145-1.ksyungslb.com",
+              "DOMAIN,114-236-92-129.ksyungslb.com",
+              "DOMAIN,180-101-74-1.ksyungslb.com",
+              "DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com",
+              "DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 128,
+          "semanticChanged": true,
+          "currentConditionCount": 57,
           "baselineConditionCount": 128,
-          "added": 0,
-          "removed": 0,
+          "added": 5,
+          "removed": 76,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:upos-hz-mirrorakam.akamaized.net",
+              "domain_suffix:bstarstatic.com",
+              "domain_suffix:p-bstarstatic.akamaized.net",
+              "domain_suffix:upos-bstar-mirrorakam.akamaized.net",
+              "domain_suffix:upos-bstar1-mirrorakam.akamaized.net"
+            ],
+            "removed": [
+              "domain:0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com",
+              "domain:0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com",
+              "domain:0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com",
+              "domain:112-81-125-43.dhost.00cdn.com",
+              "domain:113-219-145-1.ksyungslb.com",
+              "domain:114-236-92-129.ksyungslb.com",
+              "domain:180-101-74-1.ksyungslb.com",
+              "domain:1geadrmttge3nhcjwgazdope.ourdvsss.com",
+              "domain:1geadrmttge3nhcjwgwzdqqe.ourdvsss.com",
+              "domain:1gr3uomttgr31hcjo8yzdnco.ourdvsss.com",
+              "domain:1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com",
+              "domain:1gr3uomttgr31hcjtgezdkcy.ourdvsss.com"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 138,
+          "semanticChanged": true,
+          "currentConditionCount": 57,
           "baselineConditionCount": 138,
-          "added": 0,
-          "removed": 0,
+          "added": 5,
+          "removed": 86,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,bstarstatic.com",
+              "DOMAIN-SUFFIX,p-bstarstatic.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net",
+              "DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net"
+            ],
+            "removed": [
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com",
+              "DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com",
+              "DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com",
+              "DOMAIN,112-81-125-43.dhost.00cdn.com",
+              "DOMAIN,113-219-145-1.ksyungslb.com",
+              "DOMAIN,114-236-92-129.ksyungslb.com",
+              "DOMAIN,180-101-74-1.ksyungslb.com",
+              "DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com",
+              "DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com",
+              "DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
-      "samples": {
-        "added": [],
-        "removed": []
+      "added": 5,
+      "removed": 86,
+      "changeRatio": 0.65942,
+      "addedByType": {
+        "DOMAIN": 1,
+        "DOMAIN-SUFFIX": 4
       },
-      "sourcesAdded": [],
-      "sourcesRemoved": [],
-      "warnings": []
+      "removedByType": {
+        "DOMAIN": 53,
+        "DOMAIN-SUFFIX": 15,
+        "IP-CIDR": 8,
+        "PROCESS-NAME": 6,
+        "USER-AGENT": 4
+      },
+      "samples": {
+        "added": [
+          "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+          "DOMAIN-SUFFIX,bstarstatic.com",
+          "DOMAIN-SUFFIX,p-bstarstatic.akamaized.net",
+          "DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net",
+          "DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net"
+        ],
+        "removed": [
+          "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com",
+          "DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com",
+          "DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com",
+          "DOMAIN,112-81-125-43.dhost.00cdn.com",
+          "DOMAIN,113-219-145-1.ksyungslb.com",
+          "DOMAIN,114-236-92-129.ksyungslb.com",
+          "DOMAIN,180-101-74-1.ksyungslb.com",
+          "DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com",
+          "DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com",
+          "DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com",
+          "DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com",
+          "DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com"
+        ]
+      },
+      "sourcesAdded": [
+        "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.list"
+      ],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list"
+      ],
+      "warnings": [
+        "change-ratio-exceeded",
+        "removed-ratio-exceeded"
+      ]
     },
     {
       "sourceId": "biliintl",
@@ -1444,7 +1582,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2335,7 +2473,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -3386,80 +3524,141 @@
       "rulesetId": "primevideo",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 34,
+      "currentConditionCount": 23,
       "baselineConditionCount": 34,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 32,
+          "semanticChanged": true,
+          "currentConditionCount": 23,
           "baselineConditionCount": 32,
           "added": 0,
-          "removed": 0,
+          "removed": 9,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-KEYWORD,avoddashs",
+              "DOMAIN-SUFFIX,aiv-delivery.net",
+              "DOMAIN-SUFFIX,atv-ps.amazon.com",
+              "DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net",
+              "DOMAIN-SUFFIX,fls-na.amazon.com",
+              "DOMAIN-SUFFIX,llnwd.net",
+              "DOMAIN-SUFFIX,media-amazon.com",
+              "DOMAIN-SUFFIX,pv-cdn.net",
+              "PROCESS-NAME,com.amazon.avod.thirdpartyclient"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 33,
+          "semanticChanged": true,
+          "currentConditionCount": 23,
           "baselineConditionCount": 33,
           "added": 0,
-          "removed": 0,
+          "removed": 10,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-KEYWORD,avoddashs",
+              "DOMAIN-SUFFIX,aiv-delivery.net",
+              "DOMAIN-SUFFIX,atv-ps.amazon.com",
+              "DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net",
+              "DOMAIN-SUFFIX,fls-na.amazon.com",
+              "DOMAIN-SUFFIX,llnwd.net",
+              "DOMAIN-SUFFIX,media-amazon.com",
+              "DOMAIN-SUFFIX,pv-cdn.net",
+              "USER-AGENT,InstantVideo.US*",
+              "USER-AGENT,Prime%20Video*"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 31,
+          "semanticChanged": true,
+          "currentConditionCount": 23,
           "baselineConditionCount": 31,
           "added": 0,
-          "removed": 0,
+          "removed": 8,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "domain_keyword:avoddashs",
+              "domain_suffix:aiv-delivery.net",
+              "domain_suffix:atv-ps.amazon.com",
+              "domain_suffix:avodmp4s3ww-a.akamaihd.net",
+              "domain_suffix:fls-na.amazon.com",
+              "domain_suffix:llnwd.net",
+              "domain_suffix:media-amazon.com",
+              "domain_suffix:pv-cdn.net"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 34,
+          "semanticChanged": true,
+          "currentConditionCount": 23,
           "baselineConditionCount": 34,
           "added": 0,
-          "removed": 0,
+          "removed": 11,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-KEYWORD,avoddashs",
+              "DOMAIN-SUFFIX,aiv-delivery.net",
+              "DOMAIN-SUFFIX,atv-ps.amazon.com",
+              "DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net",
+              "DOMAIN-SUFFIX,fls-na.amazon.com",
+              "DOMAIN-SUFFIX,llnwd.net",
+              "DOMAIN-SUFFIX,media-amazon.com",
+              "DOMAIN-SUFFIX,pv-cdn.net",
+              "PROCESS-NAME,com.amazon.avod.thirdpartyclient",
+              "USER-AGENT,InstantVideo.US*",
+              "USER-AGENT,Prime%20Video*"
+            ]
           }
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 11,
+      "changeRatio": 0.323529,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN-KEYWORD": 1,
+        "DOMAIN-SUFFIX": 7,
+        "PROCESS-NAME": 1,
+        "USER-AGENT": 2
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN-KEYWORD,avoddashs",
+          "DOMAIN-SUFFIX,aiv-delivery.net",
+          "DOMAIN-SUFFIX,atv-ps.amazon.com",
+          "DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net",
+          "DOMAIN-SUFFIX,fls-na.amazon.com",
+          "DOMAIN-SUFFIX,llnwd.net",
+          "DOMAIN-SUFFIX,media-amazon.com",
+          "DOMAIN-SUFFIX,pv-cdn.net",
+          "PROCESS-NAME,com.amazon.avod.thirdpartyclient",
+          "USER-AGENT,InstantVideo.US*",
+          "USER-AGENT,Prime%20Video*"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list"
+      ],
       "warnings": []
     },
     {
@@ -5207,80 +5406,281 @@
       "rulesetId": "tiktok",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 59,
+      "currentConditionCount": 36,
       "baselineConditionCount": 59,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 33,
+          "semanticChanged": true,
+          "currentConditionCount": 36,
           "baselineConditionCount": 33,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 22,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com",
+              "DOMAIN,p16-tiktokcdn-com.akamaized.net",
+              "DOMAIN-SUFFIX,musical.ly",
+              "DOMAIN-SUFFIX,tiktok-minis.com",
+              "DOMAIN-SUFFIX,tiktok-row.net",
+              "DOMAIN-SUFFIX,tiktok.com",
+              "DOMAIN-SUFFIX,tiktokcdn-eu.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com",
+              "DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokd.net",
+              "DOMAIN-SUFFIX,tiktokd.org",
+              "DOMAIN-SUFFIX,tiktokeu-cdn.com",
+              "DOMAIN-SUFFIX,tiktokglobalshopv.com",
+              "DOMAIN-SUFFIX,tiktokminis.us",
+              "DOMAIN-SUFFIX,tiktokrow-cdn.com",
+              "DOMAIN-SUFFIX,tiktokv.com",
+              "DOMAIN-SUFFIX,tiktokv.com.edgekey.net"
+            ],
+            "removed": [
+              "DOMAIN,lf16-effectcdn.byteeffecttos-g.com",
+              "DOMAIN,lf16-pkgcdn.pitaya-clientai.com",
+              "DOMAIN,trae-api-sg.mchost.guru",
+              "DOMAIN-KEYWORD,musical.ly",
+              "DOMAIN-KEYWORD,tiktok",
+              "DOMAIN-SUFFIX,bytegecko-i18n.com",
+              "DOMAIN-SUFFIX,byteintlapi.com",
+              "DOMAIN-SUFFIX,byteoversea.com",
+              "DOMAIN-SUFFIX,capcut.com",
+              "DOMAIN-SUFFIX,capcutapi.com",
+              "DOMAIN-SUFFIX,capcutapi.us",
+              "DOMAIN-SUFFIX,capcutstatic.com",
+              "DOMAIN-SUFFIX,ibytedtos.com",
+              "DOMAIN-SUFFIX,ibyteimg.com",
+              "DOMAIN-SUFFIX,ipstatp.com",
+              "DOMAIN-SUFFIX,isnssdk.com",
+              "DOMAIN-SUFFIX,marscode.com",
+              "DOMAIN-SUFFIX,sgpstatp.com",
+              "DOMAIN-SUFFIX,snssdk.com",
+              "DOMAIN-SUFFIX,trae.ai"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 33,
+          "semanticChanged": true,
+          "currentConditionCount": 36,
           "baselineConditionCount": 33,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 22,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com",
+              "DOMAIN,p16-tiktokcdn-com.akamaized.net",
+              "DOMAIN-SUFFIX,musical.ly",
+              "DOMAIN-SUFFIX,tiktok-minis.com",
+              "DOMAIN-SUFFIX,tiktok-row.net",
+              "DOMAIN-SUFFIX,tiktok.com",
+              "DOMAIN-SUFFIX,tiktokcdn-eu.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com",
+              "DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokd.net",
+              "DOMAIN-SUFFIX,tiktokd.org",
+              "DOMAIN-SUFFIX,tiktokeu-cdn.com",
+              "DOMAIN-SUFFIX,tiktokglobalshopv.com",
+              "DOMAIN-SUFFIX,tiktokminis.us",
+              "DOMAIN-SUFFIX,tiktokrow-cdn.com",
+              "DOMAIN-SUFFIX,tiktokv.com",
+              "DOMAIN-SUFFIX,tiktokv.com.edgekey.net"
+            ],
+            "removed": [
+              "DOMAIN,lf16-effectcdn.byteeffecttos-g.com",
+              "DOMAIN,lf16-pkgcdn.pitaya-clientai.com",
+              "DOMAIN,trae-api-sg.mchost.guru",
+              "DOMAIN-KEYWORD,musical.ly",
+              "DOMAIN-KEYWORD,tiktok",
+              "DOMAIN-SUFFIX,bytegecko-i18n.com",
+              "DOMAIN-SUFFIX,byteintlapi.com",
+              "DOMAIN-SUFFIX,byteoversea.com",
+              "DOMAIN-SUFFIX,capcut.com",
+              "DOMAIN-SUFFIX,capcutapi.com",
+              "DOMAIN-SUFFIX,capcutapi.us",
+              "DOMAIN-SUFFIX,capcutstatic.com",
+              "DOMAIN-SUFFIX,ibytedtos.com",
+              "DOMAIN-SUFFIX,ibyteimg.com",
+              "DOMAIN-SUFFIX,ipstatp.com",
+              "DOMAIN-SUFFIX,isnssdk.com",
+              "DOMAIN-SUFFIX,marscode.com",
+              "DOMAIN-SUFFIX,sgpstatp.com",
+              "DOMAIN-SUFFIX,snssdk.com",
+              "DOMAIN-SUFFIX,trae.ai"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 32,
+          "semanticChanged": true,
+          "currentConditionCount": 36,
           "baselineConditionCount": 32,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 21,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:p16-tiktok-dm-sticker-sign-sg.ibyteimg.com",
+              "domain:p16-tiktokcdn-com.akamaized.net",
+              "domain_suffix:musical.ly",
+              "domain_suffix:tiktok-minis.com",
+              "domain_suffix:tiktok-row.net",
+              "domain_suffix:tiktok.com",
+              "domain_suffix:tiktokcdn-eu.com",
+              "domain_suffix:tiktokcdn-us.com",
+              "domain_suffix:tiktokcdn-us.com.edgesuite.net",
+              "domain_suffix:tiktokcdn.com",
+              "domain_suffix:tiktokcdn.com.akamaized.net",
+              "domain_suffix:tiktokcdn.com.edgesuite.net",
+              "domain_suffix:tiktokd.net",
+              "domain_suffix:tiktokd.org",
+              "domain_suffix:tiktokeu-cdn.com",
+              "domain_suffix:tiktokglobalshopv.com",
+              "domain_suffix:tiktokminis.us",
+              "domain_suffix:tiktokrow-cdn.com",
+              "domain_suffix:tiktokv.com",
+              "domain_suffix:tiktokv.com.edgekey.net"
+            ],
+            "removed": [
+              "domain:lf16-effectcdn.byteeffecttos-g.com",
+              "domain:lf16-pkgcdn.pitaya-clientai.com",
+              "domain:trae-api-sg.mchost.guru",
+              "domain_keyword:musical.ly",
+              "domain_keyword:tiktok",
+              "domain_suffix:bytegecko-i18n.com",
+              "domain_suffix:byteintlapi.com",
+              "domain_suffix:byteoversea.com",
+              "domain_suffix:capcut.com",
+              "domain_suffix:capcutapi.com",
+              "domain_suffix:capcutapi.us",
+              "domain_suffix:capcutstatic.com",
+              "domain_suffix:ibytedtos.com",
+              "domain_suffix:ibyteimg.com",
+              "domain_suffix:ipstatp.com",
+              "domain_suffix:isnssdk.com",
+              "domain_suffix:marscode.com",
+              "domain_suffix:sgpstatp.com",
+              "domain_suffix:snssdk.com",
+              "domain_suffix:trae.ai"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 34,
+          "semanticChanged": true,
+          "currentConditionCount": 36,
           "baselineConditionCount": 34,
-          "added": 0,
-          "removed": 0,
+          "added": 25,
+          "removed": 23,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com",
+              "DOMAIN,p16-tiktokcdn-com.akamaized.net",
+              "DOMAIN-SUFFIX,musical.ly",
+              "DOMAIN-SUFFIX,tiktok-minis.com",
+              "DOMAIN-SUFFIX,tiktok-row.net",
+              "DOMAIN-SUFFIX,tiktok.com",
+              "DOMAIN-SUFFIX,tiktokcdn-eu.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com",
+              "DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com",
+              "DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net",
+              "DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net",
+              "DOMAIN-SUFFIX,tiktokd.net",
+              "DOMAIN-SUFFIX,tiktokd.org",
+              "DOMAIN-SUFFIX,tiktokeu-cdn.com",
+              "DOMAIN-SUFFIX,tiktokglobalshopv.com",
+              "DOMAIN-SUFFIX,tiktokminis.us",
+              "DOMAIN-SUFFIX,tiktokrow-cdn.com",
+              "DOMAIN-SUFFIX,tiktokv.com",
+              "DOMAIN-SUFFIX,tiktokv.com.edgekey.net"
+            ],
+            "removed": [
+              "DOMAIN,lf16-effectcdn.byteeffecttos-g.com",
+              "DOMAIN,lf16-pkgcdn.pitaya-clientai.com",
+              "DOMAIN,trae-api-sg.mchost.guru",
+              "DOMAIN-KEYWORD,musical.ly",
+              "DOMAIN-KEYWORD,tiktok",
+              "DOMAIN-SUFFIX,bytegecko-i18n.com",
+              "DOMAIN-SUFFIX,byteintlapi.com",
+              "DOMAIN-SUFFIX,byteoversea.com",
+              "DOMAIN-SUFFIX,capcut.com",
+              "DOMAIN-SUFFIX,capcutapi.com",
+              "DOMAIN-SUFFIX,capcutapi.us",
+              "DOMAIN-SUFFIX,capcutstatic.com",
+              "DOMAIN-SUFFIX,ibytedtos.com",
+              "DOMAIN-SUFFIX,ibyteimg.com",
+              "DOMAIN-SUFFIX,ipstatp.com",
+              "DOMAIN-SUFFIX,isnssdk.com",
+              "DOMAIN-SUFFIX,marscode.com",
+              "DOMAIN-SUFFIX,sgpstatp.com",
+              "DOMAIN-SUFFIX,snssdk.com",
+              "DOMAIN-SUFFIX,trae.ai"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1,
+      "removed": 24,
+      "changeRatio": 0.423729,
+      "addedByType": {
+        "DOMAIN": 1
+      },
+      "removedByType": {
+        "DOMAIN": 3,
+        "DOMAIN-KEYWORD": 2,
+        "DOMAIN-SUFFIX": 17,
+        "PROCESS-NAME": 1,
+        "USER-AGENT": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com"
+        ],
+        "removed": [
+          "DOMAIN,lf16-effectcdn.byteeffecttos-g.com",
+          "DOMAIN,lf16-pkgcdn.pitaya-clientai.com",
+          "DOMAIN,trae-api-sg.mchost.guru",
+          "DOMAIN-KEYWORD,musical.ly",
+          "DOMAIN-KEYWORD,tiktok",
+          "DOMAIN-SUFFIX,bytegecko-i18n.com",
+          "DOMAIN-SUFFIX,byteintlapi.com",
+          "DOMAIN-SUFFIX,byteoversea.com",
+          "DOMAIN-SUFFIX,capcut.com",
+          "DOMAIN-SUFFIX,capcutapi.com",
+          "DOMAIN-SUFFIX,capcutapi.us",
+          "DOMAIN-SUFFIX,capcutstatic.com",
+          "DOMAIN-SUFFIX,ibytedtos.com",
+          "DOMAIN-SUFFIX,ibyteimg.com",
+          "DOMAIN-SUFFIX,ipstatp.com",
+          "DOMAIN-SUFFIX,isnssdk.com",
+          "DOMAIN-SUFFIX,marscode.com",
+          "DOMAIN-SUFFIX,sgpstatp.com",
+          "DOMAIN-SUFFIX,snssdk.com",
+          "DOMAIN-SUFFIX,tiktokmusic.app"
+        ]
       },
       "sourcesAdded": [],
-      "sourcesRemoved": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
+      ],
       "warnings": []
     },
     {
