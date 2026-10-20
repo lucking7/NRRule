@@ -16,7 +16,7 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 154038,
+    "domainRules": 154040,
     "unsupportedRules": 5490,
     "fullyCoveredDomainRules": 465,
     "partlyOverlappingDomainRules": 1094,
@@ -184,8 +184,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 287,
-      "domainRules": 256,
+      "totalRules": 288,
+      "domainRules": 257,
       "unsupportedRules": 31,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 6,
@@ -285,8 +285,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 251,
-      "domainRules": 238,
+      "totalRules": 252,
+      "domainRules": 239,
       "unsupportedRules": 13,
       "unsupportedTypes": {
         "IP-CIDR": 13
@@ -469,7 +469,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 190,
+              "line": 191,
               "rule": "DOMAIN,guzzoni.apple.com",
               "matchMode": "extended"
             }
@@ -499,7 +499,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 191,
+              "line": 192,
               "rule": "DOMAIN-SUFFIX,smoot.apple.com",
               "matchMode": "extended"
             }
