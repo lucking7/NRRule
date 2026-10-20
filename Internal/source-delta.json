@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-20T16:20:43.458Z",
+  "generatedAt": "2026-10-20T18:30:02.952Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7200348915"
+    "receiptId": "7205168223"
   },
   "policy": {
     "sampleLimit": 20,
@@ -109,37 +109,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 320,
-      "baselineConditionCount": 306,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 320,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 301,
-          "baselineConditionCount": 287,
-          "added": 14,
+          "baselineConditionCount": 301,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,aiplatform.eu.rep.googleapis.com",
-              "DOMAIN,aiplatform.googleapis.com",
-              "DOMAIN,aiplatform.mtls.googleapis.com",
-              "DOMAIN,aiplatform.us.rep.googleapis.com",
-              "DOMAIN,businessaicode.eu.rep.googleapis.com",
-              "DOMAIN,businessaicode.googleapis.com",
-              "DOMAIN,businessaicode.mtls.googleapis.com",
-              "DOMAIN,businessaicode.us.rep.googleapis.com",
-              "DOMAIN,discoveryengine.googleapis.com",
-              "DOMAIN,discoveryengine.mtls.googleapis.com",
-              "DOMAIN,eu-discoveryengine.googleapis.com",
-              "DOMAIN,eu-discoveryengine.mtls.googleapis.com",
-              "DOMAIN,us-discoveryengine.googleapis.com",
-              "DOMAIN,us-discoveryengine.mtls.googleapis.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -147,28 +132,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 302,
-          "baselineConditionCount": 288,
-          "added": 14,
+          "baselineConditionCount": 302,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,aiplatform.eu.rep.googleapis.com",
-              "DOMAIN,aiplatform.googleapis.com",
-              "DOMAIN,aiplatform.mtls.googleapis.com",
-              "DOMAIN,aiplatform.us.rep.googleapis.com",
-              "DOMAIN,businessaicode.eu.rep.googleapis.com",
-              "DOMAIN,businessaicode.googleapis.com",
-              "DOMAIN,businessaicode.mtls.googleapis.com",
-              "DOMAIN,businessaicode.us.rep.googleapis.com",
-              "DOMAIN,discoveryengine.googleapis.com",
-              "DOMAIN,discoveryengine.mtls.googleapis.com",
-              "DOMAIN,eu-discoveryengine.googleapis.com",
-              "DOMAIN,eu-discoveryengine.mtls.googleapis.com",
-              "DOMAIN,us-discoveryengine.googleapis.com",
-              "DOMAIN,us-discoveryengine.mtls.googleapis.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -176,28 +146,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 300,
-          "baselineConditionCount": 286,
-          "added": 14,
+          "baselineConditionCount": 300,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:aiplatform.eu.rep.googleapis.com",
-              "domain:aiplatform.googleapis.com",
-              "domain:aiplatform.mtls.googleapis.com",
-              "domain:aiplatform.us.rep.googleapis.com",
-              "domain:businessaicode.eu.rep.googleapis.com",
-              "domain:businessaicode.googleapis.com",
-              "domain:businessaicode.mtls.googleapis.com",
-              "domain:businessaicode.us.rep.googleapis.com",
-              "domain:discoveryengine.googleapis.com",
-              "domain:discoveryengine.mtls.googleapis.com",
-              "domain:eu-discoveryengine.googleapis.com",
-              "domain:eu-discoveryengine.mtls.googleapis.com",
-              "domain:us-discoveryengine.googleapis.com",
-              "domain:us-discoveryengine.mtls.googleapis.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -205,56 +160,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 302,
-          "baselineConditionCount": 288,
-          "added": 14,
+          "baselineConditionCount": 302,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,aiplatform.eu.rep.googleapis.com,extended-matching",
-              "DOMAIN,aiplatform.googleapis.com,extended-matching",
-              "DOMAIN,aiplatform.mtls.googleapis.com,extended-matching",
-              "DOMAIN,aiplatform.us.rep.googleapis.com,extended-matching",
-              "DOMAIN,businessaicode.eu.rep.googleapis.com,extended-matching",
-              "DOMAIN,businessaicode.googleapis.com,extended-matching",
-              "DOMAIN,businessaicode.mtls.googleapis.com,extended-matching",
-              "DOMAIN,businessaicode.us.rep.googleapis.com,extended-matching",
-              "DOMAIN,discoveryengine.googleapis.com,extended-matching",
-              "DOMAIN,discoveryengine.mtls.googleapis.com,extended-matching",
-              "DOMAIN,eu-discoveryengine.googleapis.com,extended-matching",
-              "DOMAIN,eu-discoveryengine.mtls.googleapis.com,extended-matching",
-              "DOMAIN,us-discoveryengine.googleapis.com,extended-matching",
-              "DOMAIN,us-discoveryengine.mtls.googleapis.com,extended-matching"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 14,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.045752,
-      "addedByType": {
-        "DOMAIN": 14
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,aiplatform.eu.rep.googleapis.com,extended-matching",
-          "DOMAIN,aiplatform.googleapis.com,extended-matching",
-          "DOMAIN,aiplatform.mtls.googleapis.com,extended-matching",
-          "DOMAIN,aiplatform.us.rep.googleapis.com,extended-matching",
-          "DOMAIN,businessaicode.eu.rep.googleapis.com,extended-matching",
-          "DOMAIN,businessaicode.googleapis.com,extended-matching",
-          "DOMAIN,businessaicode.mtls.googleapis.com,extended-matching",
-          "DOMAIN,businessaicode.us.rep.googleapis.com,extended-matching",
-          "DOMAIN,discoveryengine.googleapis.com,extended-matching",
-          "DOMAIN,discoveryengine.mtls.googleapis.com,extended-matching",
-          "DOMAIN,eu-discoveryengine.googleapis.com,extended-matching",
-          "DOMAIN,eu-discoveryengine.mtls.googleapis.com,extended-matching",
-          "DOMAIN,us-discoveryengine.googleapis.com,extended-matching",
-          "DOMAIN,us-discoveryengine.mtls.googleapis.com,extended-matching"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
