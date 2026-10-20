@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-10-20T12:57:47.636Z
-# Size: 264
+# Last Updated: 2026-10-20T16:20:35.233Z
+# Size: 278
 # Rules for AI
 # Merged from 5 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -86,24 +86,38 @@ DOMAIN-SUFFIX,grokipedia.com,extended-matching
 DOMAIN,optimizationguide-pa.googleapis.com,extended-matching
 DOMAIN,streetviewpixels-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,extended-matching
+DOMAIN,us-discoveryengine.googleapis.com,extended-matching
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,extended-matching
+DOMAIN,eu-discoveryengine.googleapis.com,extended-matching
 DOMAIN,daily-cloudcode-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,extended-matching
 DOMAIN,content-autofill.googleapis.com,extended-matching
 DOMAIN,cloudaicompanion.googleapis.com,extended-matching
+DOMAIN,discoveryengine.googleapis.com,extended-matching
+DOMAIN,businessaicode.googleapis.com,extended-matching
 DOMAIN,antigravity-pa.googleapis.com,extended-matching
 DOMAIN,notebooklm-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,extended-matching
 DOMAIN,antigravity.googleapis.com,extended-matching
+DOMAIN,aiplatform.googleapis.com,extended-matching
 DOMAIN-SUFFIX,geller-pa.googleapis.com,extended-matching
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com,extended-matching
 DOMAIN,jnn-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,aicode.googleapis.com,extended-matching
 DOMAIN,jules.googleapis.com,extended-matching
 DOMAIN,fonts.googleapis.com,extended-matching
+DOMAIN,us-discoveryengine.mtls.googleapis.com,extended-matching
+DOMAIN,eu-discoveryengine.mtls.googleapis.com,extended-matching
+DOMAIN,discoveryengine.mtls.googleapis.com,extended-matching
+DOMAIN,businessaicode.mtls.googleapis.com,extended-matching
+DOMAIN,aiplatform.mtls.googleapis.com,extended-matching
 DOMAIN,maps.googleapis.com,extended-matching
 DOMAIN-SUFFIX,aida.googleapis.com,extended-matching
+DOMAIN,businessaicode.us.rep.googleapis.com,extended-matching
+DOMAIN,aiplatform.us.rep.googleapis.com,extended-matching
+DOMAIN,businessaicode.eu.rep.googleapis.com,extended-matching
+DOMAIN,aiplatform.eu.rep.googleapis.com,extended-matching
 DOMAIN-SUFFIX,labstailwind.pa.googleapis.com,extended-matching
 DOMAIN,appcatalyst.pa.googleapis.com,extended-matching
 DOMAIN,copilot-workspace.githubnext.com,extended-matching
