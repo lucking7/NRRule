@@ -16,12 +16,12 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 154632,
+    "domainRules": 154643,
     "unsupportedRules": 5494,
     "fullyCoveredDomainRules": 466,
-    "partlyOverlappingDomainRules": 1095,
+    "partlyOverlappingDomainRules": 1096,
     "samePolicyRedundancies": 26,
-    "differentPolicyConflicts": 1524,
+    "differentPolicyConflicts": 1525,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
     "conditionalWarnings": 75,
@@ -184,8 +184,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 302,
-      "domainRules": 271,
+      "totalRules": 313,
+      "domainRules": 282,
       "unsupportedRules": 31,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 6,
@@ -203,7 +203,7 @@
       "examples": [
         {
           "rule": "DOMAIN,browser-intake-datadoghq.com",
-          "line": 52,
+          "line": 58,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -218,7 +218,7 @@
         },
         {
           "rule": "DOMAIN,rum.browser-intake-datadoghq.com",
-          "line": 53,
+          "line": 59,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -233,7 +233,7 @@
         },
         {
           "rule": "DOMAIN,copilot-telemetry.githubusercontent.com",
-          "line": 58,
+          "line": 64,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -248,7 +248,7 @@
         },
         {
           "rule": "DOMAIN-SUFFIX,githubcopilot.com",
-          "line": 68,
+          "line": 74,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -263,7 +263,7 @@
         },
         {
           "rule": "DOMAIN,apple-relay.fastly-edge.com",
-          "line": 72,
+          "line": 81,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -454,7 +454,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 145,
+              "line": 154,
               "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
               "matchMode": "extended"
             }
@@ -469,7 +469,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 205,
+              "line": 214,
               "rule": "DOMAIN,guzzoni.apple.com",
               "matchMode": "extended"
             }
@@ -499,7 +499,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 206,
+              "line": 215,
               "rule": "DOMAIN-SUFFIX,smoot.apple.com",
               "matchMode": "extended"
             }
@@ -665,7 +665,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 42,
+              "line": 45,
               "rule": "DOMAIN,copilotprodattachments.blob.core.windows.net",
               "matchMode": "extended"
             }
@@ -903,9 +903,9 @@
       },
       "conditionalRules": 0,
       "fullyCoveredDomainRules": 183,
-      "partlyOverlappingDomainRules": 78,
+      "partlyOverlappingDomainRules": 79,
       "samePolicyRedundancies": 5,
-      "differentPolicyConflicts": 246,
+      "differentPolicyConflicts": 247,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
@@ -1017,7 +1017,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 39,
+              "line": 42,
               "rule": "DOMAIN,apple-relay.mask.apple-dns.net",
               "matchMode": "extended"
             }
@@ -1289,7 +1289,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 28,
+              "line": 30,
               "rule": "DOMAIN-SUFFIX,antigravity-unleash.goog",
               "matchMode": "extended"
             }
