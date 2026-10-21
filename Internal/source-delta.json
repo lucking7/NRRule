@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-21T03:13:07.449Z",
+  "generatedAt": "2026-10-21T09:08:15.551Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7214550933"
+    "receiptId": "7216737789"
   },
   "policy": {
     "sampleLimit": 20,
@@ -109,34 +109,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 331,
-      "baselineConditionCount": 320,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 331,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 312,
-          "baselineConditionCount": 301,
-          "added": 11,
+          "baselineConditionCount": 312,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,o33249.ingest.us.sentry.io",
-              "DOMAIN-SUFFIX,ant.dev",
-              "DOMAIN-SUFFIX,anthropic.team",
-              "DOMAIN-SUFFIX,antspace.dev",
-              "DOMAIN-SUFFIX,chatbotclaude.com",
-              "DOMAIN-SUFFIX,claude.app",
-              "DOMAIN-SUFFIX,claude.new",
-              "DOMAIN-SUFFIX,claude.site",
-              "DOMAIN-SUFFIX,claudeacademy.com",
-              "DOMAIN-SUFFIX,claudepages.dev",
-              "DOMAIN-SUFFIX,claudestudio.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -144,25 +132,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 313,
-          "baselineConditionCount": 302,
-          "added": 11,
+          "baselineConditionCount": 313,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,o33249.ingest.us.sentry.io",
-              "DOMAIN-SUFFIX,ant.dev",
-              "DOMAIN-SUFFIX,anthropic.team",
-              "DOMAIN-SUFFIX,antspace.dev",
-              "DOMAIN-SUFFIX,chatbotclaude.com",
-              "DOMAIN-SUFFIX,claude.app",
-              "DOMAIN-SUFFIX,claude.new",
-              "DOMAIN-SUFFIX,claude.site",
-              "DOMAIN-SUFFIX,claudeacademy.com",
-              "DOMAIN-SUFFIX,claudepages.dev",
-              "DOMAIN-SUFFIX,claudestudio.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -170,25 +146,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 311,
-          "baselineConditionCount": 300,
-          "added": 11,
+          "baselineConditionCount": 311,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:o33249.ingest.us.sentry.io",
-              "domain_suffix:ant.dev",
-              "domain_suffix:anthropic.team",
-              "domain_suffix:antspace.dev",
-              "domain_suffix:chatbotclaude.com",
-              "domain_suffix:claude.app",
-              "domain_suffix:claude.new",
-              "domain_suffix:claude.site",
-              "domain_suffix:claudeacademy.com",
-              "domain_suffix:claudepages.dev",
-              "domain_suffix:claudestudio.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -196,51 +160,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 313,
-          "baselineConditionCount": 302,
-          "added": 11,
+          "baselineConditionCount": 313,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,o33249.ingest.us.sentry.io,extended-matching",
-              "DOMAIN-SUFFIX,ant.dev,extended-matching",
-              "DOMAIN-SUFFIX,anthropic.team,extended-matching",
-              "DOMAIN-SUFFIX,antspace.dev,extended-matching",
-              "DOMAIN-SUFFIX,chatbotclaude.com,extended-matching",
-              "DOMAIN-SUFFIX,claude.app,extended-matching",
-              "DOMAIN-SUFFIX,claude.new,extended-matching",
-              "DOMAIN-SUFFIX,claude.site,extended-matching",
-              "DOMAIN-SUFFIX,claudeacademy.com,extended-matching",
-              "DOMAIN-SUFFIX,claudepages.dev,extended-matching",
-              "DOMAIN-SUFFIX,claudestudio.com,extended-matching"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 11,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.034375,
-      "addedByType": {
-        "DOMAIN": 1,
-        "DOMAIN-SUFFIX": 10
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,o33249.ingest.us.sentry.io,extended-matching",
-          "DOMAIN-SUFFIX,ant.dev,extended-matching",
-          "DOMAIN-SUFFIX,anthropic.team,extended-matching",
-          "DOMAIN-SUFFIX,antspace.dev,extended-matching",
-          "DOMAIN-SUFFIX,chatbotclaude.com,extended-matching",
-          "DOMAIN-SUFFIX,claude.app,extended-matching",
-          "DOMAIN-SUFFIX,claude.new,extended-matching",
-          "DOMAIN-SUFFIX,claude.site,extended-matching",
-          "DOMAIN-SUFFIX,claudeacademy.com,extended-matching",
-          "DOMAIN-SUFFIX,claudepages.dev,extended-matching",
-          "DOMAIN-SUFFIX,claudestudio.com,extended-matching"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -254,7 +191,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2385,7 +2322,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
