@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-22T16:37:17.349Z",
+  "generatedAt": "2026-10-22T18:32:05.556Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7253228157"
+    "receiptId": "7257924537"
   },
   "policy": {
     "sampleLimit": 20,
@@ -28,32 +28,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 1817,
-      "baselineConditionCount": 1808,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 1817,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 1810,
-          "baselineConditionCount": 1801,
-          "added": 9,
+          "baselineConditionCount": 1810,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,ad-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,ad-download.hismarttv.com",
-              "DOMAIN-SUFFIX,boost-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,imp-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,loading-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,msg-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,paster-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,recmd-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,resource-cmp.hismarttv.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -61,23 +51,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 1810,
-          "baselineConditionCount": 1801,
-          "added": 9,
+          "baselineConditionCount": 1810,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,ad-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,ad-download.hismarttv.com",
-              "DOMAIN-SUFFIX,boost-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,imp-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,loading-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,msg-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,paster-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,recmd-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,resource-cmp.hismarttv.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -85,23 +65,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 1810,
-          "baselineConditionCount": 1801,
-          "added": 9,
+          "baselineConditionCount": 1810,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:ad-cmp.hismarttv.com",
-              "domain_suffix:ad-download.hismarttv.com",
-              "domain_suffix:boost-cmp.hismarttv.com",
-              "domain_suffix:imp-cmp.hismarttv.com",
-              "domain_suffix:loading-cmp.hismarttv.com",
-              "domain_suffix:msg-cmp.hismarttv.com",
-              "domain_suffix:paster-cmp.hismarttv.com",
-              "domain_suffix:recmd-cmp.hismarttv.com",
-              "domain_suffix:resource-cmp.hismarttv.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -109,46 +79,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 1810,
-          "baselineConditionCount": 1801,
-          "added": 9,
+          "baselineConditionCount": 1810,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,ad-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,ad-download.hismarttv.com",
-              "DOMAIN-SUFFIX,boost-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,imp-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,loading-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,msg-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,paster-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,recmd-cmp.hismarttv.com",
-              "DOMAIN-SUFFIX,resource-cmp.hismarttv.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 9,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.004978,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 9
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,ad-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,ad-download.hismarttv.com",
-          "DOMAIN-SUFFIX,boost-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,imp-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,loading-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,msg-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,paster-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,recmd-cmp.hismarttv.com",
-          "DOMAIN-SUFFIX,resource-cmp.hismarttv.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
