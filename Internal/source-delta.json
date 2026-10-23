@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-23T12:52:26.078Z",
+  "generatedAt": "2026-10-23T16:27:05.414Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7277077379"
+    "receiptId": "7278711249"
   },
   "policy": {
     "sampleLimit": 20,
@@ -1916,24 +1916,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 253,
-      "baselineConditionCount": 252,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 253,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 253,
-          "baselineConditionCount": 252,
-          "added": 1,
+          "baselineConditionCount": 253,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,876645.xyz"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1941,15 +1939,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 253,
-          "baselineConditionCount": 252,
-          "added": 1,
+          "baselineConditionCount": 253,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,876645.xyz"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1957,15 +1953,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 253,
-          "baselineConditionCount": 252,
-          "added": 1,
+          "baselineConditionCount": 253,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:876645.xyz"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1973,30 +1967,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 253,
-          "baselineConditionCount": 252,
-          "added": 1,
+          "baselineConditionCount": 253,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,876645.xyz"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.003968,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 1
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,876645.xyz"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
