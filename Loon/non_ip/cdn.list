@@ -1,7 +1,7 @@
 #########################################
 # CDN
-# Last Updated: 2026-10-25T12:47:31.281Z
-# Size: 4711
+# Last Updated: 2026-10-25T14:11:24.424Z
+# Size: 4695
 # Rules for CDN
 # Merged from 3 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -228,7 +228,6 @@ DOMAIN,i.xozilla.xxx
 DOMAIN,wimg.rule34.xxx
 DOMAIN,api.allorigins.win
 DOMAIN-SUFFIX,imglink.win
-DOMAIN,www.10086.win
 DOMAIN-SUFFIX,cloudforfun.vip
 DOMAIN-SUFFIX,cloudlin.vip
 DOMAIN,cdn-msp.18comic.vip
@@ -253,7 +252,6 @@ DOMAIN-SUFFIX,gitcdn.top
 DOMAIN-SUFFIX,balley.top
 DOMAIN-SUFFIX,akidoo.top
 DOMAIN-SUFFIX,dget.top
-DOMAIN,css.4jpg.top
 DOMAIN-SUFFIX,cktu01.sbs
 DOMAIN-SUFFIX,bundle.run
 DOMAIN,cdn.mer.run
@@ -475,7 +473,6 @@ DOMAIN,ooo.0o0.ooo
 DOMAIN-SUFFIX,usercontent.one
 DOMAIN,cdn-msp.jmcomic-zzz.one
 DOMAIN,wiki.metacubex.one
-DOMAIN,storageapi.fleek.one
 DOMAIN,static.xns.one
 DOMAIN-SUFFIX,ipfs.jbb.one
 DOMAIN-SUFFIX,gold-usergeneratedcontent.net
@@ -732,6 +729,7 @@ DOMAIN,badges.crowdin.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,cf-images.ap-northeast-1.prod.boltdns.net
 DOMAIN,cf-images.us-east-1.prod.boltdns.net
+DOMAIN,manifest.prod.boltdns.net
 DOMAIN,mir-s3-cdn-cf.behance.net
 DOMAIN,a5.behance.net
 DOMAIN,consentdeliveryfd.azurefd.net
@@ -745,7 +743,6 @@ DOMAIN,resize.yandex.net
 DOMAIN,avatars.mds.yandex.net
 DOMAIN-SUFFIX,cdn.yandex.net
 DOMAIN,cdn.xeiaso.net
-DOMAIN,avts.wmlabs.net
 DOMAIN,fast.wistia.net
 DOMAIN,cdn.wikimg.net
 DOMAIN,static.vocadb.net
@@ -1383,11 +1380,9 @@ DOMAIN,cdn-eu.dynamicyield.com
 DOMAIN,st-eu.dynamicyield.com
 DOMAIN,cdn.dynamicyield.com
 DOMAIN,st.dynamicyield.com
-DOMAIN,v-tiles3.downdetector.com
-DOMAIN,v-tiles2.downdetector.com
-DOMAIN,v-tiles1.downdetector.com
+DOMAIN,cdn4.downdetector.com
+DOMAIN,cdn3.downdetector.com
 DOMAIN,cdn2.downdetector.com
-DOMAIN,cdn.downdetector.com
 DOMAIN-SUFFIX,dockerstatic.com
 DOMAIN,segment.digitalocean.com
 DOMAIN,ui-cdn.digitalocean.com
@@ -1755,7 +1750,6 @@ DOMAIN,cdn.nerdschalk.com
 DOMAIN,cdn.app.neononepay.com
 DOMAIN,media.nbcnewyork.com
 DOMAIN,media.nationwide.com
-DOMAIN,tags.nationwide.com
 DOMAIN-SUFFIX,myspacecdn.com
 DOMAIN,r2cdn.myshopline.com
 DOMAIN-SUFFIX,myshopapps.com
@@ -1787,7 +1781,6 @@ DOMAIN-SUFFIX,storage.infomaniak.com
 DOMAIN-SUFFIX,cloud2.influxdata.com
 DOMAIN-SUFFIX,cloud1.influxdata.com
 DOMAIN-SUFFIX,cloud.influxdata.com
-DOMAIN,w2.influxdata.com
 DOMAIN,jssocdn.indiatimes.com
 DOMAIN-SUFFIX,imgikuncdn.com
 DOMAIN,cdn-thumbs.imagevenue.com
@@ -2583,7 +2576,6 @@ DOMAIN,assets.awwwards.com
 DOMAIN,cdn.accounts.autodesk.com
 DOMAIN,images.profile.autodesk.com
 DOMAIN,cdn.ashbyprd.com
-DOMAIN,imgrs.apkcombo.com
 DOMAIN,assets.apilayer.com
 DOMAIN,static.animaapp.com
 DOMAIN,c.animaapp.com
@@ -2762,7 +2754,6 @@ DOMAIN,c7.patreon.com
 DOMAIN,c6.patreon.com
 DOMAIN,c5.patreon.com
 DOMAIN,c4.patreon.com
-DOMAIN,c1.patreon.com
 DOMAIN,cdn.parsely.com
 DOMAIN,p-smith.com
 DOMAIN,assets.ontrack.com
@@ -3107,7 +3098,6 @@ DOMAIN-SUFFIX,sixyik.com
 DOMAIN-SUFFIX,simgbb.com
 DOMAIN-SUFFIX,shgcdn.com
 DOMAIN,assets.shazam.com
-DOMAIN,cache.sgvafs.com
 DOMAIN,b.sf-syn.com
 DOMAIN,stats.setapp.com
 DOMAIN,imgix.setapp.com
@@ -3944,7 +3934,6 @@ DOMAIN-SUFFIX,storry.tv
 DOMAIN,starlight.nebula.tv
 DOMAIN,images.nebula.tv
 DOMAIN,f.upanh.tv
-DOMAIN,walter-r2.trakt.tv
 DOMAIN,media.trakt.tv
 DOMAIN,static.tella.tv
 DOMAIN,static-homepage-en.pluto.tv
@@ -4025,7 +4014,6 @@ DOMAIN,openapi.vercel.sh
 DOMAIN-SUFFIX,surge.sh
 DOMAIN-SUFFIX,gateway.scarf.sh
 DOMAIN,static.scarf.sh
-DOMAIN,proxy.cors.sh
 DOMAIN,brew.sh
 DOMAIN,docs.brew.sh
 DOMAIN,flo.uri.sh
@@ -4263,7 +4251,6 @@ DOMAIN-SUFFIX,bigcontent.io
 DOMAIN-SUFFIX,wixstudio.io
 DOMAIN,cdn.transcend.io
 DOMAIN,static.tokenview.io
-DOMAIN,storage.synctrack.io
 DOMAIN,cdn.simplesat.io
 DOMAIN,assets.keysquare.io
 DOMAIN,media.hachyderm.io
@@ -4660,7 +4647,6 @@ DOMAIN,r2cdn.perplexity.ai
 DOMAIN,cdn.engagement.ai
 DOMAIN,assets.cloudpilot.ai
 DOMAIN,files.blocktempo.ai
-DOMAIN,cdn.seedance2.ai
 DOMAIN,api.instantly.ai
 DOMAIN,sdk.customfit.ai
 DOMAIN,static.returngo.ai
@@ -4678,8 +4664,6 @@ DOMAIN,cdn.fellou.ai
 DOMAIN,tag.tvads.ai
 DOMAIN,s3.masto.ai
 DOMAIN,images.higgs.ai
-DOMAIN,participants.evolv.ai
-DOMAIN,media.evolv.ai
 DOMAIN,cdn.candy.ai
 DOMAIN,cdn.candu.ai
 DOMAIN-SUFFIX,telemetry.services.yofi.ai
