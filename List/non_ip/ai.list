@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-10-27T01:29:36.973Z
-# Size: 289
+# Last Updated: 2026-10-27T03:40:21.315Z
+# Size: 292
 # Rules for AI
 # Merged from 5 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -99,6 +99,7 @@ DOMAIN,us-discoveryengine.googleapis.com,extended-matching
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,extended-matching
 DOMAIN,eu-discoveryengine.googleapis.com,extended-matching
 DOMAIN,daily-cloudcode-pa.googleapis.com,extended-matching
+DOMAIN,appsgenaiserver-pa.googleapis.com,extended-matching
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,extended-matching
 DOMAIN,content-autofill.googleapis.com,extended-matching
 DOMAIN,cloudaicompanion.googleapis.com,extended-matching
@@ -185,10 +186,12 @@ DOMAIN-SUFFIX,gateway.icloud.com,extended-matching
 DOMAIN-SUFFIX,antigravity.google.com,extended-matching
 DOMAIN-SUFFIX,makersuite.google.com,extended-matching
 DOMAIN-SUFFIX,notebook.google.com,extended-matching
+DOMAIN,appsgenaiserver-pa.clients6.google.com,extended-matching
 DOMAIN,alkalicore-pa.clients6.google.com,extended-matching
 DOMAIN,geminiweb-pa.clients6.google.com,extended-matching
 DOMAIN,waa-pa.clients6.google.com,extended-matching
 DOMAIN-SUFFIX,aistudio.google.com,extended-matching
+DOMAIN,appsgenaiserver-pa.clients.google.com,extended-matching
 DOMAIN,geminiweb-pa.clients.google.com,extended-matching
 DOMAIN-SUFFIX,gemini.google.com,extended-matching
 DOMAIN-SUFFIX,jules.google.com,extended-matching

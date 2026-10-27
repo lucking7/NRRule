@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-27T01:29:46.173Z",
+  "generatedAt": "2026-10-27T03:40:29.899Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7346385045"
+    "receiptId": "7347982280"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,27 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 458,
+      "currentConditionCount": 461,
       "baselineConditionCount": 458,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 439,
+          "semanticChanged": true,
+          "currentConditionCount": 442,
           "baselineConditionCount": 439,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,appsgenaiserver-pa.clients.google.com",
+              "DOMAIN,appsgenaiserver-pa.clients6.google.com",
+              "DOMAIN,appsgenaiserver-pa.googleapis.com"
+            ],
             "removed": []
           }
         },
@@ -132,13 +136,17 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 440,
+          "semanticChanged": true,
+          "currentConditionCount": 443,
           "baselineConditionCount": 440,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,appsgenaiserver-pa.clients.google.com",
+              "DOMAIN,appsgenaiserver-pa.clients6.google.com",
+              "DOMAIN,appsgenaiserver-pa.googleapis.com"
+            ],
             "removed": []
           }
         },
@@ -146,13 +154,17 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 438,
+          "semanticChanged": true,
+          "currentConditionCount": 441,
           "baselineConditionCount": 438,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain:appsgenaiserver-pa.clients.google.com",
+              "domain:appsgenaiserver-pa.clients6.google.com",
+              "domain:appsgenaiserver-pa.googleapis.com"
+            ],
             "removed": []
           }
         },
@@ -160,24 +172,34 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 440,
+          "semanticChanged": true,
+          "currentConditionCount": 443,
           "baselineConditionCount": 440,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,appsgenaiserver-pa.clients.google.com,extended-matching",
+              "DOMAIN,appsgenaiserver-pa.clients6.google.com,extended-matching",
+              "DOMAIN,appsgenaiserver-pa.googleapis.com,extended-matching"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 3,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.00655,
+      "addedByType": {
+        "DOMAIN": 3
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN,appsgenaiserver-pa.clients.google.com,extended-matching",
+          "DOMAIN,appsgenaiserver-pa.clients6.google.com,extended-matching",
+          "DOMAIN,appsgenaiserver-pa.googleapis.com,extended-matching"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -191,7 +213,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1431,7 +1453,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2344,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -3294,75 +3316,99 @@
       "status": "compared",
       "currentConditionCount": 146,
       "baselineConditionCount": 146,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 146,
           "baselineConditionCount": 146,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,netflix.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,netflix.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 146,
           "baselineConditionCount": 146,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,netflix.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,netflix.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 146,
           "baselineConditionCount": 146,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:netflix.com.edgesuite.net"
+            ],
+            "removed": [
+              "domain:netflix.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 146,
           "baselineConditionCount": 146,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,netflix.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,netflix.com.edgesuite.net"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1,
+      "removed": 1,
+      "changeRatio": 0.013699,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
+      "removedByType": {
+        "DOMAIN": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,netflix.com.edgesuite.net"
+        ],
+        "removed": [
+          "DOMAIN,netflix.com.edgesuite.net"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -4305,75 +4351,99 @@
       "status": "compared",
       "currentConditionCount": 25,
       "baselineConditionCount": 25,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 25,
           "baselineConditionCount": 25,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,spotify.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,spotify.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 25,
           "baselineConditionCount": 25,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,spotify.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,spotify.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 25,
           "baselineConditionCount": 25,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:spotify.com.edgesuite.net"
+            ],
+            "removed": [
+              "domain:spotify.com.edgesuite.net"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 25,
           "baselineConditionCount": 25,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,spotify.com.edgesuite.net"
+            ],
+            "removed": [
+              "DOMAIN,spotify.com.edgesuite.net"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1,
+      "removed": 1,
+      "changeRatio": 0.08,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
+      "removedByType": {
+        "DOMAIN": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,spotify.com.edgesuite.net"
+        ],
+        "removed": [
+          "DOMAIN,spotify.com.edgesuite.net"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
