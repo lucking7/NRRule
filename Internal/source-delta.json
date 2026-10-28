@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-28T01:14:22.160Z",
+  "generatedAt": "2026-10-28T03:56:18.333Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7373069053"
+    "receiptId": "7374565281"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,30 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 689,
+      "currentConditionCount": 695,
       "baselineConditionCount": 689,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 670,
+          "semanticChanged": true,
+          "currentConditionCount": 676,
           "baselineConditionCount": 670,
-          "added": 0,
+          "added": 6,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,artificialanalysis.ai",
+              "DOMAIN-SUFFIX,cline.bot",
+              "DOMAIN-SUFFIX,commandcode.ai",
+              "DOMAIN-SUFFIX,context7.com",
+              "DOMAIN-SUFFIX,metaaiusercontent.com",
+              "DOMAIN-SUFFIX,nousresearch.com"
+            ],
             "removed": []
           }
         },
@@ -132,13 +139,20 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 671,
+          "semanticChanged": true,
+          "currentConditionCount": 677,
           "baselineConditionCount": 671,
-          "added": 0,
+          "added": 6,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,artificialanalysis.ai",
+              "DOMAIN-SUFFIX,cline.bot",
+              "DOMAIN-SUFFIX,commandcode.ai",
+              "DOMAIN-SUFFIX,context7.com",
+              "DOMAIN-SUFFIX,metaaiusercontent.com",
+              "DOMAIN-SUFFIX,nousresearch.com"
+            ],
             "removed": []
           }
         },
@@ -146,13 +160,20 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 669,
+          "semanticChanged": true,
+          "currentConditionCount": 675,
           "baselineConditionCount": 669,
-          "added": 0,
+          "added": 6,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:artificialanalysis.ai",
+              "domain_suffix:cline.bot",
+              "domain_suffix:commandcode.ai",
+              "domain_suffix:context7.com",
+              "domain_suffix:metaaiusercontent.com",
+              "domain_suffix:nousresearch.com"
+            ],
             "removed": []
           }
         },
@@ -160,24 +181,40 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 671,
+          "semanticChanged": true,
+          "currentConditionCount": 677,
           "baselineConditionCount": 671,
-          "added": 0,
+          "added": 6,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,artificialanalysis.ai,extended-matching",
+              "DOMAIN-SUFFIX,cline.bot,extended-matching",
+              "DOMAIN-SUFFIX,commandcode.ai,extended-matching",
+              "DOMAIN-SUFFIX,context7.com,extended-matching",
+              "DOMAIN-SUFFIX,metaaiusercontent.com,extended-matching",
+              "DOMAIN-SUFFIX,nousresearch.com,extended-matching"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 6,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.008708,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 6
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,artificialanalysis.ai,extended-matching",
+          "DOMAIN-SUFFIX,cline.bot,extended-matching",
+          "DOMAIN-SUFFIX,commandcode.ai,extended-matching",
+          "DOMAIN-SUFFIX,context7.com,extended-matching",
+          "DOMAIN-SUFFIX,metaaiusercontent.com,extended-matching",
+          "DOMAIN-SUFFIX,nousresearch.com,extended-matching"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -191,7 +228,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -758,7 +795,7 @@
       "status": "compared",
       "currentConditionCount": 57,
       "baselineConditionCount": 57,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1431,7 +1468,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2359,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [

@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-10-28T01:14:12.170Z
-# Size: 292
+# Last Updated: 2026-10-28T03:56:10.237Z
+# Size: 298
 # Rules for AI
 # Merged from 5 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,ant.dev,extended-matching
 DOMAIN,browser-intake-datadoghq.com,extended-matching
 DOMAIN,rum.browser-intake-datadoghq.com,extended-matching
 DOMAIN-SUFFIX,agentclientprotocol.com,extended-matching
+DOMAIN-SUFFIX,metaaiusercontent.com,extended-matching
 DOMAIN,lh5.googleusercontent.com,extended-matching
 DOMAIN,lh3.googleusercontent.com,extended-matching
 DOMAIN,copilot-telemetry-service.githubusercontent.com,extended-matching
@@ -76,6 +77,7 @@ DOMAIN-SUFFIX,githubcopilot.com,extended-matching
 DOMAIN-SUFFIX,envato-static.com,extended-matching
 DOMAIN-SUFFIX,claudeacademy.com,extended-matching
 DOMAIN-SUFFIX,chatbotclaude.com,extended-matching
+DOMAIN-SUFFIX,nousresearch.com,extended-matching
 DOMAIN-SUFFIX,claudestudio.com,extended-matching
 DOMAIN-SUFFIX,spicywriter.com,extended-matching
 DOMAIN-SUFFIX,intercomcdn.com,extended-matching
@@ -162,6 +164,7 @@ DOMAIN-SUFFIX,dreamgen.com,extended-matching
 DOMAIN-SUFFIX,deepwiki.com,extended-matching
 DOMAIN-SUFFIX,deepmind.com,extended-matching
 DOMAIN-SUFFIX,cursorvm.com,extended-matching
+DOMAIN-SUFFIX,context7.com,extended-matching
 DOMAIN-SUFFIX,youmind.com,extended-matching
 DOMAIN,api.statsig.com,extended-matching
 DOMAIN,encrypted-tbn3.gstatic.com,extended-matching
@@ -233,6 +236,7 @@ DOMAIN,www.bing.com,extended-matching
 DOMAIN-SUFFIX,poe.com,extended-matching
 DOMAIN-SUFFIX,ai.com,extended-matching
 DOMAIN-SUFFIX,grok.x.com,extended-matching
+DOMAIN-SUFFIX,cline.bot,extended-matching
 DOMAIN-SUFFIX,claude.app,extended-matching
 DOMAIN-SUFFIX,udify.app,extended-matching
 DOMAIN-SUFFIX,traeapi.us,extended-matching
@@ -252,7 +256,9 @@ DOMAIN-SUFFIX,clau.de,extended-matching
 DOMAIN-SUFFIX,huggingface.co,extended-matching
 DOMAIN-SUFFIX,clipdrop.co,extended-matching
 DOMAIN-SUFFIX,hf.co,extended-matching
+DOMAIN-SUFFIX,artificialanalysis.ai,extended-matching
 DOMAIN-SUFFIX,plannotator.ai,extended-matching
+DOMAIN-SUFFIX,commandcode.ai,extended-matching
 DOMAIN-SUFFIX,perplexity.ai,extended-matching
 DOMAIN-SUFFIX,openrouter.ai,extended-matching
 DOMAIN-SUFFIX,coderabbit.ai,extended-matching

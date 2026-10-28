@@ -16,7 +16,7 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 156358,
+    "domainRules": 156364,
     "unsupportedRules": 5855,
     "fullyCoveredDomainRules": 465,
     "partlyOverlappingDomainRules": 1098,
@@ -184,8 +184,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 671,
-      "domainRules": 285,
+      "totalRules": 677,
+      "domainRules": 291,
       "unsupportedRules": 386,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 6,
@@ -233,7 +233,7 @@
         },
         {
           "rule": "DOMAIN,copilot-telemetry.githubusercontent.com",
-          "line": 64,
+          "line": 65,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -248,7 +248,7 @@
         },
         {
           "rule": "DOMAIN-SUFFIX,githubcopilot.com",
-          "line": 74,
+          "line": 75,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -263,7 +263,7 @@
         },
         {
           "rule": "DOMAIN,apple-relay.fastly-edge.com",
-          "line": 81,
+          "line": 83,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -454,7 +454,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 155,
+              "line": 157,
               "rule": "DOMAIN-SUFFIX,apps.mzstatic.com",
               "matchMode": "extended"
             }
@@ -469,7 +469,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 217,
+              "line": 220,
               "rule": "DOMAIN,guzzoni.apple.com",
               "matchMode": "extended"
             }
@@ -499,7 +499,7 @@
             {
               "subscription": "ai.list",
               "policy": "AI",
-              "line": 218,
+              "line": 221,
               "rule": "DOMAIN-SUFFIX,smoot.apple.com",
               "matchMode": "extended"
             }
