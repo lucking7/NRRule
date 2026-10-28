@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-10-28T23:36:06.978Z",
+  "generatedAt": "2026-10-28T23:57:50.317Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7398069165"
+    "receiptId": "7400046460"
   },
   "policy": {
     "sampleLimit": 20,
@@ -1067,25 +1067,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 3894,
-      "baselineConditionCount": 3892,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 3894,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3894,
-          "baselineConditionCount": 3892,
-          "added": 2,
+          "baselineConditionCount": 3894,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,103.36.28.0/22",
-              "IP-CIDR,112.73.96.0/19"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1093,16 +1090,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3894,
-          "baselineConditionCount": 3892,
-          "added": 2,
+          "baselineConditionCount": 3894,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,103.36.28.0/22",
-              "IP-CIDR,112.73.96.0/19"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1110,16 +1104,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3894,
-          "baselineConditionCount": 3892,
-          "added": 2,
+          "baselineConditionCount": 3894,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "ip_cidr:103.36.28.0/22",
-              "ip_cidr:112.73.96.0/19"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1127,32 +1118,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3894,
-          "baselineConditionCount": 3892,
-          "added": 2,
+          "baselineConditionCount": 3894,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,103.36.28.0/22",
-              "IP-CIDR,112.73.96.0/19"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 2,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000514,
-      "addedByType": {
-        "IP-CIDR": 2
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "IP-CIDR,103.36.28.0/22",
-          "IP-CIDR,112.73.96.0/19"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -3472,43 +3455,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 146545,
-      "baselineConditionCount": 146478,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 146545,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 146542,
-          "baselineConditionCount": 146475,
-          "added": 67,
+          "baselineConditionCount": 146542,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,3r3zok58ihon3teu7vvggt.cfd",
-              "DOMAIN-SUFFIX,agrwelled.cyou",
-              "DOMAIN-SUFFIX,agvmufccuavus.online",
-              "DOMAIN-SUFFIX,balkgymnast.cyou",
-              "DOMAIN-SUFFIX,bcfrmjrhbshgui.com",
-              "DOMAIN-SUFFIX,bluebellwillow.com",
-              "DOMAIN-SUFFIX,bobancemyzont.qpon",
-              "DOMAIN-SUFFIX,coesnugglyshilh.cyou",
-              "DOMAIN-SUFFIX,crematepreact.qpon",
-              "DOMAIN-SUFFIX,dwucjvpffbzla.space",
-              "DOMAIN-SUFFIX,echedarnatto.cfd",
-              "DOMAIN-SUFFIX,enylukombwf.com",
-              "DOMAIN-SUFFIX,eocgzcivoxhza.site",
-              "DOMAIN-SUFFIX,fhtuovdhdomcg.website",
-              "DOMAIN-SUFFIX,fnhxkilflxbhw.site",
-              "DOMAIN-SUFFIX,foyaiteedicts.qpon",
-              "DOMAIN-SUFFIX,fx4rjex2w1pnrm.cfd",
-              "DOMAIN-SUFFIX,gaudsmuyusaethide.cyou",
-              "DOMAIN-SUFFIX,glvyhoyrrlfmd.space",
-              "DOMAIN-SUFFIX,gojsvfahliydn.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3516,34 +3478,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 146530,
-          "baselineConditionCount": 146463,
-          "added": 67,
+          "baselineConditionCount": 146530,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,3r3zok58ihon3teu7vvggt.cfd",
-              "DOMAIN-SUFFIX,agrwelled.cyou",
-              "DOMAIN-SUFFIX,agvmufccuavus.online",
-              "DOMAIN-SUFFIX,balkgymnast.cyou",
-              "DOMAIN-SUFFIX,bcfrmjrhbshgui.com",
-              "DOMAIN-SUFFIX,bluebellwillow.com",
-              "DOMAIN-SUFFIX,bobancemyzont.qpon",
-              "DOMAIN-SUFFIX,coesnugglyshilh.cyou",
-              "DOMAIN-SUFFIX,crematepreact.qpon",
-              "DOMAIN-SUFFIX,dwucjvpffbzla.space",
-              "DOMAIN-SUFFIX,echedarnatto.cfd",
-              "DOMAIN-SUFFIX,enylukombwf.com",
-              "DOMAIN-SUFFIX,eocgzcivoxhza.site",
-              "DOMAIN-SUFFIX,fhtuovdhdomcg.website",
-              "DOMAIN-SUFFIX,fnhxkilflxbhw.site",
-              "DOMAIN-SUFFIX,foyaiteedicts.qpon",
-              "DOMAIN-SUFFIX,fx4rjex2w1pnrm.cfd",
-              "DOMAIN-SUFFIX,gaudsmuyusaethide.cyou",
-              "DOMAIN-SUFFIX,glvyhoyrrlfmd.space",
-              "DOMAIN-SUFFIX,gojsvfahliydn.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3551,34 +3492,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 146527,
-          "baselineConditionCount": 146460,
-          "added": 67,
+          "baselineConditionCount": 146527,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:3r3zok58ihon3teu7vvggt.cfd",
-              "domain_suffix:agrwelled.cyou",
-              "domain_suffix:agvmufccuavus.online",
-              "domain_suffix:balkgymnast.cyou",
-              "domain_suffix:bcfrmjrhbshgui.com",
-              "domain_suffix:bluebellwillow.com",
-              "domain_suffix:bobancemyzont.qpon",
-              "domain_suffix:coesnugglyshilh.cyou",
-              "domain_suffix:crematepreact.qpon",
-              "domain_suffix:dwucjvpffbzla.space",
-              "domain_suffix:echedarnatto.cfd",
-              "domain_suffix:enylukombwf.com",
-              "domain_suffix:eocgzcivoxhza.site",
-              "domain_suffix:fhtuovdhdomcg.website",
-              "domain_suffix:fnhxkilflxbhw.site",
-              "domain_suffix:foyaiteedicts.qpon",
-              "domain_suffix:fx4rjex2w1pnrm.cfd",
-              "domain_suffix:gaudsmuyusaethide.cyou",
-              "domain_suffix:glvyhoyrrlfmd.space",
-              "domain_suffix:gojsvfahliydn.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3586,68 +3506,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 146545,
-          "baselineConditionCount": 146478,
-          "added": 67,
+          "baselineConditionCount": 146545,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,3r3zok58ihon3teu7vvggt.cfd",
-              "DOMAIN-SUFFIX,agrwelled.cyou",
-              "DOMAIN-SUFFIX,agvmufccuavus.online",
-              "DOMAIN-SUFFIX,balkgymnast.cyou",
-              "DOMAIN-SUFFIX,bcfrmjrhbshgui.com",
-              "DOMAIN-SUFFIX,bluebellwillow.com",
-              "DOMAIN-SUFFIX,bobancemyzont.qpon",
-              "DOMAIN-SUFFIX,coesnugglyshilh.cyou",
-              "DOMAIN-SUFFIX,crematepreact.qpon",
-              "DOMAIN-SUFFIX,dwucjvpffbzla.space",
-              "DOMAIN-SUFFIX,echedarnatto.cfd",
-              "DOMAIN-SUFFIX,enylukombwf.com",
-              "DOMAIN-SUFFIX,eocgzcivoxhza.site",
-              "DOMAIN-SUFFIX,fhtuovdhdomcg.website",
-              "DOMAIN-SUFFIX,fnhxkilflxbhw.site",
-              "DOMAIN-SUFFIX,foyaiteedicts.qpon",
-              "DOMAIN-SUFFIX,fx4rjex2w1pnrm.cfd",
-              "DOMAIN-SUFFIX,gaudsmuyusaethide.cyou",
-              "DOMAIN-SUFFIX,glvyhoyrrlfmd.space",
-              "DOMAIN-SUFFIX,gojsvfahliydn.space"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 67,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000457,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 67
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,3r3zok58ihon3teu7vvggt.cfd",
-          "DOMAIN-SUFFIX,agrwelled.cyou",
-          "DOMAIN-SUFFIX,agvmufccuavus.online",
-          "DOMAIN-SUFFIX,balkgymnast.cyou",
-          "DOMAIN-SUFFIX,bcfrmjrhbshgui.com",
-          "DOMAIN-SUFFIX,bluebellwillow.com",
-          "DOMAIN-SUFFIX,bobancemyzont.qpon",
-          "DOMAIN-SUFFIX,coesnugglyshilh.cyou",
-          "DOMAIN-SUFFIX,crematepreact.qpon",
-          "DOMAIN-SUFFIX,dwucjvpffbzla.space",
-          "DOMAIN-SUFFIX,echedarnatto.cfd",
-          "DOMAIN-SUFFIX,enylukombwf.com",
-          "DOMAIN-SUFFIX,eocgzcivoxhza.site",
-          "DOMAIN-SUFFIX,fhtuovdhdomcg.website",
-          "DOMAIN-SUFFIX,fnhxkilflxbhw.site",
-          "DOMAIN-SUFFIX,foyaiteedicts.qpon",
-          "DOMAIN-SUFFIX,fx4rjex2w1pnrm.cfd",
-          "DOMAIN-SUFFIX,gaudsmuyusaethide.cyou",
-          "DOMAIN-SUFFIX,glvyhoyrrlfmd.space",
-          "DOMAIN-SUFFIX,gojsvfahliydn.space"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -3660,26 +3536,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 79038,
-      "baselineConditionCount": 79035,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 79038,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 79038,
-          "baselineConditionCount": 79035,
-          "added": 3,
+          "baselineConditionCount": 79038,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,guarandcensurewiping.cyou",
-              "DOMAIN-SUFFIX,itwbnrjr.com",
-              "DOMAIN-SUFFIX,mgoqifrqcwsma.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3687,17 +3559,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 79038,
-          "baselineConditionCount": 79035,
-          "added": 3,
+          "baselineConditionCount": 79038,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,guarandcensurewiping.cyou",
-              "DOMAIN-SUFFIX,itwbnrjr.com",
-              "DOMAIN-SUFFIX,mgoqifrqcwsma.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3705,17 +3573,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 79038,
-          "baselineConditionCount": 79035,
-          "added": 3,
+          "baselineConditionCount": 79038,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:guarandcensurewiping.cyou",
-              "domain_suffix:itwbnrjr.com",
-              "domain_suffix:mgoqifrqcwsma.space"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -3723,34 +3587,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 79038,
-          "baselineConditionCount": 79035,
-          "added": 3,
+          "baselineConditionCount": 79038,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,guarandcensurewiping.cyou",
-              "DOMAIN-SUFFIX,itwbnrjr.com",
-              "DOMAIN-SUFFIX,mgoqifrqcwsma.space"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 3,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000038,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 3
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,guarandcensurewiping.cyou",
-          "DOMAIN-SUFFIX,itwbnrjr.com",
-          "DOMAIN-SUFFIX,mgoqifrqcwsma.space"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -3763,290 +3617,76 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 141730,
-      "baselineConditionCount": 141665,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 141730,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 141730,
-          "baselineConditionCount": 141665,
-          "added": 1026,
-          "removed": 961,
+          "baselineConditionCount": 141730,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1-orbiogov.pages.dev",
-              "DOMAIN-SUFFIX,1-proposal-stark.pages.dev",
-              "DOMAIN-SUFFIX,10-orbioso.pages.dev",
-              "DOMAIN-SUFFIX,11-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,12-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,13-proposal-usenest.pages.dev",
-              "DOMAIN-SUFFIX,141-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,142-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,143-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,144-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,15-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,16-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,17-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,18-proposal-ponsfamily.pages.dev",
-              "DOMAIN-SUFFIX,1mem0i.arvertical.pl",
-              "DOMAIN-SUFFIX,1r2p8e-8v1m9p2a-8k9z2p1m4s-9m1p.pages.dev",
-              "DOMAIN-SUFFIX,1s8q9g-1v8m9p2a-8p9z1k2m4s-fsgc.pages.dev",
-              "DOMAIN-SUFFIX,1u8m9c-qw888agreg-mbtz9p1m8z2-qwxk.pages.dev",
-              "DOMAIN-SUFFIX,2-governance-gloam.pages.dev",
-              "DOMAIN-SUFFIX,2-preview-trade.pages.dev"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,026q38io2c3iyah1001nc03eic3324i451r5.netlify.app",
-              "DOMAIN-SUFFIX,1-app-termmax-ts.pages.dev",
-              "DOMAIN-SUFFIX,1-app-torchpad.pages.dev",
-              "DOMAIN-SUFFIX,1-arcus-votes.pages.dev",
-              "DOMAIN-SUFFIX,1-argusworldhub.pages.dev",
-              "DOMAIN-SUFFIX,1-clutch-market-stonk.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-longbow.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-metric.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-saturn.pages.dev",
-              "DOMAIN-SUFFIX,1-review-rocketpool.pages.dev",
-              "DOMAIN-SUFFIX,1-votes-axis.pages.dev",
-              "DOMAIN-SUFFIX,100-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,102-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,104-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,10bstreak-dpomslsms9xf.edgeone.dev",
-              "DOMAIN-SUFFIX,10bstudystreak-dp5jc4ne3lmf.edgeone.dev",
-              "DOMAIN-SUFFIX,1111sdsw-dpysy6gjquio.edgeone.dev",
-              "DOMAIN-SUFFIX,111generaltrading.com",
-              "DOMAIN-SUFFIX,13-governance-netnetcapital.pages.dev",
-              "DOMAIN-SUFFIX,135-proposal-prjx.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 141730,
-          "baselineConditionCount": 141665,
-          "added": 1026,
-          "removed": 961,
+          "baselineConditionCount": 141730,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1-orbiogov.pages.dev",
-              "DOMAIN-SUFFIX,1-proposal-stark.pages.dev",
-              "DOMAIN-SUFFIX,10-orbioso.pages.dev",
-              "DOMAIN-SUFFIX,11-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,12-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,13-proposal-usenest.pages.dev",
-              "DOMAIN-SUFFIX,141-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,142-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,143-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,144-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,15-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,16-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,17-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,18-proposal-ponsfamily.pages.dev",
-              "DOMAIN-SUFFIX,1mem0i.arvertical.pl",
-              "DOMAIN-SUFFIX,1r2p8e-8v1m9p2a-8k9z2p1m4s-9m1p.pages.dev",
-              "DOMAIN-SUFFIX,1s8q9g-1v8m9p2a-8p9z1k2m4s-fsgc.pages.dev",
-              "DOMAIN-SUFFIX,1u8m9c-qw888agreg-mbtz9p1m8z2-qwxk.pages.dev",
-              "DOMAIN-SUFFIX,2-governance-gloam.pages.dev",
-              "DOMAIN-SUFFIX,2-preview-trade.pages.dev"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,026q38io2c3iyah1001nc03eic3324i451r5.netlify.app",
-              "DOMAIN-SUFFIX,1-app-termmax-ts.pages.dev",
-              "DOMAIN-SUFFIX,1-app-torchpad.pages.dev",
-              "DOMAIN-SUFFIX,1-arcus-votes.pages.dev",
-              "DOMAIN-SUFFIX,1-argusworldhub.pages.dev",
-              "DOMAIN-SUFFIX,1-clutch-market-stonk.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-longbow.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-metric.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-saturn.pages.dev",
-              "DOMAIN-SUFFIX,1-review-rocketpool.pages.dev",
-              "DOMAIN-SUFFIX,1-votes-axis.pages.dev",
-              "DOMAIN-SUFFIX,100-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,102-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,104-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,10bstreak-dpomslsms9xf.edgeone.dev",
-              "DOMAIN-SUFFIX,10bstudystreak-dp5jc4ne3lmf.edgeone.dev",
-              "DOMAIN-SUFFIX,1111sdsw-dpysy6gjquio.edgeone.dev",
-              "DOMAIN-SUFFIX,111generaltrading.com",
-              "DOMAIN-SUFFIX,13-governance-netnetcapital.pages.dev",
-              "DOMAIN-SUFFIX,135-proposal-prjx.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 141730,
-          "baselineConditionCount": 141665,
-          "added": 1026,
-          "removed": 961,
+          "baselineConditionCount": 141730,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:1-orbiogov.pages.dev",
-              "domain_suffix:1-proposal-stark.pages.dev",
-              "domain_suffix:10-orbioso.pages.dev",
-              "domain_suffix:11-checker-standx.pages.dev",
-              "domain_suffix:12-checker-standx.pages.dev",
-              "domain_suffix:13-proposal-usenest.pages.dev",
-              "domain_suffix:141-proposal-prjx.pages.dev",
-              "domain_suffix:142-proposal-prjx.pages.dev",
-              "domain_suffix:143-proposal-prjx.pages.dev",
-              "domain_suffix:144-proposal-prjx.pages.dev",
-              "domain_suffix:15-papertradehub.pages.dev",
-              "domain_suffix:16-papertradehub.pages.dev",
-              "domain_suffix:17-papertradehub.pages.dev",
-              "domain_suffix:18-proposal-ponsfamily.pages.dev",
-              "domain_suffix:1mem0i.arvertical.pl",
-              "domain_suffix:1r2p8e-8v1m9p2a-8k9z2p1m4s-9m1p.pages.dev",
-              "domain_suffix:1s8q9g-1v8m9p2a-8p9z1k2m4s-fsgc.pages.dev",
-              "domain_suffix:1u8m9c-qw888agreg-mbtz9p1m8z2-qwxk.pages.dev",
-              "domain_suffix:2-governance-gloam.pages.dev",
-              "domain_suffix:2-preview-trade.pages.dev"
-            ],
-            "removed": [
-              "domain_suffix:026q38io2c3iyah1001nc03eic3324i451r5.netlify.app",
-              "domain_suffix:1-app-termmax-ts.pages.dev",
-              "domain_suffix:1-app-torchpad.pages.dev",
-              "domain_suffix:1-arcus-votes.pages.dev",
-              "domain_suffix:1-argusworldhub.pages.dev",
-              "domain_suffix:1-clutch-market-stonk.pages.dev",
-              "domain_suffix:1-governance-longbow.pages.dev",
-              "domain_suffix:1-governance-metric.pages.dev",
-              "domain_suffix:1-governance-saturn.pages.dev",
-              "domain_suffix:1-review-rocketpool.pages.dev",
-              "domain_suffix:1-votes-axis.pages.dev",
-              "domain_suffix:100-governance-venice.pages.dev",
-              "domain_suffix:102-governance-venice.pages.dev",
-              "domain_suffix:104-governance-venice.pages.dev",
-              "domain_suffix:10bstreak-dpomslsms9xf.edgeone.dev",
-              "domain_suffix:10bstudystreak-dp5jc4ne3lmf.edgeone.dev",
-              "domain_suffix:1111sdsw-dpysy6gjquio.edgeone.dev",
-              "domain_suffix:111generaltrading.com",
-              "domain_suffix:13-governance-netnetcapital.pages.dev",
-              "domain_suffix:135-proposal-prjx.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 141730,
-          "baselineConditionCount": 141665,
-          "added": 1026,
-          "removed": 961,
+          "baselineConditionCount": 141730,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1-orbiogov.pages.dev",
-              "DOMAIN-SUFFIX,1-proposal-stark.pages.dev",
-              "DOMAIN-SUFFIX,10-orbioso.pages.dev",
-              "DOMAIN-SUFFIX,11-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,12-checker-standx.pages.dev",
-              "DOMAIN-SUFFIX,13-proposal-usenest.pages.dev",
-              "DOMAIN-SUFFIX,141-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,142-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,143-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,144-proposal-prjx.pages.dev",
-              "DOMAIN-SUFFIX,15-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,16-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,17-papertradehub.pages.dev",
-              "DOMAIN-SUFFIX,18-proposal-ponsfamily.pages.dev",
-              "DOMAIN-SUFFIX,1mem0i.arvertical.pl",
-              "DOMAIN-SUFFIX,1r2p8e-8v1m9p2a-8k9z2p1m4s-9m1p.pages.dev",
-              "DOMAIN-SUFFIX,1s8q9g-1v8m9p2a-8p9z1k2m4s-fsgc.pages.dev",
-              "DOMAIN-SUFFIX,1u8m9c-qw888agreg-mbtz9p1m8z2-qwxk.pages.dev",
-              "DOMAIN-SUFFIX,2-governance-gloam.pages.dev",
-              "DOMAIN-SUFFIX,2-preview-trade.pages.dev"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,026q38io2c3iyah1001nc03eic3324i451r5.netlify.app",
-              "DOMAIN-SUFFIX,1-app-termmax-ts.pages.dev",
-              "DOMAIN-SUFFIX,1-app-torchpad.pages.dev",
-              "DOMAIN-SUFFIX,1-arcus-votes.pages.dev",
-              "DOMAIN-SUFFIX,1-argusworldhub.pages.dev",
-              "DOMAIN-SUFFIX,1-clutch-market-stonk.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-longbow.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-metric.pages.dev",
-              "DOMAIN-SUFFIX,1-governance-saturn.pages.dev",
-              "DOMAIN-SUFFIX,1-review-rocketpool.pages.dev",
-              "DOMAIN-SUFFIX,1-votes-axis.pages.dev",
-              "DOMAIN-SUFFIX,100-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,102-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,104-governance-venice.pages.dev",
-              "DOMAIN-SUFFIX,10bstreak-dpomslsms9xf.edgeone.dev",
-              "DOMAIN-SUFFIX,10bstudystreak-dp5jc4ne3lmf.edgeone.dev",
-              "DOMAIN-SUFFIX,1111sdsw-dpysy6gjquio.edgeone.dev",
-              "DOMAIN-SUFFIX,111generaltrading.com",
-              "DOMAIN-SUFFIX,13-governance-netnetcapital.pages.dev",
-              "DOMAIN-SUFFIX,135-proposal-prjx.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         }
       ],
-      "added": 1026,
-      "removed": 961,
-      "changeRatio": 0.014026,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 1026
-      },
-      "removedByType": {
-        "DOMAIN-SUFFIX": 961
-      },
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
+      "addedByType": {},
+      "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,1-orbiogov.pages.dev",
-          "DOMAIN-SUFFIX,1-proposal-stark.pages.dev",
-          "DOMAIN-SUFFIX,10-orbioso.pages.dev",
-          "DOMAIN-SUFFIX,11-checker-standx.pages.dev",
-          "DOMAIN-SUFFIX,12-checker-standx.pages.dev",
-          "DOMAIN-SUFFIX,13-proposal-usenest.pages.dev",
-          "DOMAIN-SUFFIX,141-proposal-prjx.pages.dev",
-          "DOMAIN-SUFFIX,142-proposal-prjx.pages.dev",
-          "DOMAIN-SUFFIX,143-proposal-prjx.pages.dev",
-          "DOMAIN-SUFFIX,144-proposal-prjx.pages.dev",
-          "DOMAIN-SUFFIX,15-papertradehub.pages.dev",
-          "DOMAIN-SUFFIX,16-papertradehub.pages.dev",
-          "DOMAIN-SUFFIX,17-papertradehub.pages.dev",
-          "DOMAIN-SUFFIX,18-proposal-ponsfamily.pages.dev",
-          "DOMAIN-SUFFIX,1mem0i.arvertical.pl",
-          "DOMAIN-SUFFIX,1r2p8e-8v1m9p2a-8k9z2p1m4s-9m1p.pages.dev",
-          "DOMAIN-SUFFIX,1s8q9g-1v8m9p2a-8p9z1k2m4s-fsgc.pages.dev",
-          "DOMAIN-SUFFIX,1u8m9c-qw888agreg-mbtz9p1m8z2-qwxk.pages.dev",
-          "DOMAIN-SUFFIX,2-governance-gloam.pages.dev",
-          "DOMAIN-SUFFIX,2-preview-trade.pages.dev"
-        ],
-        "removed": [
-          "DOMAIN-SUFFIX,026q38io2c3iyah1001nc03eic3324i451r5.netlify.app",
-          "DOMAIN-SUFFIX,1-app-termmax-ts.pages.dev",
-          "DOMAIN-SUFFIX,1-app-torchpad.pages.dev",
-          "DOMAIN-SUFFIX,1-arcus-votes.pages.dev",
-          "DOMAIN-SUFFIX,1-argusworldhub.pages.dev",
-          "DOMAIN-SUFFIX,1-clutch-market-stonk.pages.dev",
-          "DOMAIN-SUFFIX,1-governance-longbow.pages.dev",
-          "DOMAIN-SUFFIX,1-governance-metric.pages.dev",
-          "DOMAIN-SUFFIX,1-governance-saturn.pages.dev",
-          "DOMAIN-SUFFIX,1-review-rocketpool.pages.dev",
-          "DOMAIN-SUFFIX,1-votes-axis.pages.dev",
-          "DOMAIN-SUFFIX,100-governance-venice.pages.dev",
-          "DOMAIN-SUFFIX,102-governance-venice.pages.dev",
-          "DOMAIN-SUFFIX,104-governance-venice.pages.dev",
-          "DOMAIN-SUFFIX,10bstreak-dpomslsms9xf.edgeone.dev",
-          "DOMAIN-SUFFIX,10bstudystreak-dp5jc4ne3lmf.edgeone.dev",
-          "DOMAIN-SUFFIX,1111sdsw-dpysy6gjquio.edgeone.dev",
-          "DOMAIN-SUFFIX,111generaltrading.com",
-          "DOMAIN-SUFFIX,13-governance-netnetcapital.pages.dev",
-          "DOMAIN-SUFFIX,135-proposal-prjx.pages.dev"
-        ]
+        "added": [],
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -4421,25 +4061,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 3457,
-      "baselineConditionCount": 3455,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 3457,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3456,
-          "baselineConditionCount": 3454,
-          "added": 2,
+          "baselineConditionCount": 3456,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,speedtest-34-1g.mustafasevinc.com.tr",
-              "DOMAIN,speedtest.jdtelecom.com.br"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -4447,16 +4084,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3456,
-          "baselineConditionCount": 3454,
-          "added": 2,
+          "baselineConditionCount": 3456,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,speedtest-34-1g.mustafasevinc.com.tr",
-              "DOMAIN,speedtest.jdtelecom.com.br"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -4464,16 +4098,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3456,
-          "baselineConditionCount": 3454,
-          "added": 2,
+          "baselineConditionCount": 3456,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:speedtest-34-1g.mustafasevinc.com.tr",
-              "domain:speedtest.jdtelecom.com.br"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -4481,32 +4112,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3456,
-          "baselineConditionCount": 3454,
-          "added": 2,
+          "baselineConditionCount": 3456,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,speedtest-34-1g.mustafasevinc.com.tr",
-              "DOMAIN,speedtest.jdtelecom.com.br"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 2,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000579,
-      "addedByType": {
-        "DOMAIN": 2
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,speedtest-34-1g.mustafasevinc.com.tr",
-          "DOMAIN,speedtest.jdtelecom.com.br"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
