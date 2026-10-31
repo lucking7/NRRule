@@ -130,7 +130,6 @@ DOMAIN,httpdns-sdk.n.netease.com
 DOMAIN,httpdns.yunxindns.com
 DOMAIN,lofter.httpdns.c.163.com
 DOMAIN,music.httpdns.c.163.com
-DOMAIN,httpdns.yunxindns.com
 IP-CIDR,59.111.239.61/32,no-resolve
 IP-CIDR,59.111.239.62/32,no-resolve
 IP-CIDR,115.236.121.51/32,no-resolve
@@ -153,7 +152,6 @@ IP-CIDR,116.85.2.41/32,no-resolve
 IP-CIDR,116.85.3.39/32,no-resolve
 IP-CIDR,123.207.209.142/32,no-resolve
 IP-CIDR,139.199.240.84/32,no-resolve
-DOMAIN,httpdns.zybang.com
 DOMAIN,serveraddr.service.kugou.com
 DOMAIN,twns.p2ptun.qq.com
 DOMAIN,tp2p.kg.qq.com
@@ -161,7 +159,6 @@ IP-CIDR,81.71.61.216/32,no-resolve
 DOMAIN,httpdns.immomo.com
 URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?):\d+\/httpdns\/"
 URL-REGEX,"^http:\/\/\[[0-9a-fA-F:]+\]:\d+\/httpdns\/"
-DOMAIN,httpdns.zybang.com
 
 # ----------- 可莉广告过滤器 ------------
 
@@ -171,7 +168,6 @@ DOMAIN,sin3-ib.adnxs.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,tracking.intl.miui.com
-DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN,business.msstatic.com
@@ -227,7 +223,6 @@ AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC))
 DOMAIN,titan.pinduoduo.com
 DOMAIN,xg.pinduoduo.com
 DOMAIN,cdl-1.pddpic.com
-DOMAIN,titan.pinduoduo.com
 DOMAIN,cdl-p2.pddpic.com
 DOMAIN,cd-1.pddpic.com
 DOMAIN,apm.pinduoduo.com
@@ -273,9 +268,7 @@ DOMAIN,adx-open-service.youku.com
 DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,cad.youku.com
 DOMAIN,ykad-data.youku.com
-DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,amdc.m.youku.com
-DOMAIN,cad.youku.com
 DOMAIN,nbsdk-baichuan.alicdn.com
 DOMAIN,youku-crm-product.youku.com
 DOMAIN,dr-danmu.youku.com
@@ -295,8 +288,6 @@ DOMAIN,sdk.ad.sfys365.com
 
 # ----------- QQ音乐去广告 ------------
 
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,ad.tencentmusic.com
 DOMAIN,adcdn.tencentmusic.com
 DOMAIN,adcdn6.tencentmusic.com
 DOMAIN,adexpo.tencentmusic.com
@@ -361,7 +352,6 @@ DOMAIN,adashx.m.taobao.com
 DOMAIN,ossgw.alicdn.com
 DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
-DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
 
 # ----------- 滴滴出行去广告 ------------
