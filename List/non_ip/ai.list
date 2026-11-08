@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-11-08T01:23:02.558Z
-# Size: 298
+# Last Updated: 2026-11-08T04:19:19.033Z
+# Size: 302
 # Rules for AI
 # Merged from 5 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -147,6 +147,7 @@ DOMAIN-SUFFIX,copilot.microsoft.com,extended-matching
 DOMAIN-SUFFIX,langchain.com,extended-matching
 DOMAIN,account.jetbrains.com,extended-matching
 DOMAIN,oauth.account.jetbrains.com,extended-matching
+DOMAIN,http-intake.logs.us5.datadoghq.com,extended-matching
 DOMAIN-SUFFIX,cursorapi.com,extended-matching
 DOMAIN-SUFFIX,ciciaicdn.com,extended-matching
 DOMAIN-SUFFIX,anthropic.com,extended-matching
@@ -175,6 +176,7 @@ DOMAIN-SUFFIX,gemini.gstatic.com,extended-matching
 DOMAIN,fonts.gstatic.com,extended-matching
 DOMAIN,maps.gstatic.com,extended-matching
 DOMAIN,ssl.gstatic.com,extended-matching
+DOMAIN-SUFFIX,grokbot.com,extended-matching
 DOMAIN,default.exp-tas.com,extended-matching
 DOMAIN-SUFFIX,copilot.com,extended-matching
 DOMAIN-SUFFIX,codeium.com,extended-matching
@@ -216,6 +218,7 @@ DOMAIN-SUFFIX,cohere.com,extended-matching
 DOMAIN-SUFFIX,claude.com,extended-matching
 DOMAIN-SUFFIX,ciciai.com,extended-matching
 DOMAIN-SUFFIX,qoder.com,extended-matching
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com,extended-matching
 DOMAIN,anthropic.auth0.com,extended-matching
 DOMAIN,apple-relay.apple.com,extended-matching
 DOMAIN,guzzoni.apple.com,extended-matching
@@ -249,6 +252,7 @@ DOMAIN-SUFFIX,notegpt.io,extended-matching
 DOMAIN-SUFFIX,minimax.io,extended-matching
 DOMAIN,o207216.ingest.sentry.io,extended-matching
 DOMAIN,o33249.ingest.sentry.io,extended-matching
+DOMAIN,o1158394.ingest.us.sentry.io,extended-matching
 DOMAIN,o33249.ingest.us.sentry.io,extended-matching
 DOMAIN,anthropic-com.ghost.io,extended-matching
 DOMAIN-SUFFIX,manus.im,extended-matching

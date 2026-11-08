@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-08T01:23:11.732Z",
+  "generatedAt": "2026-11-08T04:19:26.431Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7628612369"
+    "receiptId": "7629706577"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,28 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 717,
+      "currentConditionCount": 721,
       "baselineConditionCount": 717,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 698,
+          "semanticChanged": true,
+          "currentConditionCount": 702,
           "baselineConditionCount": 698,
-          "added": 0,
+          "added": 4,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,http-intake.logs.us5.datadoghq.com",
+              "DOMAIN,o1158394.ingest.us.sentry.io",
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
+              "DOMAIN-SUFFIX,grokbot.com"
+            ],
             "removed": []
           }
         },
@@ -132,13 +137,18 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 699,
+          "semanticChanged": true,
+          "currentConditionCount": 703,
           "baselineConditionCount": 699,
-          "added": 0,
+          "added": 4,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,http-intake.logs.us5.datadoghq.com",
+              "DOMAIN,o1158394.ingest.us.sentry.io",
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
+              "DOMAIN-SUFFIX,grokbot.com"
+            ],
             "removed": []
           }
         },
@@ -146,13 +156,18 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 697,
+          "semanticChanged": true,
+          "currentConditionCount": 701,
           "baselineConditionCount": 697,
-          "added": 0,
+          "added": 4,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain:http-intake.logs.us5.datadoghq.com",
+              "domain:o1158394.ingest.us.sentry.io",
+              "domain:production-copilot-host-westus.webpubsub.azure.com",
+              "domain_suffix:grokbot.com"
+            ],
             "removed": []
           }
         },
@@ -160,24 +175,37 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 699,
+          "semanticChanged": true,
+          "currentConditionCount": 703,
           "baselineConditionCount": 699,
-          "added": 0,
+          "added": 4,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,http-intake.logs.us5.datadoghq.com,extended-matching",
+              "DOMAIN,o1158394.ingest.us.sentry.io,extended-matching",
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com,extended-matching",
+              "DOMAIN-SUFFIX,grokbot.com,extended-matching"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 4,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.005579,
+      "addedByType": {
+        "DOMAIN": 3,
+        "DOMAIN-SUFFIX": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN,http-intake.logs.us5.datadoghq.com,extended-matching",
+          "DOMAIN,o1158394.ingest.us.sentry.io,extended-matching",
+          "DOMAIN,production-copilot-host-westus.webpubsub.azure.com,extended-matching",
+          "DOMAIN-SUFFIX,grokbot.com,extended-matching"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -191,7 +219,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1431,7 +1459,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2077,23 +2105,25 @@
       "rulesetId": "github",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 59,
+      "currentConditionCount": 60,
       "baselineConditionCount": 59,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 59,
+          "semanticChanged": true,
+          "currentConditionCount": 60,
           "baselineConditionCount": 59,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com"
+            ],
             "removed": []
           }
         },
@@ -2101,13 +2131,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 59,
+          "semanticChanged": true,
+          "currentConditionCount": 60,
           "baselineConditionCount": 59,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com"
+            ],
             "removed": []
           }
         },
@@ -2115,13 +2147,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 59,
+          "semanticChanged": true,
+          "currentConditionCount": 60,
           "baselineConditionCount": 59,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain:production-copilot-host-westus.webpubsub.azure.com"
+            ],
             "removed": []
           }
         },
@@ -2129,24 +2163,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 59,
+          "semanticChanged": true,
+          "currentConditionCount": 60,
           "baselineConditionCount": 59,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,production-copilot-host-westus.webpubsub.azure.com"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.016949,
+      "addedByType": {
+        "DOMAIN": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN,production-copilot-host-westus.webpubsub.azure.com"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -2322,7 +2362,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [

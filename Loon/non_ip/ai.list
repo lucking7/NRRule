@@ -1,7 +1,7 @@
 #########################################
 # AI
-# Last Updated: 2026-11-08T01:23:02.558Z
-# Size: 298
+# Last Updated: 2026-11-08T04:19:19.033Z
+# Size: 302
 # Rules for AI
 # Merged from 5 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -147,6 +147,7 @@ DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,langchain.com
 DOMAIN,account.jetbrains.com
 DOMAIN,oauth.account.jetbrains.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,anthropic.com
@@ -175,6 +176,7 @@ DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN,fonts.gstatic.com
 DOMAIN,maps.gstatic.com
 DOMAIN,ssl.gstatic.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN,default.exp-tas.com
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,codeium.com
@@ -216,6 +218,7 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,qoder.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 DOMAIN,anthropic.auth0.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,guzzoni.apple.com
@@ -249,6 +252,7 @@ DOMAIN-SUFFIX,notegpt.io
 DOMAIN-SUFFIX,minimax.io
 DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN,o33249.ingest.us.sentry.io
 DOMAIN,anthropic-com.ghost.io
 DOMAIN-SUFFIX,manus.im
