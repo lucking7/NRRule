@@ -76,6 +76,47 @@
       "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
     },
     {
+      "id": "ruleset:streaming_cn",
+      "state": "retired",
+      "paths": [
+        "List/streaming_cn.list",
+        "List/non_ip/streaming_cn.list",
+        "List/ip/streaming_cn.list",
+        "Clash/streaming_cn.txt",
+        "Clash/non_ip/streaming_cn.txt",
+        "Clash/ip/streaming_cn.txt",
+        "Loon/streaming_cn.list",
+        "Loon/non_ip/streaming_cn.list",
+        "Loon/ip/streaming_cn.list",
+        "sing-box/streaming_cn.json",
+        "sing-box/non_ip/streaming_cn.json",
+        "sing-box/ip/streaming_cn.json"
+      ],
+      "reason": "Only upstream ConnersHua/RuleGo is no longer maintained; its China streaming list last changed in 2023",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset"
+    },
+    {
+      "id": "ruleset:streaming_!cn",
+      "state": "retired",
+      "paths": [
+        "List/streaming_!cn.list",
+        "List/non_ip/streaming_!cn.list",
+        "List/ip/streaming_!cn.list",
+        "Clash/streaming_!cn.txt",
+        "Clash/non_ip/streaming_!cn.txt",
+        "Clash/ip/streaming_!cn.txt",
+        "Loon/streaming_!cn.list",
+        "Loon/non_ip/streaming_!cn.list",
+        "Loon/ip/streaming_!cn.list",
+        "sing-box/streaming_!cn.json",
+        "sing-box/non_ip/streaming_!cn.json",
+        "sing-box/ip/streaming_!cn.json"
+      ],
+      "reason": "Only upstream ConnersHua/RuleGo is no longer maintained",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset",
+      "replacement": "<platform>/stream (Sukka; covered 73.7% of the last RuleGo list, missing mostly discontinued HBO GO Asia hosts)"
+    },
+    {
       "id": "ruleset:china_asn:sing-box",
       "state": "retired",
       "paths": [
