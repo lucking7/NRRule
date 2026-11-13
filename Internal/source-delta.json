@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-13T11:57:38.256Z",
+  "generatedAt": "2026-11-13T12:54:50.342Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7754108469"
+    "receiptId": "7764651680"
   },
   "policy": {
     "sampleLimit": 20,
@@ -110,7 +110,7 @@
       "status": "compared",
       "currentConditionCount": 845,
       "baselineConditionCount": 845,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -191,7 +191,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -919,24 +919,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 4788,
-      "baselineConditionCount": 4787,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 4788,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 4765,
-          "baselineConditionCount": 4764,
-          "added": 1,
+          "baselineConditionCount": 4765,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,public.popclip.app"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -944,15 +942,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 4704,
-          "baselineConditionCount": 4703,
-          "added": 1,
+          "baselineConditionCount": 4704,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,public.popclip.app"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -960,15 +956,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 4765,
-          "baselineConditionCount": 4764,
-          "added": 1,
+          "baselineConditionCount": 4765,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:public.popclip.app"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -976,30 +970,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 4765,
-          "baselineConditionCount": 4764,
-          "added": 1,
+          "baselineConditionCount": 4765,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,public.popclip.app"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000209,
-      "addedByType": {
-        "DOMAIN": 1
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,public.popclip.app"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1079,24 +1067,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 3890,
-      "baselineConditionCount": 3889,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 3890,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3890,
-          "baselineConditionCount": 3889,
-          "added": 1,
+          "baselineConditionCount": 3890,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,182.255.60.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1104,15 +1090,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3890,
-          "baselineConditionCount": 3889,
-          "added": 1,
+          "baselineConditionCount": 3890,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,182.255.60.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1120,15 +1104,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3890,
-          "baselineConditionCount": 3889,
-          "added": 1,
+          "baselineConditionCount": 3890,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "ip_cidr:182.255.60.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1136,30 +1118,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 3890,
-          "baselineConditionCount": 3889,
-          "added": 1,
+          "baselineConditionCount": 3890,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,182.255.60.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.000257,
-      "addedByType": {
-        "IP-CIDR": 1
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "IP-CIDR,182.255.60.0/22"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1455,7 +1431,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1535,25 +1511,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 877,
-      "baselineConditionCount": 875,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 877,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 874,
-          "baselineConditionCount": 872,
-          "added": 2,
+          "baselineConditionCount": 874,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1561,16 +1534,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 876,
-          "baselineConditionCount": 874,
-          "added": 2,
+          "baselineConditionCount": 876,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1578,16 +1548,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 874,
-          "baselineConditionCount": 872,
-          "added": 2,
+          "baselineConditionCount": 874,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:app.jianguoyun.com",
-              "domain:comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1595,32 +1562,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 877,
-          "baselineConditionCount": 875,
-          "added": 2,
+          "baselineConditionCount": 877,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 2,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.002286,
-      "addedByType": {
-        "DOMAIN": 2
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,app.jianguoyun.com",
-          "DOMAIN,comet.jianguoyun.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1633,25 +1592,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 21,
-      "baselineConditionCount": 19,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 21,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 21,
-          "baselineConditionCount": 19,
-          "added": 2,
+          "baselineConditionCount": 21,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1659,16 +1615,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 20,
-          "baselineConditionCount": 18,
-          "added": 2,
+          "baselineConditionCount": 20,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1676,16 +1629,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 21,
-          "baselineConditionCount": 19,
-          "added": 2,
+          "baselineConditionCount": 21,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain:app.jianguoyun.com",
-              "domain:comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -1693,32 +1643,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 21,
-          "baselineConditionCount": 19,
-          "added": 2,
+          "baselineConditionCount": 21,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,app.jianguoyun.com",
-              "DOMAIN,comet.jianguoyun.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 2,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.105263,
-      "addedByType": {
-        "DOMAIN": 2
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,app.jianguoyun.com",
-          "DOMAIN,comet.jianguoyun.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -2380,7 +2322,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -3513,290 +3455,76 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 150597,
-      "baselineConditionCount": 150585,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 150597,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 150594,
-          "baselineConditionCount": 150582,
-          "added": 235,
-          "removed": 223,
+          "baselineConditionCount": 150594,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,0d64b8eaa5.com",
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,aboachipihdor.space",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,alifthymoma.cyou",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,atl0g02nj.com",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,auritewrager.cyou",
-              "DOMAIN-SUFFIX,avevumywadmrw.website",
-              "DOMAIN-SUFFIX,awvvvtvvwgvbj.site",
-              "DOMAIN-SUFFIX,axozfywvzgzxb.space",
-              "DOMAIN-SUFFIX,barabrabronzy.com",
-              "DOMAIN-SUFFIX,bleakerspace.rest",
-              "DOMAIN-SUFFIX,bogcojvexhjfw.website",
-              "DOMAIN-SUFFIX,braillehungry.click"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,747.95g9qp282fj9bxrp.cfd",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 150582,
-          "baselineConditionCount": 150570,
-          "added": 235,
-          "removed": 223,
+          "baselineConditionCount": 150582,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,0d64b8eaa5.com",
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,aboachipihdor.space",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,alifthymoma.cyou",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,atl0g02nj.com",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,auritewrager.cyou",
-              "DOMAIN-SUFFIX,avevumywadmrw.website",
-              "DOMAIN-SUFFIX,awvvvtvvwgvbj.site",
-              "DOMAIN-SUFFIX,axozfywvzgzxb.space",
-              "DOMAIN-SUFFIX,barabrabronzy.com",
-              "DOMAIN-SUFFIX,bleakerspace.rest",
-              "DOMAIN-SUFFIX,bogcojvexhjfw.website",
-              "DOMAIN-SUFFIX,braillehungry.click"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,747.95g9qp282fj9bxrp.cfd",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 150579,
-          "baselineConditionCount": 150567,
-          "added": 235,
-          "removed": 223,
+          "baselineConditionCount": 150579,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:0d64b8eaa5.com",
-              "domain_suffix:1odi7j43c.de",
-              "domain_suffix:22blqkmkg.de",
-              "domain_suffix:4puzh1khwkuovbr9ipujmtf.cfd",
-              "domain_suffix:aboachipihdor.space",
-              "domain_suffix:addictedpledgeabridge.com",
-              "domain_suffix:adjacenthairshag.com",
-              "domain_suffix:aifgjdcarlmow.space",
-              "domain_suffix:alifthymoma.cyou",
-              "domain_suffix:atdtigfkumig.in",
-              "domain_suffix:atl0g02nj.com",
-              "domain_suffix:auavaxrfgyyrv.online",
-              "domain_suffix:auritewrager.cyou",
-              "domain_suffix:avevumywadmrw.website",
-              "domain_suffix:awvvvtvvwgvbj.site",
-              "domain_suffix:axozfywvzgzxb.space",
-              "domain_suffix:barabrabronzy.com",
-              "domain_suffix:bleakerspace.rest",
-              "domain_suffix:bogcojvexhjfw.website",
-              "domain_suffix:braillehungry.click"
-            ],
-            "removed": [
-              "domain_suffix:1d7179cda7.9b82388aa0.com",
-              "domain_suffix:747.95g9qp282fj9bxrp.cfd",
-              "domain_suffix:ababdehstacc.cyou",
-              "domain_suffix:abedhoneycastle.com",
-              "domain_suffix:abruptlynopebrow.com",
-              "domain_suffix:acwyersovfsaj.site",
-              "domain_suffix:adclick.pk",
-              "domain_suffix:affiliate-robot.com",
-              "domain_suffix:akahpvdbdmwdu.website",
-              "domain_suffix:alkydalmoign.com",
-              "domain_suffix:altereddolph.com",
-              "domain_suffix:alulasimia.com",
-              "domain_suffix:apologyale.com",
-              "domain_suffix:apxwacatcart.in",
-              "domain_suffix:arglesmtn.com",
-              "domain_suffix:ataslued.qpon",
-              "domain_suffix:atuedidnotk.com",
-              "domain_suffix:atuxrmazzebah.site",
-              "domain_suffix:auajhmhuyzfel.online",
-              "domain_suffix:b2b719b22c.com"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 150597,
-          "baselineConditionCount": 150585,
-          "added": 235,
-          "removed": 223,
+          "baselineConditionCount": 150597,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,0d64b8eaa5.com",
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,aboachipihdor.space",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,alifthymoma.cyou",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,atl0g02nj.com",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,auritewrager.cyou",
-              "DOMAIN-SUFFIX,avevumywadmrw.website",
-              "DOMAIN-SUFFIX,awvvvtvvwgvbj.site",
-              "DOMAIN-SUFFIX,axozfywvzgzxb.space",
-              "DOMAIN-SUFFIX,barabrabronzy.com",
-              "DOMAIN-SUFFIX,bleakerspace.rest",
-              "DOMAIN-SUFFIX,bogcojvexhjfw.website",
-              "DOMAIN-SUFFIX,braillehungry.click"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,747.95g9qp282fj9bxrp.cfd",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com"
-            ]
+            "added": [],
+            "removed": []
           }
         }
       ],
-      "added": 235,
-      "removed": 223,
-      "changeRatio": 0.003041,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 235
-      },
-      "removedByType": {
-        "DOMAIN-SUFFIX": 223
-      },
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
+      "addedByType": {},
+      "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,0d64b8eaa5.com",
-          "DOMAIN-SUFFIX,1odi7j43c.de",
-          "DOMAIN-SUFFIX,22blqkmkg.de",
-          "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-          "DOMAIN-SUFFIX,aboachipihdor.space",
-          "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-          "DOMAIN-SUFFIX,adjacenthairshag.com",
-          "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-          "DOMAIN-SUFFIX,alifthymoma.cyou",
-          "DOMAIN-SUFFIX,atdtigfkumig.in",
-          "DOMAIN-SUFFIX,atl0g02nj.com",
-          "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-          "DOMAIN-SUFFIX,auritewrager.cyou",
-          "DOMAIN-SUFFIX,avevumywadmrw.website",
-          "DOMAIN-SUFFIX,awvvvtvvwgvbj.site",
-          "DOMAIN-SUFFIX,axozfywvzgzxb.space",
-          "DOMAIN-SUFFIX,barabrabronzy.com",
-          "DOMAIN-SUFFIX,bleakerspace.rest",
-          "DOMAIN-SUFFIX,bogcojvexhjfw.website",
-          "DOMAIN-SUFFIX,braillehungry.click"
-        ],
-        "removed": [
-          "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-          "DOMAIN-SUFFIX,747.95g9qp282fj9bxrp.cfd",
-          "DOMAIN-SUFFIX,ababdehstacc.cyou",
-          "DOMAIN-SUFFIX,abedhoneycastle.com",
-          "DOMAIN-SUFFIX,abruptlynopebrow.com",
-          "DOMAIN-SUFFIX,acwyersovfsaj.site",
-          "DOMAIN-SUFFIX,adclick.pk",
-          "DOMAIN-SUFFIX,affiliate-robot.com",
-          "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-          "DOMAIN-SUFFIX,alkydalmoign.com",
-          "DOMAIN-SUFFIX,altereddolph.com",
-          "DOMAIN-SUFFIX,alulasimia.com",
-          "DOMAIN-SUFFIX,apologyale.com",
-          "DOMAIN-SUFFIX,apxwacatcart.in",
-          "DOMAIN-SUFFIX,arglesmtn.com",
-          "DOMAIN-SUFFIX,ataslued.qpon",
-          "DOMAIN-SUFFIX,atuedidnotk.com",
-          "DOMAIN-SUFFIX,atuxrmazzebah.site",
-          "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-          "DOMAIN-SUFFIX,b2b719b22c.com"
-        ]
+        "added": [],
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -3808,290 +3536,76 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 83800,
-      "baselineConditionCount": 83636,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 83800,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 83800,
-          "baselineConditionCount": 83636,
-          "added": 223,
-          "removed": 59,
+          "baselineConditionCount": 83800,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com",
-              "DOMAIN-SUFFIX,banneroctober.store"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,bwodskyelhpbn.space",
-              "DOMAIN-SUFFIX,cckxkdwesfaue.space",
-              "DOMAIN-SUFFIX,cheorriuhxgfy.space",
-              "DOMAIN-SUFFIX,coxsnlangrddj.online",
-              "DOMAIN-SUFFIX,curiosity.sheepesports.com",
-              "DOMAIN-SUFFIX,d3pvcolmug0tz6.cloudfront.net",
-              "DOMAIN-SUFFIX,dacztfqoufull.online",
-              "DOMAIN-SUFFIX,debonesglycic.click",
-              "DOMAIN-SUFFIX,dizainembole.cyou",
-              "DOMAIN-SUFFIX,encystseverwho.rest",
-              "DOMAIN-SUFFIX,enjoyedcomputefatality.com",
-              "DOMAIN-SUFFIX,eq65vhp64gxmrkj.rest"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 83800,
-          "baselineConditionCount": 83636,
-          "added": 223,
-          "removed": 59,
+          "baselineConditionCount": 83800,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com",
-              "DOMAIN-SUFFIX,banneroctober.store"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,bwodskyelhpbn.space",
-              "DOMAIN-SUFFIX,cckxkdwesfaue.space",
-              "DOMAIN-SUFFIX,cheorriuhxgfy.space",
-              "DOMAIN-SUFFIX,coxsnlangrddj.online",
-              "DOMAIN-SUFFIX,curiosity.sheepesports.com",
-              "DOMAIN-SUFFIX,d3pvcolmug0tz6.cloudfront.net",
-              "DOMAIN-SUFFIX,dacztfqoufull.online",
-              "DOMAIN-SUFFIX,debonesglycic.click",
-              "DOMAIN-SUFFIX,dizainembole.cyou",
-              "DOMAIN-SUFFIX,encystseverwho.rest",
-              "DOMAIN-SUFFIX,enjoyedcomputefatality.com",
-              "DOMAIN-SUFFIX,eq65vhp64gxmrkj.rest"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 83800,
-          "baselineConditionCount": 83636,
-          "added": 223,
-          "removed": 59,
+          "baselineConditionCount": 83800,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:1d7179cda7.9b82388aa0.com",
-              "domain_suffix:ababdehstacc.cyou",
-              "domain_suffix:abedhoneycastle.com",
-              "domain_suffix:abruptlynopebrow.com",
-              "domain_suffix:acwyersovfsaj.site",
-              "domain_suffix:adclick.pk",
-              "domain_suffix:affiliate-robot.com",
-              "domain_suffix:akahpvdbdmwdu.website",
-              "domain_suffix:alkydalmoign.com",
-              "domain_suffix:altereddolph.com",
-              "domain_suffix:alulasimia.com",
-              "domain_suffix:apologyale.com",
-              "domain_suffix:apxwacatcart.in",
-              "domain_suffix:arglesmtn.com",
-              "domain_suffix:ataslued.qpon",
-              "domain_suffix:atuedidnotk.com",
-              "domain_suffix:atuxrmazzebah.site",
-              "domain_suffix:auajhmhuyzfel.online",
-              "domain_suffix:b2b719b22c.com",
-              "domain_suffix:banneroctober.store"
-            ],
-            "removed": [
-              "domain_suffix:1odi7j43c.de",
-              "domain_suffix:22blqkmkg.de",
-              "domain_suffix:4puzh1khwkuovbr9ipujmtf.cfd",
-              "domain_suffix:addictedpledgeabridge.com",
-              "domain_suffix:adjacenthairshag.com",
-              "domain_suffix:aifgjdcarlmow.space",
-              "domain_suffix:atdtigfkumig.in",
-              "domain_suffix:auavaxrfgyyrv.online",
-              "domain_suffix:bwodskyelhpbn.space",
-              "domain_suffix:cckxkdwesfaue.space",
-              "domain_suffix:cheorriuhxgfy.space",
-              "domain_suffix:coxsnlangrddj.online",
-              "domain_suffix:curiosity.sheepesports.com",
-              "domain_suffix:d3pvcolmug0tz6.cloudfront.net",
-              "domain_suffix:dacztfqoufull.online",
-              "domain_suffix:debonesglycic.click",
-              "domain_suffix:dizainembole.cyou",
-              "domain_suffix:encystseverwho.rest",
-              "domain_suffix:enjoyedcomputefatality.com",
-              "domain_suffix:eq65vhp64gxmrkj.rest"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 83800,
-          "baselineConditionCount": 83636,
-          "added": 223,
-          "removed": 59,
+          "baselineConditionCount": 83800,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-              "DOMAIN-SUFFIX,ababdehstacc.cyou",
-              "DOMAIN-SUFFIX,abedhoneycastle.com",
-              "DOMAIN-SUFFIX,abruptlynopebrow.com",
-              "DOMAIN-SUFFIX,acwyersovfsaj.site",
-              "DOMAIN-SUFFIX,adclick.pk",
-              "DOMAIN-SUFFIX,affiliate-robot.com",
-              "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-              "DOMAIN-SUFFIX,alkydalmoign.com",
-              "DOMAIN-SUFFIX,altereddolph.com",
-              "DOMAIN-SUFFIX,alulasimia.com",
-              "DOMAIN-SUFFIX,apologyale.com",
-              "DOMAIN-SUFFIX,apxwacatcart.in",
-              "DOMAIN-SUFFIX,arglesmtn.com",
-              "DOMAIN-SUFFIX,ataslued.qpon",
-              "DOMAIN-SUFFIX,atuedidnotk.com",
-              "DOMAIN-SUFFIX,atuxrmazzebah.site",
-              "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-              "DOMAIN-SUFFIX,b2b719b22c.com",
-              "DOMAIN-SUFFIX,banneroctober.store"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,1odi7j43c.de",
-              "DOMAIN-SUFFIX,22blqkmkg.de",
-              "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-              "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-              "DOMAIN-SUFFIX,adjacenthairshag.com",
-              "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-              "DOMAIN-SUFFIX,atdtigfkumig.in",
-              "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-              "DOMAIN-SUFFIX,bwodskyelhpbn.space",
-              "DOMAIN-SUFFIX,cckxkdwesfaue.space",
-              "DOMAIN-SUFFIX,cheorriuhxgfy.space",
-              "DOMAIN-SUFFIX,coxsnlangrddj.online",
-              "DOMAIN-SUFFIX,curiosity.sheepesports.com",
-              "DOMAIN-SUFFIX,d3pvcolmug0tz6.cloudfront.net",
-              "DOMAIN-SUFFIX,dacztfqoufull.online",
-              "DOMAIN-SUFFIX,debonesglycic.click",
-              "DOMAIN-SUFFIX,dizainembole.cyou",
-              "DOMAIN-SUFFIX,encystseverwho.rest",
-              "DOMAIN-SUFFIX,enjoyedcomputefatality.com",
-              "DOMAIN-SUFFIX,eq65vhp64gxmrkj.rest"
-            ]
+            "added": [],
+            "removed": []
           }
         }
       ],
-      "added": 223,
-      "removed": 59,
-      "changeRatio": 0.003372,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 223
-      },
-      "removedByType": {
-        "DOMAIN-SUFFIX": 59
-      },
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
+      "addedByType": {},
+      "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,1d7179cda7.9b82388aa0.com",
-          "DOMAIN-SUFFIX,ababdehstacc.cyou",
-          "DOMAIN-SUFFIX,abedhoneycastle.com",
-          "DOMAIN-SUFFIX,abruptlynopebrow.com",
-          "DOMAIN-SUFFIX,acwyersovfsaj.site",
-          "DOMAIN-SUFFIX,adclick.pk",
-          "DOMAIN-SUFFIX,affiliate-robot.com",
-          "DOMAIN-SUFFIX,akahpvdbdmwdu.website",
-          "DOMAIN-SUFFIX,alkydalmoign.com",
-          "DOMAIN-SUFFIX,altereddolph.com",
-          "DOMAIN-SUFFIX,alulasimia.com",
-          "DOMAIN-SUFFIX,apologyale.com",
-          "DOMAIN-SUFFIX,apxwacatcart.in",
-          "DOMAIN-SUFFIX,arglesmtn.com",
-          "DOMAIN-SUFFIX,ataslued.qpon",
-          "DOMAIN-SUFFIX,atuedidnotk.com",
-          "DOMAIN-SUFFIX,atuxrmazzebah.site",
-          "DOMAIN-SUFFIX,auajhmhuyzfel.online",
-          "DOMAIN-SUFFIX,b2b719b22c.com",
-          "DOMAIN-SUFFIX,banneroctober.store"
-        ],
-        "removed": [
-          "DOMAIN-SUFFIX,1odi7j43c.de",
-          "DOMAIN-SUFFIX,22blqkmkg.de",
-          "DOMAIN-SUFFIX,4puzh1khwkuovbr9ipujmtf.cfd",
-          "DOMAIN-SUFFIX,addictedpledgeabridge.com",
-          "DOMAIN-SUFFIX,adjacenthairshag.com",
-          "DOMAIN-SUFFIX,aifgjdcarlmow.space",
-          "DOMAIN-SUFFIX,atdtigfkumig.in",
-          "DOMAIN-SUFFIX,auavaxrfgyyrv.online",
-          "DOMAIN-SUFFIX,bwodskyelhpbn.space",
-          "DOMAIN-SUFFIX,cckxkdwesfaue.space",
-          "DOMAIN-SUFFIX,cheorriuhxgfy.space",
-          "DOMAIN-SUFFIX,coxsnlangrddj.online",
-          "DOMAIN-SUFFIX,curiosity.sheepesports.com",
-          "DOMAIN-SUFFIX,d3pvcolmug0tz6.cloudfront.net",
-          "DOMAIN-SUFFIX,dacztfqoufull.online",
-          "DOMAIN-SUFFIX,debonesglycic.click",
-          "DOMAIN-SUFFIX,dizainembole.cyou",
-          "DOMAIN-SUFFIX,encystseverwho.rest",
-          "DOMAIN-SUFFIX,enjoyedcomputefatality.com",
-          "DOMAIN-SUFFIX,eq65vhp64gxmrkj.rest"
-        ]
+        "added": [],
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -4103,290 +3617,76 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 139831,
-      "baselineConditionCount": 139870,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 139831,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 139831,
-          "baselineConditionCount": 139870,
-          "added": 1261,
-          "removed": 1300,
+          "baselineConditionCount": 139831,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,07zrd-ix2-ix54-0kdqd-13-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,1.xn--nebl.xn--9dbq2a.account.auth.google.com.1.145.life",
-              "DOMAIN-SUFFIX,118598.top",
-              "DOMAIN-SUFFIX,11sinfeasy-dp6ra1dm1qod.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dp3w1poaw7ui.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dpa99zjr2b4d.edgeone.dev",
-              "DOMAIN-SUFFIX,12-766.pages.dev",
-              "DOMAIN-SUFFIX,1211fr-xpoemxzb.4everland.app",
-              "DOMAIN-SUFFIX,1211frnow-7ucwaauk.4everland.app",
-              "DOMAIN-SUFFIX,185-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,186-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,188-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,189-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,190-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,191-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,192-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,2-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,24digital-otp-dp1wwy2kpuqc.edgeone.dev",
-              "DOMAIN-SUFFIX,2934id.com"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,000998122344-dp5t274dioh1.edgeone.dev",
-              "DOMAIN-SUFFIX,01029447757-dpay0xcowcws.edgeone.dev",
-              "DOMAIN-SUFFIX,05bul-mut-2liu-kz5y7-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,09643myt6655-dp8w11wq5far.edgeone.dev",
-              "DOMAIN-SUFFIX,11111122378900-dps0skfl6j8z.edgeone.dev",
-              "DOMAIN-SUFFIX,19mxw-tmf-w1wt-ej5ap-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1chronos-keystone-e127.s2506016.workers.dev",
-              "DOMAIN-SUFFIX,1p9ga-3kq-v46y-lcf89-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2006-gmc-sierra-2500hd-duramax-egr-delete-kit.pages.dev",
-              "DOMAIN-SUFFIX,24-fx-aladdin.pages.dev",
-              "DOMAIN-SUFFIX,2m29d-6lf-7gqk-56luf-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2sikandar-dpyhopf4obg5.edgeone.dev",
-              "DOMAIN-SUFFIX,3rdavenuefashion.com",
-              "DOMAIN-SUFFIX,407d2322.say789-vn.net",
-              "DOMAIN-SUFFIX,43-hyper-votes.pages.dev",
-              "DOMAIN-SUFFIX,4n4hr-tb8-2qnk-qo01w-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4qmix-1q7-9w46-kcyzj-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4tytrffrftpaxczka2ewi.shop",
-              "DOMAIN-SUFFIX,5078347592.shop",
-              "DOMAIN-SUFFIX,51chiguaheiliao1.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 139831,
-          "baselineConditionCount": 139870,
-          "added": 1261,
-          "removed": 1300,
+          "baselineConditionCount": 139831,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,07zrd-ix2-ix54-0kdqd-13-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,1.xn--nebl.xn--9dbq2a.account.auth.google.com.1.145.life",
-              "DOMAIN-SUFFIX,118598.top",
-              "DOMAIN-SUFFIX,11sinfeasy-dp6ra1dm1qod.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dp3w1poaw7ui.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dpa99zjr2b4d.edgeone.dev",
-              "DOMAIN-SUFFIX,12-766.pages.dev",
-              "DOMAIN-SUFFIX,1211fr-xpoemxzb.4everland.app",
-              "DOMAIN-SUFFIX,1211frnow-7ucwaauk.4everland.app",
-              "DOMAIN-SUFFIX,185-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,186-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,188-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,189-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,190-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,191-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,192-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,2-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,24digital-otp-dp1wwy2kpuqc.edgeone.dev",
-              "DOMAIN-SUFFIX,2934id.com"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,000998122344-dp5t274dioh1.edgeone.dev",
-              "DOMAIN-SUFFIX,01029447757-dpay0xcowcws.edgeone.dev",
-              "DOMAIN-SUFFIX,05bul-mut-2liu-kz5y7-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,09643myt6655-dp8w11wq5far.edgeone.dev",
-              "DOMAIN-SUFFIX,11111122378900-dps0skfl6j8z.edgeone.dev",
-              "DOMAIN-SUFFIX,19mxw-tmf-w1wt-ej5ap-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1chronos-keystone-e127.s2506016.workers.dev",
-              "DOMAIN-SUFFIX,1p9ga-3kq-v46y-lcf89-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2006-gmc-sierra-2500hd-duramax-egr-delete-kit.pages.dev",
-              "DOMAIN-SUFFIX,24-fx-aladdin.pages.dev",
-              "DOMAIN-SUFFIX,2m29d-6lf-7gqk-56luf-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2sikandar-dpyhopf4obg5.edgeone.dev",
-              "DOMAIN-SUFFIX,3rdavenuefashion.com",
-              "DOMAIN-SUFFIX,407d2322.say789-vn.net",
-              "DOMAIN-SUFFIX,43-hyper-votes.pages.dev",
-              "DOMAIN-SUFFIX,4n4hr-tb8-2qnk-qo01w-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4qmix-1q7-9w46-kcyzj-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4tytrffrftpaxczka2ewi.shop",
-              "DOMAIN-SUFFIX,5078347592.shop",
-              "DOMAIN-SUFFIX,51chiguaheiliao1.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 139831,
-          "baselineConditionCount": 139870,
-          "added": 1261,
-          "removed": 1300,
+          "baselineConditionCount": 139831,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:07zrd-ix2-ix54-0kdqd-13-09-2026-hh.pages.dev",
-              "domain_suffix:1-hyperlendhub.pages.dev",
-              "domain_suffix:1.xn--nebl.xn--9dbq2a.account.auth.google.com.1.145.life",
-              "domain_suffix:118598.top",
-              "domain_suffix:11sinfeasy-dp6ra1dm1qod.edgeone.dev",
-              "domain_suffix:11sinfhard-dp3w1poaw7ui.edgeone.dev",
-              "domain_suffix:11sinfhard-dpa99zjr2b4d.edgeone.dev",
-              "domain_suffix:12-766.pages.dev",
-              "domain_suffix:1211fr-xpoemxzb.4everland.app",
-              "domain_suffix:1211frnow-7ucwaauk.4everland.app",
-              "domain_suffix:185-lists-moonshot.pages.dev",
-              "domain_suffix:186-lists-moonshot.pages.dev",
-              "domain_suffix:188-lists-moonshot.pages.dev",
-              "domain_suffix:189-lists-moonshot.pages.dev",
-              "domain_suffix:190-lists-moonshot.pages.dev",
-              "domain_suffix:191-lists-moonshot.pages.dev",
-              "domain_suffix:192-lists-moonshot.pages.dev",
-              "domain_suffix:2-hyperlendhub.pages.dev",
-              "domain_suffix:24digital-otp-dp1wwy2kpuqc.edgeone.dev",
-              "domain_suffix:2934id.com"
-            ],
-            "removed": [
-              "domain_suffix:000998122344-dp5t274dioh1.edgeone.dev",
-              "domain_suffix:01029447757-dpay0xcowcws.edgeone.dev",
-              "domain_suffix:05bul-mut-2liu-kz5y7-14-09-2026-hh.pages.dev",
-              "domain_suffix:09643myt6655-dp8w11wq5far.edgeone.dev",
-              "domain_suffix:11111122378900-dps0skfl6j8z.edgeone.dev",
-              "domain_suffix:19mxw-tmf-w1wt-ej5ap-14-09-2026-hh.pages.dev",
-              "domain_suffix:1chronos-keystone-e127.s2506016.workers.dev",
-              "domain_suffix:1p9ga-3kq-v46y-lcf89-14-09-2026-hh.pages.dev",
-              "domain_suffix:2006-gmc-sierra-2500hd-duramax-egr-delete-kit.pages.dev",
-              "domain_suffix:24-fx-aladdin.pages.dev",
-              "domain_suffix:2m29d-6lf-7gqk-56luf-14-09-2026-hh.pages.dev",
-              "domain_suffix:2sikandar-dpyhopf4obg5.edgeone.dev",
-              "domain_suffix:3rdavenuefashion.com",
-              "domain_suffix:407d2322.say789-vn.net",
-              "domain_suffix:43-hyper-votes.pages.dev",
-              "domain_suffix:4n4hr-tb8-2qnk-qo01w-14-09-2026-hh.pages.dev",
-              "domain_suffix:4qmix-1q7-9w46-kcyzj-14-09-2026-hh.pages.dev",
-              "domain_suffix:4tytrffrftpaxczka2ewi.shop",
-              "domain_suffix:5078347592.shop",
-              "domain_suffix:51chiguaheiliao1.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 139831,
-          "baselineConditionCount": 139870,
-          "added": 1261,
-          "removed": 1300,
+          "baselineConditionCount": 139831,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,07zrd-ix2-ix54-0kdqd-13-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,1.xn--nebl.xn--9dbq2a.account.auth.google.com.1.145.life",
-              "DOMAIN-SUFFIX,118598.top",
-              "DOMAIN-SUFFIX,11sinfeasy-dp6ra1dm1qod.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dp3w1poaw7ui.edgeone.dev",
-              "DOMAIN-SUFFIX,11sinfhard-dpa99zjr2b4d.edgeone.dev",
-              "DOMAIN-SUFFIX,12-766.pages.dev",
-              "DOMAIN-SUFFIX,1211fr-xpoemxzb.4everland.app",
-              "DOMAIN-SUFFIX,1211frnow-7ucwaauk.4everland.app",
-              "DOMAIN-SUFFIX,185-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,186-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,188-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,189-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,190-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,191-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,192-lists-moonshot.pages.dev",
-              "DOMAIN-SUFFIX,2-hyperlendhub.pages.dev",
-              "DOMAIN-SUFFIX,24digital-otp-dp1wwy2kpuqc.edgeone.dev",
-              "DOMAIN-SUFFIX,2934id.com"
-            ],
-            "removed": [
-              "DOMAIN-SUFFIX,000998122344-dp5t274dioh1.edgeone.dev",
-              "DOMAIN-SUFFIX,01029447757-dpay0xcowcws.edgeone.dev",
-              "DOMAIN-SUFFIX,05bul-mut-2liu-kz5y7-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,09643myt6655-dp8w11wq5far.edgeone.dev",
-              "DOMAIN-SUFFIX,11111122378900-dps0skfl6j8z.edgeone.dev",
-              "DOMAIN-SUFFIX,19mxw-tmf-w1wt-ej5ap-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,1chronos-keystone-e127.s2506016.workers.dev",
-              "DOMAIN-SUFFIX,1p9ga-3kq-v46y-lcf89-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2006-gmc-sierra-2500hd-duramax-egr-delete-kit.pages.dev",
-              "DOMAIN-SUFFIX,24-fx-aladdin.pages.dev",
-              "DOMAIN-SUFFIX,2m29d-6lf-7gqk-56luf-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,2sikandar-dpyhopf4obg5.edgeone.dev",
-              "DOMAIN-SUFFIX,3rdavenuefashion.com",
-              "DOMAIN-SUFFIX,407d2322.say789-vn.net",
-              "DOMAIN-SUFFIX,43-hyper-votes.pages.dev",
-              "DOMAIN-SUFFIX,4n4hr-tb8-2qnk-qo01w-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4qmix-1q7-9w46-kcyzj-14-09-2026-hh.pages.dev",
-              "DOMAIN-SUFFIX,4tytrffrftpaxczka2ewi.shop",
-              "DOMAIN-SUFFIX,5078347592.shop",
-              "DOMAIN-SUFFIX,51chiguaheiliao1.pages.dev"
-            ]
+            "added": [],
+            "removed": []
           }
         }
       ],
-      "added": 1261,
-      "removed": 1300,
-      "changeRatio": 0.01831,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 1261
-      },
-      "removedByType": {
-        "DOMAIN-SUFFIX": 1300
-      },
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
+      "addedByType": {},
+      "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,07zrd-ix2-ix54-0kdqd-13-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,1-hyperlendhub.pages.dev",
-          "DOMAIN-SUFFIX,1.xn--nebl.xn--9dbq2a.account.auth.google.com.1.145.life",
-          "DOMAIN-SUFFIX,118598.top",
-          "DOMAIN-SUFFIX,11sinfeasy-dp6ra1dm1qod.edgeone.dev",
-          "DOMAIN-SUFFIX,11sinfhard-dp3w1poaw7ui.edgeone.dev",
-          "DOMAIN-SUFFIX,11sinfhard-dpa99zjr2b4d.edgeone.dev",
-          "DOMAIN-SUFFIX,12-766.pages.dev",
-          "DOMAIN-SUFFIX,1211fr-xpoemxzb.4everland.app",
-          "DOMAIN-SUFFIX,1211frnow-7ucwaauk.4everland.app",
-          "DOMAIN-SUFFIX,185-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,186-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,188-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,189-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,190-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,191-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,192-lists-moonshot.pages.dev",
-          "DOMAIN-SUFFIX,2-hyperlendhub.pages.dev",
-          "DOMAIN-SUFFIX,24digital-otp-dp1wwy2kpuqc.edgeone.dev",
-          "DOMAIN-SUFFIX,2934id.com"
-        ],
-        "removed": [
-          "DOMAIN-SUFFIX,000998122344-dp5t274dioh1.edgeone.dev",
-          "DOMAIN-SUFFIX,01029447757-dpay0xcowcws.edgeone.dev",
-          "DOMAIN-SUFFIX,05bul-mut-2liu-kz5y7-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,09643myt6655-dp8w11wq5far.edgeone.dev",
-          "DOMAIN-SUFFIX,11111122378900-dps0skfl6j8z.edgeone.dev",
-          "DOMAIN-SUFFIX,19mxw-tmf-w1wt-ej5ap-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,1chronos-keystone-e127.s2506016.workers.dev",
-          "DOMAIN-SUFFIX,1p9ga-3kq-v46y-lcf89-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,2006-gmc-sierra-2500hd-duramax-egr-delete-kit.pages.dev",
-          "DOMAIN-SUFFIX,24-fx-aladdin.pages.dev",
-          "DOMAIN-SUFFIX,2m29d-6lf-7gqk-56luf-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,2sikandar-dpyhopf4obg5.edgeone.dev",
-          "DOMAIN-SUFFIX,3rdavenuefashion.com",
-          "DOMAIN-SUFFIX,407d2322.say789-vn.net",
-          "DOMAIN-SUFFIX,43-hyper-votes.pages.dev",
-          "DOMAIN-SUFFIX,4n4hr-tb8-2qnk-qo01w-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,4qmix-1q7-9w46-kcyzj-14-09-2026-hh.pages.dev",
-          "DOMAIN-SUFFIX,4tytrffrftpaxczka2ewi.shop",
-          "DOMAIN-SUFFIX,5078347592.shop",
-          "DOMAIN-SUFFIX,51chiguaheiliao1.pages.dev"
-        ]
+        "added": [],
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
