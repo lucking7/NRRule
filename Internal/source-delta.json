@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-14T19:09:34.655Z",
+  "generatedAt": "2026-11-14T21:10:39.647Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7792341684"
+    "receiptId": "7792497997"
   },
   "policy": {
     "sampleLimit": 20,
@@ -14,12 +14,12 @@
     "maxRemovedRatio": 0.3
   },
   "summary": {
-    "sources": 67,
+    "sources": 66,
     "compared": 66,
     "baselineUnavailable": 0,
     "notComparable": 0,
-    "removed": 1,
-    "warnings": 1
+    "removed": 0,
+    "warnings": 0
   },
   "sources": [
     {
@@ -5269,202 +5269,6 @@
       "sourcesAdded": [],
       "sourcesRemoved": [],
       "warnings": []
-    },
-    {
-      "sourceId": "wechat_no_ua",
-      "rulesetId": "wechat_no_ua",
-      "converterVersion": "mirrrule-rule-output/2",
-      "status": "removed",
-      "currentConditionCount": 0,
-      "baselineConditionCount": 331,
-      "rawInputChanged": null,
-      "semanticChanged": true,
-      "semanticScope": "normalized-source",
-      "effectiveOutputs": [
-        {
-          "platform": "surge",
-          "format": "surge-classical",
-          "status": "removed",
-          "semanticChanged": true,
-          "currentConditionCount": 0,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 331,
-          "samples": {
-            "added": [],
-            "removed": [
-              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
-              "DOMAIN,btrace.qq.com",
-              "DOMAIN,dldir1.qq.com",
-              "DOMAIN,slife.xy-asia.com",
-              "DOMAIN,soup.v.qq.com",
-              "DOMAIN,vweixinf.tc.qq.com",
-              "DOMAIN,weixin110.qq.com",
-              "DOMAIN,wup.imtt.qq.com",
-              "DOMAIN,wx.tenpay.com",
-              "DOMAIN,wxapp.tc.qq.com",
-              "DOMAIN-KEYWORD,101.226.129.",
-              "DOMAIN-KEYWORD,101.226.211.",
-              "DOMAIN-KEYWORD,101.226.222.",
-              "DOMAIN-KEYWORD,101.226.226.",
-              "DOMAIN-KEYWORD,101.227.162.",
-              "DOMAIN-KEYWORD,101.32.104.",
-              "DOMAIN-KEYWORD,101.32.118.",
-              "DOMAIN-KEYWORD,101.32.133.",
-              "DOMAIN-KEYWORD,101.33.110.",
-              "DOMAIN-KEYWORD,101.89.15."
-            ]
-          }
-        },
-        {
-          "platform": "clash",
-          "format": "clash-classical",
-          "status": "removed",
-          "semanticChanged": true,
-          "currentConditionCount": 0,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 331,
-          "samples": {
-            "added": [],
-            "removed": [
-              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
-              "DOMAIN,btrace.qq.com",
-              "DOMAIN,dldir1.qq.com",
-              "DOMAIN,slife.xy-asia.com",
-              "DOMAIN,soup.v.qq.com",
-              "DOMAIN,vweixinf.tc.qq.com",
-              "DOMAIN,weixin110.qq.com",
-              "DOMAIN,wup.imtt.qq.com",
-              "DOMAIN,wx.tenpay.com",
-              "DOMAIN,wxapp.tc.qq.com",
-              "DOMAIN-KEYWORD,101.226.129.",
-              "DOMAIN-KEYWORD,101.226.211.",
-              "DOMAIN-KEYWORD,101.226.222.",
-              "DOMAIN-KEYWORD,101.226.226.",
-              "DOMAIN-KEYWORD,101.227.162.",
-              "DOMAIN-KEYWORD,101.32.104.",
-              "DOMAIN-KEYWORD,101.32.118.",
-              "DOMAIN-KEYWORD,101.32.133.",
-              "DOMAIN-KEYWORD,101.33.110.",
-              "DOMAIN-KEYWORD,101.89.15."
-            ]
-          }
-        },
-        {
-          "platform": "singbox",
-          "format": "singbox-json-v2",
-          "status": "removed",
-          "semanticChanged": true,
-          "currentConditionCount": 0,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 331,
-          "samples": {
-            "added": [],
-            "removed": [
-              "domain:apd-pcdnwxlogin.teg.tencent-cloud.net",
-              "domain:btrace.qq.com",
-              "domain:dldir1.qq.com",
-              "domain:slife.xy-asia.com",
-              "domain:soup.v.qq.com",
-              "domain:vweixinf.tc.qq.com",
-              "domain:weixin110.qq.com",
-              "domain:wup.imtt.qq.com",
-              "domain:wx.tenpay.com",
-              "domain:wxapp.tc.qq.com",
-              "domain_keyword:101.226.129.",
-              "domain_keyword:101.226.211.",
-              "domain_keyword:101.226.222.",
-              "domain_keyword:101.226.226.",
-              "domain_keyword:101.227.162.",
-              "domain_keyword:101.32.104.",
-              "domain_keyword:101.32.118.",
-              "domain_keyword:101.32.133.",
-              "domain_keyword:101.33.110.",
-              "domain_keyword:101.89.15."
-            ]
-          }
-        },
-        {
-          "platform": "loon",
-          "format": "loon-classical",
-          "status": "removed",
-          "semanticChanged": true,
-          "currentConditionCount": 0,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 331,
-          "samples": {
-            "added": [],
-            "removed": [
-              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
-              "DOMAIN,btrace.qq.com",
-              "DOMAIN,dldir1.qq.com",
-              "DOMAIN,slife.xy-asia.com",
-              "DOMAIN,soup.v.qq.com",
-              "DOMAIN,vweixinf.tc.qq.com",
-              "DOMAIN,weixin110.qq.com",
-              "DOMAIN,wup.imtt.qq.com",
-              "DOMAIN,wx.tenpay.com",
-              "DOMAIN,wxapp.tc.qq.com",
-              "DOMAIN-KEYWORD,101.226.129.",
-              "DOMAIN-KEYWORD,101.226.211.",
-              "DOMAIN-KEYWORD,101.226.222.",
-              "DOMAIN-KEYWORD,101.226.226.",
-              "DOMAIN-KEYWORD,101.227.162.",
-              "DOMAIN-KEYWORD,101.32.104.",
-              "DOMAIN-KEYWORD,101.32.118.",
-              "DOMAIN-KEYWORD,101.32.133.",
-              "DOMAIN-KEYWORD,101.33.110.",
-              "DOMAIN-KEYWORD,101.89.15."
-            ]
-          }
-        }
-      ],
-      "added": 0,
-      "removed": 331,
-      "changeRatio": 1,
-      "addedByType": {},
-      "removedByType": {
-        "DOMAIN": 10,
-        "DOMAIN-KEYWORD": 233,
-        "DOMAIN-SUFFIX": 16,
-        "IP-CIDR": 3,
-        "IP-CIDR6": 69
-      },
-      "samples": {
-        "added": [],
-        "removed": [
-          "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
-          "DOMAIN,btrace.qq.com",
-          "DOMAIN,dldir1.qq.com",
-          "DOMAIN,slife.xy-asia.com",
-          "DOMAIN,soup.v.qq.com",
-          "DOMAIN,vweixinf.tc.qq.com",
-          "DOMAIN,weixin110.qq.com",
-          "DOMAIN,wup.imtt.qq.com",
-          "DOMAIN,wx.tenpay.com",
-          "DOMAIN,wxapp.tc.qq.com",
-          "DOMAIN-KEYWORD,101.226.129.",
-          "DOMAIN-KEYWORD,101.226.211.",
-          "DOMAIN-KEYWORD,101.226.222.",
-          "DOMAIN-KEYWORD,101.226.226.",
-          "DOMAIN-KEYWORD,101.227.162.",
-          "DOMAIN-KEYWORD,101.32.104.",
-          "DOMAIN-KEYWORD,101.32.118.",
-          "DOMAIN-KEYWORD,101.32.133.",
-          "DOMAIN-KEYWORD,101.33.110.",
-          "DOMAIN-KEYWORD,101.89.15."
-        ]
-      },
-      "sourcesAdded": [],
-      "sourcesRemoved": [
-        "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
-      ],
-      "warnings": [
-        "ruleset-removed"
-      ]
     }
   ]
 }
