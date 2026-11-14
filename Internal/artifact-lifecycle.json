@@ -117,6 +117,27 @@
       "replacement": "<platform>/stream (Sukka; covered 73.7% of the last RuleGo list, missing mostly discontinued HBO GO Asia hosts)"
     },
     {
+      "id": "ruleset:wechat_no_ua",
+      "state": "retired",
+      "paths": [
+        "List/wechat_no_ua.list",
+        "List/non_ip/wechat_no_ua.list",
+        "List/ip/wechat_no_ua.list",
+        "Clash/wechat_no_ua.txt",
+        "Clash/non_ip/wechat_no_ua.txt",
+        "Clash/ip/wechat_no_ua.txt",
+        "Loon/wechat_no_ua.list",
+        "Loon/non_ip/wechat_no_ua.list",
+        "Loon/ip/wechat_no_ua.list",
+        "sing-box/wechat_no_ua.json",
+        "sing-box/non_ip/wechat_no_ua.json",
+        "sing-box/ip/wechat_no_ua.json"
+      ],
+      "reason": "NobyDa WeChat.list has not changed since 2023 and missed WeChat connections that then fell through to FINAL",
+      "evidence": "Build/lib/rule-sources.ts no longer configures this ruleset",
+      "replacement": "<platform>/wechat (blackmatrix7 WeChat, including its User-Agent rules and AS132203)"
+    },
+    {
       "id": "ruleset:china_asn:sing-box",
       "state": "retired",
       "paths": [

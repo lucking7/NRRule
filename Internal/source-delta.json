@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-14T18:57:17.626Z",
+  "generatedAt": "2026-11-14T19:09:34.655Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7789016207"
+    "receiptId": "7792341684"
   },
   "policy": {
     "sampleLimit": 20,
@@ -15,11 +15,11 @@
   },
   "summary": {
     "sources": 67,
-    "compared": 67,
+    "compared": 66,
     "baselineUnavailable": 0,
     "notComparable": 0,
-    "removed": 0,
-    "warnings": 0
+    "removed": 1,
+    "warnings": 1
   },
   "sources": [
     {
@@ -28,33 +28,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 904,
-      "baselineConditionCount": 894,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 904,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 904,
-          "baselineConditionCount": 894,
-          "added": 10,
+          "baselineConditionCount": 904,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,apmplus.volces.com",
-              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,errnewlog.umeng.com",
-              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
-              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
-              "DOMAIN-SUFFIX,log-auth.zztfly.com",
-              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,upc.zztfly.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -62,24 +51,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 904,
-          "baselineConditionCount": 894,
-          "added": 10,
+          "baselineConditionCount": 904,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,apmplus.volces.com",
-              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,errnewlog.umeng.com",
-              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
-              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
-              "DOMAIN-SUFFIX,log-auth.zztfly.com",
-              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,upc.zztfly.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -87,24 +65,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 904,
-          "baselineConditionCount": 894,
-          "added": 10,
+          "baselineConditionCount": 904,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:apmplus.volces.com",
-              "domain_suffix:client-upload.cn-shanghai.log.aliyuncs.com",
-              "domain_suffix:du-app.cn-hangzhou.log.aliyuncs.com",
-              "domain_suffix:errnewlog.umeng.com",
-              "domain_suffix:fp-it.fengkongcloud.com",
-              "domain_suffix:lf-event-manager.oceanengine.com",
-              "domain_suffix:log-auth.zztfly.com",
-              "domain_suffix:shihuo-new.log.shihuocdn.cn",
-              "domain_suffix:shihuo.log.shihuocdn.cn",
-              "domain_suffix:upc.zztfly.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -112,48 +79,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 904,
-          "baselineConditionCount": 894,
-          "added": 10,
+          "baselineConditionCount": 904,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,apmplus.volces.com",
-              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
-              "DOMAIN-SUFFIX,errnewlog.umeng.com",
-              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
-              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
-              "DOMAIN-SUFFIX,log-auth.zztfly.com",
-              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
-              "DOMAIN-SUFFIX,upc.zztfly.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 10,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.011186,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 10
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,apmplus.volces.com",
-          "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
-          "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
-          "DOMAIN-SUFFIX,errnewlog.umeng.com",
-          "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
-          "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
-          "DOMAIN-SUFFIX,log-auth.zztfly.com",
-          "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
-          "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
-          "DOMAIN-SUFFIX,upc.zztfly.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -1973,105 +1916,76 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 255,
-      "baselineConditionCount": 254,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 255,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 255,
-          "baselineConditionCount": 254,
-          "added": 2,
-          "removed": 1,
+          "baselineConditionCount": 255,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,emby.111449.xyz",
-              "DOMAIN,hehuan.riroro.com"
-            ],
-            "removed": [
-              "DOMAIN,bb.111848.xyz"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 255,
-          "baselineConditionCount": 254,
-          "added": 2,
-          "removed": 1,
+          "baselineConditionCount": 255,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,emby.111449.xyz",
-              "DOMAIN,hehuan.riroro.com"
-            ],
-            "removed": [
-              "DOMAIN,bb.111848.xyz"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 255,
-          "baselineConditionCount": 254,
-          "added": 2,
-          "removed": 1,
+          "baselineConditionCount": 255,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "domain:emby.111449.xyz",
-              "domain:hehuan.riroro.com"
-            ],
-            "removed": [
-              "domain:bb.111848.xyz"
-            ]
+            "added": [],
+            "removed": []
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 255,
-          "baselineConditionCount": 254,
-          "added": 2,
-          "removed": 1,
+          "baselineConditionCount": 255,
+          "added": 0,
+          "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN,emby.111449.xyz",
-              "DOMAIN,hehuan.riroro.com"
-            ],
-            "removed": [
-              "DOMAIN,bb.111848.xyz"
-            ]
+            "added": [],
+            "removed": []
           }
         }
       ],
-      "added": 2,
-      "removed": 1,
-      "changeRatio": 0.011811,
-      "addedByType": {
-        "DOMAIN": 2
-      },
-      "removedByType": {
-        "DOMAIN": 1
-      },
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
+      "addedByType": {},
+      "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN,emby.111449.xyz",
-          "DOMAIN,hehuan.riroro.com"
-        ],
-        "removed": [
-          "DOMAIN,bb.111848.xyz"
-        ]
+        "added": [],
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -5276,87 +5190,6 @@
       "warnings": []
     },
     {
-      "sourceId": "wechat_no_ua",
-      "rulesetId": "wechat_no_ua",
-      "converterVersion": "mirrrule-rule-output/2",
-      "status": "compared",
-      "currentConditionCount": 331,
-      "baselineConditionCount": 331,
-      "rawInputChanged": false,
-      "semanticChanged": false,
-      "semanticScope": "normalized-source",
-      "effectiveOutputs": [
-        {
-          "platform": "clash",
-          "format": "clash-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 331,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 0,
-          "samples": {
-            "added": [],
-            "removed": []
-          }
-        },
-        {
-          "platform": "loon",
-          "format": "loon-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 331,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 0,
-          "samples": {
-            "added": [],
-            "removed": []
-          }
-        },
-        {
-          "platform": "singbox",
-          "format": "singbox-json-v2",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 331,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 0,
-          "samples": {
-            "added": [],
-            "removed": []
-          }
-        },
-        {
-          "platform": "surge",
-          "format": "surge-classical",
-          "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 331,
-          "baselineConditionCount": 331,
-          "added": 0,
-          "removed": 0,
-          "samples": {
-            "added": [],
-            "removed": []
-          }
-        }
-      ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
-      "samples": {
-        "added": [],
-        "removed": []
-      },
-      "sourcesAdded": [],
-      "sourcesRemoved": [],
-      "warnings": []
-    },
-    {
       "sourceId": "youtube",
       "rulesetId": "youtube",
       "converterVersion": "mirrrule-rule-output/2",
@@ -5436,6 +5269,202 @@
       "sourcesAdded": [],
       "sourcesRemoved": [],
       "warnings": []
+    },
+    {
+      "sourceId": "wechat_no_ua",
+      "rulesetId": "wechat_no_ua",
+      "converterVersion": "mirrrule-rule-output/2",
+      "status": "removed",
+      "currentConditionCount": 0,
+      "baselineConditionCount": 331,
+      "rawInputChanged": null,
+      "semanticChanged": true,
+      "semanticScope": "normalized-source",
+      "effectiveOutputs": [
+        {
+          "platform": "surge",
+          "format": "surge-classical",
+          "status": "removed",
+          "semanticChanged": true,
+          "currentConditionCount": 0,
+          "baselineConditionCount": 331,
+          "added": 0,
+          "removed": 331,
+          "samples": {
+            "added": [],
+            "removed": [
+              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+              "DOMAIN,btrace.qq.com",
+              "DOMAIN,dldir1.qq.com",
+              "DOMAIN,slife.xy-asia.com",
+              "DOMAIN,soup.v.qq.com",
+              "DOMAIN,vweixinf.tc.qq.com",
+              "DOMAIN,weixin110.qq.com",
+              "DOMAIN,wup.imtt.qq.com",
+              "DOMAIN,wx.tenpay.com",
+              "DOMAIN,wxapp.tc.qq.com",
+              "DOMAIN-KEYWORD,101.226.129.",
+              "DOMAIN-KEYWORD,101.226.211.",
+              "DOMAIN-KEYWORD,101.226.222.",
+              "DOMAIN-KEYWORD,101.226.226.",
+              "DOMAIN-KEYWORD,101.227.162.",
+              "DOMAIN-KEYWORD,101.32.104.",
+              "DOMAIN-KEYWORD,101.32.118.",
+              "DOMAIN-KEYWORD,101.32.133.",
+              "DOMAIN-KEYWORD,101.33.110.",
+              "DOMAIN-KEYWORD,101.89.15."
+            ]
+          }
+        },
+        {
+          "platform": "clash",
+          "format": "clash-classical",
+          "status": "removed",
+          "semanticChanged": true,
+          "currentConditionCount": 0,
+          "baselineConditionCount": 331,
+          "added": 0,
+          "removed": 331,
+          "samples": {
+            "added": [],
+            "removed": [
+              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+              "DOMAIN,btrace.qq.com",
+              "DOMAIN,dldir1.qq.com",
+              "DOMAIN,slife.xy-asia.com",
+              "DOMAIN,soup.v.qq.com",
+              "DOMAIN,vweixinf.tc.qq.com",
+              "DOMAIN,weixin110.qq.com",
+              "DOMAIN,wup.imtt.qq.com",
+              "DOMAIN,wx.tenpay.com",
+              "DOMAIN,wxapp.tc.qq.com",
+              "DOMAIN-KEYWORD,101.226.129.",
+              "DOMAIN-KEYWORD,101.226.211.",
+              "DOMAIN-KEYWORD,101.226.222.",
+              "DOMAIN-KEYWORD,101.226.226.",
+              "DOMAIN-KEYWORD,101.227.162.",
+              "DOMAIN-KEYWORD,101.32.104.",
+              "DOMAIN-KEYWORD,101.32.118.",
+              "DOMAIN-KEYWORD,101.32.133.",
+              "DOMAIN-KEYWORD,101.33.110.",
+              "DOMAIN-KEYWORD,101.89.15."
+            ]
+          }
+        },
+        {
+          "platform": "singbox",
+          "format": "singbox-json-v2",
+          "status": "removed",
+          "semanticChanged": true,
+          "currentConditionCount": 0,
+          "baselineConditionCount": 331,
+          "added": 0,
+          "removed": 331,
+          "samples": {
+            "added": [],
+            "removed": [
+              "domain:apd-pcdnwxlogin.teg.tencent-cloud.net",
+              "domain:btrace.qq.com",
+              "domain:dldir1.qq.com",
+              "domain:slife.xy-asia.com",
+              "domain:soup.v.qq.com",
+              "domain:vweixinf.tc.qq.com",
+              "domain:weixin110.qq.com",
+              "domain:wup.imtt.qq.com",
+              "domain:wx.tenpay.com",
+              "domain:wxapp.tc.qq.com",
+              "domain_keyword:101.226.129.",
+              "domain_keyword:101.226.211.",
+              "domain_keyword:101.226.222.",
+              "domain_keyword:101.226.226.",
+              "domain_keyword:101.227.162.",
+              "domain_keyword:101.32.104.",
+              "domain_keyword:101.32.118.",
+              "domain_keyword:101.32.133.",
+              "domain_keyword:101.33.110.",
+              "domain_keyword:101.89.15."
+            ]
+          }
+        },
+        {
+          "platform": "loon",
+          "format": "loon-classical",
+          "status": "removed",
+          "semanticChanged": true,
+          "currentConditionCount": 0,
+          "baselineConditionCount": 331,
+          "added": 0,
+          "removed": 331,
+          "samples": {
+            "added": [],
+            "removed": [
+              "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+              "DOMAIN,btrace.qq.com",
+              "DOMAIN,dldir1.qq.com",
+              "DOMAIN,slife.xy-asia.com",
+              "DOMAIN,soup.v.qq.com",
+              "DOMAIN,vweixinf.tc.qq.com",
+              "DOMAIN,weixin110.qq.com",
+              "DOMAIN,wup.imtt.qq.com",
+              "DOMAIN,wx.tenpay.com",
+              "DOMAIN,wxapp.tc.qq.com",
+              "DOMAIN-KEYWORD,101.226.129.",
+              "DOMAIN-KEYWORD,101.226.211.",
+              "DOMAIN-KEYWORD,101.226.222.",
+              "DOMAIN-KEYWORD,101.226.226.",
+              "DOMAIN-KEYWORD,101.227.162.",
+              "DOMAIN-KEYWORD,101.32.104.",
+              "DOMAIN-KEYWORD,101.32.118.",
+              "DOMAIN-KEYWORD,101.32.133.",
+              "DOMAIN-KEYWORD,101.33.110.",
+              "DOMAIN-KEYWORD,101.89.15."
+            ]
+          }
+        }
+      ],
+      "added": 0,
+      "removed": 331,
+      "changeRatio": 1,
+      "addedByType": {},
+      "removedByType": {
+        "DOMAIN": 10,
+        "DOMAIN-KEYWORD": 233,
+        "DOMAIN-SUFFIX": 16,
+        "IP-CIDR": 3,
+        "IP-CIDR6": 69
+      },
+      "samples": {
+        "added": [],
+        "removed": [
+          "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+          "DOMAIN,btrace.qq.com",
+          "DOMAIN,dldir1.qq.com",
+          "DOMAIN,slife.xy-asia.com",
+          "DOMAIN,soup.v.qq.com",
+          "DOMAIN,vweixinf.tc.qq.com",
+          "DOMAIN,weixin110.qq.com",
+          "DOMAIN,wup.imtt.qq.com",
+          "DOMAIN,wx.tenpay.com",
+          "DOMAIN,wxapp.tc.qq.com",
+          "DOMAIN-KEYWORD,101.226.129.",
+          "DOMAIN-KEYWORD,101.226.211.",
+          "DOMAIN-KEYWORD,101.226.222.",
+          "DOMAIN-KEYWORD,101.226.226.",
+          "DOMAIN-KEYWORD,101.227.162.",
+          "DOMAIN-KEYWORD,101.32.104.",
+          "DOMAIN-KEYWORD,101.32.118.",
+          "DOMAIN-KEYWORD,101.32.133.",
+          "DOMAIN-KEYWORD,101.33.110.",
+          "DOMAIN-KEYWORD,101.89.15."
+        ]
+      },
+      "sourcesAdded": [],
+      "sourcesRemoved": [
+        "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
+      ],
+      "warnings": [
+        "ruleset-removed"
+      ]
     }
   ]
 }

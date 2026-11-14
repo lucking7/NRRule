@@ -16,15 +16,15 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 160866,
-    "unsupportedRules": 6019,
+    "domainRules": 160869,
+    "unsupportedRules": 6017,
     "fullyCoveredDomainRules": 473,
     "partlyOverlappingDomainRules": 1090,
     "samePolicyRedundancies": 28,
     "differentPolicyConflicts": 1524,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
-    "conditionalWarnings": 75,
+    "conditionalWarnings": 77,
     "notCoveredSubscriptions": 0,
     "absentVariantSubscriptions": 0,
     "formatMismatchSubscriptions": 0
@@ -58,23 +58,25 @@
       "examples": []
     },
     {
-      "id": "wechat_no_ua.list",
+      "id": "wechat.list",
       "policy": "DIRECT",
       "kind": "subscription",
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 331,
-      "domainRules": 26,
-      "unsupportedRules": 305,
+      "totalRules": 332,
+      "domainRules": 29,
+      "unsupportedRules": 303,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 233,
+        "USER-AGENT": 2,
         "IP-CIDR": 3,
-        "IP-CIDR6": 69
+        "IP-CIDR6": 64,
+        "IP-ASN": 1
       },
-      "conditionalRules": 0,
-      "fullyCoveredDomainRules": 7,
-      "partlyOverlappingDomainRules": 4,
+      "conditionalRules": 2,
+      "fullyCoveredDomainRules": 6,
+      "partlyOverlappingDomainRules": 5,
       "samePolicyRedundancies": 0,
       "differentPolicyConflicts": 11,
       "fullyShadowedDomains": false,
@@ -96,8 +98,23 @@
           ]
         },
         {
+          "rule": "DOMAIN-SUFFIX,weixinbridge.com",
+          "line": 12,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "reject.list",
+              "policy": "REJECT",
+              "line": 40381,
+              "rule": "DOMAIN,badjs.weixinbridge.com",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
           "rule": "DOMAIN-SUFFIX,wechat.com",
-          "line": 14,
+          "line": 18,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -112,7 +129,7 @@
         },
         {
           "rule": "DOMAIN-SUFFIX,weixin.qq.com",
-          "line": 19,
+          "line": 23,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -126,23 +143,8 @@
           ]
         },
         {
-          "rule": "DOMAIN,btrace.qq.com",
-          "line": 21,
-          "coverage": "full",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "reject.list",
-              "policy": "REJECT",
-              "line": 92975,
-              "rule": "DOMAIN-SUFFIX,btrace.qq.com",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
           "rule": "DOMAIN,wup.imtt.qq.com",
-          "line": 22,
+          "line": 25,
           "coverage": "full",
           "relation": "different-policy",
           "earlier": [
@@ -757,8 +759,8 @@
         "IP-CIDR": 2
       },
       "conditionalRules": 3,
-      "fullyCoveredDomainRules": 32,
-      "partlyOverlappingDomainRules": 257,
+      "fullyCoveredDomainRules": 33,
+      "partlyOverlappingDomainRules": 256,
       "samePolicyRedundancies": 15,
       "differentPolicyConflicts": 273,
       "fullyShadowedDomains": false,
@@ -1573,6 +1575,26 @@
     }
   ],
   "conditionalWarnings": [
+    {
+      "subscription": "wechat.list",
+      "policy": "DIRECT",
+      "line": 270,
+      "rule": "USER-AGENT,MicroMessenger*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 20
+    },
+    {
+      "subscription": "wechat.list",
+      "policy": "DIRECT",
+      "line": 271,
+      "rule": "USER-AGENT,WeChat*",
+      "matchMode": "destination",
+      "condition": "USER-AGENT",
+      "compound": false,
+      "laterSubscriptions": 20
+    },
     {
       "subscription": "stream.list",
       "policy": "Streaming",
