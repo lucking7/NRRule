@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-14T14:35:01.113Z",
+  "generatedAt": "2026-11-14T18:57:17.626Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7788258726"
+    "receiptId": "7789016207"
   },
   "policy": {
     "sampleLimit": 20,
@@ -27,8 +27,8 @@
       "rulesetId": "ads",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 894,
-      "baselineConditionCount": 909,
+      "currentConditionCount": 904,
+      "baselineConditionCount": 894,
       "rawInputChanged": true,
       "semanticChanged": true,
       "semanticScope": "normalized-source",
@@ -38,34 +38,24 @@
           "format": "clash-classical",
           "status": "compared",
           "semanticChanged": true,
-          "currentConditionCount": 894,
-          "baselineConditionCount": 909,
-          "added": 2,
-          "removed": 17,
+          "currentConditionCount": 904,
+          "baselineConditionCount": 894,
+          "added": 10,
+          "removed": 0,
           "samples": {
             "added": [
-              "DOMAIN-SUFFIX,ads-img-bak.xhscdn.com",
-              "DOMAIN-SUFFIX,ads-vp5.xhscdn.com"
+              "DOMAIN-SUFFIX,apmplus.volces.com",
+              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,errnewlog.umeng.com",
+              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
+              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
+              "DOMAIN-SUFFIX,log-auth.zztfly.com",
+              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,upc.zztfly.com"
             ],
-            "removed": [
-              "DOMAIN-SUFFIX,ads-api.tiktok.com",
-              "DOMAIN-SUFFIX,ads-jp.tiktok.com",
-              "DOMAIN-SUFFIX,ads-sg.tiktok.com",
-              "DOMAIN-SUFFIX,ads.tiktok.com",
-              "DOMAIN-SUFFIX,adspecs.yahoo.com",
-              "DOMAIN-SUFFIX,adstudio.spotify.com",
-              "DOMAIN-SUFFIX,adtech.yahooinc.com",
-              "DOMAIN-SUFFIX,advertising-api-eu.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api-fe.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api.amazon.com",
-              "DOMAIN-SUFFIX,advertising.apple.com",
-              "DOMAIN-SUFFIX,advertising.yahoo.com",
-              "DOMAIN-SUFFIX,advertising.yandex.ru",
-              "DOMAIN-SUFFIX,bingads.microsoft.com",
-              "DOMAIN-SUFFIX,csjplatform.com",
-              "DOMAIN-SUFFIX,union.baidu.cn",
-              "DOMAIN-SUFFIX,union.baidu.com"
-            ]
+            "removed": []
           }
         },
         {
@@ -73,34 +63,24 @@
           "format": "loon-classical",
           "status": "compared",
           "semanticChanged": true,
-          "currentConditionCount": 894,
-          "baselineConditionCount": 909,
-          "added": 2,
-          "removed": 17,
+          "currentConditionCount": 904,
+          "baselineConditionCount": 894,
+          "added": 10,
+          "removed": 0,
           "samples": {
             "added": [
-              "DOMAIN-SUFFIX,ads-img-bak.xhscdn.com",
-              "DOMAIN-SUFFIX,ads-vp5.xhscdn.com"
+              "DOMAIN-SUFFIX,apmplus.volces.com",
+              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,errnewlog.umeng.com",
+              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
+              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
+              "DOMAIN-SUFFIX,log-auth.zztfly.com",
+              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,upc.zztfly.com"
             ],
-            "removed": [
-              "DOMAIN-SUFFIX,ads-api.tiktok.com",
-              "DOMAIN-SUFFIX,ads-jp.tiktok.com",
-              "DOMAIN-SUFFIX,ads-sg.tiktok.com",
-              "DOMAIN-SUFFIX,ads.tiktok.com",
-              "DOMAIN-SUFFIX,adspecs.yahoo.com",
-              "DOMAIN-SUFFIX,adstudio.spotify.com",
-              "DOMAIN-SUFFIX,adtech.yahooinc.com",
-              "DOMAIN-SUFFIX,advertising-api-eu.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api-fe.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api.amazon.com",
-              "DOMAIN-SUFFIX,advertising.apple.com",
-              "DOMAIN-SUFFIX,advertising.yahoo.com",
-              "DOMAIN-SUFFIX,advertising.yandex.ru",
-              "DOMAIN-SUFFIX,bingads.microsoft.com",
-              "DOMAIN-SUFFIX,csjplatform.com",
-              "DOMAIN-SUFFIX,union.baidu.cn",
-              "DOMAIN-SUFFIX,union.baidu.com"
-            ]
+            "removed": []
           }
         },
         {
@@ -108,34 +88,24 @@
           "format": "singbox-json-v2",
           "status": "compared",
           "semanticChanged": true,
-          "currentConditionCount": 894,
-          "baselineConditionCount": 909,
-          "added": 2,
-          "removed": 17,
+          "currentConditionCount": 904,
+          "baselineConditionCount": 894,
+          "added": 10,
+          "removed": 0,
           "samples": {
             "added": [
-              "domain_suffix:ads-img-bak.xhscdn.com",
-              "domain_suffix:ads-vp5.xhscdn.com"
+              "domain_suffix:apmplus.volces.com",
+              "domain_suffix:client-upload.cn-shanghai.log.aliyuncs.com",
+              "domain_suffix:du-app.cn-hangzhou.log.aliyuncs.com",
+              "domain_suffix:errnewlog.umeng.com",
+              "domain_suffix:fp-it.fengkongcloud.com",
+              "domain_suffix:lf-event-manager.oceanengine.com",
+              "domain_suffix:log-auth.zztfly.com",
+              "domain_suffix:shihuo-new.log.shihuocdn.cn",
+              "domain_suffix:shihuo.log.shihuocdn.cn",
+              "domain_suffix:upc.zztfly.com"
             ],
-            "removed": [
-              "domain_suffix:ads-api.tiktok.com",
-              "domain_suffix:ads-jp.tiktok.com",
-              "domain_suffix:ads-sg.tiktok.com",
-              "domain_suffix:ads.tiktok.com",
-              "domain_suffix:adspecs.yahoo.com",
-              "domain_suffix:adstudio.spotify.com",
-              "domain_suffix:adtech.yahooinc.com",
-              "domain_suffix:advertising-api-eu.amazon.com",
-              "domain_suffix:advertising-api-fe.amazon.com",
-              "domain_suffix:advertising-api.amazon.com",
-              "domain_suffix:advertising.apple.com",
-              "domain_suffix:advertising.yahoo.com",
-              "domain_suffix:advertising.yandex.ru",
-              "domain_suffix:bingads.microsoft.com",
-              "domain_suffix:csjplatform.com",
-              "domain_suffix:union.baidu.cn",
-              "domain_suffix:union.baidu.com"
-            ]
+            "removed": []
           }
         },
         {
@@ -143,70 +113,48 @@
           "format": "surge-classical",
           "status": "compared",
           "semanticChanged": true,
-          "currentConditionCount": 894,
-          "baselineConditionCount": 909,
-          "added": 2,
-          "removed": 17,
+          "currentConditionCount": 904,
+          "baselineConditionCount": 894,
+          "added": 10,
+          "removed": 0,
           "samples": {
             "added": [
-              "DOMAIN-SUFFIX,ads-img-bak.xhscdn.com",
-              "DOMAIN-SUFFIX,ads-vp5.xhscdn.com"
+              "DOMAIN-SUFFIX,apmplus.volces.com",
+              "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
+              "DOMAIN-SUFFIX,errnewlog.umeng.com",
+              "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
+              "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
+              "DOMAIN-SUFFIX,log-auth.zztfly.com",
+              "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
+              "DOMAIN-SUFFIX,upc.zztfly.com"
             ],
-            "removed": [
-              "DOMAIN-SUFFIX,ads-api.tiktok.com",
-              "DOMAIN-SUFFIX,ads-jp.tiktok.com",
-              "DOMAIN-SUFFIX,ads-sg.tiktok.com",
-              "DOMAIN-SUFFIX,ads.tiktok.com",
-              "DOMAIN-SUFFIX,adspecs.yahoo.com",
-              "DOMAIN-SUFFIX,adstudio.spotify.com",
-              "DOMAIN-SUFFIX,adtech.yahooinc.com",
-              "DOMAIN-SUFFIX,advertising-api-eu.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api-fe.amazon.com",
-              "DOMAIN-SUFFIX,advertising-api.amazon.com",
-              "DOMAIN-SUFFIX,advertising.apple.com",
-              "DOMAIN-SUFFIX,advertising.yahoo.com",
-              "DOMAIN-SUFFIX,advertising.yandex.ru",
-              "DOMAIN-SUFFIX,bingads.microsoft.com",
-              "DOMAIN-SUFFIX,csjplatform.com",
-              "DOMAIN-SUFFIX,union.baidu.cn",
-              "DOMAIN-SUFFIX,union.baidu.com"
-            ]
+            "removed": []
           }
         }
       ],
-      "added": 2,
-      "removed": 17,
-      "changeRatio": 0.020902,
+      "added": 10,
+      "removed": 0,
+      "changeRatio": 0.011186,
       "addedByType": {
-        "DOMAIN-SUFFIX": 2
+        "DOMAIN-SUFFIX": 10
       },
-      "removedByType": {
-        "DOMAIN-SUFFIX": 17
-      },
+      "removedByType": {},
       "samples": {
         "added": [
-          "DOMAIN-SUFFIX,ads-img-bak.xhscdn.com",
-          "DOMAIN-SUFFIX,ads-vp5.xhscdn.com"
+          "DOMAIN-SUFFIX,apmplus.volces.com",
+          "DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com",
+          "DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com",
+          "DOMAIN-SUFFIX,errnewlog.umeng.com",
+          "DOMAIN-SUFFIX,fp-it.fengkongcloud.com",
+          "DOMAIN-SUFFIX,lf-event-manager.oceanengine.com",
+          "DOMAIN-SUFFIX,log-auth.zztfly.com",
+          "DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn",
+          "DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn",
+          "DOMAIN-SUFFIX,upc.zztfly.com"
         ],
-        "removed": [
-          "DOMAIN-SUFFIX,ads-api.tiktok.com",
-          "DOMAIN-SUFFIX,ads-jp.tiktok.com",
-          "DOMAIN-SUFFIX,ads-sg.tiktok.com",
-          "DOMAIN-SUFFIX,ads.tiktok.com",
-          "DOMAIN-SUFFIX,adspecs.yahoo.com",
-          "DOMAIN-SUFFIX,adstudio.spotify.com",
-          "DOMAIN-SUFFIX,adtech.yahooinc.com",
-          "DOMAIN-SUFFIX,advertising-api-eu.amazon.com",
-          "DOMAIN-SUFFIX,advertising-api-fe.amazon.com",
-          "DOMAIN-SUFFIX,advertising-api.amazon.com",
-          "DOMAIN-SUFFIX,advertising.apple.com",
-          "DOMAIN-SUFFIX,advertising.yahoo.com",
-          "DOMAIN-SUFFIX,advertising.yandex.ru",
-          "DOMAIN-SUFFIX,bingads.microsoft.com",
-          "DOMAIN-SUFFIX,csjplatform.com",
-          "DOMAIN-SUFFIX,union.baidu.cn",
-          "DOMAIN-SUFFIX,union.baidu.com"
-        ]
+        "removed": []
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -2024,77 +1972,106 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 254,
+      "currentConditionCount": 255,
       "baselineConditionCount": 254,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 254,
+          "semanticChanged": true,
+          "currentConditionCount": 255,
           "baselineConditionCount": 254,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,emby.111449.xyz",
+              "DOMAIN,hehuan.riroro.com"
+            ],
+            "removed": [
+              "DOMAIN,bb.111848.xyz"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 254,
+          "semanticChanged": true,
+          "currentConditionCount": 255,
           "baselineConditionCount": 254,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,emby.111449.xyz",
+              "DOMAIN,hehuan.riroro.com"
+            ],
+            "removed": [
+              "DOMAIN,bb.111848.xyz"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 254,
+          "semanticChanged": true,
+          "currentConditionCount": 255,
           "baselineConditionCount": 254,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain:emby.111449.xyz",
+              "domain:hehuan.riroro.com"
+            ],
+            "removed": [
+              "domain:bb.111848.xyz"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 254,
+          "semanticChanged": true,
+          "currentConditionCount": 255,
           "baselineConditionCount": 254,
-          "added": 0,
-          "removed": 0,
+          "added": 2,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN,emby.111449.xyz",
+              "DOMAIN,hehuan.riroro.com"
+            ],
+            "removed": [
+              "DOMAIN,bb.111848.xyz"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 2,
+      "removed": 1,
+      "changeRatio": 0.011811,
+      "addedByType": {
+        "DOMAIN": 2
+      },
+      "removedByType": {
+        "DOMAIN": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN,emby.111449.xyz",
+          "DOMAIN,hehuan.riroro.com"
+        ],
+        "removed": [
+          "DOMAIN,bb.111848.xyz"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
