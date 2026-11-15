@@ -1,7 +1,7 @@
 #########################################
 # CloudMounter / RaiDrive
-# Last Updated: 2026-11-15T13:58:37.862Z
-# Size: 40
+# Last Updated: 2026-11-15T15:03:17.437Z
+# Size: 52
 # Rules for CloudMounter / RaiDrive
 # Merged from 1 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -46,5 +46,17 @@ AND,((DOMAIN-SUFFIX,upload.app.box.com),(PROCESS-NAME,*CloudMounter))
 AND,((DOMAIN-SUFFIX,upload.app.box.com),(SRC-IP,10.0.0.0/8))
 AND,((DOMAIN-SUFFIX,upload.app.box.com),(SRC-IP,172.16.0.0/12))
 AND,((DOMAIN-SUFFIX,upload.app.box.com),(SRC-IP,192.168.0.0/16))
+AND,((DOMAIN,app.drime.cloud),(PROCESS-NAME,*CloudMounter))
+AND,((DOMAIN,app.drime.cloud),(SRC-IP,10.0.0.0/8))
+AND,((DOMAIN,app.drime.cloud),(SRC-IP,172.16.0.0/12))
+AND,((DOMAIN,app.drime.cloud),(SRC-IP,192.168.0.0/16))
+AND,((DOMAIN-SUFFIX,r2.cloudflarestorage.com),(PROCESS-NAME,*CloudMounter))
+AND,((DOMAIN-SUFFIX,r2.cloudflarestorage.com),(SRC-IP,10.0.0.0/8))
+AND,((DOMAIN-SUFFIX,r2.cloudflarestorage.com),(SRC-IP,172.16.0.0/12))
+AND,((DOMAIN-SUFFIX,r2.cloudflarestorage.com),(SRC-IP,192.168.0.0/16))
+AND,((DOMAIN-SUFFIX,r2.dev),(PROCESS-NAME,*CloudMounter))
+AND,((DOMAIN-SUFFIX,r2.dev),(SRC-IP,10.0.0.0/8))
+AND,((DOMAIN-SUFFIX,r2.dev),(SRC-IP,172.16.0.0/12))
+AND,((DOMAIN-SUFFIX,r2.dev),(SRC-IP,192.168.0.0/16))
 ################## EOF ##################
 
