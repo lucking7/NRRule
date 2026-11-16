@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-16T09:43:32.759Z",
+  "generatedAt": "2026-11-16T10:01:35.760Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7820275294"
+    "receiptId": "7820537901"
   },
   "policy": {
     "sampleLimit": 20,
@@ -28,37 +28,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 918,
-      "baselineConditionCount": 904,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 918,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 918,
-          "baselineConditionCount": 904,
-          "added": 14,
+          "baselineConditionCount": 918,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,adx.anythinktech.com",
-              "DOMAIN-SUFFIX,alogsus.umeng.com",
-              "DOMAIN-SUFFIX,android.bugly.qq.com",
-              "DOMAIN-SUFFIX,bid.shanghailingye.cn",
-              "DOMAIN-SUFFIX,cn-api-sec.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-da.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-tk.anythinktech.com",
-              "DOMAIN-SUFFIX,da.statisticslinks.com",
-              "DOMAIN-SUFFIX,errlog.umeng.com",
-              "DOMAIN-SUFFIX,errlogos.umeng.com",
-              "DOMAIN-SUFFIX,errnewlogos.umeng.com",
-              "DOMAIN-SUFFIX,ssapi.anythinktech.com",
-              "DOMAIN-SUFFIX,tk.statisticslinks.com",
-              "DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -66,28 +51,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 918,
-          "baselineConditionCount": 904,
-          "added": 14,
+          "baselineConditionCount": 918,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,adx.anythinktech.com",
-              "DOMAIN-SUFFIX,alogsus.umeng.com",
-              "DOMAIN-SUFFIX,android.bugly.qq.com",
-              "DOMAIN-SUFFIX,bid.shanghailingye.cn",
-              "DOMAIN-SUFFIX,cn-api-sec.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-da.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-tk.anythinktech.com",
-              "DOMAIN-SUFFIX,da.statisticslinks.com",
-              "DOMAIN-SUFFIX,errlog.umeng.com",
-              "DOMAIN-SUFFIX,errlogos.umeng.com",
-              "DOMAIN-SUFFIX,errnewlogos.umeng.com",
-              "DOMAIN-SUFFIX,ssapi.anythinktech.com",
-              "DOMAIN-SUFFIX,tk.statisticslinks.com",
-              "DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -95,28 +65,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 918,
-          "baselineConditionCount": 904,
-          "added": 14,
+          "baselineConditionCount": 918,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:adx.anythinktech.com",
-              "domain_suffix:alogsus.umeng.com",
-              "domain_suffix:android.bugly.qq.com",
-              "domain_suffix:bid.shanghailingye.cn",
-              "domain_suffix:cn-api-sec.anythinktech.com",
-              "domain_suffix:cn-da.anythinktech.com",
-              "domain_suffix:cn-tk.anythinktech.com",
-              "domain_suffix:da.statisticslinks.com",
-              "domain_suffix:errlog.umeng.com",
-              "domain_suffix:errlogos.umeng.com",
-              "domain_suffix:errnewlogos.umeng.com",
-              "domain_suffix:ssapi.anythinktech.com",
-              "domain_suffix:tk.statisticslinks.com",
-              "domain_suffix:tobapplog.ctobsnssdk.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -124,56 +79,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 918,
-          "baselineConditionCount": 904,
-          "added": 14,
+          "baselineConditionCount": 918,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,adx.anythinktech.com",
-              "DOMAIN-SUFFIX,alogsus.umeng.com",
-              "DOMAIN-SUFFIX,android.bugly.qq.com",
-              "DOMAIN-SUFFIX,bid.shanghailingye.cn",
-              "DOMAIN-SUFFIX,cn-api-sec.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-da.anythinktech.com",
-              "DOMAIN-SUFFIX,cn-tk.anythinktech.com",
-              "DOMAIN-SUFFIX,da.statisticslinks.com",
-              "DOMAIN-SUFFIX,errlog.umeng.com",
-              "DOMAIN-SUFFIX,errlogos.umeng.com",
-              "DOMAIN-SUFFIX,errnewlogos.umeng.com",
-              "DOMAIN-SUFFIX,ssapi.anythinktech.com",
-              "DOMAIN-SUFFIX,tk.statisticslinks.com",
-              "DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 14,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.015487,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 14
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,adx.anythinktech.com",
-          "DOMAIN-SUFFIX,alogsus.umeng.com",
-          "DOMAIN-SUFFIX,android.bugly.qq.com",
-          "DOMAIN-SUFFIX,bid.shanghailingye.cn",
-          "DOMAIN-SUFFIX,cn-api-sec.anythinktech.com",
-          "DOMAIN-SUFFIX,cn-da.anythinktech.com",
-          "DOMAIN-SUFFIX,cn-tk.anythinktech.com",
-          "DOMAIN-SUFFIX,da.statisticslinks.com",
-          "DOMAIN-SUFFIX,errlog.umeng.com",
-          "DOMAIN-SUFFIX,errlogos.umeng.com",
-          "DOMAIN-SUFFIX,errnewlogos.umeng.com",
-          "DOMAIN-SUFFIX,ssapi.anythinktech.com",
-          "DOMAIN-SUFFIX,tk.statisticslinks.com",
-          "DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],

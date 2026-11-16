@@ -187,6 +187,16 @@
       "replacement": "sing-box/china_ip.json and sing-box/china_ip_ipv6.json (IP coverage is not equivalent to ASN matching)"
     },
     {
+      "id": "geoip:ip2location",
+      "state": "retired",
+      "paths": [
+        "GeoIP/ip2.mmdb"
+      ],
+      "reason": "Upstream xream/geoip is archived (last push 2026-08-03), so its IP2Location country database no longer updates",
+      "evidence": "Build/download-geoip.ts no longer downloads it",
+      "replacement": "GeoIP/country.mmdb"
+    },
+    {
       "id": "variant:domainset",
       "state": "retired",
       "paths": [],
