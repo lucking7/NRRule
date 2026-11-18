@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-18T05:53:13.584Z",
+  "generatedAt": "2026-11-18T13:43:37.141Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7873502597"
+    "receiptId": "7875468628"
   },
   "policy": {
     "sampleLimit": 20,
@@ -109,24 +109,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 717,
-      "baselineConditionCount": 716,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 717,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 703,
-          "baselineConditionCount": 702,
-          "added": 1,
+          "baselineConditionCount": 703,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,elevenlabsusercontent.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -134,15 +132,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 704,
-          "baselineConditionCount": 703,
-          "added": 1,
+          "baselineConditionCount": 704,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,elevenlabsusercontent.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -150,15 +146,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 702,
-          "baselineConditionCount": 701,
-          "added": 1,
+          "baselineConditionCount": 702,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "domain_suffix:elevenlabsusercontent.com"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -166,30 +160,24 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 704,
-          "baselineConditionCount": 703,
-          "added": 1,
+          "baselineConditionCount": 704,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "DOMAIN-SUFFIX,elevenlabsusercontent.com"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.001397,
-      "addedByType": {
-        "DOMAIN-SUFFIX": 1
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "DOMAIN-SUFFIX,elevenlabsusercontent.com"
-        ],
+        "added": [],
         "removed": []
       },
       "sourcesAdded": [],
@@ -203,7 +191,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1443,7 +1431,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2334,7 +2322,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
