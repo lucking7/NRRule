@@ -16,7 +16,7 @@
     "auditedSubscriptions": 22,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 160583,
+    "domainRules": 160584,
     "unsupportedRules": 5895,
     "fullyCoveredDomainRules": 473,
     "partlyOverlappingDomainRules": 1091,
@@ -186,8 +186,8 @@
       "status": "audited",
       "format": "rule-set",
       "reviewStatus": "reviewed",
-      "totalRules": 703,
-      "domainRules": 290,
+      "totalRules": 704,
+      "domainRules": 291,
       "unsupportedRules": 413,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 2,
@@ -235,7 +235,7 @@
         },
         {
           "rule": "DOMAIN,copilot-telemetry.githubusercontent.com",
-          "line": 68,
+          "line": 69,
           "coverage": "full",
           "relation": "different-policy",
           "earlier": [
@@ -250,7 +250,7 @@
         },
         {
           "rule": "DOMAIN-SUFFIX,githubcopilot.com",
-          "line": 78,
+          "line": 79,
           "coverage": "partial",
           "relation": "different-policy",
           "earlier": [
@@ -265,7 +265,7 @@
         },
         {
           "rule": "DOMAIN,apple-relay.fastly-edge.com",
-          "line": 86,
+          "line": 87,
           "coverage": "full",
           "relation": "different-policy",
           "earlier": [
