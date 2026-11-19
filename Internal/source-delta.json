@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-19T03:12:24.301Z",
+  "generatedAt": "2026-11-19T06:14:19.732Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7901652634"
+    "receiptId": "7902980965"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,27 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 718,
+      "currentConditionCount": 721,
       "baselineConditionCount": 718,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 704,
+          "semanticChanged": true,
+          "currentConditionCount": 707,
           "baselineConditionCount": 704,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,160.79.104.0/23",
+              "IP-CIDR6,2607:6bc0:11::/48",
+              "IP-CIDR6,2607:6bc0::/48"
+            ],
             "removed": []
           }
         },
@@ -132,13 +136,17 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 705,
+          "semanticChanged": true,
+          "currentConditionCount": 708,
           "baselineConditionCount": 705,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,160.79.104.0/23",
+              "IP-CIDR6,2607:6bc0:11::/48",
+              "IP-CIDR6,2607:6bc0::/48"
+            ],
             "removed": []
           }
         },
@@ -146,13 +154,17 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 703,
+          "semanticChanged": true,
+          "currentConditionCount": 706,
           "baselineConditionCount": 703,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "ip_cidr:160.79.104.0/23",
+              "ip_cidr:2607:6bc0:11::/48",
+              "ip_cidr:2607:6bc0::/48"
+            ],
             "removed": []
           }
         },
@@ -160,27 +172,40 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 705,
+          "semanticChanged": true,
+          "currentConditionCount": 708,
           "baselineConditionCount": 705,
-          "added": 0,
+          "added": 3,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,160.79.104.0/23",
+              "IP-CIDR6,2607:6bc0:11::/48",
+              "IP-CIDR6,2607:6bc0::/48"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 3,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.004178,
+      "addedByType": {
+        "IP-CIDR": 1,
+        "IP-CIDR6": 2
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "IP-CIDR,160.79.104.0/23",
+          "IP-CIDR6,2607:6bc0:11::/48",
+          "IP-CIDR6,2607:6bc0::/48"
+        ],
         "removed": []
       },
-      "sourcesAdded": [],
+      "sourcesAdded": [
+        "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/asn/AS399358.list"
+      ],
       "sourcesRemoved": [],
       "warnings": []
     },
@@ -1431,7 +1456,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2347,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
