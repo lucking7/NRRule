@@ -26,6 +26,44 @@
       "replacement": "Modules/Merged/All-in-One-Pro.sgmodule"
     },
     {
+      "id": "ruleset:speedtest_china",
+      "state": "deprecated",
+      "paths": [
+        "List/speedtest_china.list",
+        "List/non_ip/speedtest_china.list",
+        "Clash/speedtest_china.txt",
+        "Clash/non_ip/speedtest_china.txt",
+        "Loon/speedtest_china.list",
+        "Loon/non_ip/speedtest_china.list",
+        "sing-box/speedtest_china.json",
+        "sing-box/non_ip/speedtest_china.json"
+      ],
+      "reason": "Regional endpoint updates ended on 2026-11-19. Existing subscriptions keep the accepted rules.",
+      "evidence": "NRRule commit 085c496b9f31e44d834a1106d67fbe104a65bf01, publication receipt 7905690629",
+      "replacement": "<platform>/speedtest (Sukka global speedtest domains across regions)"
+    },
+    {
+      "id": "ruleset:speedtest_international",
+      "state": "deprecated",
+      "paths": [
+        "List/speedtest_international.list",
+        "List/non_ip/speedtest_international.list",
+        "List/ip/speedtest_international.list",
+        "Clash/speedtest_international.txt",
+        "Clash/non_ip/speedtest_international.txt",
+        "Clash/ip/speedtest_international.txt",
+        "Loon/speedtest_international.list",
+        "Loon/non_ip/speedtest_international.list",
+        "Loon/ip/speedtest_international.list",
+        "sing-box/speedtest_international.json",
+        "sing-box/non_ip/speedtest_international.json",
+        "sing-box/ip/speedtest_international.json"
+      ],
+      "reason": "Regional endpoint updates ended on 2026-11-19. Existing subscriptions keep the accepted rules.",
+      "evidence": "NRRule commit 085c496b9f31e44d834a1106d67fbe104a65bf01, publication receipt 7905690629",
+      "replacement": "<platform>/speedtest (Sukka global speedtest domains across regions)"
+    },
+    {
       "id": "ruleset:container",
       "state": "retired",
       "paths": [
