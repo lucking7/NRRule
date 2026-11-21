@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-21T15:38:01.163Z",
+  "generatedAt": "2026-11-21T21:31:14.287Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7964800128"
+    "receiptId": "7965513329"
   },
   "policy": {
     "sampleLimit": 20,
@@ -1917,75 +1917,99 @@
       "status": "compared",
       "currentConditionCount": 256,
       "baselineConditionCount": 256,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 256,
           "baselineConditionCount": 256,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,polodns.xyz"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 256,
           "baselineConditionCount": 256,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,polodns.xyz"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 256,
           "baselineConditionCount": 256,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_suffix:poloco.org"
+            ],
+            "removed": [
+              "domain_suffix:polodns.xyz"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
+          "semanticChanged": true,
           "currentConditionCount": 256,
           "baselineConditionCount": 256,
-          "added": 0,
-          "removed": 0,
+          "added": 1,
+          "removed": 1,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ],
+            "removed": [
+              "DOMAIN-SUFFIX,polodns.xyz"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 1,
+      "removed": 1,
+      "changeRatio": 0.007813,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
+      "removedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-SUFFIX,poloco.org"
+        ],
+        "removed": [
+          "DOMAIN-SUFFIX,polodns.xyz"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
