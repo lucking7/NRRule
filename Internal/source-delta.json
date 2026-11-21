@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-21T03:09:47.401Z",
+  "generatedAt": "2026-11-21T12:09:57.119Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7956401222"
+    "receiptId": "7957708202"
   },
   "policy": {
     "sampleLimit": 20,
@@ -110,7 +110,7 @@
       "status": "compared",
       "currentConditionCount": 721,
       "baselineConditionCount": 721,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -191,7 +191,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1431,7 +1431,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2079,7 +2079,7 @@
       "status": "compared",
       "currentConditionCount": 60,
       "baselineConditionCount": 60,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -2322,7 +2322,7 @@
       "status": "compared",
       "currentConditionCount": 847,
       "baselineConditionCount": 847,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -3817,77 +3817,89 @@
       "rulesetId": "reject-fmz",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 2146,
+      "currentConditionCount": 2145,
       "baselineConditionCount": 2146,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 2128,
+          "semanticChanged": true,
+          "currentConditionCount": 2127,
           "baselineConditionCount": 2128,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN,118.89.204.198"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 2129,
+          "semanticChanged": true,
+          "currentConditionCount": 2128,
           "baselineConditionCount": 2129,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN,118.89.204.198"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 2128,
+          "semanticChanged": true,
+          "currentConditionCount": 2127,
           "baselineConditionCount": 2128,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "domain:118.89.204.198"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 2129,
+          "semanticChanged": true,
+          "currentConditionCount": 2128,
           "baselineConditionCount": 2129,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN,118.89.204.198"
+            ]
           }
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 1,
+      "changeRatio": 0.000466,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN": 1
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN,118.89.204.198"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
