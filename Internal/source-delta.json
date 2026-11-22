@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-22T11:59:03.908Z",
+  "generatedAt": "2026-11-22T13:05:00.085Z",
   "baseline": {
     "configured": true,
-    "receiptId": "7974195639"
+    "receiptId": "7978365727"
   },
   "policy": {
     "sampleLimit": 20,
@@ -109,24 +109,22 @@
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
       "currentConditionCount": 722,
-      "baselineConditionCount": 721,
-      "rawInputChanged": true,
-      "semanticChanged": true,
+      "baselineConditionCount": 722,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 708,
-          "baselineConditionCount": 707,
-          "added": 1,
+          "baselineConditionCount": 708,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,153.61.224.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -134,15 +132,13 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 709,
-          "baselineConditionCount": 708,
-          "added": 1,
+          "baselineConditionCount": 709,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,153.61.224.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -150,15 +146,13 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 707,
-          "baselineConditionCount": 706,
-          "added": 1,
+          "baselineConditionCount": 707,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "ip_cidr:153.61.224.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         },
@@ -166,39 +160,28 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": true,
+          "semanticChanged": false,
           "currentConditionCount": 709,
-          "baselineConditionCount": 708,
-          "added": 1,
+          "baselineConditionCount": 709,
+          "added": 0,
           "removed": 0,
           "samples": {
-            "added": [
-              "IP-CIDR,153.61.224.0/22"
-            ],
+            "added": [],
             "removed": []
           }
         }
       ],
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "changeRatio": 0.001387,
-      "addedByType": {
-        "IP-CIDR": 1
-      },
+      "changeRatio": 0,
+      "addedByType": {},
       "removedByType": {},
       "samples": {
-        "added": [
-          "IP-CIDR,153.61.224.0/22"
-        ],
+        "added": [],
         "removed": []
       },
-      "sourcesAdded": [
-        "https://platform.claude.com/docs/en/api/ip-addresses.md",
-        "https://stat.ripe.net/data/announced-prefixes/data.json?[REDACTED]"
-      ],
-      "sourcesRemoved": [
-        "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/asn/AS399358.list"
-      ],
+      "sourcesAdded": [],
+      "sourcesRemoved": [],
       "warnings": []
     },
     {
