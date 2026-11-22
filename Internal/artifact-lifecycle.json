@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "automaticRedirects": false,
   "records": [
     {
@@ -68,15 +68,20 @@
       "state": "retired",
       "paths": [
         "List/container.list",
+        "List/domainset/container.conf",
         "List/non_ip/container.list",
+        "List/non_ip/container.conf",
         "List/ip/container.list",
+        "List/ip/container.conf",
         "Clash/container.txt",
+        "Clash/domainset/container.txt",
         "Clash/non_ip/container.txt",
         "Clash/ip/container.txt",
         "Loon/container.list",
         "Loon/non_ip/container.list",
         "Loon/ip/container.list",
         "sing-box/container.json",
+        "sing-box/domainset/container.json",
         "sing-box/non_ip/container.json",
         "sing-box/ip/container.json"
       ],
@@ -88,15 +93,20 @@
       "state": "retired",
       "paths": [
         "List/discord.list",
+        "List/domainset/discord.conf",
         "List/non_ip/discord.list",
+        "List/non_ip/discord.conf",
         "List/ip/discord.list",
+        "List/ip/discord.conf",
         "Clash/discord.txt",
+        "Clash/domainset/discord.txt",
         "Clash/non_ip/discord.txt",
         "Clash/ip/discord.txt",
         "Loon/discord.list",
         "Loon/non_ip/discord.list",
         "Loon/ip/discord.list",
         "sing-box/discord.json",
+        "sing-box/domainset/discord.json",
         "sing-box/non_ip/discord.json",
         "sing-box/ip/discord.json"
       ],
@@ -108,15 +118,20 @@
       "state": "retired",
       "paths": [
         "List/scholar.list",
+        "List/domainset/scholar.conf",
         "List/non_ip/scholar.list",
+        "List/non_ip/scholar.conf",
         "List/ip/scholar.list",
+        "List/ip/scholar.conf",
         "Clash/scholar.txt",
+        "Clash/domainset/scholar.txt",
         "Clash/non_ip/scholar.txt",
         "Clash/ip/scholar.txt",
         "Loon/scholar.list",
         "Loon/non_ip/scholar.list",
         "Loon/ip/scholar.list",
         "sing-box/scholar.json",
+        "sing-box/domainset/scholar.json",
         "sing-box/non_ip/scholar.json",
         "sing-box/ip/scholar.json"
       ],
@@ -128,15 +143,20 @@
       "state": "retired",
       "paths": [
         "List/streaming_cn.list",
+        "List/domainset/streaming_cn.conf",
         "List/non_ip/streaming_cn.list",
+        "List/non_ip/streaming_cn.conf",
         "List/ip/streaming_cn.list",
+        "List/ip/streaming_cn.conf",
         "Clash/streaming_cn.txt",
+        "Clash/domainset/streaming_cn.txt",
         "Clash/non_ip/streaming_cn.txt",
         "Clash/ip/streaming_cn.txt",
         "Loon/streaming_cn.list",
         "Loon/non_ip/streaming_cn.list",
         "Loon/ip/streaming_cn.list",
         "sing-box/streaming_cn.json",
+        "sing-box/domainset/streaming_cn.json",
         "sing-box/non_ip/streaming_cn.json",
         "sing-box/ip/streaming_cn.json"
       ],
@@ -148,15 +168,20 @@
       "state": "retired",
       "paths": [
         "List/streaming_!cn.list",
+        "List/domainset/streaming_!cn.conf",
         "List/non_ip/streaming_!cn.list",
+        "List/non_ip/streaming_!cn.conf",
         "List/ip/streaming_!cn.list",
+        "List/ip/streaming_!cn.conf",
         "Clash/streaming_!cn.txt",
+        "Clash/domainset/streaming_!cn.txt",
         "Clash/non_ip/streaming_!cn.txt",
         "Clash/ip/streaming_!cn.txt",
         "Loon/streaming_!cn.list",
         "Loon/non_ip/streaming_!cn.list",
         "Loon/ip/streaming_!cn.list",
         "sing-box/streaming_!cn.json",
+        "sing-box/domainset/streaming_!cn.json",
         "sing-box/non_ip/streaming_!cn.json",
         "sing-box/ip/streaming_!cn.json"
       ],
@@ -169,15 +194,20 @@
       "state": "retired",
       "paths": [
         "List/wechat_no_ua.list",
+        "List/domainset/wechat_no_ua.conf",
         "List/non_ip/wechat_no_ua.list",
+        "List/non_ip/wechat_no_ua.conf",
         "List/ip/wechat_no_ua.list",
+        "List/ip/wechat_no_ua.conf",
         "Clash/wechat_no_ua.txt",
+        "Clash/domainset/wechat_no_ua.txt",
         "Clash/non_ip/wechat_no_ua.txt",
         "Clash/ip/wechat_no_ua.txt",
         "Loon/wechat_no_ua.list",
         "Loon/non_ip/wechat_no_ua.list",
         "Loon/ip/wechat_no_ua.list",
         "sing-box/wechat_no_ua.json",
+        "sing-box/domainset/wechat_no_ua.json",
         "sing-box/non_ip/wechat_no_ua.json",
         "sing-box/ip/wechat_no_ua.json"
       ],
@@ -217,6 +247,7 @@
       "state": "retired",
       "paths": [
         "sing-box/china_asn.json",
+        "sing-box/domainset/china_asn.json",
         "sing-box/non_ip/china_asn.json",
         "sing-box/ip/china_asn.json"
       ],
@@ -239,14 +270,23 @@
       "state": "retired",
       "paths": [],
       "pathPrefixes": [
-        "List/domainset/",
-        "Clash/domainset/",
-        "Loon/domainset/",
-        "sing-box/domainset/"
+        "Loon/domainset/"
       ],
-      "reason": "The domainset variant was merged into non_ip; Surge RULE-SET indexes domain rules",
-      "evidence": "Build/lib/rule-output-variants.ts publishes only non_ip and ip",
-      "replacement": "<platform>/non_ip/<id> (Surge: RULE-SET instead of DOMAIN-SET)"
+      "reason": "Loon domainset subscriptions were merged into non_ip",
+      "evidence": "Build/lib/rule-output-variants.ts publishes Loon RULE-SET variants",
+      "replacement": "Loon/non_ip/<id>.list"
+    },
+    {
+      "id": "variant:surge-domainset-list",
+      "state": "retired",
+      "paths": [],
+      "pathPrefixes": [
+        "List/domainset/"
+      ],
+      "pathSuffix": ".list",
+      "reason": "Surge domainset subscriptions use .conf files",
+      "evidence": "Build/lib/rule-output-variants.ts defines the Surge DOMAIN-SET format",
+      "replacement": "List/domainset/<id>.conf"
     }
   ],
   "removed": []
