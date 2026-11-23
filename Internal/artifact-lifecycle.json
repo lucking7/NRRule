@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "automaticRedirects": false,
   "records": [
     {
@@ -29,7 +29,6 @@
       "id": "ruleset:speedtest_china",
       "state": "deprecated",
       "paths": [
-        "List/speedtest_china.list",
         "List/non_ip/speedtest_china.list",
         "Clash/speedtest_china.txt",
         "Clash/non_ip/speedtest_china.txt",
@@ -46,7 +45,6 @@
       "id": "ruleset:speedtest_international",
       "state": "deprecated",
       "paths": [
-        "List/speedtest_international.list",
         "List/non_ip/speedtest_international.list",
         "List/ip/speedtest_international.list",
         "Clash/speedtest_international.txt",
@@ -67,7 +65,6 @@
       "id": "ruleset:container",
       "state": "retired",
       "paths": [
-        "List/container.list",
         "List/domainset/container.conf",
         "List/non_ip/container.list",
         "List/non_ip/container.conf",
@@ -92,7 +89,6 @@
       "id": "ruleset:discord",
       "state": "retired",
       "paths": [
-        "List/discord.list",
         "List/domainset/discord.conf",
         "List/non_ip/discord.list",
         "List/non_ip/discord.conf",
@@ -117,7 +113,6 @@
       "id": "ruleset:scholar",
       "state": "retired",
       "paths": [
-        "List/scholar.list",
         "List/domainset/scholar.conf",
         "List/non_ip/scholar.list",
         "List/non_ip/scholar.conf",
@@ -142,7 +137,6 @@
       "id": "ruleset:streaming_cn",
       "state": "retired",
       "paths": [
-        "List/streaming_cn.list",
         "List/domainset/streaming_cn.conf",
         "List/non_ip/streaming_cn.list",
         "List/non_ip/streaming_cn.conf",
@@ -167,7 +161,6 @@
       "id": "ruleset:streaming_!cn",
       "state": "retired",
       "paths": [
-        "List/streaming_!cn.list",
         "List/domainset/streaming_!cn.conf",
         "List/non_ip/streaming_!cn.list",
         "List/non_ip/streaming_!cn.conf",
@@ -193,7 +186,6 @@
       "id": "ruleset:wechat_no_ua",
       "state": "retired",
       "paths": [
-        "List/wechat_no_ua.list",
         "List/domainset/wechat_no_ua.conf",
         "List/non_ip/wechat_no_ua.list",
         "List/non_ip/wechat_no_ua.conf",
@@ -275,6 +267,19 @@
       "reason": "Loon domainset subscriptions were merged into non_ip",
       "evidence": "Build/lib/rule-output-variants.ts publishes Loon RULE-SET variants",
       "replacement": "Loon/non_ip/<id>.list"
+    },
+    {
+      "id": "variant:surge-merged",
+      "state": "retired",
+      "paths": [],
+      "pathPrefixes": [
+        "List/"
+      ],
+      "pathSuffix": ".list",
+      "directChildrenOnly": true,
+      "reason": "Surge rule subscriptions are published only as split outputs",
+      "evidence": "Build/lib/rule-output-variants.ts defines the Surge split-only layout",
+      "replacement": "Published RULE-SET files in List/non_ip/ and List/ip/. Frozen regional speedtests use .list."
     },
     {
       "id": "variant:surge-domainset-list",

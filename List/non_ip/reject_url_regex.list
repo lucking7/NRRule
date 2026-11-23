@@ -1,10 +1,10 @@
 #########################################
 # Reject URL Regex
-# Last Updated: 2026-11-23T06:25:28.316Z
+# Last Updated: 2026-11-23T10:02:47.425Z
 # Size: 176
 # Rules for Reject URL Regex
 # Merged from 1 sources
-# Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
+# Variant: non_ip. Load every published non_ip and ip variant for complete coverage.
 #########################################
 URL-REGEX,^https?://premiumyva\.appspot\.com/vmclickstoadvertisersite
 URL-REGEX,^https?://service\.4gtv\.tv/4gtv/Data/(GetAD|ADLog)

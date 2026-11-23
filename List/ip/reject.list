@@ -1,10 +1,10 @@
 #########################################
 # lucking - Reject
-# Last Updated: 2026-11-23T06:25:31.367Z
+# Last Updated: 2026-11-23T10:02:50.754Z
 # Size: 782
 # Rules for lucking - Reject
 # Merged from 3 sources
-# Variant: ip. Combine non_ip and ip for the conditions of the merged ruleset.
+# Variant: ip. Load every published non_ip and ip variant for complete coverage.
 #########################################
 IP-CIDR,10.72.25.0/24,no-resolve
 IP-CIDR,39.107.15.115/32,no-resolve
