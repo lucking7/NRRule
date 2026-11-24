@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "servd-anthropic-website.b-cdn.net",
+        "o1158394.ingest.us.sentry.io"
+      ],
+      "domain_suffix": [
+        "anthropic.team",
+        "claude.site",
+        "claude.new",
+        "claudepages.dev",
+        "antspace.dev",
+        "claude.dev",
+        "ant.dev",
+        "claudeusercontent.com",
+        "claudemcpcontent.com",
+        "claudemcpclient.com",
+        "claudeacademy.com",
+        "chatbotclaude.com",
+        "claudestudio.com",
+        "anthropic.com",
+        "claude.com",
+        "claude.app",
+        "clau.de",
+        "claude.ai"
+      ],
+      "ip_cidr": [
+        "153.61.224.0/22",
+        "160.79.104.0/23",
+        "2607:6bc0::/48",
+        "2607:6bc0:11::/48"
+      ]
+    }
+  ]
+}

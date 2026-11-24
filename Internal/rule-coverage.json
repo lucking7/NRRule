@@ -12,16 +12,16 @@
     "DOMAIN-SET files are parsed as native domain sets (bare domain = DOMAIN, leading dot = DOMAIN-SUFFIX); RULE-SET files as classical rules. Split variants are audited when the reference resolves to a local file with the matching format. Retired subscriptions, absent variants, format mismatches and unresolved references are reported as not-covered."
   ],
   "summary": {
-    "subscriptions": 34,
-    "auditedSubscriptions": 34,
+    "subscriptions": 38,
+    "auditedSubscriptions": 38,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 159760,
-    "unsupportedRules": 6300,
-    "fullyCoveredDomainRules": 478,
-    "partlyOverlappingDomainRules": 1089,
+    "domainRules": 159803,
+    "unsupportedRules": 6714,
+    "fullyCoveredDomainRules": 512,
+    "partlyOverlappingDomainRules": 1090,
     "samePolicyRedundancies": 28,
-    "differentPolicyConflicts": 1528,
+    "differentPolicyConflicts": 1563,
     "fullyShadowedSubscriptions": 1,
     "fullyShadowedDomainSubscriptions": 1,
     "conditionalWarnings": 77,
@@ -230,6 +230,128 @@
       "examples": []
     },
     {
+      "id": "non_ip/openai.conf",
+      "policy": "OpenAI",
+      "kind": "subscription",
+      "status": "audited",
+      "format": "rule-set",
+      "variant": "non_ip",
+      "reviewStatus": "reviewed",
+      "totalRules": 23,
+      "domainRules": 23,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 1,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 1,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,openai.com",
+          "line": 25,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/reject.conf",
+              "policy": "REJECT",
+              "line": 82813,
+              "rule": "DOMAIN-SUFFIX,bzrcdn.openai.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip/openai.conf",
+      "policy": "OpenAI",
+      "kind": "subscription",
+      "status": "audited",
+      "format": "rule-set",
+      "variant": "ip",
+      "reviewStatus": "reviewed",
+      "totalRules": 409,
+      "domainRules": 0,
+      "unsupportedRules": 409,
+      "unsupportedTypes": {
+        "IP-CIDR": 409
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
+      "id": "non_ip/anthropic.conf",
+      "policy": "Anthropic",
+      "kind": "subscription",
+      "status": "audited",
+      "format": "rule-set",
+      "variant": "non_ip",
+      "reviewStatus": "reviewed",
+      "totalRules": 20,
+      "domainRules": 20,
+      "unsupportedRules": 0,
+      "unsupportedTypes": {},
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 1,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 1,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": [
+        {
+          "rule": "DOMAIN-SUFFIX,anthropic.com",
+          "line": 23,
+          "coverage": "partial",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/reject.conf",
+              "policy": "REJECT",
+              "line": 67662,
+              "rule": "DOMAIN-SUFFIX,statsig.anthropic.com",
+              "matchMode": "destination"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip/anthropic.conf",
+      "policy": "Anthropic",
+      "kind": "subscription",
+      "status": "audited",
+      "format": "rule-set",
+      "variant": "ip",
+      "reviewStatus": "reviewed",
+      "totalRules": 5,
+      "domainRules": 0,
+      "unsupportedRules": 5,
+      "unsupportedTypes": {
+        "IP-CIDR": 2,
+        "IP-CIDR6": 2,
+        "IP-ASN": 1
+      },
+      "conditionalRules": 0,
+      "fullyCoveredDomainRules": 0,
+      "partlyOverlappingDomainRules": 0,
+      "samePolicyRedundancies": 0,
+      "differentPolicyConflicts": 0,
+      "fullyShadowedDomains": false,
+      "fullyShadowedSubscription": false,
+      "examples": []
+    },
+    {
       "id": "non_ip/ai.conf",
       "policy": "AI",
       "kind": "subscription",
@@ -245,84 +367,84 @@
         "URL-REGEX": 1
       },
       "conditionalRules": 0,
-      "fullyCoveredDomainRules": 8,
-      "partlyOverlappingDomainRules": 7,
+      "fullyCoveredDomainRules": 40,
+      "partlyOverlappingDomainRules": 6,
       "samePolicyRedundancies": 0,
-      "differentPolicyConflicts": 15,
+      "differentPolicyConflicts": 46,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
         {
-          "rule": "DOMAIN,browser-intake-datadoghq.com",
-          "line": 62,
+          "rule": "DOMAIN-SUFFIX,chatgpt.livekit.cloud",
+          "line": 24,
           "coverage": "full",
           "relation": "different-policy",
           "earlier": [
             {
-              "subscription": "non_ip/reject.conf",
-              "policy": "REJECT",
-              "line": 16999,
-              "rule": "DOMAIN-SUFFIX,browser-intake-datadoghq.com",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
-          "rule": "DOMAIN,rum.browser-intake-datadoghq.com",
-          "line": 63,
-          "coverage": "full",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "non_ip/reject.conf",
-              "policy": "REJECT",
-              "line": 16999,
-              "rule": "DOMAIN-SUFFIX,browser-intake-datadoghq.com",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
-          "rule": "DOMAIN,copilot-telemetry.githubusercontent.com",
-          "line": 70,
-          "coverage": "full",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "non_ip/reject.conf",
-              "policy": "REJECT",
-              "line": 23189,
-              "rule": "DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
-          "rule": "DOMAIN-SUFFIX,githubcopilot.com",
-          "line": 80,
-          "coverage": "partial",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "non_ip/reject.conf",
-              "policy": "REJECT",
-              "line": 37155,
-              "rule": "DOMAIN-SUFFIX,telemetry.individual.githubcopilot.com",
-              "matchMode": "destination"
-            }
-          ]
-        },
-        {
-          "rule": "DOMAIN,apple-relay.fastly-edge.com",
-          "line": 88,
-          "coverage": "full",
-          "relation": "different-policy",
-          "earlier": [
-            {
-              "subscription": "non_ip/apple_intelligence.conf",
-              "policy": "AppleIntelligence",
+              "subscription": "non_ip/openai.conf",
+              "policy": "OpenAI",
               "line": 9,
-              "rule": "DOMAIN,apple-relay.fastly-edge.com",
+              "rule": "DOMAIN-SUFFIX,chatgpt.livekit.cloud",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,anthropic.team",
+          "line": 28,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/anthropic.conf",
+              "policy": "Anthropic",
+              "line": 9,
+              "rule": "DOMAIN-SUFFIX,anthropic.team",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,chatgpt.site",
+          "line": 30,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/openai.conf",
+              "policy": "OpenAI",
+              "line": 10,
+              "rule": "DOMAIN-SUFFIX,chatgpt.site",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,claude.site",
+          "line": 31,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/anthropic.conf",
+              "policy": "Anthropic",
+              "line": 10,
+              "rule": "DOMAIN-SUFFIX,claude.site",
+              "matchMode": "destination"
+            }
+          ]
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,claude.new",
+          "line": 42,
+          "coverage": "full",
+          "relation": "different-policy",
+          "earlier": [
+            {
+              "subscription": "non_ip/anthropic.conf",
+              "policy": "Anthropic",
+              "line": 11,
+              "rule": "DOMAIN-SUFFIX,claude.new",
               "matchMode": "destination"
             }
           ]
@@ -763,6 +885,13 @@
               "matchMode": "destination"
             },
             {
+              "subscription": "non_ip/openai.conf",
+              "policy": "OpenAI",
+              "line": 15,
+              "rule": "DOMAIN,openaicomproductionae4b.blob.core.windows.net",
+              "matchMode": "destination"
+            },
+            {
               "subscription": "non_ip/ai.conf",
               "policy": "AI",
               "line": 49,
@@ -1050,10 +1179,10 @@
         "DOMAIN-WILDCARD": 61
       },
       "conditionalRules": 0,
-      "fullyCoveredDomainRules": 188,
+      "fullyCoveredDomainRules": 190,
       "partlyOverlappingDomainRules": 78,
       "samePolicyRedundancies": 5,
-      "differentPolicyConflicts": 251,
+      "differentPolicyConflicts": 253,
       "fullyShadowedDomains": false,
       "fullyShadowedSubscription": false,
       "examples": [
@@ -1872,7 +2001,7 @@
       "matchMode": "destination",
       "condition": "USER-AGENT",
       "compound": false,
-      "laterSubscriptions": 31
+      "laterSubscriptions": 35
     },
     {
       "subscription": "non_ip/wechat.conf",
@@ -1882,7 +2011,7 @@
       "matchMode": "destination",
       "condition": "USER-AGENT",
       "compound": false,
-      "laterSubscriptions": 31
+      "laterSubscriptions": 35
     },
     {
       "subscription": "non_ip/stream.conf",
