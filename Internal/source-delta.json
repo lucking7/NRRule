@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-24T05:57:57.829Z",
+  "generatedAt": "2026-11-24T15:37:31.811Z",
   "baseline": {
     "configured": true,
-    "receiptId": "8018849403"
+    "receiptId": "8020001302"
   },
   "policy": {
     "sampleLimit": 20,
@@ -108,23 +108,25 @@
       "rulesetId": "ai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 722,
+      "currentConditionCount": 723,
       "baselineConditionCount": 722,
       "rawInputChanged": true,
-      "semanticChanged": false,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 708,
+          "semanticChanged": true,
+          "currentConditionCount": 709,
           "baselineConditionCount": 708,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -132,13 +134,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 709,
+          "semanticChanged": true,
+          "currentConditionCount": 710,
           "baselineConditionCount": 709,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -146,13 +150,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 707,
+          "semanticChanged": true,
+          "currentConditionCount": 708,
           "baselineConditionCount": 707,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -160,24 +166,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 709,
+          "semanticChanged": true,
+          "currentConditionCount": 710,
           "baselineConditionCount": 709,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.001385,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,gemma.ai"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -191,7 +203,7 @@
       "status": "compared",
       "currentConditionCount": 235,
       "baselineConditionCount": 235,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -839,7 +851,7 @@
       "status": "compared",
       "currentConditionCount": 57,
       "baselineConditionCount": 57,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1512,7 +1524,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1996,23 +2008,25 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 256,
+      "currentConditionCount": 257,
       "baselineConditionCount": 256,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,embymv.cc"
+            ],
             "removed": []
           }
         },
@@ -2020,13 +2034,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,embymv.cc"
+            ],
             "removed": []
           }
         },
@@ -2034,13 +2050,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:embymv.cc"
+            ],
             "removed": []
           }
         },
@@ -2048,24 +2066,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,embymv.cc"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.003906,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,embymv.cc"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -2401,23 +2425,25 @@
       "rulesetId": "google",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 1242,
+      "currentConditionCount": 1243,
       "baselineConditionCount": 1242,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1242,
+          "semanticChanged": true,
+          "currentConditionCount": 1243,
           "baselineConditionCount": 1242,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -2425,13 +2451,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1242,
+          "semanticChanged": true,
+          "currentConditionCount": 1243,
           "baselineConditionCount": 1242,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -2439,13 +2467,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1242,
+          "semanticChanged": true,
+          "currentConditionCount": 1243,
           "baselineConditionCount": 1242,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain_suffix:gemma.ai"
+            ],
             "removed": []
           }
         },
@@ -2453,24 +2483,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 1242,
+          "semanticChanged": true,
+          "currentConditionCount": 1243,
           "baselineConditionCount": 1242,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN-SUFFIX,gemma.ai"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.000805,
+      "addedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN-SUFFIX,gemma.ai"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
