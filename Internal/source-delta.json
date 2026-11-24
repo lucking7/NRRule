@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-24T00:50:43.109Z",
+  "generatedAt": "2026-11-24T03:16:25.790Z",
   "baseline": {
     "configured": true,
-    "receiptId": "8009418332"
+    "receiptId": "8015313709"
   },
   "policy": {
     "sampleLimit": 20,
@@ -15,8 +15,8 @@
   },
   "summary": {
     "sources": 68,
-    "compared": 66,
-    "baselineUnavailable": 2,
+    "compared": 68,
+    "baselineUnavailable": 0,
     "notComparable": 0,
     "removed": 0,
     "warnings": 0
@@ -269,77 +269,73 @@
       "sourceId": "anthropic",
       "rulesetId": "anthropic",
       "converterVersion": "mirrrule-rule-output/2",
-      "status": "baseline-unavailable",
+      "status": "compared",
       "currentConditionCount": 25,
-      "baselineConditionCount": null,
-      "rawInputChanged": null,
-      "semanticChanged": null,
+      "baselineConditionCount": 25,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 25,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 25,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 25,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 25,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 24,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 24,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 25,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 25,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         }
       ],
-      "added": null,
-      "removed": null,
-      "changeRatio": null,
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -348,8 +344,7 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": [],
-      "reason": "snapshot-missing"
+      "warnings": []
     },
     {
       "sourceId": "apple",
@@ -3458,77 +3453,73 @@
       "sourceId": "openai",
       "rulesetId": "openai",
       "converterVersion": "mirrrule-rule-output/2",
-      "status": "baseline-unavailable",
+      "status": "compared",
       "currentConditionCount": 432,
-      "baselineConditionCount": null,
-      "rawInputChanged": null,
-      "semanticChanged": null,
+      "baselineConditionCount": 432,
+      "rawInputChanged": false,
+      "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 432,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 432,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 432,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 432,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 432,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 432,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
-          "status": "baseline-unavailable",
-          "semanticChanged": null,
+          "status": "compared",
+          "semanticChanged": false,
           "currentConditionCount": 432,
-          "baselineConditionCount": null,
-          "added": null,
-          "removed": null,
+          "baselineConditionCount": 432,
+          "added": 0,
+          "removed": 0,
           "samples": {
             "added": [],
             "removed": []
-          },
-          "reason": "snapshot-missing"
+          }
         }
       ],
-      "added": null,
-      "removed": null,
-      "changeRatio": null,
+      "added": 0,
+      "removed": 0,
+      "changeRatio": 0,
       "addedByType": {},
       "removedByType": {},
       "samples": {
@@ -3537,8 +3528,7 @@
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
-      "warnings": [],
-      "reason": "snapshot-missing"
+      "warnings": []
     },
     {
       "sourceId": "primevideo",
