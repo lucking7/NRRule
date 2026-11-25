@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/2",
   "toolConverterVersion": "mirrrule-rule-output/2",
-  "generatedAt": "2026-11-24T19:25:08.559Z",
+  "generatedAt": "2026-11-25T01:22:41.788Z",
   "baseline": {
     "configured": true,
-    "receiptId": "8038086183"
+    "receiptId": "8038465542"
   },
   "policy": {
     "sampleLimit": 20,
@@ -1996,77 +1996,89 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 257,
+      "currentConditionCount": 256,
       "baselineConditionCount": 257,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 256,
           "baselineConditionCount": 257,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 256,
           "baselineConditionCount": 257,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 256,
           "baselineConditionCount": 257,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "domain_suffix:poloco.org"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 256,
           "baselineConditionCount": 257,
           "added": 0,
-          "removed": 0,
+          "removed": 1,
           "samples": {
             "added": [],
-            "removed": []
+            "removed": [
+              "DOMAIN-SUFFIX,poloco.org"
+            ]
           }
         }
       ],
       "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
+      "removed": 1,
+      "changeRatio": 0.003891,
       "addedByType": {},
-      "removedByType": {},
+      "removedByType": {
+        "DOMAIN-SUFFIX": 1
+      },
       "samples": {
         "added": [],
-        "removed": []
+        "removed": [
+          "DOMAIN-SUFFIX,poloco.org"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
@@ -3454,23 +3466,44 @@
       "rulesetId": "openai",
       "converterVersion": "mirrrule-rule-output/2",
       "status": "compared",
-      "currentConditionCount": 432,
+      "currentConditionCount": 465,
       "baselineConditionCount": 432,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 432,
+          "semanticChanged": true,
+          "currentConditionCount": 465,
           "baselineConditionCount": 432,
-          "added": 0,
+          "added": 33,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,134.138.52.114/32,no-resolve",
+              "IP-CIDR,134.138.52.187/32,no-resolve",
+              "IP-CIDR,134.138.52.195/32,no-resolve",
+              "IP-CIDR,172.172.179.197/32,no-resolve",
+              "IP-CIDR,172.196.43.61/32,no-resolve",
+              "IP-CIDR,172.198.153.202/32,no-resolve",
+              "IP-CIDR,20.100.176.238/32,no-resolve",
+              "IP-CIDR,20.101.89.121/32,no-resolve",
+              "IP-CIDR,20.12.234.67/32,no-resolve",
+              "IP-CIDR,20.124.184.226/32,no-resolve",
+              "IP-CIDR,20.124.193.23/32,no-resolve",
+              "IP-CIDR,20.127.120.244/32,no-resolve",
+              "IP-CIDR,20.165.191.7/32,no-resolve",
+              "IP-CIDR,20.175.112.94/32,no-resolve",
+              "IP-CIDR,20.200.182.97/32,no-resolve",
+              "IP-CIDR,20.208.217.90/32,no-resolve",
+              "IP-CIDR,20.213.235.219/32,no-resolve",
+              "IP-CIDR,20.218.28.103/32,no-resolve",
+              "IP-CIDR,20.220.212.87/32,no-resolve",
+              "IP-CIDR,20.78.168.55/32,no-resolve"
+            ],
             "removed": []
           }
         },
@@ -3478,13 +3511,34 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 432,
+          "semanticChanged": true,
+          "currentConditionCount": 465,
           "baselineConditionCount": 432,
-          "added": 0,
+          "added": 33,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,134.138.52.114/32,no-resolve",
+              "IP-CIDR,134.138.52.187/32,no-resolve",
+              "IP-CIDR,134.138.52.195/32,no-resolve",
+              "IP-CIDR,172.172.179.197/32,no-resolve",
+              "IP-CIDR,172.196.43.61/32,no-resolve",
+              "IP-CIDR,172.198.153.202/32,no-resolve",
+              "IP-CIDR,20.100.176.238/32,no-resolve",
+              "IP-CIDR,20.101.89.121/32,no-resolve",
+              "IP-CIDR,20.12.234.67/32,no-resolve",
+              "IP-CIDR,20.124.184.226/32,no-resolve",
+              "IP-CIDR,20.124.193.23/32,no-resolve",
+              "IP-CIDR,20.127.120.244/32,no-resolve",
+              "IP-CIDR,20.165.191.7/32,no-resolve",
+              "IP-CIDR,20.175.112.94/32,no-resolve",
+              "IP-CIDR,20.200.182.97/32,no-resolve",
+              "IP-CIDR,20.208.217.90/32,no-resolve",
+              "IP-CIDR,20.213.235.219/32,no-resolve",
+              "IP-CIDR,20.218.28.103/32,no-resolve",
+              "IP-CIDR,20.220.212.87/32,no-resolve",
+              "IP-CIDR,20.78.168.55/32,no-resolve"
+            ],
             "removed": []
           }
         },
@@ -3492,13 +3546,34 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 432,
+          "semanticChanged": true,
+          "currentConditionCount": 465,
           "baselineConditionCount": 432,
-          "added": 0,
+          "added": 33,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "ip_cidr:134.138.52.114/32",
+              "ip_cidr:134.138.52.187/32",
+              "ip_cidr:134.138.52.195/32",
+              "ip_cidr:172.172.179.197/32",
+              "ip_cidr:172.196.43.61/32",
+              "ip_cidr:172.198.153.202/32",
+              "ip_cidr:20.100.176.238/32",
+              "ip_cidr:20.101.89.121/32",
+              "ip_cidr:20.12.234.67/32",
+              "ip_cidr:20.124.184.226/32",
+              "ip_cidr:20.124.193.23/32",
+              "ip_cidr:20.127.120.244/32",
+              "ip_cidr:20.165.191.7/32",
+              "ip_cidr:20.175.112.94/32",
+              "ip_cidr:20.200.182.97/32",
+              "ip_cidr:20.208.217.90/32",
+              "ip_cidr:20.213.235.219/32",
+              "ip_cidr:20.218.28.103/32",
+              "ip_cidr:20.220.212.87/32",
+              "ip_cidr:20.78.168.55/32"
+            ],
             "removed": []
           }
         },
@@ -3506,24 +3581,68 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 432,
+          "semanticChanged": true,
+          "currentConditionCount": 465,
           "baselineConditionCount": 432,
-          "added": 0,
+          "added": 33,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "IP-CIDR,134.138.52.114/32,no-resolve",
+              "IP-CIDR,134.138.52.187/32,no-resolve",
+              "IP-CIDR,134.138.52.195/32,no-resolve",
+              "IP-CIDR,172.172.179.197/32,no-resolve",
+              "IP-CIDR,172.196.43.61/32,no-resolve",
+              "IP-CIDR,172.198.153.202/32,no-resolve",
+              "IP-CIDR,20.100.176.238/32,no-resolve",
+              "IP-CIDR,20.101.89.121/32,no-resolve",
+              "IP-CIDR,20.12.234.67/32,no-resolve",
+              "IP-CIDR,20.124.184.226/32,no-resolve",
+              "IP-CIDR,20.124.193.23/32,no-resolve",
+              "IP-CIDR,20.127.120.244/32,no-resolve",
+              "IP-CIDR,20.165.191.7/32,no-resolve",
+              "IP-CIDR,20.175.112.94/32,no-resolve",
+              "IP-CIDR,20.200.182.97/32,no-resolve",
+              "IP-CIDR,20.208.217.90/32,no-resolve",
+              "IP-CIDR,20.213.235.219/32,no-resolve",
+              "IP-CIDR,20.218.28.103/32,no-resolve",
+              "IP-CIDR,20.220.212.87/32,no-resolve",
+              "IP-CIDR,20.78.168.55/32,no-resolve"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 33,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.076389,
+      "addedByType": {
+        "IP-CIDR": 33
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "IP-CIDR,134.138.52.114/32,no-resolve",
+          "IP-CIDR,134.138.52.187/32,no-resolve",
+          "IP-CIDR,134.138.52.195/32,no-resolve",
+          "IP-CIDR,172.172.179.197/32,no-resolve",
+          "IP-CIDR,172.196.43.61/32,no-resolve",
+          "IP-CIDR,172.198.153.202/32,no-resolve",
+          "IP-CIDR,20.100.176.238/32,no-resolve",
+          "IP-CIDR,20.101.89.121/32,no-resolve",
+          "IP-CIDR,20.12.234.67/32,no-resolve",
+          "IP-CIDR,20.124.184.226/32,no-resolve",
+          "IP-CIDR,20.124.193.23/32,no-resolve",
+          "IP-CIDR,20.127.120.244/32,no-resolve",
+          "IP-CIDR,20.165.191.7/32,no-resolve",
+          "IP-CIDR,20.175.112.94/32,no-resolve",
+          "IP-CIDR,20.200.182.97/32,no-resolve",
+          "IP-CIDR,20.208.217.90/32,no-resolve",
+          "IP-CIDR,20.213.235.219/32,no-resolve",
+          "IP-CIDR,20.218.28.103/32,no-resolve",
+          "IP-CIDR,20.220.212.87/32,no-resolve",
+          "IP-CIDR,20.78.168.55/32,no-resolve"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
