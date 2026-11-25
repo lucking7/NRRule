@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/3",
   "toolConverterVersion": "mirrrule-rule-output/3",
-  "generatedAt": "2026-11-25T13:57:39.842Z",
+  "generatedAt": "2026-11-25T15:19:12.775Z",
   "baseline": {
     "configured": true,
-    "receiptId": "8048870206"
+    "receiptId": "8059641175"
   },
   "policy": {
     "sampleLimit": 20,
@@ -110,7 +110,7 @@
       "status": "compared",
       "currentConditionCount": 756,
       "baselineConditionCount": 756,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -272,7 +272,7 @@
       "status": "compared",
       "currentConditionCount": 25,
       "baselineConditionCount": 25,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1512,7 +1512,7 @@
       "status": "compared",
       "currentConditionCount": 222,
       "baselineConditionCount": 222,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1996,23 +1996,25 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/3",
       "status": "compared",
-      "currentConditionCount": 256,
+      "currentConditionCount": 257,
       "baselineConditionCount": 256,
       "rawInputChanged": true,
-      "semanticChanged": false,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,fmao.eu.org"
+            ],
             "removed": []
           }
         },
@@ -2020,13 +2022,15 @@
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,fmao.eu.org"
+            ],
             "removed": []
           }
         },
@@ -2034,13 +2038,15 @@
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "domain:fmao.eu.org"
+            ],
             "removed": []
           }
         },
@@ -2048,24 +2054,30 @@
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 256,
+          "semanticChanged": true,
+          "currentConditionCount": 257,
           "baselineConditionCount": 256,
-          "added": 0,
+          "added": 1,
           "removed": 0,
           "samples": {
-            "added": [],
+            "added": [
+              "DOMAIN,fmao.eu.org"
+            ],
             "removed": []
           }
         }
       ],
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
+      "changeRatio": 0.003906,
+      "addedByType": {
+        "DOMAIN": 1
+      },
       "removedByType": {},
       "samples": {
-        "added": [],
+        "added": [
+          "DOMAIN,fmao.eu.org"
+        ],
         "removed": []
       },
       "sourcesAdded": [],
@@ -2403,7 +2415,7 @@
       "status": "compared",
       "currentConditionCount": 1243,
       "baselineConditionCount": 1243,
-      "rawInputChanged": true,
+      "rawInputChanged": false,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
