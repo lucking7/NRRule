@@ -16,7 +16,7 @@
     "auditedSubscriptions": 38,
     "skippedSubscriptions": 0,
     "missingLocalSubscriptions": 0,
-    "domainRules": 163148,
+    "domainRules": 163287,
     "unsupportedRules": 6822,
     "fullyCoveredDomainRules": 515,
     "partlyOverlappingDomainRules": 1090,
@@ -39,8 +39,8 @@
       "format": "rule-set",
       "variant": "non_ip",
       "reviewStatus": "reviewed",
-      "totalRules": 152279,
-      "domainRules": 152066,
+      "totalRules": 152418,
+      "domainRules": 152205,
       "unsupportedRules": 213,
       "unsupportedTypes": {
         "DOMAIN-KEYWORD": 144,
@@ -115,7 +115,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 12574,
+              "line": 12671,
               "rule": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
               "matchMode": "destination"
             }
@@ -130,7 +130,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 40340,
+              "line": 40442,
               "rule": "DOMAIN,badjs.weixinbridge.com",
               "matchMode": "destination"
             }
@@ -145,7 +145,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 83097,
+              "line": 83210,
               "rule": "DOMAIN,dns.wechat.com",
               "matchMode": "destination"
             }
@@ -160,7 +160,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 93784,
+              "line": 93906,
               "rule": "DOMAIN,aedns.weixin.qq.com",
               "matchMode": "destination"
             }
@@ -175,7 +175,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 93831,
+              "line": 93953,
               "rule": "DOMAIN-SUFFIX,imtt.qq.com",
               "matchMode": "destination"
             }
@@ -260,7 +260,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 17484,
+              "line": 17581,
               "rule": "DOMAIN-SUFFIX,browser-intake-datadoghq.com",
               "matchMode": "destination"
             }
@@ -275,7 +275,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 84718,
+              "line": 84831,
               "rule": "DOMAIN-SUFFIX,bzrcdn.openai.com",
               "matchMode": "destination"
             }
@@ -335,7 +335,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 69274,
+              "line": 69384,
               "rule": "DOMAIN-SUFFIX,statsig.anthropic.com",
               "matchMode": "destination"
             }
@@ -570,7 +570,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 12148,
+              "line": 12245,
               "rule": "DOMAIN-SUFFIX,microsite.pbs.org",
               "matchMode": "destination"
             }
@@ -585,7 +585,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14803,
+              "line": 14900,
               "rule": "DOMAIN-SUFFIX,beaconimages.netflix.net",
               "matchMode": "destination"
             }
@@ -600,7 +600,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14954,
+              "line": 15051,
               "rule": "DOMAIN-SUFFIX,s3-iad-ww.cf.videorolls.row.aiv-cdn.net",
               "matchMode": "destination"
             }
@@ -615,7 +615,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 15164,
+              "line": 15261,
               "rule": "DOMAIN-SUFFIX,adsmg.fanfox.net",
               "matchMode": "destination"
             }
@@ -630,7 +630,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 35899,
+              "line": 35999,
               "rule": "DOMAIN-SUFFIX,adtracking.smartmediarep.com",
               "matchMode": "destination"
             }
@@ -852,7 +852,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 11765,
+              "line": 11862,
               "rule": "DOMAIN-SUFFIX,analytics.archive.org",
               "matchMode": "destination"
             }
@@ -867,7 +867,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 12883,
+              "line": 12980,
               "rule": "DOMAIN-SUFFIX,mercury.dl.playstation.net",
               "matchMode": "destination"
             }
@@ -882,7 +882,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14429,
+              "line": 14526,
               "rule": "DOMAIN-SUFFIX,sprofile-lp1.cdn.nintendo.net",
               "matchMode": "destination"
             }
@@ -897,7 +897,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14679,
+              "line": 14776,
               "rule": "DOMAIN,37bvsblobprodcus311.blob.core.windows.net",
               "matchMode": "destination"
             },
@@ -926,7 +926,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14994,
+              "line": 15091,
               "rule": "DOMAIN-SUFFIX,easy-monetization.s3.yandex.net",
               "matchMode": "destination"
             }
@@ -989,7 +989,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 15712,
+              "line": 15809,
               "rule": "DOMAIN,iadmusicmatvideo.music.126.net",
               "matchMode": "destination"
             }
@@ -1004,7 +1004,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 87649,
+              "line": 87771,
               "rule": "DOMAIN,httpdns.alicdn.com",
               "matchMode": "destination"
             }
@@ -1019,7 +1019,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 88835,
+              "line": 88957,
               "rule": "DOMAIN-SUFFIX,guess.h.qhimg.com",
               "matchMode": "destination"
             }
@@ -1034,7 +1034,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 134731,
+              "line": 134870,
               "rule": "DOMAIN,ad.us.sinaimg.cn",
               "matchMode": "destination"
             }
@@ -1049,7 +1049,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 134931,
+              "line": 135070,
               "rule": "DOMAIN,g.tbcdn.cn",
               "matchMode": "destination"
             }
@@ -1089,7 +1089,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 11893,
+              "line": 11990,
               "rule": "DOMAIN-SUFFIX,ynuf.aliapp.org",
               "matchMode": "destination"
             }
@@ -1104,7 +1104,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 12126,
+              "line": 12223,
               "rule": "DOMAIN-SUFFIX,gxqzz.7766.org",
               "matchMode": "destination"
             }
@@ -1119,7 +1119,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 12573,
+              "line": 12670,
               "rule": "DOMAIN-SUFFIX,trace.zhiyan.tencent-cloud.net",
               "matchMode": "destination"
             }
@@ -1149,7 +1149,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14601,
+              "line": 14698,
               "rule": "DOMAIN-SUFFIX,line1-log.biligame.net",
               "matchMode": "destination"
             }
@@ -1401,7 +1401,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 82611,
+              "line": 82724,
               "rule": "DOMAIN-SUFFIX,securemetrics-z.v.aaplimg.com",
               "matchMode": "destination"
             },
@@ -1618,7 +1618,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 7772,
+              "line": 7852,
               "rule": "DOMAIN-SUFFIX,merchant-center-analytics.goog",
               "matchMode": "destination"
             },
@@ -1723,7 +1723,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 2495,
+              "line": 2531,
               "rule": "DOMAIN-SUFFIX,paa-reporting-advertising.amazon",
               "matchMode": "destination"
             }
@@ -1775,7 +1775,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 13211,
+              "line": 13308,
               "rule": "DOMAIN-SUFFIX,d3vw4uehoh23hx.cloudfront.net",
               "matchMode": "destination"
             },
@@ -1804,7 +1804,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 14954,
+              "line": 15051,
               "rule": "DOMAIN-SUFFIX,s3-iad-ww.cf.videorolls.row.aiv-cdn.net",
               "matchMode": "destination"
             }
@@ -1859,7 +1859,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 767,
+              "line": 783,
               "rule": "DOMAIN-SUFFIX,grow.urbandictionary.network",
               "matchMode": "destination"
             },
@@ -1896,7 +1896,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 972,
+              "line": 988,
               "rule": "DOMAIN-SUFFIX,stats.digitalprojections.studio",
               "matchMode": "destination"
             },
@@ -1925,7 +1925,7 @@
             {
               "subscription": "non_ip/reject.conf",
               "policy": "REJECT",
-              "line": 1011,
+              "line": 1027,
               "rule": "DOMAIN-SUFFIX,sgtm.getbizzy.social",
               "matchMode": "destination"
             },
