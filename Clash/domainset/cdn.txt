@@ -1,7 +1,7 @@
 #########################################
 # CDN
-# Last Updated: 2026-11-27T04:08:25.706Z
-# Size: 4687
+# Last Updated: 2026-11-27T13:34:08.362Z
+# Size: 4677
 # Rules for CDN
 # Merged from 3 sources
 # Variant: domainset. Exact and suffix domains from non_ip.
@@ -94,6 +94,7 @@ resources-live.sketch.cloud
 tiles.immich.cloud
 patterns.hiive.cloud
 cdn.craft.cloud
+cdn-resize-prod-com.500px.cloud
 cdn.tiny.cloud
 fscdn.eppo.cloud
 cdn-static.paw.cloud
@@ -318,7 +319,6 @@ covers.openlibrary.org
 tiles.openfreemap.org
 cache.mapcomplete.org
 dlstats.izzyondroid.org
-media.hentaifreak.org
 +.ipfs.genenetwork.org
 ximage.c-spanvideo.org
 static.c-spanvideo.org
@@ -443,8 +443,6 @@ error.c.cdn77.org
 +.hits.b3log.org
 static.arxiv.org
 +.91pic.org
-drscdn.500px.org
-pacdn.500px.org
 +.pgl.yoyo.org
 +.tnmr.org
 image.tmdb.org
@@ -688,7 +686,6 @@ img.adspower.net
 cdn.yamibuy.net
 image.xmanhua.net
 cdn.writeas.net
-unlimited-cdn.waifu2x.net
 social-cdn.vivaldi.net
 platform-assets.typekit.net
 use.typekit.net
@@ -970,7 +967,6 @@ cdn.pika.dev
 zod.dev
 static.reo.dev
 pkg.csb.dev
-r2cdn.c7d.dev
 static.bit.dev
 cdn.bfe.dev
 cdn.builderprofile.aws.dev
@@ -1661,7 +1657,6 @@ img.applealmond.com
 +.ancestrycdn.com
 cdn.amgreatness.com
 +.aexp-static.com
-showcase.abovemarket.com
 assets.aboutamazon.com
 cdn2.abiresearch.com
 +.abebookscdn.com
@@ -3557,8 +3552,7 @@ cdn.db-ip.com
 static.cloud.coveo.com
 cdn.corso.com
 cdn.cliqz.com
-segapi.clerk.com
-scdn.clerk.com
+cdn.protect.clerk.com
 img.clerk.com
 +.cldup.com
 assets-themes.chess.com
@@ -3584,7 +3578,6 @@ imgs.search.brave.com
 cdn.search.brave.com
 static.bodor.com
 assets.bnidx.com
-spotlightimage.biggo.com
 images.bfmtv.com
 cdn.bfldr.com
 public-cdn.bblmw.com
@@ -3962,7 +3955,6 @@ imgcn3.bgmbk.tv
 imgcn2.bgmbk.tv
 imgcn.bgmbk.tv
 cdn.18jav.tv
-static.yfsp.tv
 assets.pscp.tv
 s-cdnstatic.svc.litv.tv
 p-cdnstatic.svc.litv.tv
@@ -4270,8 +4262,6 @@ static.getbutton.io
 +.crossbell.io
 +.corsproxy.io
 static.corespeed.io
-r2cdn.corespeed.io
-assets.mcp.corespeed.io
 fast.chameleon.io
 sandpack-cdn-staging.blazingly.io
 +.bitbucket.io

@@ -1,7 +1,7 @@
 #########################################
 # CDN
-# Last Updated: 2026-11-27T04:08:25.706Z
-# Size: 4768
+# Last Updated: 2026-11-27T13:34:08.362Z
+# Size: 4758
 # Rules for CDN
 # Merged from 3 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -94,6 +94,7 @@ DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN,tiles.immich.cloud
 DOMAIN,patterns.hiive.cloud
 DOMAIN,cdn.craft.cloud
+DOMAIN,cdn-resize-prod-com.500px.cloud
 DOMAIN,cdn.tiny.cloud
 DOMAIN,fscdn.eppo.cloud
 DOMAIN,cdn-static.paw.cloud
@@ -318,7 +319,6 @@ DOMAIN,covers.openlibrary.org
 DOMAIN,tiles.openfreemap.org
 DOMAIN,cache.mapcomplete.org
 DOMAIN,dlstats.izzyondroid.org
-DOMAIN,media.hentaifreak.org
 DOMAIN-SUFFIX,ipfs.genenetwork.org
 DOMAIN,ximage.c-spanvideo.org
 DOMAIN,static.c-spanvideo.org
@@ -443,8 +443,6 @@ DOMAIN,error.c.cdn77.org
 DOMAIN-SUFFIX,hits.b3log.org
 DOMAIN,static.arxiv.org
 DOMAIN-SUFFIX,91pic.org
-DOMAIN,drscdn.500px.org
-DOMAIN,pacdn.500px.org
 DOMAIN-SUFFIX,pgl.yoyo.org
 DOMAIN-SUFFIX,tnmr.org
 DOMAIN,image.tmdb.org
@@ -688,7 +686,6 @@ DOMAIN,img.adspower.net
 DOMAIN,cdn.yamibuy.net
 DOMAIN,image.xmanhua.net
 DOMAIN,cdn.writeas.net
-DOMAIN,unlimited-cdn.waifu2x.net
 DOMAIN,social-cdn.vivaldi.net
 DOMAIN,platform-assets.typekit.net
 DOMAIN,use.typekit.net
@@ -970,7 +967,6 @@ DOMAIN-SUFFIX,jspm.dev
 DOMAIN,zod.dev
 DOMAIN,static.reo.dev
 DOMAIN,pkg.csb.dev
-DOMAIN,r2cdn.c7d.dev
 DOMAIN,static.bit.dev
 DOMAIN,cdn.bfe.dev
 DOMAIN,cdn.builderprofile.aws.dev
@@ -1661,7 +1657,6 @@ DOMAIN,img.applealmond.com
 DOMAIN-SUFFIX,ancestrycdn.com
 DOMAIN,cdn.amgreatness.com
 DOMAIN-SUFFIX,aexp-static.com
-DOMAIN,showcase.abovemarket.com
 DOMAIN,assets.aboutamazon.com
 DOMAIN,cdn2.abiresearch.com
 DOMAIN-SUFFIX,abebookscdn.com
@@ -3557,8 +3552,7 @@ DOMAIN,cdn.db-ip.com
 DOMAIN,static.cloud.coveo.com
 DOMAIN,cdn.corso.com
 DOMAIN,cdn.cliqz.com
-DOMAIN,segapi.clerk.com
-DOMAIN,scdn.clerk.com
+DOMAIN,cdn.protect.clerk.com
 DOMAIN,img.clerk.com
 DOMAIN-SUFFIX,cldup.com
 DOMAIN,assets-themes.chess.com
@@ -3584,7 +3578,6 @@ DOMAIN,imgs.search.brave.com
 DOMAIN,cdn.search.brave.com
 DOMAIN,static.bodor.com
 DOMAIN,assets.bnidx.com
-DOMAIN,spotlightimage.biggo.com
 DOMAIN,images.bfmtv.com
 DOMAIN,cdn.bfldr.com
 DOMAIN,public-cdn.bblmw.com
@@ -3962,7 +3955,6 @@ DOMAIN,imgcn3.bgmbk.tv
 DOMAIN,imgcn2.bgmbk.tv
 DOMAIN,imgcn.bgmbk.tv
 DOMAIN,cdn.18jav.tv
-DOMAIN,static.yfsp.tv
 DOMAIN,assets.pscp.tv
 DOMAIN,s-cdnstatic.svc.litv.tv
 DOMAIN,p-cdnstatic.svc.litv.tv
@@ -4270,8 +4262,6 @@ DOMAIN,static.getbutton.io
 DOMAIN-SUFFIX,crossbell.io
 DOMAIN-SUFFIX,corsproxy.io
 DOMAIN,static.corespeed.io
-DOMAIN,r2cdn.corespeed.io
-DOMAIN,assets.mcp.corespeed.io
 DOMAIN,fast.chameleon.io
 DOMAIN,sandpack-cdn-staging.blazingly.io
 DOMAIN-SUFFIX,bitbucket.io
