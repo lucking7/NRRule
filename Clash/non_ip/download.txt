@@ -1,7 +1,7 @@
 #########################################
 # Download
-# Last Updated: 2026-11-28T06:12:49.541Z
-# Size: 1973
+# Last Updated: 2026-11-28T13:54:13.793Z
+# Size: 1977
 # Rules for Download
 # Merged from 3 sources
 # Variant: non_ip. Combine non_ip and ip for the conditions of the merged ruleset.
@@ -109,6 +109,7 @@ DOMAIN,releases.whatpulse.org
 DOMAIN,charts.verdaccio.org
 DOMAIN,ftp.ubuntu-tw.org
 DOMAIN,mirror2.tuxinator.org
+DOMAIN-SUFFIX,sbcmirror.org
 DOMAIN,static.rust-lang.org
 DOMAIN,mirrors.rpmfusion.org
 DOMAIN,mirror.pyratelan.org
@@ -1132,6 +1133,9 @@ DOMAIN,updates.devmate.com
 DOMAIN,dl.devmate.com
 DOMAIN-SUFFIX,mirror.coganng.com
 DOMAIN,mirror.bacloud.com
+DOMAIN,github.armbian.com
+DOMAIN,beta.armbian.com
+DOMAIN,apt.armbian.com
 DOMAIN,download.anydesk.com
 DOMAIN,mirror.alastyr.com
 DOMAIN,static.adguard.com
