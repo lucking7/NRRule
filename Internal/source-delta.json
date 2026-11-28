@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "converterVersion": "mirrrule-rule-output/3",
   "toolConverterVersion": "mirrrule-rule-output/3",
-  "generatedAt": "2026-11-27T17:44:42.215Z",
+  "generatedAt": "2026-11-28T00:00:04.695Z",
   "baseline": {
     "configured": true,
-    "receiptId": "8114867780"
+    "receiptId": "8116129771"
   },
   "policy": {
     "sampleLimit": 20,
@@ -110,7 +110,7 @@
       "status": "compared",
       "currentConditionCount": 756,
       "baselineConditionCount": 756,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -272,7 +272,7 @@
       "status": "compared",
       "currentConditionCount": 25,
       "baselineConditionCount": 25,
-      "rawInputChanged": false,
+      "rawInputChanged": true,
       "semanticChanged": false,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
@@ -1996,77 +1996,134 @@
       "rulesetId": "emby",
       "converterVersion": "mirrrule-rule-output/3",
       "status": "compared",
-      "currentConditionCount": 257,
+      "currentConditionCount": 261,
       "baselineConditionCount": 257,
-      "rawInputChanged": false,
-      "semanticChanged": false,
+      "rawInputChanged": true,
+      "semanticChanged": true,
       "semanticScope": "normalized-source",
       "effectiveOutputs": [
         {
           "platform": "clash",
           "format": "clash-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 261,
           "baselineConditionCount": 257,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-KEYWORD,speedtest-babybus",
+              "DOMAIN-SUFFIX,covh.eu.org",
+              "DOMAIN-SUFFIX,ftp2.eu.org",
+              "DOMAIN-SUFFIX,poloco.org",
+              "DOMAIN-SUFFIX,zzm.li",
+              "IP-CIDR,152.70.233.134/32,no-resolve"
+            ],
+            "removed": [
+              "DOMAIN,eb.zzm.li",
+              "IP-CIDR,152.70.233.0/24,no-resolve"
+            ]
           }
         },
         {
           "platform": "loon",
           "format": "loon-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 261,
           "baselineConditionCount": 257,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-KEYWORD,speedtest-babybus",
+              "DOMAIN-SUFFIX,covh.eu.org",
+              "DOMAIN-SUFFIX,ftp2.eu.org",
+              "DOMAIN-SUFFIX,poloco.org",
+              "DOMAIN-SUFFIX,zzm.li",
+              "IP-CIDR,152.70.233.134/32,no-resolve"
+            ],
+            "removed": [
+              "DOMAIN,eb.zzm.li",
+              "IP-CIDR,152.70.233.0/24,no-resolve"
+            ]
           }
         },
         {
           "platform": "singbox",
           "format": "singbox-json-v2",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 261,
           "baselineConditionCount": 257,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "domain_keyword:speedtest-babybus",
+              "domain_suffix:covh.eu.org",
+              "domain_suffix:ftp2.eu.org",
+              "domain_suffix:poloco.org",
+              "domain_suffix:zzm.li",
+              "ip_cidr:152.70.233.134/32"
+            ],
+            "removed": [
+              "domain:eb.zzm.li",
+              "ip_cidr:152.70.233.0/24"
+            ]
           }
         },
         {
           "platform": "surge",
           "format": "surge-classical",
           "status": "compared",
-          "semanticChanged": false,
-          "currentConditionCount": 257,
+          "semanticChanged": true,
+          "currentConditionCount": 261,
           "baselineConditionCount": 257,
-          "added": 0,
-          "removed": 0,
+          "added": 6,
+          "removed": 2,
           "samples": {
-            "added": [],
-            "removed": []
+            "added": [
+              "DOMAIN-KEYWORD,speedtest-babybus",
+              "DOMAIN-SUFFIX,covh.eu.org",
+              "DOMAIN-SUFFIX,ftp2.eu.org",
+              "DOMAIN-SUFFIX,poloco.org",
+              "DOMAIN-SUFFIX,zzm.li",
+              "IP-CIDR,152.70.233.134/32,no-resolve"
+            ],
+            "removed": [
+              "DOMAIN,eb.zzm.li",
+              "IP-CIDR,152.70.233.0/24,no-resolve"
+            ]
           }
         }
       ],
-      "added": 0,
-      "removed": 0,
-      "changeRatio": 0,
-      "addedByType": {},
-      "removedByType": {},
+      "added": 6,
+      "removed": 2,
+      "changeRatio": 0.031128,
+      "addedByType": {
+        "DOMAIN-KEYWORD": 1,
+        "DOMAIN-SUFFIX": 4,
+        "IP-CIDR": 1
+      },
+      "removedByType": {
+        "DOMAIN": 1,
+        "IP-CIDR": 1
+      },
       "samples": {
-        "added": [],
-        "removed": []
+        "added": [
+          "DOMAIN-KEYWORD,speedtest-babybus",
+          "DOMAIN-SUFFIX,covh.eu.org",
+          "DOMAIN-SUFFIX,ftp2.eu.org",
+          "DOMAIN-SUFFIX,poloco.org",
+          "DOMAIN-SUFFIX,zzm.li",
+          "IP-CIDR,152.70.233.134/32,no-resolve"
+        ],
+        "removed": [
+          "DOMAIN,eb.zzm.li",
+          "IP-CIDR,152.70.233.0/24,no-resolve"
+        ]
       },
       "sourcesAdded": [],
       "sourcesRemoved": [],
